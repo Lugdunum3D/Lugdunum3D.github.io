@@ -12,4 +12,4 @@ You can find our repositories on Github, at [Lugdunum3D](https://github.com/Lugd
 
 ## Documentation
 
-You can find it [here]({{ site.url }}/docs
+You can find it [here]({{ site.url }}/docs)
