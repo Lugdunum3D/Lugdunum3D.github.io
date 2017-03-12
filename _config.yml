@@ -1,1 +1,6 @@
+title: Lugdunum, a Vulkan modern 3D engine
+description: Welcome to Lugdunum's website! Find here informations and documentation about the engine
 theme: jekyll-theme-midnight
+repository: Lugdunum3D/Lugdunum
+show_downloads: true
+documentation: './docs/index.html'

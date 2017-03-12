@@ -9,7 +9,3 @@ The development team is available through a wide range of channels if you want t
 ## Github
 
 You can find our repositories on Github, at [Lugdunum3D](https://github.com/Lugdunum3D "Lugdunum3D's Github organization"), and report specific problems or questions directly by filing a new issue.
-
-## Documentation
-
-You can find it [here]({{ site.url }}/docs)
