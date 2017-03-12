@@ -1,0 +1,5 @@
+<map id="lug::System::Logger::OstreamHandler" name="lug::System::Logger::OstreamHandler">
+<area shape="rect" id="node3" href="$classlug_1_1System_1_1Logger_1_1StderrHandler.html" title="lug::System::Logger\l::StderrHandler" alt="" coords="5,184,144,225"/>
+<area shape="rect" id="node4" href="$classlug_1_1System_1_1Logger_1_1StdoutHandler.html" title="lug::System::Logger\l::StdoutHandler" alt="" coords="168,184,307,225"/>
+<area shape="rect" id="node2" href="$classlug_1_1System_1_1Logger_1_1Handler.html" title="lug::System::Logger\l::Handler" alt="" coords="87,5,225,47"/>
+</map>

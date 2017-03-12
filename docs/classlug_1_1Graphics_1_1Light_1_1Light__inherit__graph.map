@@ -1,0 +1,6 @@
+<map id="lug::Graphics::Light::Light" name="lug::Graphics::Light::Light">
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Light_1_1Directional.html" title="Class for Directional. " alt="" coords="380,5,515,47"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Light_1_1Point.html" title="Class for Point. " alt="" coords="380,71,515,112"/>
+<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Light_1_1Spot.html" title="Class for Spot. " alt="" coords="380,136,515,177"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Scene_1_1MovableObject.html" title="lug::Graphics::Scene\l::MovableObject" alt="" coords="5,71,149,112"/>
+</map>

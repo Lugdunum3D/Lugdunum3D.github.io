@@ -1,0 +1,6 @@
+<map id="lug::Graphics::Render::Window" name="lug::Graphics::Render::Window">
+<area shape="rect" id="node2" href="$classlug_1_1Window_1_1Window.html" title="lug::Window::Window" alt="" coords="612,275,757,302"/>
+<area shape="rect" id="node3" href="$classlug_1_1Window_1_1priv_1_1WindowImpl.html" title="lug::Window::priv::\lWindowImpl" alt="" coords="333,136,462,177"/>
+<area shape="rect" id="node8" href="$structlug_1_1Window_1_1VideoMode.html" title="lug::Window::VideoMode" alt="" coords="315,275,480,302"/>
+<area shape="rect" id="node11" href="$classlug_1_1Graphics_1_1Render_1_1Target.html" title="lug::Graphics::Render\l::Target" alt="" coords="611,329,759,371"/>
+</map>

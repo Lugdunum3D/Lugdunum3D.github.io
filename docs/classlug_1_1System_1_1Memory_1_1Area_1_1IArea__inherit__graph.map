@@ -1,0 +1,5 @@
+<map id="lug::System::Memory::Area::IArea" name="lug::System::Memory::Area::IArea">
+<area shape="rect" id="node2" href="$classlug_1_1System_1_1Memory_1_1Area_1_1GrowingHeap.html" title="lug::System::Memory\l::Area::GrowingHeap\l\&lt; PageSize, MaxPageCount \&gt;" alt="" coords="200,5,399,61"/>
+<area shape="rect" id="node3" href="$classlug_1_1System_1_1Memory_1_1Area_1_1Heap.html" title="lug::System::Memory\l::Area::Heap\&lt; PageSize,\l PageCount \&gt;" alt="" coords="216,85,383,141"/>
+<area shape="rect" id="node4" href="$classlug_1_1System_1_1Memory_1_1Area_1_1Stack.html" title="lug::System::Memory\l::Area::Stack\&lt; Size \&gt;" alt="" coords="225,166,374,207"/>
+</map>

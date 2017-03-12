@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classlug_1_1Graphics_1_1Scene_1_1MovableObject.html" title="lug::Graphics::Scene\l::MovableObject" alt="" coords="5,169,149,211"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Light_1_1Light.html" title="Class for Light. " alt="" coords="202,71,337,112"/>
+<area shape="rect" id="node6" href="$classlug_1_1Graphics_1_1Scene_1_1MeshInstance.html" title="lug::Graphics::Scene\l::MeshInstance" alt="" coords="197,136,341,177"/>
+<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Scene_1_1ModelInstance.html" title="lug::Graphics::Scene\l::ModelInstance" alt="" coords="197,201,341,243"/>
+<area shape="rect" id="node8" href="$classlug_1_1Graphics_1_1Scene_1_1MovableCamera.html" title="lug::Graphics::Scene\l::MovableCamera" alt="" coords="197,267,341,308"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Light_1_1Directional.html" title="Class for Directional. " alt="" coords="389,5,524,47"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Light_1_1Point.html" title="Class for Point. " alt="" coords="389,71,524,112"/>
+<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Light_1_1Spot.html" title="Class for Spot. " alt="" coords="389,136,524,177"/>
+</map>
