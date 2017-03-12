@@ -20,7 +20,7 @@
       <div id="header">
         <nav>
           <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
-          <li class="fork"><a href="{{ site.documentation }}">Documentation</a></li>
+          <li class="documentation"><a href="{{ site.documentation }}">Documentation</a></li>
           {% if site.show_downloads %}
             <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
             <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
@@ -33,6 +33,7 @@
 
       <section>
         <div id="title">
+          <img src="https://cdn.rawgit.com/Lugdunum3D/Visual-Identity/e429be20/logo/logo-long-dark.svg" id="logo"/>
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
         </div>

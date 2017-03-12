@@ -1,0 +1,59 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#header {
+  nav {
+    li {
+      a {
+        background-color: #5cbdff;
+        border-color: darken(#5cbdff, 5%);
+        &:hover {
+          border-color: darken(#5cbdff, 10%);
+          background-color: darken(#5cbdff, 5%);
+          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.8);
+        }
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+        border-radius: 0;
+      }
+
+      &.documentation {
+        float: left;
+        margin-left: 5px;
+        a {
+          background-color: darken(#ade300, 5%);
+          border-color: darken(#ade300, 10%);
+          &:hover {
+            background-color: darken(#ade300, 10%);
+            border-color: darken(#ade300, 15%);
+          }
+        }
+      }
+    }
+  }
+}
+
+#title {
+  p {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+#logo {
+  display: block;
+  width: 55%;
+  margin: 0 auto 3em;
+}
+
+.wrapper, section, #header nav {
+  max-width: 750px;
+}
+
+a {
+  color: #5cbdff;
+  &:hover {
+    color: darken(#5cbdff, 15%);
+  }
+}
