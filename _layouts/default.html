@@ -19,20 +19,17 @@
   <body>
       <div id="header">
         <nav>
-          <li class="fork"><a href="https://github.com/Lugdunum3D/Lugdunum">View On GitHub</a></li>
-          <li class="documentation"><a href="{{ site.documentation }}">Documentation</a></li>
-          <li class="downloads"><a href="https://github.com/Lugdunum3D/Lugdunum/issues">Issues</a></li>
+          <li class="fork button button-blue"><a href="https://github.com/Lugdunum3D/Lugdunum">View On GitHub</a></li>
+          <li class="issues button button-blue"><a href="https://github.com/Lugdunum3D/Lugdunum/issues">Issues</a></li>
+          {% for item in page.menu %}
+          <li class="{{item.class}}"><a href="{{item.href}}">{{item.title}}</a></li>
+          {% endfor %}
         </nav>
       </div><!-- end header -->
 
     <div class="wrapper">
 
       <section>
-        <div id="title">
-          <img src="https://cdn.rawgit.com/Lugdunum3D/Visual-Identity/dee42e2c/logo/dist/long-dark.svg" id="logo"/>
-          <h1>{{ site.title }}</h1>
-          <p>{{ site.description }}</p>
-        </div>
 
         {{ content }}
 
