@@ -1,9 +1,9 @@
 <map id="lug::Graphics::Scene::MovableObject" name="lug::Graphics::Scene::MovableObject">
-<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Light_1_1Light.html" title="Class for Light. " alt="" coords="202,71,337,112"/>
-<area shape="rect" id="node6" href="$classlug_1_1Graphics_1_1Scene_1_1MeshInstance.html" title="lug::Graphics::Scene\l::MeshInstance" alt="" coords="197,136,341,177"/>
-<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Scene_1_1ModelInstance.html" title="lug::Graphics::Scene\l::ModelInstance" alt="" coords="197,201,341,243"/>
-<area shape="rect" id="node8" href="$classlug_1_1Graphics_1_1Scene_1_1MovableCamera.html" title="lug::Graphics::Scene\l::MovableCamera" alt="" coords="197,267,341,308"/>
-<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Light_1_1Directional.html" title="Class for Directional. " alt="" coords="389,5,524,47"/>
-<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Light_1_1Point.html" title="Class for Point. " alt="" coords="389,71,524,112"/>
-<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Light_1_1Spot.html" title="Class for Spot. " alt="" coords="389,136,524,177"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Light_1_1Light.html" title="Class for Light. " alt="" coords="221,71,377,112"/>
+<area shape="rect" id="node6" href="$classlug_1_1Graphics_1_1Scene_1_1MeshInstance.html" title="lug::Graphics::Scene\l::MeshInstance" alt="" coords="217,136,381,177"/>
+<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Scene_1_1ModelInstance.html" title="lug::Graphics::Scene\l::ModelInstance" alt="" coords="217,201,381,243"/>
+<area shape="rect" id="node8" href="$classlug_1_1Graphics_1_1Scene_1_1MovableCamera.html" title="lug::Graphics::Scene\l::MovableCamera" alt="" coords="217,267,381,308"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Light_1_1Directional.html" title="Class for Directional. " alt="" coords="429,5,585,47"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Light_1_1Point.html" title="Class for Point. " alt="" coords="429,71,585,112"/>
+<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Light_1_1Spot.html" title="Class for Spot. " alt="" coords="429,136,585,177"/>
 </map>

@@ -1,0 +1,31 @@
+<map id="include/lug/Math/Quaternion.hpp" name="include/lug/Math/Quaternion.hpp">
+<area shape="rect" id="node2" href="$Node_8hpp.html" title="include/lug/Graphics\l/Node.hpp" alt="" coords="1127,80,1286,121"/>
+<area shape="rect" id="node30" href="$Quaternion_8cpp.html" title="src/lug/Math/Quaternion.cpp" alt="" coords="1311,87,1524,114"/>
+<area shape="rect" id="node3" href="$Render_2Camera_8hpp.html" title="include/lug/Graphics\l/Render/Camera.hpp" alt="" coords="957,169,1120,211"/>
+<area shape="rect" id="node25" href="$Scene_2Node_8hpp.html" title="include/lug/Graphics\l/Scene/Node.hpp" alt="" coords="1503,437,1662,479"/>
+<area shape="rect" id="node29" href="$Node_8cpp.html" title="src/lug/Graphics/Node.cpp" alt="" coords="1244,177,1444,203"/>
+<area shape="rect" id="node4" href="$Graphics_8hpp.html" title="include/lug/Graphics\l/Graphics.hpp" alt="" coords="105,616,263,657"/>
+<area shape="rect" id="node9" href="$Render_2View_8hpp.html" title="include/lug/Graphics\l/Render/View.hpp" alt="" coords="809,259,967,300"/>
+<area shape="rect" id="node21" href="$Render_2Camera_8cpp.html" title="src/lug/Graphics/Render\l/Camera.cpp" alt="" coords="463,348,649,389"/>
+<area shape="rect" id="node22" href="$Vulkan_2Render_2Camera_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/Camera.hpp" alt="" coords="1063,527,1276,568"/>
+<area shape="rect" id="node24" href="$MovableCamera_8cpp.html" title="src/lug/Graphics/Scene\l/MovableCamera.cpp" alt="" coords="1300,527,1479,568"/>
+<area shape="rect" id="node5" href="$Application_8hpp.html" title="include/lug/Core/Application.hpp" alt="" coords="5,713,245,739"/>
+<area shape="rect" id="node7" href="$Graphics_8cpp.html" title="src/lug/Graphics/Graphics.cpp" alt="" coords="563,713,787,739"/>
+<area shape="rect" id="node8" href="$Vulkan_2Renderer_8cpp.html" title="src/lug/Graphics/Vulkan\l/Renderer.cpp" alt="" coords="355,705,538,747"/>
+<area shape="rect" id="node6" href="$Application_8cpp.html" title="src/lug/Core/Application.cpp" alt="" coords="19,795,231,821"/>
+<area shape="rect" id="node10" href="$Target_8hpp.html" title="include/lug/Graphics\l/Render/Target.hpp" alt="" coords="725,348,883,389"/>
+<area shape="rect" id="node11" href="$Graphics_2Render_2Window_8hpp.html" title="include/lug/Graphics\l/Render/Window.hpp" alt="" coords="561,437,724,479"/>
+<area shape="rect" id="node19" href="$Render_2View_8cpp.html" title="src/lug/Graphics/Render\l/View.cpp" alt="" coords="749,437,934,479"/>
+<area shape="rect" id="node20" href="$Vulkan_2Render_2View_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/View.hpp" alt="" coords="845,527,1038,568"/>
+<area shape="rect" id="node12" href="$Renderer_8hpp.html" title="include/lug/Graphics\l/Renderer.hpp" alt="" coords="354,527,513,568"/>
+<area shape="rect" id="node17" href="$Graphics_2Vulkan_2Render_2Window_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/Window.hpp" alt="" coords="568,527,781,568"/>
+<area shape="rect" id="node13" href="$Vulkan_2Renderer_8hpp.html" title="include/lug/Graphics\l/Vulkan/Renderer.hpp" alt="" coords="590,616,759,657"/>
+<area shape="rect" id="node16" href="$Renderer_8cpp.html" title="src/lug/Graphics/Renderer.cpp" alt="" coords="288,623,515,650"/>
+<area shape="rect" id="node14" href="$Forward_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Technique/Forward.cpp" alt="" coords="1065,705,1301,747"/>
+<area shape="rect" id="node15" href="$Graphics_2Vulkan_2Render_2Window_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Window.cpp" alt="" coords="811,705,994,747"/>
+<area shape="rect" id="node18" href="$Vulkan_2Render_2View_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/View.cpp" alt="" coords="835,616,1018,657"/>
+<area shape="rect" id="node23" href="$Vulkan_2Render_2Camera_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Camera.cpp" alt="" coords="1246,616,1429,657"/>
+<area shape="rect" id="node26" href="$Scene_8hpp.html" title="include/lug/Graphics\l/Scene/Scene.hpp" alt="" coords="1503,527,1662,568"/>
+<area shape="rect" id="node27" href="$Scene_2Node_8cpp.html" title="src/lug/Graphics/Scene\l/Node.cpp" alt="" coords="1656,616,1835,657"/>
+<area shape="rect" id="node28" href="$Scene_8cpp.html" title="src/lug/Graphics/Scene\l/Scene.cpp" alt="" coords="1453,616,1632,657"/>
+</map>

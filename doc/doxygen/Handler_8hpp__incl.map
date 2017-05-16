@@ -1,0 +1,9 @@
+<map id="include/lug/System/Logger/Handler.hpp" name="include/lug/System/Logger/Handler.hpp">
+<area shape="rect" id="node4" href="$System_2Export_8hpp.html" title="lug/System/Export.hpp" alt="" coords="379,259,555,285"/>
+<area shape="rect" id="node6" href="$Common_8hpp.html" title="lug/System/Logger/Common.hpp" alt="" coords="147,184,389,211"/>
+<area shape="rect" id="node9" href="$Formatter_8hpp.html" title="lug/System/Logger/Formatter.hpp" alt="" coords="747,102,997,129"/>
+<area shape="rect" id="node13" href="$LoggingFacility_8hpp.html" title="lug/System/Logger/Logging\lFacility.hpp" alt="" coords="465,95,671,136"/>
+<area shape="rect" id="node15" href="$Message_8hpp.html" title="lug/System/Logger/Message.hpp" alt="" coords="97,102,338,129"/>
+<area shape="rect" id="node16" href="$Handler_8inl.html" title="lug/System/Logger/Handler.inl" alt="" coords="1022,102,1250,129"/>
+<area shape="rect" id="node5" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="407,333,526,360"/>
+</map>

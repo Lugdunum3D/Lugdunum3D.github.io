@@ -1,0 +1,11 @@
+<map id="include/lug/Graphics/Vulkan/API/Swapchain.inl" name="include/lug/Graphics/Vulkan/API/Swapchain.inl">
+<area shape="rect" id="node2" href="$Swapchain_8hpp.html" title="include/lug/Graphics\l/Vulkan/API/Swapchain.hpp" alt="" coords="698,95,905,136"/>
+<area shape="rect" id="node3" href="$Graphics_2Vulkan_2Render_2Window_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/Window.hpp" alt="" coords="584,184,797,225"/>
+<area shape="rect" id="node10" href="$Swapchain_8cpp.html" title="src/lug/Graphics/Vulkan\l/API/Swapchain.cpp" alt="" coords="822,184,1005,225"/>
+<area shape="rect" id="node4" href="$Vulkan_2Renderer_8hpp.html" title="include/lug/Graphics\l/Vulkan/Renderer.hpp" alt="" coords="458,273,627,315"/>
+<area shape="rect" id="node7" href="$Graphics_2Vulkan_2Render_2Window_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Window.cpp" alt="" coords="513,363,695,404"/>
+<area shape="rect" id="node8" href="$Vulkan_2Renderer_8cpp.html" title="src/lug/Graphics/Vulkan\l/Renderer.cpp" alt="" coords="719,363,902,404"/>
+<area shape="rect" id="node9" href="$Vulkan_2Render_2View_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/View.cpp" alt="" coords="754,273,937,315"/>
+<area shape="rect" id="node5" href="$Graphics_8cpp.html" title="src/lug/Graphics/Graphics.cpp" alt="" coords="5,370,229,397"/>
+<area shape="rect" id="node6" href="$Forward_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Technique/Forward.cpp" alt="" coords="253,363,489,404"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="src/lug/Math/Quaternion.cpp" name="src/lug/Math/Quaternion.cpp">
+<area shape="rect" id="node2" href="$Quaternion_8hpp.html" title="lug/Math/Quaternion.hpp" alt="" coords="529,80,717,107"/>
+<area shape="rect" id="node3" href="$Math_2Export_8hpp.html" title="lug/Math/Export.hpp" alt="" coords="11,304,169,331"/>
+<area shape="rect" id="node5" href="$Matrix_8hpp.html" title="lug/Math/Matrix.hpp" alt="" coords="427,229,585,256"/>
+<area shape="rect" id="node18" href="$Vector_8hpp.html" title="lug/Math/Vector.hpp" alt="" coords="544,155,703,181"/>
+<area shape="rect" id="node20" href="$Constant_8hpp.html" title="lug/Math/Constant.hpp" alt="" coords="753,155,926,181"/>
+<area shape="rect" id="node23" href="$Quaternion_8inl.html" title="lug/Math/Quaternion.inl" alt="" coords="951,155,1131,181"/>
+<area shape="rect" id="node4" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="5,379,124,405"/>
+<area shape="rect" id="node8" href="$ValArray_8hpp.html" title="lug/Math/ValArray.hpp" alt="" coords="495,304,669,331"/>
+<area shape="rect" id="node14" href="$Debug_8hpp.html" title="lug/System/Debug.hpp" alt="" coords="193,304,368,331"/>
+<area shape="rect" id="node17" href="$Matrix_8inl.html" title="lug/Math/Matrix.inl" alt="" coords="693,304,842,331"/>
+<area shape="rect" id="node13" href="$ValArray_8inl.html" title="lug/Math/ValArray.inl" alt="" coords="827,379,993,405"/>
+<area shape="rect" id="node15" href="$Utils_8hpp.html" title="lug/System/Utils.hpp" alt="" coords="149,379,311,405"/>
+<area shape="rect" id="node19" href="$Vector_8inl.html" title="lug/Math/Vector.inl" alt="" coords="660,229,811,256"/>
+<area shape="rect" id="node22" href="$Constant_8inl.html" title="lug/Math/Constant.inl" alt="" coords="918,229,1083,256"/>
+</map>

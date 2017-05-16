@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structlug_1_1Graphics_1_1Vulkan_1_1Renderer_1_1Requirements.html" title="lug::Graphics::Vulkan\l::Renderer::Requirements" alt="" coords="5,5,176,47"/>
+<area shape="rect" id="node1" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html" title="lug::Graphics::Vulkan\l::Render::Technique::\lTechnique" alt="" coords="5,5,177,61"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html" title="lug::Graphics::Vulkan\l::Render::Technique::\lForward" alt="" coords="225,5,397,61"/>
 </map>

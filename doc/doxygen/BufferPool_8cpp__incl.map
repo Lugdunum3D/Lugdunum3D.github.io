@@ -1,0 +1,19 @@
+<map id="src/lug/Graphics/Vulkan/Render/BufferPool.cpp" name="src/lug/Graphics/Vulkan/Render/BufferPool.cpp">
+<area shape="rect" id="node2" href="$BufferPool_8hpp.html" title="lug/Graphics/Vulkan\l/Render/BufferPool.hpp" alt="" coords="912,95,1091,136"/>
+<area shape="rect" id="node19" href="$Logger_8hpp.html" title="lug/System/Logger/Logger.hpp" alt="" coords="1797,370,2027,397"/>
+<area shape="rect" id="node5" href="$Graphics_2Export_8hpp.html" title="lug/Graphics/Export.hpp" alt="" coords="369,631,553,657"/>
+<area shape="rect" id="node7" href="$Buffer_8hpp.html" title="lug/Graphics/Vulkan\l/API/Buffer.hpp" alt="" coords="835,452,992,493"/>
+<area shape="rect" id="node13" href="$DescriptorPool_8hpp.html" title="lug/Graphics/Vulkan\l/API/DescriptorPool.hpp" alt="" coords="91,184,274,225"/>
+<area shape="rect" id="node14" href="$DescriptorSet_8hpp.html" title="lug/Graphics/Vulkan\l/API/DescriptorSet.hpp" alt="" coords="607,273,783,315"/>
+<area shape="rect" id="node17" href="$DescriptorSetLayout_8hpp.html" title="lug/Graphics/Vulkan\l/API/DescriptorSetLayout.hpp" alt="" coords="1017,452,1237,493"/>
+<area shape="rect" id="node18" href="$DeviceMemory_8hpp.html" title="lug/Graphics/Vulkan\l/API/DeviceMemory.hpp" alt="" coords="525,452,709,493"/>
+<area shape="rect" id="node6" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="1121,705,1239,732"/>
+<area shape="rect" id="node8" href="$Vulkan_8hpp.html" title="lug/Graphics/Vulkan\l/Vulkan.hpp" alt="" coords="621,541,779,583"/>
+<area shape="rect" id="node15" href="$CommandBuffer_8hpp.html" title="lug/Graphics/Vulkan\l/API/CommandBuffer.hpp" alt="" coords="307,452,501,493"/>
+<area shape="rect" id="node16" href="$PipelineLayout_8hpp.html" title="lug/Graphics/Vulkan\l/API/PipelineLayout.hpp" alt="" coords="732,363,913,404"/>
+<area shape="rect" id="node22" href="$System_2Export_8hpp.html" title="lug/System/Export.hpp" alt="" coords="1823,631,1999,657"/>
+<area shape="rect" id="node23" href="$Common_8hpp.html" title="lug/System/Logger/Common.hpp" alt="" coords="2059,549,2301,575"/>
+<area shape="rect" id="node26" href="$LoggingFacility_8hpp.html" title="lug/System/Logger/Logging\lFacility.hpp" alt="" coords="1659,452,1866,493"/>
+<area shape="rect" id="node27" href="$Message_8hpp.html" title="lug/System/Logger/Message.hpp" alt="" coords="2059,459,2301,486"/>
+<area shape="rect" id="node28" href="$Logger_8inl.html" title="lug/System/Logger/Logger.inl" alt="" coords="1413,459,1635,486"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="include/lug/System/Time.inl" name="include/lug/System/Time.inl">
+<area shape="rect" id="node2" href="$Time_8hpp.html" title="include/lug/System\l/Time.hpp" alt="" coords="159,95,310,136"/>
+<area shape="rect" id="node3" href="$Application_8hpp.html" title="include/lug/Core/Application.hpp" alt="" coords="5,191,245,218"/>
+<area shape="rect" id="node5" href="$Clock_8hpp.html" title="include/lug/System\l/Clock.hpp" alt="" coords="274,184,425,225"/>
+<area shape="rect" id="node4" href="$Application_8cpp.html" title="src/lug/Core/Application.cpp" alt="" coords="14,288,226,315"/>
+<area shape="rect" id="node6" href="$Forward_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/Technique\l/Forward.hpp" alt="" coords="250,273,449,329"/>
+<area shape="rect" id="node9" href="$Clock_8cpp.html" title="src/lug/System/Clock.cpp" alt="" coords="473,288,668,315"/>
+<area shape="rect" id="node10" href="$Time_8cpp.html" title="src/lug/System/Time.cpp" alt="" coords="693,288,883,315"/>
+<area shape="rect" id="node7" href="$Forward_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Technique/Forward.cpp" alt="" coords="114,377,350,419"/>
+<area shape="rect" id="node8" href="$Vulkan_2Render_2View_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/View.cpp" alt="" coords="374,377,557,419"/>
+</map>

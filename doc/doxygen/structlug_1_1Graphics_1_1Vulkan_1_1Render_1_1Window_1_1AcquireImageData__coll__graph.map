@@ -1,0 +1,6 @@
+<map id="lug::Graphics::Vulkan::Render::Window::AcquireImageData" name="lug::Graphics::Vulkan::Render::Window::AcquireImageData">
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Semaphore.html" title="lug::Graphics::Vulkan\l::API::Semaphore" alt="" coords="1495,263,1664,305"/>
+<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1189,293,1359,334"/>
+<area shape="rect" id="node6" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="833,257,1003,298"/>
+<area shape="rect" id="node7" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="438,41,607,97"/>
+</map>

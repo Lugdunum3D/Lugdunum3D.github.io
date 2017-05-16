@@ -1,5 +1,10 @@
 <map id="lug::Graphics::Scene::MeshInstance" name="lug::Graphics::Scene::MeshInstance">
-<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Scene_1_1MovableObject.html" title="lug::Graphics::Scene\l::MovableObject" alt="" coords="60,332,204,373"/>
-<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Node.html" title="lug::Graphics::Node" alt="" coords="133,124,270,151"/>
-<area shape="rect" id="node6" href="$classlug_1_1Graphics_1_1Scene_1_1Node.html" title="lug::Graphics::Scene\l::Node" alt="" coords="131,228,275,269"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Scene_1_1MovableObject.html" title="lug::Graphics::Scene\l::MovableObject" alt="" coords="1070,238,1234,279"/>
+<area shape="rect" id="node19" href="$classlug_1_1Graphics_1_1Scene_1_1ModelInstance.html" title="lug::Graphics::Scene\l::ModelInstance" alt="" coords="1424,173,1588,214"/>
+<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Node.html" title="lug::Graphics::Node" alt="" coords="417,333,576,360"/>
+<area shape="rect" id="node15" href="$classlug_1_1Graphics_1_1Render_1_1Mesh.html" title="lug::Graphics::Render\l::Mesh" alt="" coords="772,615,943,657"/>
+<area shape="rect" id="node21" href="$classlug_1_1Graphics_1_1Render_1_1Model.html" title="lug::Graphics::Render\l::Model" alt="" coords="411,43,582,85"/>
+<area shape="rect" id="node6" href="$classlug_1_1Graphics_1_1Scene_1_1Node.html" title="lug::Graphics::Scene\l::Node" alt="" coords="775,205,939,246"/>
+<area shape="rect" id="node16" href="$structlug_1_1Graphics_1_1Render_1_1Mesh_1_1Material.html" title="lug::Graphics::Render\l::Mesh::Material" alt="" coords="411,707,582,749"/>
+<area shape="rect" id="node13" href="$classlug_1_1Graphics_1_1Scene_1_1Scene.html" title="lug::Graphics::Scene\l::Scene" alt="" coords="415,161,579,202"/>
 </map>

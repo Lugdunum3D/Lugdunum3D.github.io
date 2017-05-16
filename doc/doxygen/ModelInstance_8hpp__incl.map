@@ -1,0 +1,21 @@
+<map id="include/lug/Graphics/Scene/ModelInstance.hpp" name="include/lug/Graphics/Scene/ModelInstance.hpp">
+<area shape="rect" id="node2" href="$Graphics_2Export_8hpp.html" title="lug/Graphics/Export.hpp" alt="" coords="1266,281,1450,307"/>
+<area shape="rect" id="node4" href="$Render_2Model_8hpp.html" title="lug/Graphics/Render\l/Model.hpp" alt="" coords="1005,95,1164,136"/>
+<area shape="rect" id="node26" href="$MovableObject_8hpp.html" title="lug/Graphics/Scene\l/MovableObject.hpp" alt="" coords="1458,184,1613,225"/>
+<area shape="rect" id="node28" href="$MeshInstance_8hpp.html" title="lug/Graphics/Scene\l/MeshInstance.hpp" alt="" coords="1282,95,1434,136"/>
+<area shape="rect" id="node30" href="$ModelInstance_8inl.html" title="lug/Graphics/Scene\l/ModelInstance.inl" alt="" coords="1687,95,1839,136"/>
+<area shape="rect" id="node3" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="947,512,1065,539"/>
+<area shape="rect" id="node8" href="$Render_2Mesh_8hpp.html" title="lug/Graphics/Render\l/Mesh.hpp" alt="" coords="947,184,1105,225"/>
+<area shape="rect" id="node10" href="$Vector_8hpp.html" title="lug/Math/Vector.hpp" alt="" coords="764,281,923,307"/>
+<area shape="rect" id="node25" href="$Render_2Mesh_8inl.html" title="lug/Graphics/Render\l/Mesh.inl" alt="" coords="947,273,1105,315"/>
+<area shape="rect" id="node11" href="$Matrix_8hpp.html" title="lug/Math/Matrix.hpp" alt="" coords="686,363,843,389"/>
+<area shape="rect" id="node24" href="$Vector_8inl.html" title="lug/Math/Vector.inl" alt="" coords="919,363,1069,389"/>
+<area shape="rect" id="node13" href="$Math_2Export_8hpp.html" title="lug/Math/Export.hpp" alt="" coords="927,437,1085,464"/>
+<area shape="rect" id="node14" href="$ValArray_8hpp.html" title="lug/Math/ValArray.hpp" alt="" coords="253,437,426,464"/>
+<area shape="rect" id="node20" href="$Debug_8hpp.html" title="lug/System/Debug.hpp" alt="" coords="553,437,728,464"/>
+<area shape="rect" id="node23" href="$Matrix_8inl.html" title="lug/Math/Matrix.inl" alt="" coords="753,437,902,464"/>
+<area shape="rect" id="node19" href="$ValArray_8inl.html" title="lug/Math/ValArray.inl" alt="" coords="106,512,271,539"/>
+<area shape="rect" id="node21" href="$Utils_8hpp.html" title="lug/System/Utils.hpp" alt="" coords="697,512,859,539"/>
+<area shape="rect" id="node27" href="$MovableObject_8inl.html" title="lug/Graphics/Scene\l/MovableObject.inl" alt="" coords="1474,273,1626,315"/>
+<area shape="rect" id="node29" href="$MeshInstance_8inl.html" title="lug/Graphics/Scene\l/MeshInstance.inl" alt="" coords="1282,184,1434,225"/>
+</map>

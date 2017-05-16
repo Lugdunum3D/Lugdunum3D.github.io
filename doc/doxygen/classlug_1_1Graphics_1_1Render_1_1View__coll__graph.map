@@ -1,6 +1,6 @@
 <map id="lug::Graphics::Render::View" name="lug::Graphics::Render::View">
-<area shape="rect" id="node2" href="$structlug_1_1Graphics_1_1Render_1_1View_1_1Scissor.html" title="lug::Graphics::Render\l::View::Scissor" alt="" coords="254,133,402,175"/>
-<area shape="rect" id="node6" href="$structlug_1_1Graphics_1_1Render_1_1View_1_1InitInfo.html" title="lug::Graphics::Render\l::View::InitInfo" alt="" coords="589,104,737,145"/>
-<area shape="rect" id="node9" href="$classlug_1_1Graphics_1_1Render_1_1View_1_1Viewport.html" title="lug::Graphics::Render\l::View::Viewport" alt="" coords="254,241,402,283"/>
-<area shape="rect" id="node10" href="$classlug_1_1Graphics_1_1Render_1_1Target.html" title="lug::Graphics::Render\l::Target" alt="" coords="589,313,737,355"/>
+<area shape="rect" id="node2" href="$structlug_1_1Graphics_1_1Render_1_1View_1_1Scissor.html" title="lug::Graphics::Render\l::View::Scissor" alt="" coords="283,133,454,175"/>
+<area shape="rect" id="node6" href="$structlug_1_1Graphics_1_1Render_1_1View_1_1InitInfo.html" title="lug::Graphics::Render\l::View::InitInfo" alt="" coords="665,104,836,145"/>
+<area shape="rect" id="node9" href="$classlug_1_1Graphics_1_1Render_1_1View_1_1Viewport.html" title="lug::Graphics::Render\l::View::Viewport" alt="" coords="283,241,454,283"/>
+<area shape="rect" id="node10" href="$classlug_1_1Graphics_1_1Render_1_1Target.html" title="lug::Graphics::Render\l::Target" alt="" coords="665,313,836,355"/>
 </map>

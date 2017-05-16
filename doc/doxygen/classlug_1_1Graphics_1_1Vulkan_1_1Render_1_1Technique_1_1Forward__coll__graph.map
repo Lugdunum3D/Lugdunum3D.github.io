@@ -1,15 +1,22 @@
 <map id="lug::Graphics::Vulkan::Render::Technique::Forward" name="lug::Graphics::Vulkan::Render::Technique::Forward">
-<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html" title="lug::Graphics::Vulkan\l::Render::Technique::\lTechnique" alt="" coords="1376,336,1523,392"/>
-<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1088,241,1235,282"/>
-<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1View.html" title="lug::Graphics::Vulkan\l::Render::View" alt="" coords="1088,306,1235,347"/>
-<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Render_1_1View.html" title="lug::Graphics::Render\l::View" alt="" coords="885,249,1033,290"/>
-<area shape="rect" id="node6" href="$structlug_1_1Graphics_1_1Render_1_1View_1_1Scissor.html" title="lug::Graphics::Render\l::View::Scissor" alt="" coords="254,147,402,189"/>
-<area shape="rect" id="node10" href="$structlug_1_1Graphics_1_1Render_1_1View_1_1InitInfo.html" title="lug::Graphics::Render\l::View::InitInfo" alt="" coords="595,291,743,333"/>
-<area shape="rect" id="node13" href="$classlug_1_1Graphics_1_1Render_1_1View_1_1Viewport.html" title="lug::Graphics::Render\l::View::Viewport" alt="" coords="254,243,402,285"/>
-<area shape="rect" id="node14" href="$classlug_1_1Graphics_1_1Render_1_1Target.html" title="lug::Graphics::Render\l::Target" alt="" coords="595,77,743,118"/>
-<area shape="rect" id="node16" href="$classlug_1_1Graphics_1_1Vulkan_1_1Renderer.html" title="lug::Graphics::Vulkan\l::Renderer" alt="" coords="1088,371,1235,413"/>
-<area shape="rect" id="node17" href="$classlug_1_1Graphics_1_1Renderer.html" title="lug::Graphics::Renderer" alt="" coords="880,460,1039,487"/>
-<area shape="rect" id="node18" href="$structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html" title="lug::Graphics::Renderer\l::InitInfo" alt="" coords="589,511,748,553"/>
-<area shape="rect" id="node20" href="$classlug_1_1Graphics_1_1Graphics.html" title="Class for graphics. " alt="" coords="589,460,748,487"/>
-<area shape="rect" id="node21" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html" title="lug::Graphics::Vulkan\l::API::Queue" alt="" coords="1088,437,1235,478"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html" title="lug::Graphics::Vulkan\l::Render::Technique::\lTechnique" alt="" coords="2477,572,2649,628"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="903,635,1073,677"/>
+<area shape="rect" id="node22" href="$classlug_1_1Graphics_1_1Vulkan_1_1Renderer.html" title="lug::Graphics::Vulkan\l::Renderer" alt="" coords="1353,1046,1522,1087"/>
+<area shape="rect" id="node42" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html" title="lug::Graphics::Vulkan\l::API::CommandPool" alt="" coords="1353,577,1522,618"/>
+<area shape="rect" id="node4" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="457,774,627,815"/>
+<area shape="rect" id="node37" href="$structlug_1_1Graphics_1_1Vulkan_1_1Renderer_1_1Preferences.html" title="lug::Graphics::Vulkan\l::Renderer::Preferences" alt="" coords="895,774,1081,815"/>
+<area shape="rect" id="node5" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="54,731,223,787"/>
+<area shape="rect" id="node33" href="$structlug_1_1Graphics_1_1Vulkan_1_1InstanceInfo.html" title="lug::Graphics::Vulkan\l::InstanceInfo" alt="" coords="659,1357,828,1398"/>
+<area shape="rect" id="node14" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1View.html" title="lug::Graphics::Vulkan\l::Render::View" alt="" coords="2136,330,2305,371"/>
+<area shape="rect" id="node15" href="$classlug_1_1Graphics_1_1Render_1_1View.html" title="lug::Graphics::Render\l::View" alt="" coords="1701,267,1871,309"/>
+<area shape="rect" id="node16" href="$structlug_1_1Graphics_1_1Render_1_1View_1_1Scissor.html" title="lug::Graphics::Render\l::View::Scissor" alt="" coords="903,71,1073,113"/>
+<area shape="rect" id="node17" href="$structlug_1_1Graphics_1_1Render_1_1View_1_1InitInfo.html" title="lug::Graphics::Render\l::View::InitInfo" alt="" coords="1352,175,1523,217"/>
+<area shape="rect" id="node19" href="$classlug_1_1Graphics_1_1Render_1_1View_1_1Viewport.html" title="lug::Graphics::Render\l::View::Viewport" alt="" coords="903,273,1073,314"/>
+<area shape="rect" id="node20" href="$classlug_1_1Graphics_1_1Render_1_1Target.html" title="lug::Graphics::Render\l::Target" alt="" coords="1352,110,1523,151"/>
+<area shape="rect" id="node23" href="$classlug_1_1Graphics_1_1Renderer.html" title="lug::Graphics::Renderer" alt="" coords="895,905,1081,932"/>
+<area shape="rect" id="node24" href="$structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html" title="lug::Graphics::Renderer\l::InitInfo" alt="" coords="449,927,635,969"/>
+<area shape="rect" id="node25" href="$classlug_1_1Graphics_1_1Graphics.html" title="Class for graphics. " alt="" coords="451,876,633,903"/>
+<area shape="rect" id="node27" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Loader.html" title="lug::Graphics::Vulkan\l::API::Loader" alt="" coords="903,1203,1073,1245"/>
+<area shape="rect" id="node36" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Instance.html" title="lug::Graphics::Vulkan\l::API::Instance" alt="" coords="903,1399,1073,1441"/>
+<area shape="rect" id="node40" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html" title="lug::Graphics::Vulkan\l::API::Queue" alt="" coords="1701,478,1871,519"/>
 </map>

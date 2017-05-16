@@ -1,6 +1,6 @@
 <map id="lug::Math::Vector&lt; Rows, T &gt;" name="lug::Math::Vector&lt; Rows, T &gt;">
-<area shape="rect" id="node2" href="$classlug_1_1Math_1_1Matrix.html" title="lug::Math::Matrix\&lt;\l Rows, 1, T \&gt;" alt="" coords="19,317,147,359"/>
-<area shape="rect" id="node3" href="$classlug_1_1Math_1_1ValArray.html" title="lug::Math::ValArray\l\&lt; Rows *Columns, T \&gt;" alt="" coords="5,109,160,151"/>
-<area shape="rect" id="node5" href="$classlug_1_1Math_1_1Matrix.html" title="lug::Math::Matrix\&lt;\l Rows, Columns, T \&gt;" alt="" coords="135,213,281,255"/>
-<area shape="rect" id="node4" href="$classlug_1_1Math_1_1ValArray.html" title="lug::Math::ValArray\l\&lt; Size, T \&gt;" alt="" coords="16,5,149,47"/>
+<area shape="rect" id="node2" href="$classlug_1_1Math_1_1Matrix.html" title="lug::Math::Matrix\&lt;\l Rows, 1, T \&gt;" alt="" coords="19,407,169,448"/>
+<area shape="rect" id="node3" href="$classlug_1_1Math_1_1ValArray.html" title="lug::Math::ValArray\l\&lt; Rows *Columns, T \&gt;" alt="" coords="5,199,183,240"/>
+<area shape="rect" id="node6" href="$classlug_1_1Math_1_1Matrix.html" title="lug::Math::Matrix\&lt;\l Rows, Columns, T \&gt;" alt="" coords="154,303,317,344"/>
+<area shape="rect" id="node5" href="$classlug_1_1Math_1_1ValArray.html" title="lug::Math::ValArray\l\&lt; Size, T \&gt;" alt="" coords="140,95,296,136"/>
 </map>

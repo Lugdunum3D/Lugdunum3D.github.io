@@ -1,0 +1,14 @@
+<map id="include/lug/Graphics/Render/Mesh.hpp" name="include/lug/Graphics/Render/Mesh.hpp">
+<area shape="rect" id="node4" href="$Graphics_2Export_8hpp.html" title="lug/Graphics/Export.hpp" alt="" coords="943,184,1127,211"/>
+<area shape="rect" id="node6" href="$Vector_8hpp.html" title="lug/Math/Vector.hpp" alt="" coords="409,102,567,129"/>
+<area shape="rect" id="node21" href="$Render_2Mesh_8inl.html" title="lug/Graphics/Render\l/Mesh.inl" alt="" coords="643,95,802,136"/>
+<area shape="rect" id="node5" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="875,333,994,360"/>
+<area shape="rect" id="node7" href="$Matrix_8hpp.html" title="lug/Math/Matrix.hpp" alt="" coords="567,184,724,211"/>
+<area shape="rect" id="node20" href="$Vector_8inl.html" title="lug/Math/Vector.inl" alt="" coords="391,184,542,211"/>
+<area shape="rect" id="node9" href="$Math_2Export_8hpp.html" title="lug/Math/Export.hpp" alt="" coords="737,259,895,285"/>
+<area shape="rect" id="node10" href="$ValArray_8hpp.html" title="lug/Math/ValArray.hpp" alt="" coords="340,259,513,285"/>
+<area shape="rect" id="node16" href="$Debug_8hpp.html" title="lug/System/Debug.hpp" alt="" coords="538,259,713,285"/>
+<area shape="rect" id="node19" href="$Matrix_8inl.html" title="lug/Math/Matrix.inl" alt="" coords="920,259,1069,285"/>
+<area shape="rect" id="node15" href="$ValArray_8inl.html" title="lug/Math/ValArray.inl" alt="" coords="197,333,363,360"/>
+<area shape="rect" id="node17" href="$Utils_8hpp.html" title="lug/System/Utils.hpp" alt="" coords="688,333,851,360"/>
+</map>

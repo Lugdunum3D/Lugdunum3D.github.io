@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classlug_1_1System_1_1Memory_1_1Allocator_1_1Linear.html" title="lug::System::Memory\l::Allocator::Linear" alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node1" href="$classlug_1_1System_1_1Logger_1_1Handler.html" title="lug::System::Logger\l::Handler" alt="" coords="5,71,167,112"/>
+<area shape="rect" id="node2" href="$classlug_1_1System_1_1Logger_1_1FileHandler.html" title="lug::System::Logger\l::FileHandler" alt="" coords="215,5,376,47"/>
+<area shape="rect" id="node3" href="$classlug_1_1System_1_1Logger_1_1LogCatHandler.html" title="lug::System::Logger\l::LogCatHandler" alt="" coords="215,71,376,112"/>
+<area shape="rect" id="node4" href="$classlug_1_1System_1_1Logger_1_1OstreamHandler.html" title="lug::System::Logger\l::OstreamHandler" alt="" coords="215,136,376,177"/>
+<area shape="rect" id="node5" href="$classlug_1_1System_1_1Logger_1_1StderrHandler.html" title="lug::System::Logger\l::StderrHandler" alt="" coords="424,103,585,144"/>
+<area shape="rect" id="node6" href="$classlug_1_1System_1_1Logger_1_1StdoutHandler.html" title="lug::System::Logger\l::StdoutHandler" alt="" coords="424,168,585,209"/>
 </map>

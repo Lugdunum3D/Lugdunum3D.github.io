@@ -1,6 +1,8 @@
 <map id="lug::Graphics::Light::Spot" name="lug::Graphics::Light::Spot">
-<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Light_1_1Light.html" title="Class for Light. " alt="" coords="126,465,261,507"/>
-<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Scene_1_1MovableObject.html" title="lug::Graphics::Scene\l::MovableObject" alt="" coords="60,332,204,373"/>
-<area shape="rect" id="node8" href="$classlug_1_1Graphics_1_1Node.html" title="lug::Graphics::Node" alt="" coords="133,124,270,151"/>
-<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Scene_1_1Node.html" title="lug::Graphics::Scene\l::Node" alt="" coords="131,228,275,269"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Light_1_1Light.html" title="Class for Light. " alt="" coords="1324,383,1480,425"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Scene_1_1MovableObject.html" title="lug::Graphics::Scene\l::MovableObject" alt="" coords="1039,231,1203,273"/>
+<area shape="rect" id="node8" href="$classlug_1_1Graphics_1_1Node.html" title="lug::Graphics::Node" alt="" coords="405,173,564,200"/>
+<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Scene_1_1Node.html" title="lug::Graphics::Scene\l::Node" alt="" coords="760,231,924,273"/>
+<area shape="rect" id="node17" href="$structlug_1_1Graphics_1_1Light_1_1Spot_1_1LightData.html" title="lug::Graphics::Light\l::Spot::LightData" alt="" coords="1324,625,1480,666"/>
+<area shape="rect" id="node14" href="$classlug_1_1Graphics_1_1Scene_1_1Scene.html" title="lug::Graphics::Scene\l::Scene" alt="" coords="403,305,567,346"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="lug::Graphics::Renderer" name="lug::Graphics::Renderer">
-<area shape="rect" id="node2" href="$structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html" title="lug::Graphics::Renderer\l::InitInfo" alt="" coords="5,95,164,136"/>
-<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Graphics.html" title="Class for graphics. " alt="" coords="188,102,347,129"/>
+<area shape="rect" id="node2" href="$structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html" title="lug::Graphics::Renderer\l::InitInfo" alt="" coords="201,223,387,265"/>
+<area shape="rect" id="node5" href="$structlug_1_1Graphics_1_1Graphics_1_1InitInfo.html" title="Utility structure used to initialize the Graphics component. " alt="" coords="575,69,757,110"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Graphics.html" title="Class for graphics. " alt="" coords="901,160,1084,187"/>
 </map>

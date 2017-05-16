@@ -1,4 +1,4 @@
 <map id="lug::Graphics::Render::Target" name="lug::Graphics::Render::Target">
-<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Window.html" title="lug::Graphics::Render\l::Window" alt="" coords="5,95,153,136"/>
-<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Window.html" title="lug::Graphics::Vulkan\l::Render::Window" alt="" coords="6,184,153,225"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Window.html" title="lug::Graphics::Render\l::Window" alt="" coords="5,95,176,136"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Window.html" title="lug::Graphics::Vulkan\l::Render::Window" alt="" coords="6,184,175,225"/>
 </map>

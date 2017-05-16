@@ -1,0 +1,18 @@
+<map id="include/lug/Graphics/Vulkan/API/DescriptorSet.hpp" name="include/lug/Graphics/Vulkan/API/DescriptorSet.hpp">
+<area shape="rect" id="node2" href="$DescriptorPool_8hpp.html" title="include/lug/Graphics\l/Vulkan/API/DescriptorPool.hpp" alt="" coords="356,95,589,136"/>
+<area shape="rect" id="node3" href="$BufferPool_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/BufferPool.hpp" alt="" coords="49,191,280,233"/>
+<area shape="rect" id="node4" href="$Forward_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/Technique\l/Forward.hpp" alt="" coords="212,288,411,344"/>
+<area shape="rect" id="node17" href="$DescriptorSet_8cpp.html" title="src/lug/Graphics/Vulkan\l/API/DescriptorSet.cpp" alt="" coords="613,95,796,136"/>
+<area shape="rect" id="node8" href="$Technique_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/Technique\l/Technique.hpp" alt="" coords="563,184,761,240"/>
+<area shape="rect" id="node9" href="$Vulkan_2Render_2View_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/View.hpp" alt="" coords="708,295,901,337"/>
+<area shape="rect" id="node12" href="$Graphics_2Vulkan_2Render_2Window_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/Window.hpp" alt="" coords="883,191,1097,233"/>
+<area shape="rect" id="node16" href="$DescriptorPool_8cpp.html" title="src/lug/Graphics/Vulkan\l/API/DescriptorPool.cpp" alt="" coords="356,191,539,233"/>
+<area shape="rect" id="node7" href="$BufferPool_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/BufferPool.cpp" alt="" coords="5,295,188,337"/>
+<area shape="rect" id="node5" href="$Forward_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Technique/Forward.cpp" alt="" coords="585,392,821,433"/>
+<area shape="rect" id="node6" href="$Vulkan_2Render_2View_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/View.cpp" alt="" coords="379,392,561,433"/>
+<area shape="rect" id="node11" href="$Technique_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Technique/Technique.cpp" alt="" coords="435,295,684,337"/>
+<area shape="rect" id="node10" href="$Graphics_2Vulkan_2Render_2Window_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Window.cpp" alt="" coords="845,392,1028,433"/>
+<area shape="rect" id="node13" href="$Vulkan_2Renderer_8hpp.html" title="include/lug/Graphics\l/Vulkan/Renderer.hpp" alt="" coords="1028,295,1197,337"/>
+<area shape="rect" id="node15" href="$Vulkan_2Renderer_8cpp.html" title="src/lug/Graphics/Vulkan\l/Renderer.cpp" alt="" coords="1301,392,1484,433"/>
+<area shape="rect" id="node14" href="$Graphics_8cpp.html" title="src/lug/Graphics/Graphics.cpp" alt="" coords="1053,399,1277,426"/>
+</map>

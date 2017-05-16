@@ -1,4 +1,4 @@
 <map id="lug::Window::Window" name="lug::Window::Window">
-<area shape="rect" id="node2" href="$classlug_1_1Window_1_1priv_1_1WindowImpl.html" title="lug::Window::priv::\lWindowImpl" alt="" coords="333,136,462,177"/>
-<area shape="rect" id="node7" href="$structlug_1_1Window_1_1VideoMode.html" title="lug::Window::VideoMode" alt="" coords="315,275,480,302"/>
+<area shape="rect" id="node4" href="$classlug_1_1Window_1_1priv_1_1WindowImpl.html" title="lug::Window::priv::\lWindowImpl" alt="" coords="916,378,1072,419"/>
+<area shape="rect" id="node21" href="$structlug_1_1Window_1_1VideoMode.html" title="The video mode we set for the window we wish to create. " alt="" coords="216,487,407,513"/>
 </map>

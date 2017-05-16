@@ -1,3 +1,14 @@
 <map id="lug::Core::Application" name="lug::Core::Application">
-<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Graphics.html" title="Class for graphics. " alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Window.html" title="lug::Graphics::Render\l::Window" alt="" coords="990,851,1161,893"/>
+<area shape="rect" id="node3" href="$classlug_1_1Window_1_1Window.html" title="Class for window. " alt="" coords="623,777,794,804"/>
+<area shape="rect" id="node6" href="$classlug_1_1Window_1_1priv_1_1WindowImpl.html" title="lug::Window::priv::\lWindowImpl" alt="" coords="997,442,1153,483"/>
+<area shape="rect" id="node23" href="$structlug_1_1Window_1_1VideoMode.html" title="The video mode we set for the window we wish to create. " alt="" coords="225,835,416,861"/>
+<area shape="rect" id="node27" href="$classlug_1_1Graphics_1_1Graphics.html" title="Class for graphics. " alt="" coords="984,1207,1167,1233"/>
+<area shape="rect" id="node40" href="$structlug_1_1Core_1_1Application_1_1Version.html" title="Stores the version of the Application. " alt="" coords="623,1045,794,1086"/>
+<area shape="rect" id="node37" href="$structlug_1_1Window_1_1Window_1_1InitInfo.html" title="lug::Window::Window\l::InitInfo" alt="" coords="235,966,406,1007"/>
+<area shape="rect" id="node25" href="$classlug_1_1Graphics_1_1Render_1_1Target.html" title="lug::Graphics::Render\l::Target" alt="" coords="623,854,794,895"/>
+<area shape="rect" id="node28" href="$structlug_1_1Graphics_1_1Graphics_1_1InitInfo.html" title="Utility structure used to initialize the Graphics component. " alt="" coords="617,1378,800,1419"/>
+<area shape="rect" id="node29" href="$structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html" title="lug::Graphics::Renderer\l::InitInfo" alt="" coords="228,1374,413,1415"/>
+<area shape="rect" id="node39" href="$structlug_1_1Core_1_1Application_1_1Info.html" title="lug::Core::Application\l::Info" alt="" coords="990,1077,1161,1118"/>
+<area shape="rect" id="node35" href="$structlug_1_1Graphics_1_1Render_1_1Window_1_1InitInfo.html" title="lug::Graphics::Render\l::Window::InitInfo" alt="" coords="623,979,794,1021"/>
 </map>

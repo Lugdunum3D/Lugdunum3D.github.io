@@ -1,0 +1,6 @@
+<map id="lug::Graphics::Vulkan::API::Framebuffer" name="lug::Graphics::Vulkan::API::Framebuffer">
+<area shape="rect" id="node2" href="$structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Framebuffer_1_1Extent.html" title="lug::Graphics::Vulkan\l::API::Framebuffer::Extent" alt="" coords="1189,195,1393,237"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1207,261,1376,302"/>
+<area shape="rect" id="node5" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="833,257,1003,298"/>
+<area shape="rect" id="node6" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="438,41,607,97"/>
+</map>

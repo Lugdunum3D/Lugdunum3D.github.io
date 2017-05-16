@@ -1,11 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classlug_1_1System_1_1Exception.html" title="lug::System::Exception" alt="" coords="132,231,291,258"/>
-<area shape="rect" id="node3" href="$classlug_1_1System_1_1FileNotFoundException.html" title="lug::System::FileNotFound\lException" alt="" coords="355,5,533,47"/>
-<area shape="rect" id="node4" href="$classlug_1_1System_1_1InternalErrorException.html" title="lug::System::InternalError\lException" alt="" coords="359,71,529,112"/>
-<area shape="rect" id="node5" href="$classlug_1_1System_1_1InvalidParametersException.html" title="lug::System::InvalidParameters\lException" alt="" coords="341,136,547,177"/>
-<area shape="rect" id="node6" href="$classlug_1_1System_1_1IOException.html" title="lug::System::IOException" alt="" coords="358,202,530,229"/>
-<area shape="rect" id="node7" href="$classlug_1_1System_1_1NotImplementedException.html" title="lug::System::NotImplemented\lException" alt="" coords="347,253,541,295"/>
-<area shape="rect" id="node8" href="$classlug_1_1System_1_1RendererException.html" title="lug::System::RendererException" alt="" coords="339,319,549,346"/>
-<area shape="rect" id="node9" href="$classlug_1_1System_1_1RTTIException.html" title="lug::System::RTTIException" alt="" coords="351,370,537,397"/>
-<area shape="rect" id="node10" href="$classlug_1_1System_1_1WindowException.html" title="lug::System::WindowException" alt="" coords="343,421,545,447"/>
+<area shape="rect" id="node1" href="$classlug_1_1Math_1_1Matrix.html" title="lug::Math::Matrix\&lt;\l Rows, Columns, T \&gt;" alt="" coords="5,5,168,47"/>
 </map>

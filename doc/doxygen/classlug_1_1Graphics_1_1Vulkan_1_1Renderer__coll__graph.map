@@ -1,5 +1,14 @@
 <map id="lug::Graphics::Vulkan::Renderer" name="lug::Graphics::Vulkan::Renderer">
-<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Renderer.html" title="lug::Graphics::Renderer" alt="" coords="141,199,300,225"/>
-<area shape="rect" id="node3" href="$structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html" title="lug::Graphics::Renderer\l::InitInfo" alt="" coords="5,95,164,136"/>
-<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Graphics.html" title="Class for graphics. " alt="" coords="188,102,347,129"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Renderer.html" title="lug::Graphics::Renderer" alt="" coords="1498,315,1683,341"/>
+<area shape="rect" id="node3" href="$structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html" title="lug::Graphics::Renderer\l::InitInfo" alt="" coords="228,350,413,391"/>
+<area shape="rect" id="node6" href="$structlug_1_1Graphics_1_1Graphics_1_1InitInfo.html" title="Utility structure used to initialize the Graphics component. " alt="" coords="662,263,845,305"/>
+<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Graphics.html" title="Class for graphics. " alt="" coords="1064,152,1247,179"/>
+<area shape="rect" id="node13" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Loader.html" title="lug::Graphics::Vulkan\l::API::Loader" alt="" coords="1506,431,1675,473"/>
+<area shape="rect" id="node17" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="1071,739,1240,781"/>
+<area shape="rect" id="node29" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1506,599,1675,641"/>
+<area shape="rect" id="node39" href="$structlug_1_1Graphics_1_1Vulkan_1_1Renderer_1_1Preferences.html" title="lug::Graphics::Vulkan\l::Renderer::Preferences" alt="" coords="1497,925,1684,966"/>
+<area shape="rect" id="node18" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="669,828,838,884"/>
+<area shape="rect" id="node40" href="$structlug_1_1Graphics_1_1Vulkan_1_1Renderer_1_1Preferences_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::Renderer::Preferences\l::Swapchain" alt="" coords="660,1025,847,1081"/>
+<area shape="rect" id="node33" href="$structlug_1_1Graphics_1_1Vulkan_1_1InstanceInfo.html" title="lug::Graphics::Vulkan\l::InstanceInfo" alt="" coords="1071,1106,1240,1147"/>
+<area shape="rect" id="node37" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Instance.html" title="lug::Graphics::Vulkan\l::API::Instance" alt="" coords="1506,1185,1675,1226"/>
 </map>

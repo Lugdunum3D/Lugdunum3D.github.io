@@ -1,0 +1,7 @@
+<map id="lug::Graphics::Vulkan::Render::BufferPool" name="lug::Graphics::Vulkan::Render::BufferPool">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DescriptorPool.html" title="lug::Graphics::Vulkan\l::API::DescriptorPool" alt="" coords="1583,358,1753,399"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1192,289,1361,330"/>
+<area shape="rect" id="node19" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DescriptorSetLayout.html" title="lug::Graphics::Vulkan\l::API::DescriptorSetLayout" alt="" coords="1567,229,1769,270"/>
+<area shape="rect" id="node4" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="833,257,1003,298"/>
+<area shape="rect" id="node5" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="438,41,607,97"/>
+</map>

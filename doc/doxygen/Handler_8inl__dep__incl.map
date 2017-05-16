@@ -1,0 +1,12 @@
+<map id="include/lug/System/Logger/Handler.inl" name="include/lug/System/Logger/Handler.inl">
+<area shape="rect" id="node2" href="$Handler_8hpp.html" title="include/lug/System\l/Logger/Handler.hpp" alt="" coords="581,95,741,136"/>
+<area shape="rect" id="node3" href="$FileHandler_8hpp.html" title="include/lug/System\l/Logger/FileHandler.hpp" alt="" coords="5,184,188,225"/>
+<area shape="rect" id="node5" href="$LogCatHandler_8hpp.html" title="include/lug/System\l/Logger/LogCatHandler.hpp" alt="" coords="213,184,418,225"/>
+<area shape="rect" id="node7" href="$OstreamHandler_8hpp.html" title="include/lug/System\l/Logger/OstreamHandler.hpp" alt="" coords="443,184,660,225"/>
+<area shape="rect" id="node9" href="$Handler_8cpp.html" title="src/lug/System/Logger\l/Handler.cpp" alt="" coords="684,184,859,225"/>
+<area shape="rect" id="node10" href="$Logger_8cpp.html" title="src/lug/System/Logger\l/Logger.cpp" alt="" coords="883,184,1057,225"/>
+<area shape="rect" id="node11" href="$LoggingFacility_8cpp.html" title="src/lug/System/Logger\l/LoggingFacility.cpp" alt="" coords="1081,184,1256,225"/>
+<area shape="rect" id="node4" href="$FileHandler_8cpp.html" title="src/lug/System/Logger\l/FileHandler.cpp" alt="" coords="9,273,184,315"/>
+<area shape="rect" id="node6" href="$LogCatHandler_8cpp.html" title="src/lug/System/Logger\l/LogCatHandler.cpp" alt="" coords="228,273,403,315"/>
+<area shape="rect" id="node8" href="$OstreamHandler_8cpp.html" title="src/lug/System/Logger\l/OstreamHandler.cpp" alt="" coords="464,273,639,315"/>
+</map>

@@ -1,0 +1,24 @@
+<map id="include/lug/Window/Event.hpp" name="include/lug/Window/Event.hpp">
+<area shape="rect" id="node2" href="$Window_2Window_8hpp.html" title="include/lug/Window\l/Window.hpp" alt="" coords="1426,95,1579,136"/>
+<area shape="rect" id="node20" href="$WindowImplX11_8cpp.html" title="src/lug/Window/Unix\l/WindowImplX11.cpp" alt="" coords="1437,273,1600,315"/>
+<area shape="rect" id="node3" href="$Graphics_2Render_2Window_8hpp.html" title="include/lug/Graphics\l/Render/Window.hpp" alt="" coords="656,184,819,225"/>
+<area shape="rect" id="node16" href="$WindowImplAndroid_8hpp.html" title="src/lug/Window/Android\l/WindowImplAndroid.hpp" alt="" coords="1107,184,1298,225"/>
+<area shape="rect" id="node19" href="$WindowImplX11_8hpp.html" title="src/lug/Window/Unix\l/WindowImplX11.hpp" alt="" coords="1322,184,1486,225"/>
+<area shape="rect" id="node21" href="$WindowImplWin32_8hpp.html" title="src/lug/Window/Win32\l/WindowImplWin32.hpp" alt="" coords="1510,184,1690,225"/>
+<area shape="rect" id="node23" href="$Window_2Window_8cpp.html" title="src/lug/Window/Window.cpp" alt="" coords="1714,191,1926,218"/>
+<area shape="rect" id="node4" href="$Application_8hpp.html" title="include/lug/Core/Application.hpp" alt="" coords="5,459,245,486"/>
+<area shape="rect" id="node6" href="$Renderer_8hpp.html" title="include/lug/Graphics\l/Renderer.hpp" alt="" coords="521,273,679,315"/>
+<area shape="rect" id="node14" href="$Graphics_2Vulkan_2Render_2Window_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/Window.hpp" alt="" coords="741,273,955,315"/>
+<area shape="rect" id="node5" href="$Application_8cpp.html" title="src/lug/Core/Application.cpp" alt="" coords="19,541,231,568"/>
+<area shape="rect" id="node7" href="$Graphics_8hpp.html" title="include/lug/Graphics\l/Graphics.hpp" alt="" coords="267,363,426,404"/>
+<area shape="rect" id="node10" href="$Vulkan_2Renderer_8hpp.html" title="include/lug/Graphics\l/Vulkan/Renderer.hpp" alt="" coords="702,363,871,404"/>
+<area shape="rect" id="node13" href="$Renderer_8cpp.html" title="src/lug/Graphics/Renderer.cpp" alt="" coords="451,370,677,397"/>
+<area shape="rect" id="node8" href="$Graphics_8cpp.html" title="src/lug/Graphics/Graphics.cpp" alt="" coords="269,459,493,486"/>
+<area shape="rect" id="node9" href="$Vulkan_2Renderer_8cpp.html" title="src/lug/Graphics/Vulkan\l/Renderer.cpp" alt="" coords="518,452,701,493"/>
+<area shape="rect" id="node11" href="$Forward_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Technique/Forward.cpp" alt="" coords="725,452,961,493"/>
+<area shape="rect" id="node12" href="$Graphics_2Vulkan_2Render_2Window_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Window.cpp" alt="" coords="985,452,1167,493"/>
+<area shape="rect" id="node15" href="$Vulkan_2Render_2View_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/View.cpp" alt="" coords="998,363,1181,404"/>
+<area shape="rect" id="node17" href="$MainAndroid_8cpp.html" title="src/lug/Main/MainAndroid.cpp" alt="" coords="979,281,1200,307"/>
+<area shape="rect" id="node18" href="$WindowImplAndroid_8cpp.html" title="src/lug/Window/Android\l/WindowImplAndroid.cpp" alt="" coords="1224,273,1413,315"/>
+<area shape="rect" id="node22" href="$WindowImplWin32_8cpp.html" title="src/lug/Window/Win32\l/WindowImplWin32.cpp" alt="" coords="1624,273,1803,315"/>
+</map>

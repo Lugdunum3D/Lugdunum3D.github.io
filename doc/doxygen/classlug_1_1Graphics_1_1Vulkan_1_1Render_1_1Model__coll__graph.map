@@ -1,3 +1,6 @@
 <map id="lug::Graphics::Vulkan::Render::Model" name="lug::Graphics::Vulkan::Render::Model">
-<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Model.html" title="lug::Graphics::Render\l::Model" alt="" coords="89,124,237,165"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Model.html" title="lug::Graphics::Render\l::Model" alt="" coords="1265,167,1436,209"/>
+<area shape="rect" id="node6" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1266,257,1435,298"/>
+<area shape="rect" id="node7" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="854,257,1023,298"/>
+<area shape="rect" id="node8" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="438,41,607,97"/>
 </map>

@@ -1,2 +1,5 @@
 <map id="lug::Window::Event" name="lug::Window::Event">
+<area shape="rect" id="node2" href="$structlug_1_1Window_1_1MouseEvent.html" title="Represents a mouse event. " alt="" coords="315,393,512,420"/>
+<area shape="rect" id="node14" href="$structlug_1_1Window_1_1KeyEvent.html" title="Represents a keyboard event. " alt="" coords="323,95,503,121"/>
+<area shape="rect" id="node10" href="$structlug_1_1Window_1_1CharEvent.html" title="Represents a char event. " alt="" coords="320,444,507,471"/>
 </map>
