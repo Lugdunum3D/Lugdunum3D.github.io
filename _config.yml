@@ -1,3 +1,4 @@
 title: Lugdunum, a modern 3D engine using the Vulkan API
 description: Welcome to Lugdunum's website! Find here informations and documentation about the engine
 theme: jekyll-theme-midnight
+exclude: ['README.md', 'vendor']
