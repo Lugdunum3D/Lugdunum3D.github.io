@@ -22,7 +22,7 @@
           <li class="fork button button-blue"><a href="https://github.com/Lugdunum3D/Lugdunum">View On GitHub</a></li>
           <li class="issues button button-blue"><a href="https://github.com/Lugdunum3D/Lugdunum/issues">Issues</a></li>
           {% for item in page.menu %}
-          <li class="{{item.class}}"><a href="{{item.href}}">{{item.title}}</a></li>
+          <li class="{{item.class}}"><a href="{{item.href | prepend:site.baseurl}}">{{item.title}}</a></li>
           {% endfor %}
         </nav>
       </div><!-- end header -->
