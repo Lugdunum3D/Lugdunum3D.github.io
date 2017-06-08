@@ -23,3 +23,10 @@ The development team is available through a wide range of channels if you want t
 
 You can find our repositories on Github, at [Lugdunum3D](https://github.com/Lugdunum3D "Lugdunum3D's Github organization"), and report specific problems or questions directly by filing a new issue.
 
+## Twitter
+
+Follow us on [Twitter](https://twitter.com/Lugdunum3D) to keep yourself updated about the latest news and updates.
+
+## Mailing List
+
+Reach the team by email at [lugdunum_2018@labeip.epitech.eu](mailto:lugdunum_2018@labeip.epitech.eu).
