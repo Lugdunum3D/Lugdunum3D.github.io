@@ -6,7 +6,7 @@ menu:
 ---
 
 <div id="title">
-    <img src="https://cdn.rawgit.com/Lugdunum3D/Visual-Identity/dee42e2c/logo/dist/long-dark.svg" id="logo"/>
+    <img src="https://cdn.rawgit.com/Lugdunum3D/Visual-Identity/dee42e2c/logo/dist/long.svg" id="logo"/>
     <h1>{{ site.title }}</h1>
     <p>{{ site.description }}</p>
 </div>

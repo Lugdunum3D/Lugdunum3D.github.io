@@ -3,3 +3,8 @@ description: Welcome to Lugdunum's website! Find here informations and documenta
 theme: jekyll-theme-midnight
 exclude: ['README.md', 'vendor', 'eip', Gemfile*', 'Lugdunum3D.github.io.sublime*']
 config_name: standard
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded

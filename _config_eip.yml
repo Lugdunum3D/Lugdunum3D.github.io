@@ -5,3 +5,8 @@ exclude: ['README.md', 'vendor', 'Gemfile*', 'Lugdunum3D.github.io.sublime*', 'd
 baseurl: /2018/lugdunum
 destination: eip
 config_name: eip
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
