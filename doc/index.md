@@ -37,3 +37,10 @@ This page references the documentation available for Lugdunum's projects: the 3D
 
 * [Lugdunum Quick Start](quickstart.html)
 * [How to use LugBench](lugbench-user.html)
+
+# PDF documentation
+
+Documentation pages are also available as PDF files:
+* [lugdunum_installation.pdf](lugdunum_installation.pdf)
+* [lugdunum_technical.pdf](lugdunum_technical.pdf)
+* [lugdunum_user.pdf](lugdunum_user.pdf)
