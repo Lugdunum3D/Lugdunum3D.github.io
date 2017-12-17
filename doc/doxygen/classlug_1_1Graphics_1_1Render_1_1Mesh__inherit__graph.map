@@ -1,4 +1,4 @@
 <map id="lug::Graphics::Render::Mesh" name="lug::Graphics::Render::Mesh">
-<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Model_1_1Mesh.html" title="lug::Graphics::Render\l::Model::Mesh" alt="" coords="5,95,176,136"/>
-<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Mesh.html" title="lug::Graphics::Vulkan\l::Render::Mesh" alt="" coords="201,95,370,136"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Mesh.html" title="lug::Graphics::Vulkan\l::Render::Mesh" alt="" coords="13,169,183,211"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="5,5,191,32"/>
 </map>

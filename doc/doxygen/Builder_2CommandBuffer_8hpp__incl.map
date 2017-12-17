@@ -1,0 +1,13 @@
+<map id="include/lug/Graphics/Vulkan/API/Builder/CommandBuffer.hpp" name="include/lug/Graphics/Vulkan/API/Builder/CommandBuffer.hpp">
+<area shape="rect" id="node4" href="$CommandBuffer_8hpp.html" title="lug/Graphics/Vulkan\l/API/CommandBuffer.hpp" alt="" coords="749,109,943,151"/>
+<area shape="rect" id="node17" href="$Builder_2CommandBuffer_8inl.html" title="lug/Graphics/Vulkan\l/API/Builder/CommandBuffer.inl" alt="" coords="967,109,1205,151"/>
+<area shape="rect" id="node5" href="$Graphics_2Export_8hpp.html" title="lug/Graphics/Export.hpp" alt="" coords="1197,303,1381,329"/>
+<area shape="rect" id="node7" href="$Vulkan_8hpp.html" title="lug/Graphics/Vulkan\l/Vulkan.hpp" alt="" coords="159,206,317,247"/>
+<area shape="rect" id="node11" href="$CommandBuffer_2Buffer_8inl.html" title="lug/Graphics/Vulkan\l/API/CommandBuffer/Buffer.inl" alt="" coords="341,206,573,247"/>
+<area shape="rect" id="node12" href="$API_2CommandBuffer_2DescriptorSet_8inl.html" title="lug/Graphics/Vulkan\l/API/CommandBuffer/Descriptor\lSet.inl" alt="" coords="597,199,836,255"/>
+<area shape="rect" id="node13" href="$CommandBuffer_2Image_8inl.html" title="lug/Graphics/Vulkan\l/API/CommandBuffer/Image.inl" alt="" coords="860,206,1093,247"/>
+<area shape="rect" id="node14" href="$RenderPass_8inl.html" title="lug/Graphics/Vulkan\l/API/CommandBuffer/RenderPass.inl" alt="" coords="1117,206,1385,247"/>
+<area shape="rect" id="node15" href="$API_2CommandBuffer_2Pipeline_8inl.html" title="lug/Graphics/Vulkan\l/API/CommandBuffer/Pipeline.inl" alt="" coords="1410,206,1653,247"/>
+<area shape="rect" id="node16" href="$CommandBuffer_8inl.html" title="lug/Graphics/Vulkan\l/API/CommandBuffer.inl" alt="" coords="1677,206,1863,247"/>
+<area shape="rect" id="node6" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="1229,377,1348,404"/>
+</map>

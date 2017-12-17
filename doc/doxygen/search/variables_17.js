@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['x',['x',['../classlug_1_1Graphics_1_1Render_1_1View_1_1Viewport.html#ab31334b0bb8665329a85b696c403737c',1,'lug::Graphics::Render::View::Viewport::x()'],['../structlug_1_1Graphics_1_1Render_1_1View_1_1Scissor.html#ab3e20bf72207d3bf3317591de0bccff9',1,'lug::Graphics::Render::View::Scissor::x()'],['../structlug_1_1Window_1_1MouseEvent.html#a66bb3812ad351b93e805b740a1277120',1,'lug::Window::MouseEvent::x()'],['../classlug_1_1Window_1_1Window.html#afe2908df22cba688c7cbe080f1b962bc',1,'lug::Window::Window::x()']]],
-  ['x1',['x1',['../structlug_1_1Window_1_1MouseEvent.html#aa35c4c5fadd92140a721218590cd0190',1,'lug::Window::MouseEvent']]],
-  ['x2',['x2',['../structlug_1_1Window_1_1MouseEvent.html#af4e5602d716f6d7600c8005f9d9698c1',1,'lug::Window::MouseEvent']]],
-  ['xoffset',['xOffset',['../structlug_1_1Window_1_1MouseEvent.html#aa31f0ff754930733994dda7133fdbdf3',1,'lug::Window::MouseEvent']]]
+  ['y',['y',['../classlug_1_1Graphics_1_1Render_1_1View_1_1Viewport.html#a99d01a4b3782c44dfea364c0482e73a0',1,'lug::Graphics::Render::View::Viewport::y()'],['../structlug_1_1Graphics_1_1Render_1_1View_1_1Scissor.html#a1b0d092c3c9c0233ee0d110a720a9faa',1,'lug::Graphics::Render::View::Scissor::y()'],['../structlug_1_1Window_1_1MouseEvent.html#acd9566c6aaf1ae42f76f236cff5a5fab',1,'lug::Window::MouseEvent::y()']]],
+  ['yoffset',['yOffset',['../structlug_1_1Window_1_1MouseEvent.html#af51e6cb9f21c68ffc2600f5432c7afc8',1,'lug::Window::MouseEvent']]]
 ];

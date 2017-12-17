@@ -1,0 +1,8 @@
+<map id="lug::Graphics::Vulkan::Render::BufferPool::BufferPool&lt; subBufferPerChunk, subBufferSize &gt;" name="lug::Graphics::Vulkan::Render::BufferPool::BufferPool&lt; subBufferPerChunk, subBufferSize &gt;">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1BufferPool.html" title="lug::Graphics::Vulkan\l::Render::BufferPool\l::BufferPool\&lt; 10, sizeof\l(Math::Mat4x4f) *2 \&gt;" alt="" coords="517,5,701,76"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1BufferPool.html" title="lug::Graphics::Vulkan\l::Render::BufferPool\l::BufferPool\&lt; 20, sizeof\l(::lug::Graphics::Render\l::Material::Constants) *2 \&gt;" alt="" coords="505,101,713,186"/>
+<area shape="rect" id="node6" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1BufferPool.html" title="lug::Graphics::Vulkan\l::Render::BufferPool\l::BufferPool\&lt; 10, ::lug\l::Graphics::Render::Light\l::strideShader *50+sizeof\l(uint32_t)\&gt;" alt="" coords="510,211,709,311"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1Camera.html" title="lug::Graphics::Vulkan\l::Render::BufferPool\l::Camera" alt="" coords="763,13,932,69"/>
+<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1Material.html" title="lug::Graphics::Vulkan\l::Render::BufferPool\l::Material" alt="" coords="763,115,932,171"/>
+<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1Light.html" title="lug::Graphics::Vulkan\l::Render::BufferPool\l::Light" alt="" coords="763,233,932,289"/>
+</map>

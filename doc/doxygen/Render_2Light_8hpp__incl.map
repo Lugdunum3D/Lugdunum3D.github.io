@@ -1,0 +1,20 @@
+<map id="include/lug/Graphics/Render/Light.hpp" name="include/lug/Graphics/Render/Light.hpp">
+<area shape="rect" id="node2" href="$Graphics_2Export_8hpp.html" title="lug/Graphics/Export.hpp" alt="" coords="213,191,397,218"/>
+<area shape="rect" id="node4" href="$DirtyObject_8hpp.html" title="lug/Graphics/Render\l/DirtyObject.hpp" alt="" coords="128,95,287,136"/>
+<area shape="rect" id="node7" href="$Resource_8hpp.html" title="lug/Graphics/Resource.hpp" alt="" coords="551,102,754,129"/>
+<area shape="rect" id="node11" href="$Constant_8hpp.html" title="lug/Math/Constant.hpp" alt="" coords="1186,102,1359,129"/>
+<area shape="rect" id="node14" href="$Vector_8hpp.html" title="lug/Math/Vector.hpp" alt="" coords="887,102,1045,129"/>
+<area shape="rect" id="node29" href="$Render_2Light_8inl.html" title="lug/Graphics/Render\l/Light.inl" alt="" coords="1384,95,1543,136"/>
+<area shape="rect" id="node3" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="693,348,812,375"/>
+<area shape="rect" id="node6" href="$DirtyObject_8inl.html" title="lug/Graphics/Render\l/DirtyObject.inl" alt="" coords="29,184,188,225"/>
+<area shape="rect" id="node10" href="$Resource_8inl.html" title="lug/Graphics/Resource.inl" alt="" coords="506,191,701,218"/>
+<area shape="rect" id="node13" href="$Constant_8inl.html" title="lug/Math/Constant.inl" alt="" coords="1386,191,1551,218"/>
+<area shape="rect" id="node15" href="$Matrix_8hpp.html" title="lug/Math/Matrix.hpp" alt="" coords="946,191,1103,218"/>
+<area shape="rect" id="node28" href="$Vector_8inl.html" title="lug/Math/Vector.inl" alt="" coords="1128,191,1279,218"/>
+<area shape="rect" id="node17" href="$Math_2Export_8hpp.html" title="lug/Math/Export.hpp" alt="" coords="673,273,832,300"/>
+<area shape="rect" id="node18" href="$ValArray_8hpp.html" title="lug/Math/ValArray.hpp" alt="" coords="1275,273,1449,300"/>
+<area shape="rect" id="node24" href="$Debug_8hpp.html" title="lug/System/Debug.hpp" alt="" coords="1031,273,1205,300"/>
+<area shape="rect" id="node27" href="$Matrix_8inl.html" title="lug/Math/Matrix.inl" alt="" coords="857,273,1006,300"/>
+<area shape="rect" id="node23" href="$ValArray_8inl.html" title="lug/Math/ValArray.inl" alt="" coords="1279,348,1445,375"/>
+<area shape="rect" id="node25" href="$Utils_8hpp.html" title="lug/System/Utils.hpp" alt="" coords="991,348,1154,375"/>
+</map>

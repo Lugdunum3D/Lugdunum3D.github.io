@@ -1,0 +1,5 @@
+<map id="lug::Graphics::Vulkan::API::Builder::DescriptorSetLayout" name="lug::Graphics::Vulkan::API::Builder::DescriptorSetLayout">
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1278,322,1447,363"/>
+<area shape="rect" id="node4" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="862,257,1031,298"/>
+<area shape="rect" id="node5" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="438,41,607,97"/>
+</map>

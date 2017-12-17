@@ -1,0 +1,25 @@
+<map id="include/lug/Graphics/Builder/Material.hpp" name="include/lug/Graphics/Builder/Material.hpp">
+<area shape="rect" id="node4" href="$Resource_8hpp.html" title="lug/Graphics/Resource.hpp" alt="" coords="296,459,499,486"/>
+<area shape="rect" id="node10" href="$Render_2Material_8hpp.html" title="lug/Graphics/Render\l/Material.hpp" alt="" coords="463,184,622,225"/>
+<area shape="rect" id="node33" href="$Vulkan_2Builder_2Material_8hpp.html" title="lug/Graphics/Vulkan\l/Builder/Material.hpp" alt="" coords="195,95,359,136"/>
+<area shape="rect" id="node34" href="$Builder_2Material_8inl.html" title="lug/Graphics/Builder\l/Material.inl" alt="" coords="435,95,594,136"/>
+<area shape="rect" id="node7" href="$Graphics_2Export_8hpp.html" title="lug/Graphics/Export.hpp" alt="" coords="647,549,831,575"/>
+<area shape="rect" id="node9" href="$Resource_8inl.html" title="lug/Graphics/Resource.inl" alt="" coords="428,549,623,575"/>
+<area shape="rect" id="node8" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="874,631,993,657"/>
+<area shape="rect" id="node11" href="$DirtyObject_8hpp.html" title="lug/Graphics/Render\l/DirtyObject.hpp" alt="" coords="873,452,1031,493"/>
+<area shape="rect" id="node13" href="$Render_2Texture_8hpp.html" title="lug/Graphics/Render\l/Texture.hpp" alt="" coords="633,363,791,404"/>
+<area shape="rect" id="node15" href="$Render_2SkyBox_8hpp.html" title="lug/Graphics/Render\l/SkyBox.hpp" alt="" coords="373,273,531,315"/>
+<area shape="rect" id="node17" href="$Vector_8hpp.html" title="lug/Math/Vector.hpp" alt="" coords="1049,370,1207,397"/>
+<area shape="rect" id="node32" href="$Render_2Material_8inl.html" title="lug/Graphics/Render\l/Material.inl" alt="" coords="555,273,714,315"/>
+<area shape="rect" id="node12" href="$DirtyObject_8inl.html" title="lug/Graphics/Render\l/DirtyObject.inl" alt="" coords="855,541,1014,583"/>
+<area shape="rect" id="node14" href="$Render_2Texture_8inl.html" title="lug/Graphics/Render\l/Texture.inl" alt="" coords="587,452,746,493"/>
+<area shape="rect" id="node16" href="$Render_2SkyBox_8inl.html" title="lug/Graphics/Render\l/SkyBox.inl" alt="" coords="398,363,557,404"/>
+<area shape="rect" id="node18" href="$Matrix_8hpp.html" title="lug/Math/Matrix.hpp" alt="" coords="1321,459,1479,486"/>
+<area shape="rect" id="node31" href="$Vector_8inl.html" title="lug/Math/Vector.inl" alt="" coords="1110,459,1261,486"/>
+<area shape="rect" id="node20" href="$Math_2Export_8hpp.html" title="lug/Math/Export.hpp" alt="" coords="1130,549,1289,575"/>
+<area shape="rect" id="node21" href="$ValArray_8hpp.html" title="lug/Math/ValArray.hpp" alt="" coords="1313,549,1487,575"/>
+<area shape="rect" id="node27" href="$Debug_8hpp.html" title="lug/System/Debug.hpp" alt="" coords="1511,549,1686,575"/>
+<area shape="rect" id="node30" href="$Matrix_8inl.html" title="lug/Math/Matrix.inl" alt="" coords="1711,549,1860,575"/>
+<area shape="rect" id="node26" href="$ValArray_8inl.html" title="lug/Math/ValArray.inl" alt="" coords="1117,631,1283,657"/>
+<area shape="rect" id="node28" href="$Utils_8hpp.html" title="lug/System/Utils.hpp" alt="" coords="1592,631,1755,657"/>
+</map>

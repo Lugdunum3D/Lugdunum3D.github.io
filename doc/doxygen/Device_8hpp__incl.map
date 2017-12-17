@@ -1,6 +1,9 @@
 <map id="include/lug/Graphics/Vulkan/API/Device.hpp" name="include/lug/Graphics/Vulkan/API/Device.hpp">
-<area shape="rect" id="node2" href="$Graphics_2Export_8hpp.html" title="lug/Graphics/Export.hpp" alt="" coords="5,184,189,211"/>
-<area shape="rect" id="node4" href="$Vulkan_8hpp.html" title="lug/Graphics/Vulkan\l/Vulkan.hpp" alt="" coords="259,95,416,136"/>
-<area shape="rect" id="node9" href="$Device_8inl.html" title="lug/Graphics/Vulkan\l/API/Device.inl" alt="" coords="440,95,597,136"/>
-<area shape="rect" id="node3" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="38,259,157,285"/>
+<area shape="rect" id="node2" href="$Graphics_2Export_8hpp.html" title="lug/Graphics/Export.hpp" alt="" coords="5,363,189,389"/>
+<area shape="rect" id="node4" href="$QueueFamily_8hpp.html" title="lug/Graphics/Vulkan\l/API/QueueFamily.hpp" alt="" coords="336,95,507,136"/>
+<area shape="rect" id="node8" href="$Vulkan_8hpp.html" title="lug/Graphics/Vulkan\l/Vulkan.hpp" alt="" coords="248,273,405,315"/>
+<area shape="rect" id="node13" href="$Device_8inl.html" title="lug/Graphics/Vulkan\l/API/Device.inl" alt="" coords="531,95,688,136"/>
+<area shape="rect" id="node3" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="38,437,157,464"/>
+<area shape="rect" id="node7" href="$Vulkan_2API_2Queue_8hpp.html" title="lug/Graphics/Vulkan\l/API/Queue.hpp" alt="" coords="336,184,493,225"/>
+<area shape="rect" id="node12" href="$QueueFamily_8inl.html" title="lug/Graphics/Vulkan\l/API/QueueFamily.inl" alt="" coords="619,184,781,225"/>
 </map>

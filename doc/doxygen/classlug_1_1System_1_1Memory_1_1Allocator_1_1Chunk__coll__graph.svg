@@ -83,11 +83,14 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<polygon fill="none" stroke="#bfbfbf" points="41,-196 41,-215 87,-215 87,-196 41,-196"/>
+<g id="a_node3"><a xlink:href="classsize__t.html" target="_top" xlink:title="size_t">
+<polygon fill="none" stroke="#000000" points="41,-196 41,-215 87,-215 87,-196 41,-196"/>
 <text text-anchor="middle" x="64" y="-203" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">size_t</text>
+</a>
+</g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
-<g id="edge9" class="edge">
+<g id="edge8" class="edge">
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M97.394,-205.2008C163.395,-203.7216 314.4993,-195.9017 434,-156.5 443.7405,-153.2884 453.9207,-149.5065 463.7779,-145.6085"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="97.1148,-201.7053 87.1826,-205.3932 97.2468,-208.7041 97.1148,-201.7053"/>
@@ -175,7 +178,7 @@ var sectionId = 'dynsection-0';
 </g>
 </g>
 <!-- Node7&#45;&gt;Node1 -->
-<g id="edge8" class="edge">
+<g id="edge9" class="edge">
 <title>Node7&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M342.2939,-33.715C370.6054,-42.9754 404.5287,-55.1006 434,-68.5 449.9545,-75.7539 466.8097,-84.9278 481.5379,-93.4888"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="343.122,-30.3045 332.5303,-30.5615 340.9705,-36.9657 343.122,-30.3045"/>

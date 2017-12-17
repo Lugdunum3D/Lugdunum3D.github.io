@@ -1,14 +1,19 @@
 <map id="lug::Core::Application" name="lug::Core::Application">
-<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Window.html" title="lug::Graphics::Render\l::Window" alt="" coords="990,851,1161,893"/>
-<area shape="rect" id="node3" href="$classlug_1_1Window_1_1Window.html" title="Class for window. " alt="" coords="623,777,794,804"/>
-<area shape="rect" id="node6" href="$classlug_1_1Window_1_1priv_1_1WindowImpl.html" title="lug::Window::priv::\lWindowImpl" alt="" coords="997,442,1153,483"/>
-<area shape="rect" id="node23" href="$structlug_1_1Window_1_1VideoMode.html" title="The video mode we set for the window we wish to create. " alt="" coords="225,835,416,861"/>
-<area shape="rect" id="node27" href="$classlug_1_1Graphics_1_1Graphics.html" title="Class for graphics. " alt="" coords="984,1207,1167,1233"/>
-<area shape="rect" id="node40" href="$structlug_1_1Core_1_1Application_1_1Version.html" title="Stores the version of the Application. " alt="" coords="623,1045,794,1086"/>
-<area shape="rect" id="node37" href="$structlug_1_1Window_1_1Window_1_1InitInfo.html" title="lug::Window::Window\l::InitInfo" alt="" coords="235,966,406,1007"/>
-<area shape="rect" id="node25" href="$classlug_1_1Graphics_1_1Render_1_1Target.html" title="lug::Graphics::Render\l::Target" alt="" coords="623,854,794,895"/>
-<area shape="rect" id="node28" href="$structlug_1_1Graphics_1_1Graphics_1_1InitInfo.html" title="Utility structure used to initialize the Graphics component. " alt="" coords="617,1378,800,1419"/>
-<area shape="rect" id="node29" href="$structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html" title="lug::Graphics::Renderer\l::InitInfo" alt="" coords="228,1374,413,1415"/>
-<area shape="rect" id="node39" href="$structlug_1_1Core_1_1Application_1_1Info.html" title="lug::Core::Application\l::Info" alt="" coords="990,1077,1161,1118"/>
-<area shape="rect" id="node35" href="$structlug_1_1Graphics_1_1Render_1_1Window_1_1InitInfo.html" title="lug::Graphics::Render\l::Window::InitInfo" alt="" coords="623,979,794,1021"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Window.html" title="lug::Graphics::Render\l::Window" alt="" coords="1111,1218,1282,1259"/>
+<area shape="rect" id="node3" href="$classlug_1_1Window_1_1Window.html" title="Class for window. " alt="" coords="715,627,885,653"/>
+<area shape="rect" id="node9" href="$classlug_1_1Window_1_1priv_1_1WindowImpl.html" title="lug::Window::priv::\lWindowImpl" alt="" coords="1119,619,1275,661"/>
+<area shape="rect" id="node4" href="$structlug_1_1Window_1_1TouchScreenEvent.html" title="lug::Window::TouchScreen\lEvent" alt="" coords="288,434,491,475"/>
+<area shape="rect" id="node29" href="$structlug_1_1Window_1_1GamePadEvent.html" title="lug::Window::GamePadEvent" alt="" coords="280,501,499,528"/>
+<area shape="rect" id="node15" href="$classndk__helper_1_1DoubletapDetector.html" title="ndk_helper::DoubletapDetector" alt="" coords="684,1065,916,1092"/>
+<area shape="rect" id="node31" href="$structlug_1_1Window_1_1VideoMode.html" title="The video mode we set for the window we wish to create. " alt="" coords="294,684,485,711"/>
+<area shape="rect" id="node24" href="$classndk__helper_1_1DragDetector.html" title="ndk_helper::DragDetector" alt="" coords="701,372,899,399"/>
+<area shape="rect" id="node27" href="$classndk__helper_1_1PinchDetector.html" title="ndk_helper::PinchDetector" alt="" coords="700,524,900,551"/>
+<area shape="rect" id="node48" href="$structlug_1_1Window_1_1Window_1_1InitInfo.html" title="lug::Window::Window\l::InitInfo" alt="" coords="304,1283,475,1325"/>
+<area shape="rect" id="node34" href="$classlug_1_1Graphics_1_1Render_1_1Target.html" title="lug::Graphics::Render\l::Target" alt="" coords="715,1218,885,1259"/>
+<area shape="rect" id="node36" href="$classlug_1_1Graphics_1_1Graphics.html" title="Class for graphics. " alt="" coords="1105,1493,1288,1520"/>
+<area shape="rect" id="node37" href="$structlug_1_1Core_1_1Version.html" title="Stores the version of the Application. " alt="" coords="727,1451,873,1477"/>
+<area shape="rect" id="node50" href="$structlug_1_1Core_1_1Application_1_1Info.html" title="lug::Core::Application\l::Info" alt="" coords="1111,1353,1282,1394"/>
+<area shape="rect" id="node39" href="$structlug_1_1Graphics_1_1Graphics_1_1InitInfo.html" title="Utility structure used to initialize the Graphics component. " alt="" coords="709,1645,891,1686"/>
+<area shape="rect" id="node40" href="$structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html" title="lug::Graphics::Renderer\l::InitInfo" alt="" coords="297,1679,482,1721"/>
+<area shape="rect" id="node46" href="$structlug_1_1Graphics_1_1Render_1_1Window_1_1InitInfo.html" title="lug::Graphics::Render\l::Window::InitInfo" alt="" coords="715,1283,885,1325"/>
 </map>

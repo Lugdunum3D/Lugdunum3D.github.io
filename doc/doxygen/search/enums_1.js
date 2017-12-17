@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['key',['Key',['../namespacelug_1_1Window_1_1Keyboard.html#a93cfcb74ed54ec879a0d7ed77eca9894',1,'lug::Window::Keyboard']]]
+  ['displaymode',['DisplayMode',['../classlug_1_1Graphics_1_1Renderer.html#a65e2aa79c7132ae0228334b09fa07c13',1,'lug::Graphics::Renderer']]]
 ];

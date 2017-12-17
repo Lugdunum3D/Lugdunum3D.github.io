@@ -1,11 +1,19 @@
 var searchData=
 [
-  ['image',['image',['../structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward_1_1DepthBuffer.html#ac89c97df0af24271b2e151b199770f12',1,'lug::Graphics::Vulkan::Render::Technique::Forward::DepthBuffer']]],
+  ['image',['image',['../structCmdPipelineBarrier_1_1ImageMemoryBarrier.html#a623712e4e59516d0a4a4b2233963aca6',1,'CmdPipelineBarrier::ImageMemoryBarrier::image()'],['../structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward_1_1DepthBuffer.html#a94d7c52bbe92f1e255d818264fd75c0b',1,'lug::Graphics::Vulkan::Render::Technique::Forward::DepthBuffer::image()']]],
   ['imageidx',['imageIdx',['../structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Window_1_1AcquireImageData.html#a0adc293a4b214b4f724eb3dff6a3ec05',1,'lug::Graphics::Vulkan::Render::Window::AcquireImageData']]],
+  ['imagememorybarriers',['imageMemoryBarriers',['../structCmdPipelineBarrier.html#a893d4e8eee817a5c44ee3dc7b383f285',1,'CmdPipelineBarrier']]],
   ['imagereadysemaphores',['imageReadySemaphores',['../structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Window_1_1FrameData.html#a8295f89c4187f30f9004b5d7aed69c30',1,'lug::Graphics::Vulkan::Render::Window::FrameData']]],
-  ['imageview',['imageView',['../structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward_1_1DepthBuffer.html#a63be3caed6c7208f20550a21854ba1de',1,'lug::Graphics::Vulkan::Render::Technique::Forward::DepthBuffer']]],
-  ['indices',['indices',['../classlug_1_1Graphics_1_1Render_1_1Mesh.html#ad073a51745ecdc522f1a0049a52df8b2',1,'lug::Graphics::Render::Mesh']]],
-  ['indicesoffset',['indicesOffset',['../classlug_1_1Graphics_1_1Render_1_1Model_1_1Mesh.html#af3bab48c17a4e44f028f0e6a33103f3e',1,'lug::Graphics::Render::Model::Mesh']]],
+  ['imageview',['imageView',['../structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward_1_1DepthBuffer.html#a2e4ac0bdda91d5b400ecb961ad6b6ff8',1,'lug::Graphics::Vulkan::Render::Technique::Forward::DepthBuffer']]],
+  ['index',['index',['../structlug_1_1Graphics_1_1Resource_1_1Handle.html#a4a2979e791abf55a5ea18e68fb797c65',1,'lug::Graphics::Resource::Handle']]],
+  ['indexbuffer',['indexBuffer',['../structlug_1_1Graphics_1_1Vulkan_1_1Gui_1_1FrameData.html#a2430fec4d5343326fab20732c7e10a87',1,'lug::Graphics::Vulkan::Gui::FrameData']]],
+  ['indexcount',['indexCount',['../structCmdDrawIndexed.html#a93fd7a5d9c8a1e2002bac1096ebbd2be',1,'CmdDrawIndexed']]],
+  ['indexmemory',['indexMemory',['../structlug_1_1Graphics_1_1Vulkan_1_1Gui_1_1FrameData.html#aea808d8098681ac214dc3a2d0e7cbb52',1,'lug::Graphics::Vulkan::Gui::FrameData']]],
+  ['indexmemoryptr',['indexMemoryPtr',['../structlug_1_1Graphics_1_1Vulkan_1_1Gui_1_1FrameData.html#a5d8e2e125ffa8e5c1cd0369f7a51287b',1,'lug::Graphics::Vulkan::Gui::FrameData']]],
+  ['indices',['indices',['../structlug_1_1Graphics_1_1Render_1_1Mesh_1_1PrimitiveSet.html#a9fcbb6e29be23452feaa57bb8a455bf6',1,'lug::Graphics::Render::Mesh::PrimitiveSet']]],
+  ['inputattachments',['inputAttachments',['../structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Builder_1_1RenderPass_1_1SubpassDescription.html#a3a9f53361b2b3965daa1686bf8f60537',1,'lug::Graphics::Vulkan::API::Builder::RenderPass::SubpassDescription::inputAttachments()'],['../structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Builder_1_1RenderPass_1_1SubpassResources.html#af15d749fd5d7fff1a37a134bed89e95d',1,'lug::Graphics::Vulkan::API::Builder::RenderPass::SubpassResources::inputAttachments()']]],
   ['inputmode',['inputMode',['../structlug_1_1Window_1_1priv_1_1WMHints.html#abc9f005223be96b345602b516b0c2a29',1,'lug::Window::priv::WMHints']]],
-  ['inputqueue',['inputQueue',['../classlug_1_1Window_1_1priv_1_1WindowImpl.html#a26577fd23597e5ea0c0c27f0d94c91f2',1,'lug::Window::priv::WindowImpl']]]
+  ['inputqueue',['inputQueue',['../classlug_1_1Window_1_1priv_1_1WindowImpl.html#a26577fd23597e5ea0c0c27f0d94c91f2',1,'lug::Window::priv::WindowImpl']]],
+  ['instancecount',['instanceCount',['../structCmdDraw.html#ae14821c7984ae349013b20229fb39247',1,'CmdDraw::instanceCount()'],['../structCmdDrawIndexed.html#a7361898657b40a31963aece98970a7bc',1,'CmdDrawIndexed::instanceCount()']]],
+  ['irradiancemapinfo',['irradianceMapInfo',['../structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1Id_1_1ExtraPart.html#aab0b6520a18782adb10791765be3cf51',1,'lug::Graphics::Vulkan::Render::Pipeline::Id::ExtraPart']]]
 ];

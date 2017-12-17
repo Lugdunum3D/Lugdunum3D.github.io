@@ -1,0 +1,7 @@
+<map id="lug::Graphics::ResourceManager" name="lug::Graphics::ResourceManager">
+<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Renderer.html" title="lug::Graphics::Renderer" alt="" coords="1383,245,1568,272"/>
+<area shape="rect" id="node7" href="$structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html" title="lug::Graphics::Renderer\l::InitInfo" alt="" coords="277,138,463,179"/>
+<area shape="rect" id="node13" href="$structlug_1_1Graphics_1_1Graphics_1_1InitInfo.html" title="Utility structure used to initialize the Graphics component. " alt="" coords="651,238,833,279"/>
+<area shape="rect" id="node10" href="$classlug_1_1Graphics_1_1Graphics.html" title="Class for graphics. " alt="" coords="985,245,1168,272"/>
+<area shape="rect" id="node11" href="$structlug_1_1Core_1_1Version.html" title="Stores the version of the Application. " alt="" coords="669,381,815,408"/>
+</map>

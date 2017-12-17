@@ -65,25 +65,33 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classlug_1_1Graphics_1_1Scene_1_1Scene-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">lug::Graphics::Scene::Scene Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="Scene_8hpp_source.html">Scene.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="Scene_2Scene_8hpp_source.html">Scene.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for lug::Graphics::Scene::Scene:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classlug_1_1Graphics_1_1Scene_1_1Scene__inherit__graph.svg" width="196" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for lug::Graphics::Scene::Scene:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classlug_1_1Graphics_1_1Scene_1_1Scene__coll__graph.svg" width="210" height="156"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classlug_1_1Graphics_1_1Scene_1_1Scene__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a07ef5c9a6bd65a70530ac206255d156b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a07ef5c9a6bd65a70530ac206255d156b">Scene</a> ()</td></tr>
-<tr class="separator:a07ef5c9a6bd65a70530ac206255d156b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99fe37711a7fb22b8716a39926d87f50"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a99fe37711a7fb22b8716a39926d87f50">Scene</a> ()=default</td></tr>
+<tr class="separator:a99fe37711a7fb22b8716a39926d87f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fd2019fe2096fd1af9d554885a7974f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a6fd2019fe2096fd1af9d554885a7974f">Scene</a> (const <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html">Scene</a> &amp;)=delete</td></tr>
 <tr class="separator:a6fd2019fe2096fd1af9d554885a7974f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab555dfca94d7055b8e25222b847e986d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#ab555dfca94d7055b8e25222b847e986d">Scene</a> (<a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html">Scene</a> &amp;&amp;)=delete</td></tr>
@@ -94,41 +102,102 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afc84e0ab20c45dc2982d96c08e644a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add4362fe3d2c4ab8aa724effd5ece00e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#add4362fe3d2c4ab8aa724effd5ece00e">~Scene</a> ()=default</td></tr>
 <tr class="separator:add4362fe3d2c4ab8aa724effd5ece00e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a9d5c7a15d8627f264459a1e6af8b76"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a5a9d5c7a15d8627f264459a1e6af8b76">createSceneNode</a> (const std::string &amp;name, std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1MovableObject.html">MovableObject</a> &gt; object=nullptr)</td></tr>
-<tr class="separator:a5a9d5c7a15d8627f264459a1e6af8b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b140c7d14045ea7e62765253e382997"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1MeshInstance.html">MeshInstance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a6b140c7d14045ea7e62765253e382997">createMeshInstance</a> (const std::string &amp;name, <a class="el" href="classlug_1_1Graphics_1_1Render_1_1Mesh.html">Render::Mesh</a> *mesh=nullptr)</td></tr>
-<tr class="separator:a6b140c7d14045ea7e62765253e382997"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4916d7f82cbf8c0feaa8c36b8fc3b4f5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1ModelInstance.html">ModelInstance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a4916d7f82cbf8c0feaa8c36b8fc3b4f5">createModelInstance</a> (const std::string &amp;name, <a class="el" href="classlug_1_1Graphics_1_1Render_1_1Model.html">Render::Model</a> *model=nullptr)</td></tr>
-<tr class="separator:a4916d7f82cbf8c0feaa8c36b8fc3b4f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a883747e10285d52ca336c0db0c10177f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1MovableCamera.html">MovableCamera</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a883747e10285d52ca336c0db0c10177f">createMovableCamera</a> (const std::string &amp;name, <a class="el" href="classlug_1_1Graphics_1_1Render_1_1Camera.html">Render::Camera</a> *camera=nullptr)</td></tr>
-<tr class="separator:a883747e10285d52ca336c0db0c10177f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f8e05cc29af4ab734d57ff214ef7aaa"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Light_1_1Light.html">Light::Light</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a2f8e05cc29af4ab734d57ff214ef7aaa">createLight</a> (const std::string &amp;name, <a class="el" href="classlug_1_1Graphics_1_1Light_1_1Light.html#a2e3d7b1634618ca5468832fbbd0aa887">Light::Light::Type</a> type)</td></tr>
-<tr class="separator:a2f8e05cc29af4ab734d57ff214ef7aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a825877b555a43d9bff5e5fe6509999b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a825877b555a43d9bff5e5fe6509999b7">getRoot</a> ()</td></tr>
-<tr class="separator:a825877b555a43d9bff5e5fe6509999b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bb2f5f481db226e8deff6bc077abdf8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a8bb2f5f481db226e8deff6bc077abdf8">getRoot</a> () const</td></tr>
-<tr class="separator:a8bb2f5f481db226e8deff6bc077abdf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a790d3ebde806bf080b0446bc0e83c0ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a790d3ebde806bf080b0446bc0e83c0ab">createSceneNode</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a790d3ebde806bf080b0446bc0e83c0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca413da96df412a0f0b2f78b813d00df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#aca413da96df412a0f0b2f78b813d00df">setSkyBox</a> (<a class="el" href="classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html">Resource::SharedPtr</a>&lt; <a class="el" href="classlug_1_1Graphics_1_1Render_1_1SkyBox.html">Render::SkyBox</a> &gt; skyBox)</td></tr>
+<tr class="separator:aca413da96df412a0f0b2f78b813d00df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8dafe84e30d63885abb34d1c1efd03e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#ac8dafe84e30d63885abb34d1c1efd03e">getRoot</a> ()</td></tr>
+<tr class="separator:ac8dafe84e30d63885abb34d1c1efd03e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07e8e3e774a5c2236e63c719156dcf44"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a07e8e3e774a5c2236e63c719156dcf44">getRoot</a> () const</td></tr>
+<tr class="separator:a07e8e3e774a5c2236e63c719156dcf44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5890e89f1b8a4b529d2257e0f841cbb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a5890e89f1b8a4b529d2257e0f841cbb6">getSceneNode</a> (const std::string &amp;name)</td></tr>
 <tr class="separator:a5890e89f1b8a4b529d2257e0f841cbb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36dec23b7b922cf7d52faf82a5334484"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a36dec23b7b922cf7d52faf82a5334484">getSceneNode</a> (const std::string &amp;name) const</td></tr>
 <tr class="separator:a36dec23b7b922cf7d52faf82a5334484"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9acdf05d938894c1b6815b5e35138df6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a9acdf05d938894c1b6815b5e35138df6">fetchVisibleObjects</a> (const <a class="el" href="classlug_1_1Graphics_1_1Render_1_1View.html">Render::View</a> *renderView, const <a class="el" href="classlug_1_1Graphics_1_1Render_1_1Camera.html">Render::Camera</a> *camera, <a class="el" href="classlug_1_1Graphics_1_1Render_1_1Queue.html">Render::Queue</a> &amp;renderQueue) const</td></tr>
-<tr class="separator:a9acdf05d938894c1b6815b5e35138df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affc3f1df031bbe00d6d78ad68d39c5a3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html">Resource::SharedPtr</a>&lt; <a class="el" href="classlug_1_1Graphics_1_1Render_1_1SkyBox.html">Render::SkyBox</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#affc3f1df031bbe00d6d78ad68d39c5a3">getSkyBox</a> () const</td></tr>
+<tr class="separator:affc3f1df031bbe00d6d78ad68d39c5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e89cd66063878a09b729d8eaf998ef5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a5e89cd66063878a09b729d8eaf998ef5">fetchVisibleObjects</a> (const <a class="el" href="classlug_1_1Graphics_1_1Renderer.html">Renderer</a> &amp;renderer, const <a class="el" href="classlug_1_1Graphics_1_1Render_1_1View.html">Render::View</a> &amp;renderView, const <a class="el" href="classlug_1_1Graphics_1_1Render_1_1Camera_1_1Camera.html">Render::Camera::Camera</a> &amp;camera, <a class="el" href="classlug_1_1Graphics_1_1Render_1_1Queue.html">Render::Queue</a> &amp;renderQueue) const</td></tr>
+<tr class="separator:a5e89cd66063878a09b729d8eaf998ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classlug_1_1Graphics_1_1Resource"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classlug_1_1Graphics_1_1Resource')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classlug_1_1Graphics_1_1Resource.html">lug::Graphics::Resource</a></td></tr>
+<tr class="memitem:a1f186cfd7c3b13d8714fe55ca1f9a0da inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Resource.html#a1f186cfd7c3b13d8714fe55ca1f9a0da">Resource</a> (<a class="el" href="classlug_1_1Graphics_1_1Resource.html#ae223160fd2d9578a87e1804b45cae04c">Type</a> type, const std::string &amp;name)</td></tr>
+<tr class="separator:a1f186cfd7c3b13d8714fe55ca1f9a0da inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a977b6be66ea98f91b892870d5d0a6837 inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Resource.html#a977b6be66ea98f91b892870d5d0a6837">Resource</a> (const <a class="el" href="classlug_1_1Graphics_1_1Resource.html">Resource</a> &amp;)=delete</td></tr>
+<tr class="separator:a977b6be66ea98f91b892870d5d0a6837 inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2804fb3ee614dbd94a8d75022f68aac6 inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Resource.html#a2804fb3ee614dbd94a8d75022f68aac6">Resource</a> (<a class="el" href="classlug_1_1Graphics_1_1Resource.html">Resource</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:a2804fb3ee614dbd94a8d75022f68aac6 inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8866224667879866606d66acc106b74c inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Resource.html">Resource</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Resource.html#a8866224667879866606d66acc106b74c">operator=</a> (const <a class="el" href="classlug_1_1Graphics_1_1Resource.html">Resource</a> &amp;)=delete</td></tr>
+<tr class="separator:a8866224667879866606d66acc106b74c inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4abe02b286651854c9c0a7eee1f429e inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Resource.html">Resource</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Resource.html#ad4abe02b286651854c9c0a7eee1f429e">operator=</a> (<a class="el" href="classlug_1_1Graphics_1_1Resource.html">Resource</a> &amp;&amp;)=delete</td></tr>
+<tr class="separator:ad4abe02b286651854c9c0a7eee1f429e inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59c95e886803bce4b79b947b79bbe43e inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Resource.html#a59c95e886803bce4b79b947b79bbe43e">~Resource</a> ()=default</td></tr>
+<tr class="separator:a59c95e886803bce4b79b947b79bbe43e inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27b295cd54b893f0e577eaf69fbf441c inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Resource.html#ae223160fd2d9578a87e1804b45cae04c">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Resource.html#a27b295cd54b893f0e577eaf69fbf441c">getType</a> () const</td></tr>
+<tr class="memdesc:a27b295cd54b893f0e577eaf69fbf441c inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of the <a class="el" href="classlug_1_1Graphics_1_1Resource.html" title="Class for resource. ">Resource</a>.  <a href="classlug_1_1Graphics_1_1Resource.html#a27b295cd54b893f0e577eaf69fbf441c">More...</a><br /></td></tr>
+<tr class="separator:a27b295cd54b893f0e577eaf69fbf441c inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4efc44ffd87c1a5b6724b0b84f17df6 inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlug_1_1Graphics_1_1Resource_1_1Handle.html">Handle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Resource.html#ad4efc44ffd87c1a5b6724b0b84f17df6">getHandle</a> () const</td></tr>
+<tr class="memdesc:ad4efc44ffd87c1a5b6724b0b84f17df6 inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the handle of the <a class="el" href="classlug_1_1Graphics_1_1Resource.html" title="Class for resource. ">Resource</a>.  <a href="classlug_1_1Graphics_1_1Resource.html#ad4efc44ffd87c1a5b6724b0b84f17df6">More...</a><br /></td></tr>
+<tr class="separator:ad4efc44ffd87c1a5b6724b0b84f17df6 inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab17cc4e08b3b0fcc2bf9dca0c2bdc8d3 inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Resource.html#ab17cc4e08b3b0fcc2bf9dca0c2bdc8d3">getName</a> () const</td></tr>
+<tr class="memdesc:ab17cc4e08b3b0fcc2bf9dca0c2bdc8d3 inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the name of the <a class="el" href="classlug_1_1Graphics_1_1Resource.html" title="Class for resource. ">Resource</a>.  <a href="classlug_1_1Graphics_1_1Resource.html#ab17cc4e08b3b0fcc2bf9dca0c2bdc8d3">More...</a><br /></td></tr>
+<tr class="separator:ab17cc4e08b3b0fcc2bf9dca0c2bdc8d3 inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b509faeb7e3d7a3971d7fc9a92bd9a7 inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Resource.html#a4b509faeb7e3d7a3971d7fc9a92bd9a7">setName</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:a4b509faeb7e3d7a3971d7fc9a92bd9a7 inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the name of the <a class="el" href="classlug_1_1Graphics_1_1Resource.html" title="Class for resource. ">Resource</a>.  <a href="classlug_1_1Graphics_1_1Resource.html#a4b509faeb7e3d7a3971d7fc9a92bd9a7">More...</a><br /></td></tr>
+<tr class="separator:a4b509faeb7e3d7a3971d7fc9a92bd9a7 inherit pub_methods_classlug_1_1Graphics_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a3d555c99628648ef88d14dd652d4d2e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a3d555c99628648ef88d14dd652d4d2e4">Scene</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a3d555c99628648ef88d14dd652d4d2e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aeae5973b8afb0d4a1b61000c2710534d"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#aeae5973b8afb0d4a1b61000c2710534d">_root</a> {nullptr}</td></tr>
-<tr class="separator:aeae5973b8afb0d4a1b61000c2710534d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46f9c383f1e9af73750b62d86821e391"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a46f9c383f1e9af73750b62d86821e391">_root</a></td></tr>
+<tr class="separator:a46f9c383f1e9af73750b62d86821e391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab227114963cc2641ce6694221ecabfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html">Resource::SharedPtr</a>&lt; <a class="el" href="classlug_1_1Graphics_1_1Render_1_1SkyBox.html">Render::SkyBox</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#aab227114963cc2641ce6694221ecabfc">_skyBox</a> {nullptr}</td></tr>
+<tr class="separator:aab227114963cc2641ce6694221ecabfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28ae2fe834483f37f02437094b62a9a2"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a28ae2fe834483f37f02437094b62a9a2">_nodes</a></td></tr>
+<tr class="separator:a28ae2fe834483f37f02437094b62a9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a51b3ef9fae56ee5c4974b669cef0f829"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Scene.html#a51b3ef9fae56ee5c4974b669cef0f829">Builder::Scene</a></td></tr>
+<tr class="separator:a51b3ef9fae56ee5c4974b669cef0f829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classlug_1_1Graphics_1_1Resource"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classlug_1_1Graphics_1_1Resource')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classlug_1_1Graphics_1_1Resource.html">lug::Graphics::Resource</a></td></tr>
+<tr class="memitem:ae223160fd2d9578a87e1804b45cae04c inherit pub_types_classlug_1_1Graphics_1_1Resource"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Resource.html#ae223160fd2d9578a87e1804b45cae04c">Type</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="classlug_1_1Graphics_1_1Resource.html#ae223160fd2d9578a87e1804b45cae04ca9ead0d38e06ec253ca0ecbf6ea56e59b">Type::Scene</a>, 
+<a class="el" href="classlug_1_1Graphics_1_1Resource.html#ae223160fd2d9578a87e1804b45cae04ca89b9944351dfd4c6cda653440357f8b1">Type::SceneNode</a>, 
+<a class="el" href="classlug_1_1Graphics_1_1Resource.html#ae223160fd2d9578a87e1804b45cae04cad92a8333dd3ccb895cc65f7455b71206">Type::Material</a>, 
+<a class="el" href="classlug_1_1Graphics_1_1Resource.html#ae223160fd2d9578a87e1804b45cae04ca710fdb6adb881b408116ef95335e1961">Type::Mesh</a>, 
+<br />
+&#160;&#160;<a class="el" href="classlug_1_1Graphics_1_1Resource.html#ae223160fd2d9578a87e1804b45cae04ca9914a0ce04a7b7b6a8e39bec55064b82">Type::Light</a>, 
+<a class="el" href="classlug_1_1Graphics_1_1Resource.html#ae223160fd2d9578a87e1804b45cae04caa3e8ae43188ae76d38f414b2bdb0077b">Type::Texture</a>, 
+<a class="el" href="classlug_1_1Graphics_1_1Resource.html#ae223160fd2d9578a87e1804b45cae04caaeaeaec51b4e6b88122f10ad96a8de72">Type::Pipeline</a>, 
+<a class="el" href="classlug_1_1Graphics_1_1Resource.html#ae223160fd2d9578a87e1804b45cae04ca967d35e40f3f95b1f538bd248640bf3b">Type::Camera</a>, 
+<br />
+&#160;&#160;<a class="el" href="classlug_1_1Graphics_1_1Resource.html#ae223160fd2d9578a87e1804b45cae04ca6a4ee74d7f0dc44b92c6bccb7de6e4f9">Type::SkyBox</a>
+<br />
+ }<tr class="memdesc:ae223160fd2d9578a87e1804b45cae04c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the resource.  <a href="classlug_1_1Graphics_1_1Resource.html#ae223160fd2d9578a87e1804b45cae04c">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ae223160fd2d9578a87e1804b45cae04c inherit pub_types_classlug_1_1Graphics_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classlug_1_1Graphics_1_1Resource"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classlug_1_1Graphics_1_1Resource')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classlug_1_1Graphics_1_1Resource.html">lug::Graphics::Resource</a></td></tr>
+<tr class="memitem:a38793fa8d8c6cfcd044cf06cfc87216c inherit pro_attribs_classlug_1_1Graphics_1_1Resource"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Resource.html#a38793fa8d8c6cfcd044cf06cfc87216c">_name</a></td></tr>
+<tr class="separator:a38793fa8d8c6cfcd044cf06cfc87216c inherit pro_attribs_classlug_1_1Graphics_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="Scene_8hpp_source.html#l00021">21</a> of file <a class="el" href="Scene_8hpp_source.html">Scene.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scene_2Scene_8hpp_source.html#l00030">30</a> of file <a class="el" href="Scene_2Scene_8hpp_source.html">Scene.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a07ef5c9a6bd65a70530ac206255d156b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07ef5c9a6bd65a70530ac206255d156b">&#9670;&nbsp;</a></span>Scene() <span class="overload">[1/3]</span></h2>
+<a id="a99fe37711a7fb22b8716a39926d87f50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99fe37711a7fb22b8716a39926d87f50">&#9670;&nbsp;</a></span>Scene() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">lug::Graphics::Scene::Scene::Scene </td>
@@ -137,14 +206,17 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00011">11</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a6fd2019fe2096fd1af9d554885a7974f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fd2019fe2096fd1af9d554885a7974f">&#9670;&nbsp;</a></span>Scene() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fd2019fe2096fd1af9d554885a7974f">&#9670;&nbsp;</a></span>Scene() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -170,7 +242,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ab555dfca94d7055b8e25222b847e986d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab555dfca94d7055b8e25222b847e986d">&#9670;&nbsp;</a></span>Scene() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab555dfca94d7055b8e25222b847e986d">&#9670;&nbsp;</a></span>Scene() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -217,6 +289,34 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d555c99628648ef88d14dd652d4d2e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d555c99628648ef88d14dd652d4d2e4">&#9670;&nbsp;</a></span>Scene() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">lug::Graphics::Scene::Scene::Scene </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Scene_2Scene_8cpp_source.html#l00009">9</a> of file <a class="el" href="Scene_2Scene_8cpp_source.html">Scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -273,158 +373,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5a9d5c7a15d8627f264459a1e6af8b76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a9d5c7a15d8627f264459a1e6af8b76">&#9670;&nbsp;</a></span>createSceneNode()</h2>
+<a id="a790d3ebde806bf080b0446bc0e83c0ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a790d3ebde806bf080b0446bc0e83c0ab">&#9670;&nbsp;</a></span>createSceneNode()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> &gt; lug::Graphics::Scene::Scene::createSceneNode </td>
+          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> * lug::Graphics::Scene::Scene::createSceneNode </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>name</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1MovableObject.html">MovableObject</a> &gt;&#160;</td>
-          <td class="paramname"><em>object</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00013">13</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scene_2Scene_8cpp_source.html#l00011">11</a> of file <a class="el" href="Scene_2Scene_8cpp_source.html">Scene.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a6b140c7d14045ea7e62765253e382997"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b140c7d14045ea7e62765253e382997">&#9670;&nbsp;</a></span>createMeshInstance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1MeshInstance.html">MeshInstance</a> &gt; lug::Graphics::Scene::Scene::createMeshInstance </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classlug_1_1Graphics_1_1Render_1_1Mesh.html">Render::Mesh</a> *&#160;</td>
-          <td class="paramname"><em>mesh</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00023">23</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a4916d7f82cbf8c0feaa8c36b8fc3b4f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4916d7f82cbf8c0feaa8c36b8fc3b4f5">&#9670;&nbsp;</a></span>createModelInstance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1ModelInstance.html">ModelInstance</a> &gt; lug::Graphics::Scene::Scene::createModelInstance </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classlug_1_1Graphics_1_1Render_1_1Model.html">Render::Model</a> *&#160;</td>
-          <td class="paramname"><em>model</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00027">27</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a883747e10285d52ca336c0db0c10177f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a883747e10285d52ca336c0db0c10177f">&#9670;&nbsp;</a></span>createMovableCamera()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1MovableCamera.html">MovableCamera</a> &gt; lug::Graphics::Scene::Scene::createMovableCamera </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classlug_1_1Graphics_1_1Render_1_1Camera.html">Render::Camera</a> *&#160;</td>
-          <td class="paramname"><em>camera</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00031">31</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a2f8e05cc29af4ab734d57ff214ef7aaa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f8e05cc29af4ab734d57ff214ef7aaa">&#9670;&nbsp;</a></span>createLight()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Light_1_1Light.html">Light::Light</a> &gt; lug::Graphics::Scene::Scene::createLight </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classlug_1_1Graphics_1_1Light_1_1Light.html#a2e3d7b1634618ca5468832fbbd0aa887">Light::Light::Type</a>&#160;</td>
-          <td class="paramname"><em>type</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00035">35</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a825877b555a43d9bff5e5fe6509999b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a825877b555a43d9bff5e5fe6509999b7">&#9670;&nbsp;</a></span>getRoot() <span class="overload">[1/2]</span></h2>
+<a id="aca413da96df412a0f0b2f78b813d00df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca413da96df412a0f0b2f78b813d00df">&#9670;&nbsp;</a></span>setSkyBox()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -433,7 +403,35 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> * Scene::getRoot </td>
+          <td class="memname">void Scene::setSkyBox </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html">Resource::SharedPtr</a>&lt; <a class="el" href="classlug_1_1Graphics_1_1Render_1_1SkyBox.html">Render::SkyBox</a> &gt;&#160;</td>
+          <td class="paramname"><em>skyBox</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Scene_2Scene_8inl_source.html#l00001">1</a> of file <a class="el" href="Scene_2Scene_8inl_source.html">Scene.inl</a>.</p>
+
+</div>
+</div>
+<a id="ac8dafe84e30d63885abb34d1c1efd03e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8dafe84e30d63885abb34d1c1efd03e">&#9670;&nbsp;</a></span>getRoot() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> &amp; Scene::getRoot </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -446,12 +444,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8inl_source.html#l00001">1</a> of file <a class="el" href="Scene_8inl_source.html">Scene.inl</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scene_2Scene_8inl_source.html#l00005">5</a> of file <a class="el" href="Scene_2Scene_8inl_source.html">Scene.inl</a>.</p>
 
 </div>
 </div>
-<a id="a8bb2f5f481db226e8deff6bc077abdf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bb2f5f481db226e8deff6bc077abdf8">&#9670;&nbsp;</a></span>getRoot() <span class="overload">[2/2]</span></h2>
+<a id="a07e8e3e774a5c2236e63c719156dcf44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07e8e3e774a5c2236e63c719156dcf44">&#9670;&nbsp;</a></span>getRoot() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -460,7 +458,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> * Scene::getRoot </td>
+          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> &amp; Scene::getRoot </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -473,7 +471,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8inl_source.html#l00005">5</a> of file <a class="el" href="Scene_8inl_source.html">Scene.inl</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scene_2Scene_8inl_source.html#l00009">9</a> of file <a class="el" href="Scene_2Scene_8inl_source.html">Scene.inl</a>.</p>
 
 </div>
 </div>
@@ -493,7 +491,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00048">48</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scene_2Scene_8cpp_source.html#l00019">19</a> of file <a class="el" href="Scene_2Scene_8cpp_source.html">Scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -513,12 +511,39 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00052">52</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scene_2Scene_8cpp_source.html#l00023">23</a> of file <a class="el" href="Scene_2Scene_8cpp_source.html">Scene.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a9acdf05d938894c1b6815b5e35138df6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9acdf05d938894c1b6815b5e35138df6">&#9670;&nbsp;</a></span>fetchVisibleObjects()</h2>
+<a id="affc3f1df031bbe00d6d78ad68d39c5a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affc3f1df031bbe00d6d78ad68d39c5a3">&#9670;&nbsp;</a></span>getSkyBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html">Resource::SharedPtr</a>&lt; <a class="el" href="classlug_1_1Graphics_1_1Render_1_1SkyBox.html">Render::SkyBox</a> &gt; Scene::getSkyBox </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Scene_2Scene_8inl_source.html#l00014">14</a> of file <a class="el" href="Scene_2Scene_8inl_source.html">Scene.inl</a>.</p>
+
+</div>
+</div>
+<a id="a5e89cd66063878a09b729d8eaf998ef5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e89cd66063878a09b729d8eaf998ef5">&#9670;&nbsp;</a></span>fetchVisibleObjects()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -526,13 +551,19 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void lug::Graphics::Scene::Scene::fetchVisibleObjects </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Render_1_1View.html">Render::View</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Renderer.html">Renderer</a> &amp;&#160;</td>
+          <td class="paramname"><em>renderer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Render_1_1View.html">Render::View</a> &amp;&#160;</td>
           <td class="paramname"><em>renderView</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Render_1_1Camera.html">Render::Camera</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Render_1_1Camera_1_1Camera.html">Render::Camera::Camera</a> &amp;&#160;</td>
           <td class="paramname"><em>camera</em>, </td>
         </tr>
         <tr>
@@ -549,13 +580,13 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8cpp_source.html#l00056">56</a> of file <a class="el" href="Scene_8cpp_source.html">Scene.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scene_2Scene_8cpp_source.html#l00027">27</a> of file <a class="el" href="Scene_2Scene_8cpp_source.html">Scene.cpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aeae5973b8afb0d4a1b61000c2710534d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeae5973b8afb0d4a1b61000c2710534d">&#9670;&nbsp;</a></span>_root</h2>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a51b3ef9fae56ee5c4974b669cef0f829"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51b3ef9fae56ee5c4974b669cef0f829">&#9670;&nbsp;</a></span>Builder::Scene</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -564,7 +595,32 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a>&gt; lug::Graphics::Scene::Scene::_root {nullptr}</td>
+          <td class="memname">friend class <a class="el" href="classlug_1_1Graphics_1_1Builder_1_1Scene.html">Builder::Scene</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Scene_2Scene_8hpp_source.html#l00031">31</a> of file <a class="el" href="Scene_2Scene_8hpp_source.html">Scene.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a46f9c383f1e9af73750b62d86821e391"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46f9c383f1e9af73750b62d86821e391">&#9670;&nbsp;</a></span>_root</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a> lug::Graphics::Scene::Scene::_root</td>
         </tr>
       </table>
   </td>
@@ -574,14 +630,62 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Scene_8hpp_source.html#l00048">48</a> of file <a class="el" href="Scene_8hpp_source.html">Scene.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Scene_2Scene_8hpp_source.html#l00061">61</a> of file <a class="el" href="Scene_2Scene_8hpp_source.html">Scene.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aab227114963cc2641ce6694221ecabfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab227114963cc2641ce6694221ecabfc">&#9670;&nbsp;</a></span>_skyBox</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html">Resource::SharedPtr</a>&lt;<a class="el" href="classlug_1_1Graphics_1_1Render_1_1SkyBox.html">Render::SkyBox</a>&gt; lug::Graphics::Scene::Scene::_skyBox {nullptr}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Scene_2Scene_8hpp_source.html#l00063">63</a> of file <a class="el" href="Scene_2Scene_8hpp_source.html">Scene.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a28ae2fe834483f37f02437094b62a9a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28ae2fe834483f37f02437094b62a9a2">&#9670;&nbsp;</a></span>_nodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="classlug_1_1Graphics_1_1Scene_1_1Node.html">Node</a>&gt; lug::Graphics::Scene::Scene::_nodes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Scene_2Scene_8hpp_source.html#l00065">65</a> of file <a class="el" href="Scene_2Scene_8hpp_source.html">Scene.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>include/lug/Graphics/Scene/<a class="el" href="Scene_8hpp_source.html">Scene.hpp</a></li>
-<li>include/lug/Graphics/Scene/<a class="el" href="Scene_8inl_source.html">Scene.inl</a></li>
-<li>src/lug/Graphics/Scene/<a class="el" href="Scene_8cpp_source.html">Scene.cpp</a></li>
+<li>include/lug/Graphics/Scene/<a class="el" href="Scene_2Scene_8hpp_source.html">Scene.hpp</a></li>
+<li>include/lug/Graphics/Scene/<a class="el" href="Scene_2Scene_8inl_source.html">Scene.inl</a></li>
+<li>src/lug/Graphics/Scene/<a class="el" href="Scene_2Scene_8cpp_source.html">Scene.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

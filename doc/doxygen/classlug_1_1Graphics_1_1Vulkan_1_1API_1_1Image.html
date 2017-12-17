@@ -67,8 +67,10 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">lug::Graphics::Vulkan::API::Image Class Reference</div>  </div>
@@ -90,8 +92,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a95aed8060f3990e9864f6b1d72ce4e85"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a95aed8060f3990e9864f6b1d72ce4e85">Image</a> (VkImage <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html">Image</a>=VK_NULL_HANDLE, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *device=nullptr, const <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image_1_1Extent.html">Extent</a> &amp;extent={0, 0}, bool swapchainImage=false, VkImageAspectFlags aspect=VK_IMAGE_ASPECT_COLOR_BIT)</td></tr>
-<tr class="separator:a95aed8060f3990e9864f6b1d72ce4e85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf07ca99c856ccc634f5d6c224df8667"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#aaf07ca99c856ccc634f5d6c224df8667">Image</a> ()=default</td></tr>
+<tr class="separator:aaf07ca99c856ccc634f5d6c224df8667"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4b965fbf913bdcae05956c932a89e09"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#ab4b965fbf913bdcae05956c932a89e09">Image</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html">Image</a> &amp;)=delete</td></tr>
 <tr class="separator:ab4b965fbf913bdcae05956c932a89e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b2a40ab9759727bde99eb5ed4923751"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a4b2a40ab9759727bde99eb5ed4923751">Image</a> (<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html">Image</a> &amp;&amp;<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html">Image</a>)</td></tr>
@@ -106,26 +108,33 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a43414ca4d28e97a5511fd7a23c210486"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e60c266cb450ac78aecb5b41550116c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image_1_1Extent.html">Extent</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a9e60c266cb450ac78aecb5b41550116c">getExtent</a> () const</td></tr>
 <tr class="separator:a9e60c266cb450ac78aecb5b41550116c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91677030dd7b7986d482d59c076b1866"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a91677030dd7b7986d482d59c076b1866">changeLayout</a> (<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandBuffer.html">CommandBuffer</a> &amp;commandBuffer, VkAccessFlags srcAccessMask, VkAccessFlags dstAccessMask, VkImageLayout oldLayout, VkImageLayout newLayout, VkPipelineStageFlags srcStageMask=VK_PIPELINE_STAGE_TOP_OF_PIPE_BIT, VkPipelineStageFlags dstStageMask=VK_PIPELINE_STAGE_TOP_OF_PIPE_BIT, uint32_t srcQueueFamilyIndex=VK_QUEUE_FAMILY_IGNORED, uint32_t dstQueueFamilyIndex=VK_QUEUE_FAMILY_IGNORED)</td></tr>
-<tr class="separator:a91677030dd7b7986d482d59c076b1866"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb25eed3ffe5dbcbfd083716d7bc0222"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#abb25eed3ffe5dbcbfd083716d7bc0222">destroy</a> ()</td></tr>
 <tr class="separator:abb25eed3ffe5dbcbfd083716d7bc0222"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a011cd09f62e29786a9276e7f6c798e4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a011cd09f62e29786a9276e7f6c798e4c">bindMemory</a> (<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> *deviceMemory, VkDeviceSize memoryOffset=0)</td></tr>
-<tr class="separator:a011cd09f62e29786a9276e7f6c798e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac997df2e7f919350153883a08c934a4c"><td class="memItemLeft" align="right" valign="top">const VkMemoryRequirements &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#ac997df2e7f919350153883a08c934a4c">getRequirements</a> () const</td></tr>
-<tr class="separator:ac997df2e7f919350153883a08c934a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0180e3bfe9321a61c447286b4c6a7dd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a0180e3bfe9321a61c447286b4c6a7dd7">bindMemory</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> &amp;deviceMemory, VkDeviceSize memoryOffset=0)</td></tr>
+<tr class="separator:a0180e3bfe9321a61c447286b4c6a7dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5a25759913a676de3312670d7088b23"><td class="memItemLeft" align="right" valign="top">const VkMemoryRequirements &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#ac5a25759913a676de3312670d7088b23">getRequirements</a> () const</td></tr>
+<tr class="separator:ac5a25759913a676de3312670d7088b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c7a3ca68ccb10abe8054e2bc3be964"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#ae8c7a3ca68ccb10abe8054e2bc3be964">getDeviceMemory</a> () const</td></tr>
+<tr class="separator:ae8c7a3ca68ccb10abe8054e2bc3be964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9340765d27342d2893ebc5099f64715b"><td class="memItemLeft" align="right" valign="top">VkDeviceSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a9340765d27342d2893ebc5099f64715b">getDeviceMemoryOffset</a> () const</td></tr>
+<tr class="separator:a9340765d27342d2893ebc5099f64715b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64d8235549c8440f47a8370050010d64"><td class="memItemLeft" align="right" valign="top">VkFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a64d8235549c8440f47a8370050010d64">getFormat</a> () const</td></tr>
+<tr class="separator:a64d8235549c8440f47a8370050010d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a2f1bd9f47298b12b08af321de50d4dbe"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html">Image</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a2f1bd9f47298b12b08af321de50d4dbe">create</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *device, VkFormat format, VkExtent3D extent, VkImageUsageFlags usage, VkSharingMode sharingMode=VK_SHARING_MODE_EXCLUSIVE, uint32_t mipLevels=1, uint32_t arrayLayers=1, VkSampleCountFlagBits samples=VK_SAMPLE_COUNT_1_BIT, VkImageTiling tiling=VK_IMAGE_TILING_OPTIMAL, VkImageCreateFlags createFlag=0, VkImageType imageType=VK_IMAGE_TYPE_2D)</td></tr>
-<tr class="separator:a2f1bd9f47298b12b08af321de50d4dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4598cf3500279899477605ad072cb187"><td class="memItemLeft" align="right" valign="top">static VkFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a4598cf3500279899477605ad072cb187">findSupportedFormat</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *device, const std::vector&lt; VkFormat &gt; &amp;formats, VkImageTiling tiling, VkFormatFeatureFlags features)</td></tr>
-<tr class="separator:a4598cf3500279899477605ad072cb187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb7efd549db82377a0463ab61d09287d"><td class="memItemLeft" align="right" valign="top">static VkFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#adb7efd549db82377a0463ab61d09287d">findSupportedFormat</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> &amp;device, const std::set&lt; VkFormat &gt; &amp;formats, VkImageTiling tiling, VkFormatFeatureFlags features)</td></tr>
+<tr class="separator:adb7efd549db82377a0463ab61d09287d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a52677d8a61c28149ba07e189892f4ca8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a52677d8a61c28149ba07e189892f4ca8">Image</a> (VkImage <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html">Image</a>, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *device, const <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image_1_1Extent.html">Extent</a> &amp;extent, VkFormat format, bool swapchainImage)</td></tr>
+<tr class="separator:a52677d8a61c28149ba07e189892f4ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
-<tr class="memitem:abb74ea5303d922bcec4b03ddd9ca038a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#abb74ea5303d922bcec4b03ddd9ca038a">isFormatSupported</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *device, VkFormat format, VkImageTiling tiling, VkFormatFeatureFlags features)</td></tr>
-<tr class="separator:abb74ea5303d922bcec4b03ddd9ca038a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed1dcc95116b47ac627b51549bed4159"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#aed1dcc95116b47ac627b51549bed4159">isFormatSupported</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> &amp;device, VkFormat format, VkImageTiling tiling, VkFormatFeatureFlags features)</td></tr>
+<tr class="separator:aed1dcc95116b47ac627b51549bed4159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -133,23 +142,34 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a2d2435846253eb564f00006ea60ef532"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24ff25a7681c4c39af70d95f9d92476d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a24ff25a7681c4c39af70d95f9d92476d">_device</a> {nullptr}</td></tr>
 <tr class="separator:a24ff25a7681c4c39af70d95f9d92476d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5149275162373d601ff89d9dd26c4e67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a5149275162373d601ff89d9dd26c4e67">_deviceMemory</a> {nullptr}</td></tr>
-<tr class="separator:a5149275162373d601ff89d9dd26c4e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b0e4a656ec4966ab58dcbbedc346805"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a6b0e4a656ec4966ab58dcbbedc346805">_swapchainImage</a></td></tr>
-<tr class="separator:a6b0e4a656ec4966ab58dcbbedc346805"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adce86c6b63b04137e05559bdf2d876bd"><td class="memItemLeft" align="right" valign="top">VkImageAspectFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#adce86c6b63b04137e05559bdf2d876bd">_aspect</a></td></tr>
-<tr class="separator:adce86c6b63b04137e05559bdf2d876bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa18c2a11ca11d25aa454e42a60137597"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#aa18c2a11ca11d25aa454e42a60137597">_deviceMemory</a> {nullptr}</td></tr>
+<tr class="separator:aa18c2a11ca11d25aa454e42a60137597"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a484575fcb50e885ed872d6be10b456d4"><td class="memItemLeft" align="right" valign="top">VkDeviceSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a484575fcb50e885ed872d6be10b456d4">_deviceMemoryOffset</a> {0}</td></tr>
+<tr class="separator:a484575fcb50e885ed872d6be10b456d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b483b0b171e42d1795a90608564589f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image_1_1Extent.html">Extent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a8b483b0b171e42d1795a90608564589f">_extent</a></td></tr>
 <tr class="separator:a8b483b0b171e42d1795a90608564589f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dc4a973f6e10e1e346aa1062552404d"><td class="memItemLeft" align="right" valign="top">VkFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a1dc4a973f6e10e1e346aa1062552404d">_format</a></td></tr>
+<tr class="separator:a1dc4a973f6e10e1e346aa1062552404d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adce86c6b63b04137e05559bdf2d876bd"><td class="memItemLeft" align="right" valign="top">VkImageAspectFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#adce86c6b63b04137e05559bdf2d876bd">_aspect</a></td></tr>
+<tr class="separator:adce86c6b63b04137e05559bdf2d876bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b0e4a656ec4966ab58dcbbedc346805"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a6b0e4a656ec4966ab58dcbbedc346805">_swapchainImage</a></td></tr>
+<tr class="separator:a6b0e4a656ec4966ab58dcbbedc346805"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add1dbb8f12a2c6beaf9e503182e6274e"><td class="memItemLeft" align="right" valign="top">VkMemoryRequirements&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#add1dbb8f12a2c6beaf9e503182e6274e">_requirements</a> {}</td></tr>
 <tr class="separator:add1dbb8f12a2c6beaf9e503182e6274e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a728f75dbce72f07e5ad108e932cba5f8"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a728f75dbce72f07e5ad108e932cba5f8">Builder::Image</a></td></tr>
+<tr class="separator:a728f75dbce72f07e5ad108e932cba5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2420518f1639a43d38fd830ce4de7d3e"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html#a2420518f1639a43d38fd830ce4de7d3e">Swapchain</a></td></tr>
+<tr class="separator:a2420518f1639a43d38fd830ce4de7d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00016">16</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00021">21</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a95aed8060f3990e9864f6b1d72ce4e85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95aed8060f3990e9864f6b1d72ce4e85">&#9670;&nbsp;</a></span>Image() <span class="overload">[1/3]</span></h2>
+<a id="aaf07ca99c856ccc634f5d6c224df8667"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf07ca99c856ccc634f5d6c224df8667">&#9670;&nbsp;</a></span>Image() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160,52 +180,21 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">lug::Graphics::Vulkan::API::Image::Image </td>
           <td>(</td>
-          <td class="paramtype">VkImage&#160;</td>
-          <td class="paramname"><em>Image</em> = <code>VK_NULL_HANDLE</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td>
-          <td class="paramname"><em>device</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image_1_1Extent.html">Extent</a> &amp;&#160;</td>
-          <td class="paramname"><em>extent</em> = <code>{0,&#160;0}</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>swapchainImage</em> = <code>false</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkImageAspectFlags&#160;</td>
-          <td class="paramname"><em>aspect</em> = <code>VK_IMAGE_ASPECT_COLOR_BIT</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00010">10</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
-
 </div>
 </div>
 <a id="ab4b965fbf913bdcae05956c932a89e09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4b965fbf913bdcae05956c932a89e09">&#9670;&nbsp;</a></span>Image() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4b965fbf913bdcae05956c932a89e09">&#9670;&nbsp;</a></span>Image() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -231,7 +220,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a4b2a40ab9759727bde99eb5ed4923751"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b2a40ab9759727bde99eb5ed4923751">&#9670;&nbsp;</a></span>Image() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b2a40ab9759727bde99eb5ed4923751">&#9670;&nbsp;</a></span>Image() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246,7 +235,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00017">17</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00019">19</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
 
 </div>
 </div>
@@ -265,7 +254,63 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00051">51</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00061">61</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a52677d8a61c28149ba07e189892f4ca8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52677d8a61c28149ba07e189892f4ca8">&#9670;&nbsp;</a></span>Image() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">lug::Graphics::Vulkan::API::Image::Image </td>
+          <td>(</td>
+          <td class="paramtype">VkImage&#160;</td>
+          <td class="paramname"><em>Image</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td>
+          <td class="paramname"><em>device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image_1_1Extent.html">Extent</a> &amp;&#160;</td>
+          <td class="paramname"><em>extent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VkFormat&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>swapchainImage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00012">12</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
 
 </div>
 </div>
@@ -312,7 +357,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00032">32</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00038">38</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
 
 </div>
 </div>
@@ -339,7 +384,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00035">35</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00043">43</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
 
 </div>
 </div>
@@ -366,79 +411,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00039">39</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a91677030dd7b7986d482d59c076b1866"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91677030dd7b7986d482d59c076b1866">&#9670;&nbsp;</a></span>changeLayout()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void lug::Graphics::Vulkan::API::Image::changeLayout </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandBuffer.html">CommandBuffer</a> &amp;&#160;</td>
-          <td class="paramname"><em>commandBuffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkAccessFlags&#160;</td>
-          <td class="paramname"><em>srcAccessMask</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkAccessFlags&#160;</td>
-          <td class="paramname"><em>dstAccessMask</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkImageLayout&#160;</td>
-          <td class="paramname"><em>oldLayout</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkImageLayout&#160;</td>
-          <td class="paramname"><em>newLayout</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkPipelineStageFlags&#160;</td>
-          <td class="paramname"><em>srcStageMask</em> = <code>VK_PIPELINE_STAGE_TOP_OF_PIPE_BIT</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkPipelineStageFlags&#160;</td>
-          <td class="paramname"><em>dstStageMask</em> = <code>VK_PIPELINE_STAGE_TOP_OF_PIPE_BIT</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>srcQueueFamilyIndex</em> = <code>VK_QUEUE_FAMILY_IGNORED</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>dstQueueFamilyIndex</em> = <code>VK_QUEUE_FAMILY_IGNORED</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00058">58</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00047">47</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
 
 </div>
 </div>
@@ -457,12 +430,12 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00101">101</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00068">68</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a011cd09f62e29786a9276e7f6c798e4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a011cd09f62e29786a9276e7f6c798e4c">&#9670;&nbsp;</a></span>bindMemory()</h2>
+<a id="a0180e3bfe9321a61c447286b4c6a7dd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0180e3bfe9321a61c447286b4c6a7dd7">&#9670;&nbsp;</a></span>bindMemory()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -470,7 +443,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void lug::Graphics::Vulkan::API::Image::bindMemory </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> &amp;&#160;</td>
           <td class="paramname"><em>deviceMemory</em>, </td>
         </tr>
         <tr>
@@ -487,31 +460,12 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00108">108</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00075">75</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ac997df2e7f919350153883a08c934a4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac997df2e7f919350153883a08c934a4c">&#9670;&nbsp;</a></span>getRequirements()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const VkMemoryRequirements &amp; lug::Graphics::Vulkan::API::Image::getRequirements </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00113">113</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a2f1bd9f47298b12b08af321de50d4dbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f1bd9f47298b12b08af321de50d4dbe">&#9670;&nbsp;</a></span>create()</h2>
+<a id="ac5a25759913a676de3312670d7088b23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5a25759913a676de3312670d7088b23">&#9670;&nbsp;</a></span>getRequirements()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -520,90 +474,106 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html">Image</a> &gt; lug::Graphics::Vulkan::API::Image::create </td>
+          <td class="memname">const VkMemoryRequirements &amp; Image::getRequirements </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td>
-          <td class="paramname"><em>device</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkFormat&#160;</td>
-          <td class="paramname"><em>format</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkExtent3D&#160;</td>
-          <td class="paramname"><em>extent</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkImageUsageFlags&#160;</td>
-          <td class="paramname"><em>usage</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkSharingMode&#160;</td>
-          <td class="paramname"><em>sharingMode</em> = <code>VK_SHARING_MODE_EXCLUSIVE</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>mipLevels</em> = <code>1</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>arrayLayers</em> = <code>1</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkSampleCountFlagBits&#160;</td>
-          <td class="paramname"><em>samples</em> = <code>VK_SAMPLE_COUNT_1_BIT</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkImageTiling&#160;</td>
-          <td class="paramname"><em>tiling</em> = <code>VK_IMAGE_TILING_OPTIMAL</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkImageCreateFlags&#160;</td>
-          <td class="paramname"><em>createFlag</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkImageType&#160;</td>
-          <td class="paramname"><em>imageType</em> = <code>VK_IMAGE_TYPE_2D</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00117">117</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8inl_source.html#l00001">1</a> of file <a class="el" href="Image_8inl_source.html">Image.inl</a>.</p>
 
 </div>
 </div>
-<a id="a4598cf3500279899477605ad072cb187"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4598cf3500279899477605ad072cb187">&#9670;&nbsp;</a></span>findSupportedFormat()</h2>
+<a id="ae8c7a3ca68ccb10abe8054e2bc3be964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8c7a3ca68ccb10abe8054e2bc3be964">&#9670;&nbsp;</a></span>getDeviceMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> * Image::getDeviceMemory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Image_8inl_source.html#l00005">5</a> of file <a class="el" href="Image_8inl_source.html">Image.inl</a>.</p>
+
+</div>
+</div>
+<a id="a9340765d27342d2893ebc5099f64715b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9340765d27342d2893ebc5099f64715b">&#9670;&nbsp;</a></span>getDeviceMemoryOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkDeviceSize Image::getDeviceMemoryOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Image_8inl_source.html#l00009">9</a> of file <a class="el" href="Image_8inl_source.html">Image.inl</a>.</p>
+
+</div>
+</div>
+<a id="a64d8235549c8440f47a8370050010d64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64d8235549c8440f47a8370050010d64">&#9670;&nbsp;</a></span>getFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkFormat Image::getFormat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Image_8inl_source.html#l00013">13</a> of file <a class="el" href="Image_8inl_source.html">Image.inl</a>.</p>
+
+</div>
+</div>
+<a id="adb7efd549db82377a0463ab61d09287d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb7efd549db82377a0463ab61d09287d">&#9670;&nbsp;</a></span>findSupportedFormat()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -614,13 +584,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">VkFormat lug::Graphics::Vulkan::API::Image::findSupportedFormat </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> &amp;&#160;</td>
           <td class="paramname"><em>device</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; VkFormat &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::set&lt; VkFormat &gt; &amp;&#160;</td>
           <td class="paramname"><em>formats</em>, </td>
         </tr>
         <tr>
@@ -648,12 +618,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00163">163</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00082">82</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
 
 </div>
 </div>
-<a id="abb74ea5303d922bcec4b03ddd9ca038a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb74ea5303d922bcec4b03ddd9ca038a">&#9670;&nbsp;</a></span>isFormatSupported()</h2>
+<a id="aed1dcc95116b47ac627b51549bed4159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed1dcc95116b47ac627b51549bed4159">&#9670;&nbsp;</a></span>isFormatSupported()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -664,7 +634,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool lug::Graphics::Vulkan::API::Image::isFormatSupported </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> &amp;&#160;</td>
           <td class="paramname"><em>device</em>, </td>
         </tr>
         <tr>
@@ -698,7 +668,56 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00174">174</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8cpp_source.html#l00093">93</a> of file <a class="el" href="Image_8cpp_source.html">Image.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a728f75dbce72f07e5ad108e932cba5f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a728f75dbce72f07e5ad108e932cba5f8">&#9670;&nbsp;</a></span>Builder::Image</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Builder_1_1Image.html">Builder::Image</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00022">22</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a2420518f1639a43d38fd830ce4de7d3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2420518f1639a43d38fd830ce4de7d3e">&#9670;&nbsp;</a></span>Swapchain</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Swapchain.html">Swapchain</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00023">23</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
 
 </div>
 </div>
@@ -723,7 +742,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00078">78</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00069">69</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
 
 </div>
 </div>
@@ -747,12 +766,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00079">79</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00070">70</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a5149275162373d601ff89d9dd26c4e67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5149275162373d601ff89d9dd26c4e67">&#9670;&nbsp;</a></span>_deviceMemory</h2>
+<a id="aa18c2a11ca11d25aa454e42a60137597"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa18c2a11ca11d25aa454e42a60137597">&#9670;&nbsp;</a></span>_deviceMemory</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -761,7 +780,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a>* lug::Graphics::Vulkan::API::Image::_deviceMemory {nullptr}</td>
+          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a>* lug::Graphics::Vulkan::API::Image::_deviceMemory {nullptr}</td>
         </tr>
       </table>
   </td>
@@ -771,12 +790,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00080">80</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00072">72</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a6b0e4a656ec4966ab58dcbbedc346805"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b0e4a656ec4966ab58dcbbedc346805">&#9670;&nbsp;</a></span>_swapchainImage</h2>
+<a id="a484575fcb50e885ed872d6be10b456d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a484575fcb50e885ed872d6be10b456d4">&#9670;&nbsp;</a></span>_deviceMemoryOffset</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -785,7 +804,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool lug::Graphics::Vulkan::API::Image::_swapchainImage</td>
+          <td class="memname">VkDeviceSize lug::Graphics::Vulkan::API::Image::_deviceMemoryOffset {0}</td>
         </tr>
       </table>
   </td>
@@ -795,31 +814,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00081">81</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
-
-</div>
-</div>
-<a id="adce86c6b63b04137e05559bdf2d876bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adce86c6b63b04137e05559bdf2d876bd">&#9670;&nbsp;</a></span>_aspect</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">VkImageAspectFlags lug::Graphics::Vulkan::API::Image::_aspect</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00083">83</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00073">73</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
 
 </div>
 </div>
@@ -843,7 +838,79 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00084">84</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00075">75</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1dc4a973f6e10e1e346aa1062552404d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dc4a973f6e10e1e346aa1062552404d">&#9670;&nbsp;</a></span>_format</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkFormat lug::Graphics::Vulkan::API::Image::_format</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00076">76</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
+
+</div>
+</div>
+<a id="adce86c6b63b04137e05559bdf2d876bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adce86c6b63b04137e05559bdf2d876bd">&#9670;&nbsp;</a></span>_aspect</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkImageAspectFlags lug::Graphics::Vulkan::API::Image::_aspect</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00077">77</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6b0e4a656ec4966ab58dcbbedc346805"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b0e4a656ec4966ab58dcbbedc346805">&#9670;&nbsp;</a></span>_swapchainImage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool lug::Graphics::Vulkan::API::Image::_swapchainImage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00078">78</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
 
 </div>
 </div>
@@ -867,12 +934,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00085">85</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Image_8hpp_source.html#l00080">80</a> of file <a class="el" href="Image_8hpp_source.html">Image.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>include/lug/Graphics/Vulkan/API/<a class="el" href="Image_8hpp_source.html">Image.hpp</a></li>
+<li>include/lug/Graphics/Vulkan/API/<a class="el" href="Image_8inl_source.html">Image.inl</a></li>
 <li>src/lug/Graphics/Vulkan/API/<a class="el" href="Image_8cpp_source.html">Image.cpp</a></li>
 </ul>
 </div><!-- contents -->

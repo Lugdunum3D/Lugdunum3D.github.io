@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['level',['Level',['../namespacelug_1_1System_1_1Logger.html#a706a31c431da8fa912dce1cb2bb8e385',1,'lug::System::Logger']]]
+  ['filter',['Filter',['../classlug_1_1Graphics_1_1Render_1_1Texture.html#a40044a44eeb89290268c617cf24d453a',1,'lug::Graphics::Render::Texture']]],
+  ['format',['Format',['../classlug_1_1Graphics_1_1Render_1_1Texture.html#a168f6cb9f944c7219d4ec9168cf96195',1,'lug::Graphics::Render::Texture']]]
 ];

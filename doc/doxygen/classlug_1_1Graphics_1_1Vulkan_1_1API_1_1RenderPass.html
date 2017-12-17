@@ -65,8 +65,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">lug::Graphics::Vulkan::API::RenderPass Class Reference</div>  </div>
@@ -83,8 +84,8 @@ Collaboration diagram for lug::Graphics::Vulkan::API::RenderPass:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aeb32c037e8679c7b10f35077fd4bfead"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html#aeb32c037e8679c7b10f35077fd4bfead">RenderPass</a> (VkRenderPass renderPass=VK_NULL_HANDLE, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *device=nullptr)</td></tr>
-<tr class="separator:aeb32c037e8679c7b10f35077fd4bfead"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d73a0e034f18025fafb9e614c990b7b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html#a6d73a0e034f18025fafb9e614c990b7b">RenderPass</a> ()=default</td></tr>
+<tr class="separator:a6d73a0e034f18025fafb9e614c990b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c4fe646fc156907da81611eb3e86c5d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html#a2c4fe646fc156907da81611eb3e86c5d">RenderPass</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html">RenderPass</a> &amp;)=delete</td></tr>
 <tr class="separator:a2c4fe646fc156907da81611eb3e86c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62334115a771059b5342742e5395d644"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html#a62334115a771059b5342742e5395d644">RenderPass</a> (<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html">RenderPass</a> &amp;&amp;device)</td></tr>
@@ -99,15 +100,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5e45e3e5a4926d7f490f882339ced957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd68dce709d2d9b3aa725e5b28e477f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html#afd68dce709d2d9b3aa725e5b28e477f8">destroy</a> ()</td></tr>
 <tr class="separator:afd68dce709d2d9b3aa725e5b28e477f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a616521b280414d277b7d69b31427e5df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html#a616521b280414d277b7d69b31427e5df">begin</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandBuffer.html">CommandBuffer</a> *commandBuffer, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Framebuffer.html">Framebuffer</a> &amp;framebuffer, const Math::Vec2f &amp;renderExtent={0, 0}, const Math::Vec2f &amp;renderOffset={0, 0}, VkSubpassContents contents=VK_SUBPASS_CONTENTS_INLINE)</td></tr>
-<tr class="separator:a616521b280414d277b7d69b31427e5df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a682e01310dfd06b83d5c9b6c809d090f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html#a682e01310dfd06b83d5c9b6c809d090f">end</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandBuffer.html">CommandBuffer</a> *commandBuffer)</td></tr>
-<tr class="separator:a682e01310dfd06b83d5c9b6c809d090f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a6968ae50279a6064c06e7882196b2f1e"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html">RenderPass</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html#a6968ae50279a6064c06e7882196b2f1e">create</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *device, VkFormat colorFormat)</td></tr>
-<tr class="separator:a6968ae50279a6064c06e7882196b2f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a22498fd9a85250d950d296c840ecb4c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html#a22498fd9a85250d950d296c840ecb4c4">RenderPass</a> (VkRenderPass renderPass, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *device)</td></tr>
+<tr class="separator:a22498fd9a85250d950d296c840ecb4c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -115,13 +112,18 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ac7550a9cd5a213735b406a64053be080"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a490baf61a68ba51c6e18a5d034d29a6d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html#a490baf61a68ba51c6e18a5d034d29a6d">_device</a> {nullptr}</td></tr>
 <tr class="separator:a490baf61a68ba51c6e18a5d034d29a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a798add0f71f23e77923f5ac91900383e"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html#a798add0f71f23e77923f5ac91900383e">Builder::RenderPass</a></td></tr>
+<tr class="separator:a798add0f71f23e77923f5ac91900383e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="RenderPass_8hpp_source.html#l00017">17</a> of file <a class="el" href="RenderPass_8hpp_source.html">RenderPass.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RenderPass_8hpp_source.html#l00021">21</a> of file <a class="el" href="RenderPass_8hpp_source.html">RenderPass.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aeb32c037e8679c7b10f35077fd4bfead"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb32c037e8679c7b10f35077fd4bfead">&#9670;&nbsp;</a></span>RenderPass() <span class="overload">[1/3]</span></h2>
+<a id="a6d73a0e034f18025fafb9e614c990b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d73a0e034f18025fafb9e614c990b7b">&#9670;&nbsp;</a></span>RenderPass() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132,34 +134,21 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">lug::Graphics::Vulkan::API::RenderPass::RenderPass </td>
           <td>(</td>
-          <td class="paramtype">VkRenderPass&#160;</td>
-          <td class="paramname"><em>renderPass</em> = <code>VK_NULL_HANDLE</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td>
-          <td class="paramname"><em>device</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RenderPass_8cpp_source.html#l00013">13</a> of file <a class="el" href="RenderPass_8cpp_source.html">RenderPass.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a2c4fe646fc156907da81611eb3e86c5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c4fe646fc156907da81611eb3e86c5d">&#9670;&nbsp;</a></span>RenderPass() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c4fe646fc156907da81611eb3e86c5d">&#9670;&nbsp;</a></span>RenderPass() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185,7 +174,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a62334115a771059b5342742e5395d644"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62334115a771059b5342742e5395d644">&#9670;&nbsp;</a></span>RenderPass() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a62334115a771059b5342742e5395d644">&#9670;&nbsp;</a></span>RenderPass() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,7 +189,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RenderPass_8cpp_source.html#l00015">15</a> of file <a class="el" href="RenderPass_8cpp_source.html">RenderPass.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RenderPass_8cpp_source.html#l00013">13</a> of file <a class="el" href="RenderPass_8cpp_source.html">RenderPass.cpp</a>.</p>
 
 </div>
 </div>
@@ -219,7 +208,45 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RenderPass_8cpp_source.html#l00033">33</a> of file <a class="el" href="RenderPass_8cpp_source.html">RenderPass.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RenderPass_8cpp_source.html#l00031">31</a> of file <a class="el" href="RenderPass_8cpp_source.html">RenderPass.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a22498fd9a85250d950d296c840ecb4c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22498fd9a85250d950d296c840ecb4c4">&#9670;&nbsp;</a></span>RenderPass() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">lug::Graphics::Vulkan::API::RenderPass::RenderPass </td>
+          <td>(</td>
+          <td class="paramtype">VkRenderPass&#160;</td>
+          <td class="paramname"><em>renderPass</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td>
+          <td class="paramname"><em>device</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="RenderPass_8cpp_source.html#l00011">11</a> of file <a class="el" href="RenderPass_8cpp_source.html">RenderPass.cpp</a>.</p>
 
 </div>
 </div>
@@ -266,7 +293,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RenderPass_8cpp_source.html#l00022">22</a> of file <a class="el" href="RenderPass_8cpp_source.html">RenderPass.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RenderPass_8cpp_source.html#l00020">20</a> of file <a class="el" href="RenderPass_8cpp_source.html">RenderPass.cpp</a>.</p>
 
 </div>
 </div>
@@ -293,7 +320,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RenderPass_8hpp_source.html#l00029">29</a> of file <a class="el" href="RenderPass_8hpp_source.html">RenderPass.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RenderPass_8hpp_source.html#l00035">35</a> of file <a class="el" href="RenderPass_8hpp_source.html">RenderPass.hpp</a>.</p>
 
 </div>
 </div>
@@ -312,80 +339,13 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RenderPass_8cpp_source.html#l00037">37</a> of file <a class="el" href="RenderPass_8cpp_source.html">RenderPass.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RenderPass_8cpp_source.html#l00035">35</a> of file <a class="el" href="RenderPass_8cpp_source.html">RenderPass.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a616521b280414d277b7d69b31427e5df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a616521b280414d277b7d69b31427e5df">&#9670;&nbsp;</a></span>begin()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void lug::Graphics::Vulkan::API::RenderPass::begin </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandBuffer.html">CommandBuffer</a> *&#160;</td>
-          <td class="paramname"><em>commandBuffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Framebuffer.html">Framebuffer</a> &amp;&#160;</td>
-          <td class="paramname"><em>framebuffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Math::Vec2f &amp;&#160;</td>
-          <td class="paramname"><em>renderExtent</em> = <code>{0,&#160;0}</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Math::Vec2f &amp;&#160;</td>
-          <td class="paramname"><em>renderOffset</em> = <code>{0,&#160;0}</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkSubpassContents&#160;</td>
-          <td class="paramname"><em>contents</em> = <code>VK_SUBPASS_CONTENTS_INLINE</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="RenderPass_8cpp_source.html#l00044">44</a> of file <a class="el" href="RenderPass_8cpp_source.html">RenderPass.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a682e01310dfd06b83d5c9b6c809d090f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a682e01310dfd06b83d5c9b6c809d090f">&#9670;&nbsp;</a></span>end()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void lug::Graphics::Vulkan::API::RenderPass::end </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandBuffer.html">CommandBuffer</a> *&#160;</td>
-          <td class="paramname"><em>commandBuffer</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="RenderPass_8cpp_source.html#l00077">77</a> of file <a class="el" href="RenderPass_8cpp_source.html">RenderPass.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a6968ae50279a6064c06e7882196b2f1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6968ae50279a6064c06e7882196b2f1e">&#9670;&nbsp;</a></span>create()</h2>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a798add0f71f23e77923f5ac91900383e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a798add0f71f23e77923f5ac91900383e">&#9670;&nbsp;</a></span>Builder::RenderPass</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,31 +354,17 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html">RenderPass</a> &gt; lug::Graphics::Vulkan::API::RenderPass::create </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td>
-          <td class="paramname"><em>device</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkFormat&#160;</td>
-          <td class="paramname"><em>colorFormat</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">friend class <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Builder_1_1RenderPass.html">Builder::RenderPass</a></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RenderPass_8cpp_source.html#l00081">81</a> of file <a class="el" href="RenderPass_8cpp_source.html">RenderPass.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RenderPass_8hpp_source.html#l00022">22</a> of file <a class="el" href="RenderPass_8hpp_source.html">RenderPass.hpp</a>.</p>
 
 </div>
 </div>

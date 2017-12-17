@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['style',['Style',['../namespacelug_1_1Window.html#a1ec5421012d4f1ea846b994b47d57714',1,'lug::Window']]]
+  ['gesturestate',['GestureState',['../structlug_1_1Window_1_1TouchScreenEvent.html#af1d2625e2d2d0c29b85420075b687957',1,'lug::Window::TouchScreenEvent']]]
 ];

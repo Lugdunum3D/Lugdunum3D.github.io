@@ -1,7 +1,9 @@
 <map id="lug::Graphics::Vulkan::Render::Mesh" name="lug::Graphics::Vulkan::Render::Mesh">
-<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Mesh.html" title="lug::Graphics::Render\l::Mesh" alt="" coords="1253,131,1424,173"/>
-<area shape="rect" id="node3" href="$structlug_1_1Graphics_1_1Render_1_1Mesh_1_1Material.html" title="lug::Graphics::Render\l::Mesh::Material" alt="" coords="847,122,1018,163"/>
-<area shape="rect" id="node9" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1254,289,1423,330"/>
-<area shape="rect" id="node10" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="848,301,1017,342"/>
-<area shape="rect" id="node11" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="438,293,607,349"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Mesh.html" title="A Mesh, which itsef is a Resource. A mesh is composed of a vector of PrimitiveSet. " alt="" coords="1643,261,1813,302"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="1273,160,1458,187"/>
+<area shape="rect" id="node4" href="$structlug_1_1Graphics_1_1Resource_1_1Handle.html" title="Handle of the resource. It contains informations such as the type and the index in the ResourceManage..." alt="" coords="854,62,1039,103"/>
+<area shape="rect" id="node9" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html" title="lug::Graphics::Vulkan\l::API::DeviceMemory" alt="" coords="1643,358,1813,399"/>
+<area shape="rect" id="node10" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1281,351,1450,393"/>
+<area shape="rect" id="node11" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="862,310,1031,351"/>
+<area shape="rect" id="node12" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="438,120,607,176"/>
 </map>

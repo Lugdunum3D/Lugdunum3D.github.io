@@ -1,3 +1,4 @@
 <map id="lug::Graphics::Render::Mesh" name="lug::Graphics::Render::Mesh">
-<area shape="rect" id="node2" href="$structlug_1_1Graphics_1_1Render_1_1Mesh_1_1Material.html" title="lug::Graphics::Render\l::Mesh::Material" alt="" coords="186,29,357,70"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="87,235,272,262"/>
+<area shape="rect" id="node3" href="$structlug_1_1Graphics_1_1Resource_1_1Handle.html" title="Handle of the resource. It contains informations such as the type and the index in the ResourceManage..." alt="" coords="13,124,199,165"/>
 </map>

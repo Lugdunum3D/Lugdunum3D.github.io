@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['quatd',['Quatd',['../namespacelug_1_1Math.html#ad7312976972b16fc39136639fbc24dcf',1,'lug::Math']]],
-  ['quatf',['Quatf',['../namespacelug_1_1Math.html#a036700bfc3ed518c1ce1770bd35d2e57',1,'lug::Math']]]
+  ['pool',['Pool',['../namespacelug_1_1System_1_1Memory_1_1Allocator.html#a5389eab75662595bfdd663ff6aa09d68',1,'lug::System::Memory::Allocator']]]
 ];

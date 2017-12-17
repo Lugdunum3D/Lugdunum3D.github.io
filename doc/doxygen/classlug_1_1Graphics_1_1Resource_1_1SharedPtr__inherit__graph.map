@@ -1,0 +1,9 @@
+<map id="lug::Graphics::Resource::SharedPtr&lt; T &gt;" name="lug::Graphics::Resource::SharedPtr&lt; T &gt;">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Material \&gt;" alt="" coords="419,5,625,61"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::SkyBox \&gt;" alt="" coords="419,85,625,141"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Light \&gt;" alt="" coords="419,165,625,221"/>
+<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Texture \&gt;" alt="" coords="419,245,625,301"/>
+<area shape="rect" id="node6" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Camera::Camera \&gt;" alt="" coords="409,325,635,381"/>
+<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Mesh \&gt;" alt="" coords="419,405,625,461"/>
+<area shape="rect" id="node8" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Vulkan::Render::SkyBox \&gt;" alt="" coords="414,485,630,541"/>
+</map>

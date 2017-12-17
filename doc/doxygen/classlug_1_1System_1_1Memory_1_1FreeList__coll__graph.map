@@ -1,3 +1,4 @@
 <map id="lug::System::Memory::FreeList" name="lug::System::Memory::FreeList">
+<area shape="rect" id="node2" href="$classsize__t.html" title="size_t" alt="" coords="8,13,69,39"/>
 <area shape="rect" id="node3" href="$structlug_1_1System_1_1Memory_1_1FreeList_1_1Element.html" title="lug::System::Memory\l::FreeList::Element" alt="" coords="93,5,264,47"/>
 </map>

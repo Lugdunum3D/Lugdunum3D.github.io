@@ -1,0 +1,7 @@
+<map id="lug::Graphics::Scene::Node::MeshInstance" name="lug::Graphics::Scene::Node::MeshInstance">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Mesh \&gt;" alt="" coords="1303,155,1509,211"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Render_1_1Mesh.html" title="A Mesh, which itsef is a Resource. A mesh is composed of a vector of PrimitiveSet. " alt="" coords="906,130,1077,171"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="537,83,722,109"/>
+<area shape="rect" id="node5" href="$structlug_1_1Graphics_1_1Resource_1_1Handle.html" title="Handle of the resource. It contains informations such as the type and the index in the ResourceManage..." alt="" coords="220,43,405,85"/>
+<area shape="rect" id="node10" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="Dummy class for a shared pointer. " alt="" coords="899,195,1084,237"/>
+</map>

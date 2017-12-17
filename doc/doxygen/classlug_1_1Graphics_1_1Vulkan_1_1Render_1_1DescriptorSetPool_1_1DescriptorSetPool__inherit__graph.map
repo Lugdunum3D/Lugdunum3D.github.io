@@ -1,0 +1,9 @@
+<map id="lug::Graphics::Vulkan::Render::DescriptorSetPool::DescriptorSetPool&lt; maxSets &gt;" name="lug::Graphics::Vulkan::Render::DescriptorSetPool::DescriptorSetPool&lt; maxSets &gt;">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1DescriptorSetPool.html" title="lug::Graphics::Vulkan\l::Render::DescriptorSetPool\l::DescriptorSetPool\&lt; 10 \&gt;" alt="" coords="349,205,561,261"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1Camera.html" title="lug::Graphics::Vulkan\l::Render::DescriptorSetPool\l::Camera" alt="" coords="611,5,823,61"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1GuiTexture.html" title="lug::Graphics::Vulkan\l::Render::DescriptorSetPool\l::GuiTexture" alt="" coords="611,85,823,141"/>
+<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1Light.html" title="lug::Graphics::Vulkan\l::Render::DescriptorSetPool\l::Light" alt="" coords="611,165,823,221"/>
+<area shape="rect" id="node6" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1Material.html" title="lug::Graphics::Vulkan\l::Render::DescriptorSetPool\l::Material" alt="" coords="611,245,823,301"/>
+<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1MaterialTextures.html" title="lug::Graphics::Vulkan\l::Render::DescriptorSetPool\l::MaterialTextures" alt="" coords="611,325,823,381"/>
+<area shape="rect" id="node8" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1SkyBox.html" title="lug::Graphics::Vulkan\l::Render::DescriptorSetPool\l::SkyBox" alt="" coords="611,405,823,461"/>
+</map>

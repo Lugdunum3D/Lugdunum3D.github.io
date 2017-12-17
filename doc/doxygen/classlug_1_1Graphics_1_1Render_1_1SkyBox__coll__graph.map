@@ -1,0 +1,7 @@
+<map id="lug::Graphics::Render::SkyBox" name="lug::Graphics::Render::SkyBox">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="511,13,696,39"/>
+<area shape="rect" id="node8" href="$classlug_1_1Graphics_1_1Render_1_1Texture.html" title="lug::Graphics::Render\l::Texture" alt="" coords="846,160,1017,201"/>
+<area shape="rect" id="node3" href="$structlug_1_1Graphics_1_1Resource_1_1Handle.html" title="Handle of the resource. It contains informations such as the type and the index in the ResourceManage..." alt="" coords="220,5,405,47"/>
+<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Texture \&gt;" alt="" coords="1243,63,1449,119"/>
+<area shape="rect" id="node12" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="Dummy class for a shared pointer. " alt="" coords="839,65,1024,107"/>
+</map>

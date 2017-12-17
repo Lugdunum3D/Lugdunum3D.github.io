@@ -100,8 +100,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html">lug::Graphics::Vulkan::PhysicalDeviceInfo::Swapchain</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Version.html">lug::Graphics::Vulkan::Version</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -120,6 +118,8 @@ Macros</h2></td></tr>
 <tr class="separator:a2b337b495b8538a07f4009281b9799f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7bef5d85e3dcd73eef56ad39ffc84a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Vulkan_8hpp.html#ac7bef5d85e3dcd73eef56ad39ffc84a9">WIN32_LEAN_AND_MEAN</a></td></tr>
 <tr class="separator:ac7bef5d85e3dcd73eef56ad39ffc84a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f918755b601cf4bffca775992e6fb90"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Vulkan_8hpp.html#a9f918755b601cf4bffca775992e6fb90">NOMINMAX</a></td></tr>
+<tr class="separator:a9f918755b601cf4bffca775992e6fb90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ec00d8da96d9e20d14a5c8c76eb6a18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Vulkan_8hpp.html#a8ec00d8da96d9e20d14a5c8c76eb6a18">LUG_EXPORTED_VULKAN_FUNCTIONS</a>(macro)&#160;&#160;&#160;macro(vkGetInstanceProcAddr)</td></tr>
 <tr class="separator:a8ec00d8da96d9e20d14a5c8c76eb6a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8043ad6e5e92b99aaf3bc38bb9336bfa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Vulkan_8hpp.html#a8043ad6e5e92b99aaf3bc38bb9336bfa">LUG_CORE_VULKAN_FUNCTIONS</a>(macro)</td></tr>
@@ -145,6 +145,8 @@ Functions</h2></td></tr>
 <tr class="separator:a4e4ef2018ed237dcb03739f7781f50dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa91caa5996f4fbb1e0dc0e85bf4dc4e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceVulkan.html#aa91caa5996f4fbb1e0dc0e85bf4dc4e7">Vulkan::LUG_DEVICE_VULKAN_FUNCTIONS</a> (<a class="el" href="Vulkan_8hpp.html#a401bdf77d77e2e8f988955dc2ebdf6ae">LUG_DEFINE_DECLARATION_VULKAN_FUNCTIONS</a>)</td></tr>
 <tr class="separator:aa91caa5996f4fbb1e0dc0e85bf4dc4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11591120f651925f8c292e62ee5ac8cc"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Vulkan_8hpp.html#a11591120f651925f8c292e62ee5ac8cc">operator&lt;&lt;</a> (std::ostream &amp;ss, VkResult result)</td></tr>
+<tr class="separator:a11591120f651925f8c292e62ee5ac8cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a2b337b495b8538a07f4009281b9799f7"></a>
@@ -179,6 +181,22 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9f918755b601cf4bffca775992e6fb90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f918755b601cf4bffca775992e6fb90">&#9670;&nbsp;</a></span>NOMINMAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NOMINMAX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00021">21</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a8ec00d8da96d9e20d14a5c8c76eb6a18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ec00d8da96d9e20d14a5c8c76eb6a18">&#9670;&nbsp;</a></span>LUG_EXPORTED_VULKAN_FUNCTIONS</h2>
 
@@ -195,7 +213,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00028">28</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00029">29</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
 
 </div>
 </div>
@@ -215,7 +233,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">macro(vkEnumerateInstanceExtensionProperties)       \</div><div class="line">    macro(vkEnumerateInstanceLayerProperties)           \</div><div class="line">    macro(vkCreateInstance)</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00031">31</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00032">32</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
 
 </div>
 </div>
@@ -235,7 +253,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">macro(vkGetPhysicalDeviceSurfaceSupportKHR)             \</div><div class="line">    macro(vkGetPhysicalDeviceSurfaceCapabilitiesKHR)        \</div><div class="line">    macro(vkGetPhysicalDeviceSurfaceFormatsKHR)             \</div><div class="line">    macro(vkGetPhysicalDeviceSurfacePresentModesKHR)        \</div><div class="line">    macro(vkDestroySurfaceKHR)</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00051">51</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00052">52</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
 
 </div>
 </div>
@@ -255,7 +273,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">macro(vkEnumeratePhysicalDevices)                   \</div><div class="line">    macro(vkGetPhysicalDeviceProperties)                \</div><div class="line">    macro(vkGetPhysicalDeviceFeatures)                  \</div><div class="line">    macro(vkGetPhysicalDeviceQueueFamilyProperties)     \</div><div class="line">    macro(vkGetPhysicalDeviceFormatProperties)          \</div><div class="line">    macro(vkGetDeviceProcAddr)                          \</div><div class="line">    macro(vkCreateDevice)                               \</div><div class="line">    macro(vkDestroyInstance)                            \</div><div class="line">    macro(vkEnumerateDeviceExtensionProperties)         \</div><div class="line">    macro(vkGetPhysicalDeviceMemoryProperties)          \</div><div class="line">    LUG_INSTANCE_VULKAN_FUNCTIONS_PLATFORM(macro)       \</div><div class="line">    LUG_INSTANCE_VULKAN_FUNCTIONS_KHR_SURFACE(macro)</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00058">58</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00059">59</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
 
 </div>
 </div>
@@ -275,7 +293,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">macro(vkCreateSwapchainKHR)                             \</div><div class="line">    macro(vkGetSwapchainImagesKHR)                          \</div><div class="line">    macro(vkAcquireNextImageKHR)                            \</div><div class="line">    macro(vkQueuePresentKHR)                                \</div><div class="line">    macro(vkDestroySwapchainKHR)                            \</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00072">72</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00073">73</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
 
 </div>
 </div>
@@ -295,7 +313,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00079">79</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00080">80</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
 
 </div>
 </div>
@@ -315,7 +333,47 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00154">154</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00157">157</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a11591120f651925f8c292e62ee5ac8cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11591120f651925f8c292e62ee5ac8cc">&#9670;&nbsp;</a></span>operator<<()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>ss</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VkResult&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>PSA: This is outside of the namespace because VkResult is in the root namespace </p>
+
+<p class="definition">Definition at line <a class="el" href="Vulkan_8hpp_source.html#l00210">210</a> of file <a class="el" href="Vulkan_8hpp_source.html">Vulkan.hpp</a>.</p>
 
 </div>
 </div>

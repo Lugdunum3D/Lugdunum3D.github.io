@@ -1,0 +1,9 @@
+<map id="lug::Graphics::Render::DirtyObject" name="lug::Graphics::Render::DirtyObject">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Camera_1_1Camera.html" title="Class for camera. " alt="" coords="224,37,395,79"/>
+<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Render_1_1Light.html" title="Class for Light. " alt="" coords="224,103,395,144"/>
+<area shape="rect" id="node6" href="$classlug_1_1Graphics_1_1Render_1_1Material.html" title="Class for Material. Is a Resource. " alt="" coords="224,168,395,209"/>
+<area shape="rect" id="node8" href="$classlug_1_1Graphics_1_1Scene_1_1Node.html" title="lug::Graphics::Scene\l::Node" alt="" coords="227,233,391,275"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Render_1_1Camera_1_1Orthographic.html" title="lug::Graphics::Render\l::Camera::Orthographic" alt="" coords="443,5,627,47"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Render_1_1Camera_1_1Perspective.html" title="lug::Graphics::Render\l::Camera::Perspective" alt="" coords="447,71,622,112"/>
+<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Material.html" title="Class for Material. " alt="" coords="450,168,619,209"/>
+</map>

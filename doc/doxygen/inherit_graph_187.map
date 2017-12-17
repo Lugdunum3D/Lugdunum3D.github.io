@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classndk__helper_1_1GestureDetector.html" title="ndk_helper::GestureDetector" alt="" coords="5,81,223,108"/>
+<area shape="rect" id="node2" href="$classndk__helper_1_1DoubletapDetector.html" title="ndk_helper::DoubletapDetector" alt="" coords="271,5,503,32"/>
+<area shape="rect" id="node3" href="$classndk__helper_1_1DragDetector.html" title="ndk_helper::DragDetector" alt="" coords="288,56,485,83"/>
+<area shape="rect" id="node4" href="$classndk__helper_1_1PinchDetector.html" title="ndk_helper::PinchDetector" alt="" coords="287,107,487,133"/>
+<area shape="rect" id="node5" href="$classndk__helper_1_1TapDetector.html" title="ndk_helper::TapDetector" alt="" coords="292,157,481,184"/>
+</map>

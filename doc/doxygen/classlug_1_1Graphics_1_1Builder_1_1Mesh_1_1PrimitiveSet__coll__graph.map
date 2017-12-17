@@ -1,0 +1,14 @@
+<map id="lug::Graphics::Builder::Mesh::PrimitiveSet" name="lug::Graphics::Builder::Mesh::PrimitiveSet">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Material \&gt;" alt="" coords="2871,70,3078,126"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Render_1_1Material.html" title="Class for Material. Is a Resource. " alt="" coords="2573,189,2744,231"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="655,418,840,445"/>
+<area shape="rect" id="node15" href="$classlug_1_1Graphics_1_1Render_1_1SkyBox.html" title="lug::Graphics::Render\l::SkyBox" alt="" coords="1815,295,1986,336"/>
+<area shape="rect" id="node17" href="$classlug_1_1Graphics_1_1Render_1_1Texture.html" title="lug::Graphics::Render\l::Texture" alt="" coords="990,299,1161,340"/>
+<area shape="rect" id="node5" href="$structlug_1_1Graphics_1_1Resource_1_1Handle.html" title="Handle of the resource. It contains informations such as the type and the index in the ResourceManage..." alt="" coords="251,408,436,449"/>
+<area shape="rect" id="node9" href="$classlug_1_1Graphics_1_1Render_1_1DirtyObject.html" title="lug::Graphics::Render\l::DirtyObject" alt="" coords="460,5,631,47"/>
+<area shape="rect" id="node23" href="$structlug_1_1Graphics_1_1Render_1_1Material_1_1TextureInfo.html" title="lug::Graphics::Render\l::Material::TextureInfo" alt="" coords="1812,131,1989,172"/>
+<area shape="rect" id="node10" href="$structlug_1_1Graphics_1_1Render_1_1Material_1_1Constants.html" title="lug::Graphics::Render\l::Material::Constants" alt="" coords="2226,531,2397,572"/>
+<area shape="rect" id="node14" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::SkyBox \&gt;" alt="" coords="2208,221,2415,277"/>
+<area shape="rect" id="node16" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Texture \&gt;" alt="" coords="1387,262,1593,318"/>
+<area shape="rect" id="node21" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="Dummy class for a shared pointer. " alt="" coords="983,168,1168,209"/>
+</map>

@@ -1,19 +1,26 @@
-<map id="src/lug/Window/Android/WindowImplAndroid.hpp" name="src/lug/Window/Android/WindowImplAndroid.hpp">
-<area shape="rect" id="node2" href="$Window_2Window_8hpp.html" title="lug/Window/Window.hpp" alt="" coords="748,95,935,121"/>
-<area shape="rect" id="node7" href="$Event_8hpp.html" title="lug/Window/Event.hpp" alt="" coords="755,169,927,196"/>
-<area shape="rect" id="node9" href="$Window_2Export_8hpp.html" title="lug/Window/Export.hpp" alt="" coords="876,319,1055,345"/>
-<area shape="rect" id="node11" href="$Keyboard_8hpp.html" title="lug/Window/Keyboard.hpp" alt="" coords="866,244,1065,271"/>
-<area shape="rect" id="node28" href="$WindowHandle_8hpp.html" title="lug/Window/WindowHandle.hpp" alt="" coords="1142,244,1375,271"/>
-<area shape="rect" id="node29" href="$Style_8inl.html" title="lug/Window/Style.inl" alt="" coords="1190,169,1351,196"/>
-<area shape="rect" id="node12" href="$Mouse_8hpp.html" title="lug/Window/Mouse.hpp" alt="" coords="665,244,842,271"/>
-<area shape="rect" id="node13" href="$Vector_8hpp.html" title="lug/Math/Vector.hpp" alt="" coords="429,244,587,271"/>
-<area shape="rect" id="node10" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="1090,468,1209,495"/>
-<area shape="rect" id="node14" href="$Matrix_8hpp.html" title="lug/Math/Matrix.hpp" alt="" coords="544,319,701,345"/>
-<area shape="rect" id="node27" href="$Vector_8inl.html" title="lug/Math/Vector.inl" alt="" coords="318,319,469,345"/>
-<area shape="rect" id="node16" href="$Math_2Export_8hpp.html" title="lug/Math/Export.hpp" alt="" coords="1011,393,1170,420"/>
-<area shape="rect" id="node17" href="$ValArray_8hpp.html" title="lug/Math/ValArray.hpp" alt="" coords="337,393,511,420"/>
-<area shape="rect" id="node23" href="$Debug_8hpp.html" title="lug/System/Debug.hpp" alt="" coords="535,393,710,420"/>
-<area shape="rect" id="node26" href="$Matrix_8inl.html" title="lug/Math/Matrix.inl" alt="" coords="735,393,884,420"/>
-<area shape="rect" id="node22" href="$ValArray_8inl.html" title="lug/Math/ValArray.inl" alt="" coords="197,468,363,495"/>
-<area shape="rect" id="node24" href="$Utils_8hpp.html" title="lug/System/Utils.hpp" alt="" coords="688,468,851,495"/>
+<map id="include/lug/Window/Android/WindowImplAndroid.hpp" name="include/lug/Window/Android/WindowImplAndroid.hpp">
+<area shape="rect" id="node2" href="$Vector_8hpp.html" title="lug/Math/Vector.hpp" alt="" coords="901,259,1060,285"/>
+<area shape="rect" id="node19" href="$Window_2Window_8hpp.html" title="lug/Window/Window.hpp" alt="" coords="738,95,925,121"/>
+<area shape="rect" id="node34" href="$gestureDetector_8hpp.html" title="gestureDetector.hpp" alt="" coords="1532,95,1691,121"/>
+<area shape="rect" id="node40" href="$Logger_8hpp.html" title="lug/System/Logger/Logger.hpp" alt="" coords="2518,95,2747,121"/>
+<area shape="rect" id="node4" href="$Matrix_8hpp.html" title="lug/Math/Matrix.hpp" alt="" coords="669,333,826,360"/>
+<area shape="rect" id="node18" href="$Vector_8inl.html" title="lug/Math/Vector.inl" alt="" coords="904,333,1055,360"/>
+<area shape="rect" id="node6" href="$Math_2Export_8hpp.html" title="lug/Math/Export.hpp" alt="" coords="401,408,560,435"/>
+<area shape="rect" id="node8" href="$ValArray_8hpp.html" title="lug/Math/ValArray.hpp" alt="" coords="862,408,1035,435"/>
+<area shape="rect" id="node14" href="$Debug_8hpp.html" title="lug/System/Debug.hpp" alt="" coords="100,408,275,435"/>
+<area shape="rect" id="node17" href="$Matrix_8inl.html" title="lug/Math/Matrix.inl" alt="" coords="585,408,734,435"/>
+<area shape="rect" id="node7" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="304,483,423,509"/>
+<area shape="rect" id="node13" href="$ValArray_8inl.html" title="lug/Math/ValArray.inl" alt="" coords="715,483,881,509"/>
+<area shape="rect" id="node15" href="$Utils_8hpp.html" title="lug/System/Utils.hpp" alt="" coords="111,483,274,509"/>
+<area shape="rect" id="node24" href="$Event_8hpp.html" title="lug/Window/Event.hpp" alt="" coords="621,177,793,203"/>
+<area shape="rect" id="node26" href="$Window_2Export_8hpp.html" title="lug/Window/Export.hpp" alt="" coords="429,333,607,360"/>
+<area shape="rect" id="node27" href="$Keyboard_8hpp.html" title="lug/Window/Keyboard.hpp" alt="" coords="375,259,573,285"/>
+<area shape="rect" id="node29" href="$WindowHandle_8hpp.html" title="lug/Window/WindowHandle.hpp" alt="" coords="171,333,404,360"/>
+<area shape="rect" id="node30" href="$Style_8inl.html" title="lug/Window/Style.inl" alt="" coords="436,177,597,203"/>
+<area shape="rect" id="node28" href="$Mouse_8hpp.html" title="lug/Window/Mouse.hpp" alt="" coords="597,259,775,285"/>
+<area shape="rect" id="node42" href="$System_2Export_8hpp.html" title="lug/System/Export.hpp" alt="" coords="2501,333,2677,360"/>
+<area shape="rect" id="node43" href="$Common_8hpp.html" title="lug/System/Logger/Common.hpp" alt="" coords="2915,259,3158,285"/>
+<area shape="rect" id="node46" href="$LoggingFacility_8hpp.html" title="lug/System/Logger/Logging\lFacility.hpp" alt="" coords="2337,169,2544,211"/>
+<area shape="rect" id="node47" href="$Message_8hpp.html" title="lug/System/Logger/Message.hpp" alt="" coords="2916,177,3157,203"/>
+<area shape="rect" id="node48" href="$Logger_8inl.html" title="lug/System/Logger/Logger.inl" alt="" coords="2670,177,2891,203"/>
 </map>

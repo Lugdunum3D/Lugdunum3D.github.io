@@ -1,5 +1,21 @@
 var searchData=
 [
+  ['tangent',['tangent',['../structlug_1_1Graphics_1_1Render_1_1Mesh_1_1PrimitiveSet.html#a1cb763efc0cfb0f97ed8b2bd07d7519d',1,'lug::Graphics::Render::Mesh::PrimitiveSet']]],
+  ['tangentvertexdata',['tangentVertexData',['../structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1Id_1_1PrimitivePart.html#ad9a9a7619e49f519e611318c68ce5ec0',1,'lug::Graphics::Vulkan::Render::Pipeline::Id::PrimitivePart']]],
+  ['tap_5fdetector_5f',['tap_detector_',['../classndk__helper_1_1DoubletapDetector.html#ae41fe7361ad92bb7d99ee271b13cdf30',1,'ndk_helper::DoubletapDetector']]],
+  ['tap_5ftimeout',['TAP_TIMEOUT',['../namespacendk__helper.html#ad3abd075750289f2841fda81eb2c822d',1,'ndk_helper']]],
+  ['texcoord',['texCoord',['../structlug_1_1Graphics_1_1Render_1_1Material_1_1TextureInfo.html#a178f034a10f4a3ea96b7cbe55ee43dc6',1,'lug::Graphics::Render::Material::TextureInfo']]],
+  ['texcoords',['texCoords',['../structlug_1_1Graphics_1_1Render_1_1Mesh_1_1PrimitiveSet.html#a747ee58818a368fa31a59aaec93c7f6c',1,'lug::Graphics::Render::Mesh::PrimitiveSet']]],
+  ['texture',['texture',['../structlug_1_1Graphics_1_1Render_1_1Material_1_1TextureInfo.html#ad5e60be7a825a996cf410a6fa068e707',1,'lug::Graphics::Render::Material::TextureInfo']]],
+  ['textures',['textures',['../structlug_1_1Graphics_1_1GltfLoader_1_1LoadedAssets.html#a3a6f8413f368439a8452a0852396e006',1,'lug::Graphics::GltfLoader::LoadedAssets']]],
+  ['texturesdescriptorsets',['texturesDescriptorSets',['../structlug_1_1Graphics_1_1Vulkan_1_1Gui_1_1FrameData.html#a2cd206c12a196d45dba6ac3fe1d30000',1,'lug::Graphics::Vulkan::Gui::FrameData']]],
   ['title',['title',['../structlug_1_1Window_1_1Window_1_1InitInfo.html#a42f57e201e90ef641a7e2a8b4a62a6a1',1,'lug::Window::Window::InitInfo']]],
-  ['type',['type',['../structlug_1_1Graphics_1_1Module.html#af3e04bb06a74c114087049eabd4d971d',1,'lug::Graphics::Module::type()'],['../structlug_1_1Window_1_1Event.html#a3f98a4ec1c49d723d75714e0c5f1cfe3',1,'lug::Window::Event::type()']]]
+  ['touch_5fslop',['TOUCH_SLOP',['../namespacendk__helper.html#aecc6b677fdd1e71a146aa9c206246c1f',1,'ndk_helper']]],
+  ['touchscreen',['touchScreen',['../structlug_1_1Window_1_1Event.html#a9dc705591f6214fb4c48f200b48603eb',1,'lug::Window::Event']]],
+  ['transfercmdbuffer',['transferCmdBuffer',['../structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward_1_1FrameData.html#a2f64c9fe52dd1b71cadb1db3767fed76',1,'lug::Graphics::Vulkan::Render::Technique::Forward::FrameData']]],
+  ['transferfence',['transferFence',['../structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward_1_1FrameData.html#a106bedc906e98161a6fc0f8c1bae36ea',1,'lug::Graphics::Vulkan::Render::Technique::Forward::FrameData']]],
+  ['transfersemaphore',['transferSemaphore',['../structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward_1_1FrameData.html#a9aebecaa950bdb05092db98512a20a1e',1,'lug::Graphics::Vulkan::Render::Technique::Forward::FrameData']]],
+  ['translate',['translate',['../structlug_1_1Graphics_1_1Vulkan_1_1Gui_1_1PushConstBlock.html#ae50464060a2d9df3ac1e844c4af746a6',1,'lug::Graphics::Vulkan::Gui::PushConstBlock']]],
+  ['triangles',['Triangles',['../structlug_1_1Graphics_1_1Render_1_1Mesh_1_1PrimitiveSet.html#a25ab0e29e701d8e016c8cc5a92eb2449',1,'lug::Graphics::Render::Mesh::PrimitiveSet']]],
+  ['type',['type',['../structlug_1_1Graphics_1_1Module.html#af3e04bb06a74c114087049eabd4d971d',1,'lug::Graphics::Module::type()'],['../structlug_1_1Graphics_1_1Render_1_1Light_1_1Data.html#aba1517aa62dabe806988e0264870e6da',1,'lug::Graphics::Render::Light::Data::type()'],['../structlug_1_1Graphics_1_1Render_1_1Mesh_1_1PrimitiveSet_1_1Attribute.html#aff5619a8ca344fca29ca72b6fbfb879c',1,'lug::Graphics::Render::Mesh::PrimitiveSet::Attribute::type()'],['../structlug_1_1Graphics_1_1Resource_1_1Handle.html#a547c1032497670fbfbfaad97657919e6',1,'lug::Graphics::Resource::Handle::type()'],['../structlug_1_1Window_1_1Event.html#a3f98a4ec1c49d723d75714e0c5f1cfe3',1,'lug::Window::Event::type()']]]
 ];

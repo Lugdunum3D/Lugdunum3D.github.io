@@ -1,0 +1,30 @@
+<map id="lug::Graphics::Vulkan::Render::Queue::PrimitiveSetInstance" name="lug::Graphics::Vulkan::Render::Queue::PrimitiveSetInstance">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Material.html" title="Class for Material. " alt="" coords="2997,1305,3167,1346"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Render_1_1Material.html" title="Class for Material. Is a Resource. " alt="" coords="2679,1249,2849,1290"/>
+<area shape="rect" id="node24" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Material \&gt;" alt="" coords="2979,1401,3185,1457"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="697,715,882,741"/>
+<area shape="rect" id="node15" href="$classlug_1_1Graphics_1_1Render_1_1SkyBox.html" title="lug::Graphics::Render\l::SkyBox" alt="" coords="1906,1183,2077,1225"/>
+<area shape="rect" id="node17" href="$classlug_1_1Graphics_1_1Render_1_1Texture.html" title="lug::Graphics::Render\l::Texture" alt="" coords="1066,1325,1237,1366"/>
+<area shape="rect" id="node40" href="$classlug_1_1Graphics_1_1Render_1_1Light.html" title="Class for Light. " alt="" coords="1481,843,1651,885"/>
+<area shape="rect" id="node43" href="$classlug_1_1Graphics_1_1Render_1_1Mesh.html" title="A Mesh, which itsef is a Resource. A mesh is composed of a vector of PrimitiveSet. " alt="" coords="1066,313,1237,354"/>
+<area shape="rect" id="node47" href="$classlug_1_1Graphics_1_1Render_1_1Camera_1_1Camera.html" title="Class for camera. " alt="" coords="2679,319,2849,361"/>
+<area shape="rect" id="node49" href="$classlug_1_1Graphics_1_1Scene_1_1Scene.html" title="lug::Graphics::Scene\l::Scene" alt="" coords="2682,766,2846,807"/>
+<area shape="rect" id="node5" href="$structlug_1_1Graphics_1_1Resource_1_1Handle.html" title="Handle of the resource. It contains informations such as the type and the index in the ResourceManage..." alt="" coords="337,782,523,823"/>
+<area shape="rect" id="node9" href="$classlug_1_1Graphics_1_1Render_1_1DirtyObject.html" title="lug::Graphics::Render\l::DirtyObject" alt="" coords="1066,986,1237,1027"/>
+<area shape="rect" id="node20" href="$structlug_1_1Graphics_1_1Render_1_1Material_1_1TextureInfo.html" title="lug::Graphics::Render\l::Material::TextureInfo" alt="" coords="1903,1359,2080,1401"/>
+<area shape="rect" id="node21" href="$structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1Id_1_1MaterialPart.html" title="Describes the material. How is the material composed, with textures, no textures, etc..." alt="" coords="345,1532,515,1588"/>
+<area shape="rect" id="node28" href="$structlug_1_1Graphics_1_1Render_1_1Mesh_1_1PrimitiveSet_1_1Attribute_1_1Buffer.html" title="Access to the data of the attribute. " alt="" coords="1066,1640,1237,1696"/>
+<area shape="rect" id="node34" href="$classlug_1_1Graphics_1_1Node.html" title="lug::Graphics::Node" alt="" coords="1912,451,2071,477"/>
+<area shape="rect" id="node33" href="$classlug_1_1Graphics_1_1Scene_1_1Node.html" title="lug::Graphics::Scene\l::Node" alt="" coords="2335,743,2499,785"/>
+<area shape="rect" id="node10" href="$structlug_1_1Graphics_1_1Render_1_1Material_1_1Constants.html" title="lug::Graphics::Render\l::Material::Constants" alt="" coords="1481,909,1651,950"/>
+<area shape="rect" id="node48" href="$classlug_1_1Graphics_1_1Render_1_1View.html" title="lug::Graphics::Render\l::View" alt="" coords="3316,319,3487,361"/>
+<area shape="rect" id="node14" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::SkyBox \&gt;" alt="" coords="2313,1176,2520,1232"/>
+<area shape="rect" id="node16" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Texture \&gt;" alt="" coords="1463,1305,1669,1361"/>
+<area shape="rect" id="node18" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="Dummy class for a shared pointer. " alt="" coords="1059,1199,1244,1241"/>
+<area shape="rect" id="node39" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Light \&gt;" alt="" coords="1888,836,2095,892"/>
+<area shape="rect" id="node42" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Mesh \&gt;" alt="" coords="1463,763,1669,819"/>
+<area shape="rect" id="node46" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Camera::Camera \&gt;" alt="" coords="2969,519,3195,575"/>
+<area shape="rect" id="node23" href="$structlug_1_1Graphics_1_1Render_1_1Mesh_1_1PrimitiveSet.html" title="Describes part of a Mesh. " alt="" coords="3316,1539,3487,1581"/>
+<area shape="rect" id="node26" href="$structlug_1_1Graphics_1_1Render_1_1Mesh_1_1PrimitiveSet_1_1Attribute.html" title="lug::Graphics::Render\l::Mesh::PrimitiveSet\l::Attribute" alt="" coords="1481,1652,1651,1708"/>
+<area shape="rect" id="node41" href="$structlug_1_1Graphics_1_1Scene_1_1Node_1_1MeshInstance.html" title="lug::Graphics::Scene\l::Node::MeshInstance" alt="" coords="1906,743,2077,785"/>
+</map>

@@ -11,21 +11,21 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="26.5,-179.5 26.5,-209.5 159.5,-209.5 159.5,-179.5 26.5,-179.5"/>
-<text text-anchor="start" x="34.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">include/lug/Graphics</text>
-<text text-anchor="middle" x="93" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Vulkan/API/Buffer.hpp</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="138.5,-179.5 138.5,-209.5 271.5,-209.5 271.5,-179.5 138.5,-179.5"/>
+<text text-anchor="start" x="146.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">include/lug/Graphics</text>
+<text text-anchor="middle" x="205" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Vulkan/API/Buffer.hpp</text>
 </g>
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<polygon fill="none" stroke="#bfbfbf" points="5.5,-118 5.5,-137 64.5,-137 64.5,-118 5.5,-118"/>
-<text text-anchor="middle" x="35" y="-125" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">memory</text>
+<polygon fill="none" stroke="#bfbfbf" points="74.5,-118 74.5,-137 133.5,-137 133.5,-118 74.5,-118"/>
+<text text-anchor="middle" x="104" y="-125" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">memory</text>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node0&#45;&gt;Node1</title>
-<path fill="none" stroke="#191970" d="M79.8389,-179.2967C70.9777,-169.0605 59.2705,-155.5366 50.0407,-144.8746"/>
-<polygon fill="#191970" stroke="#191970" points="52.4627,-142.3248 43.2715,-137.055 47.1703,-146.9064 52.4627,-142.3248"/>
+<path fill="none" stroke="#191970" d="M182.3336,-179.4639C165.8451,-168.526 143.5996,-153.769 127.0278,-142.7759"/>
+<polygon fill="#191970" stroke="#191970" points="128.7455,-139.7153 118.4776,-137.1039 124.8759,-145.5485 128.7455,-139.7153"/>
 </g>
 <!-- Node2 -->
 <g id="node3" class="node">
@@ -39,8 +39,8 @@
 <!-- Node0&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node0&#45;&gt;Node2</title>
-<path fill="none" stroke="#191970" d="M90.1526,-179.2548C85.8046,-155.9744 77.5094,-111.5607 72.7002,-85.8117"/>
-<polygon fill="#191970" stroke="#191970" points="76.0949,-84.9232 70.8184,-75.7358 69.2139,-86.2084 76.0949,-84.9232"/>
+<path fill="none" stroke="#191970" d="M195.7074,-179.197C184.4966,-161.572 164.3487,-132.425 142,-112 128.5754,-99.7309 111.4656,-88.7532 97.1854,-80.6014"/>
+<polygon fill="#191970" stroke="#191970" points="98.7206,-77.4507 88.2769,-75.6674 95.329,-83.5743 98.7206,-77.4507"/>
 </g>
 <!-- Node4 -->
 <g id="node5" class="node">
@@ -55,8 +55,24 @@
 <!-- Node0&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node0&#45;&gt;Node4</title>
-<path fill="none" stroke="#191970" d="M128.0094,-179.4639C150.6113,-169.7567 180.2168,-157.0415 204.4847,-146.6188"/>
-<polygon fill="#191970" stroke="#191970" points="206.0307,-149.764 213.8379,-142.6017 203.2682,-143.3321 206.0307,-149.764"/>
+<path fill="none" stroke="#191970" d="M214.9843,-179.2967C220.4412,-170.9873 227.3208,-160.5115 233.4629,-151.1587"/>
+<polygon fill="#191970" stroke="#191970" points="236.4914,-152.9231 239.0552,-142.6432 230.6404,-149.0806 236.4914,-152.9231"/>
+</g>
+<!-- Node9 -->
+<g id="node10" class="node">
+<title>Node9</title>
+<g id="a_node10"><a xlink:href="Buffer_8inl.html" target="_top" xlink:title="lug/Graphics/Vulkan\l/API/Buffer.inl">
+<polygon fill="none" stroke="#000000" points="326,-112.5 326,-142.5 444,-142.5 444,-112.5 326,-112.5"/>
+<text text-anchor="start" x="334" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">lug/Graphics/Vulkan</text>
+<text text-anchor="middle" x="385" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/API/Buffer.inl</text>
+</a>
+</g>
+</g>
+<!-- Node0&#45;&gt;Node9 -->
+<g id="edge10" class="edge">
+<title>Node0&#45;&gt;Node9</title>
+<path fill="none" stroke="#191970" d="M245.3955,-179.4639C271.8208,-169.6278 306.5431,-156.7034 334.748,-146.2049"/>
+<polygon fill="#191970" stroke="#191970" points="336.2774,-149.3703 344.4283,-142.6017 333.8355,-142.81 336.2774,-149.3703"/>
 </g>
 <!-- Node3 -->
 <g id="node4" class="node">

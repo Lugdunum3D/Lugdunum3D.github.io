@@ -1,5 +1,7 @@
 <map id="lug::Window::Event" name="lug::Window::Event">
-<area shape="rect" id="node2" href="$structlug_1_1Window_1_1MouseEvent.html" title="Represents a mouse event. " alt="" coords="315,393,512,420"/>
-<area shape="rect" id="node14" href="$structlug_1_1Window_1_1KeyEvent.html" title="Represents a keyboard event. " alt="" coords="323,95,503,121"/>
-<area shape="rect" id="node10" href="$structlug_1_1Window_1_1CharEvent.html" title="Represents a char event. " alt="" coords="320,444,507,471"/>
+<area shape="rect" id="node2" href="$structlug_1_1Window_1_1TouchScreenEvent.html" title="lug::Window::TouchScreen\lEvent" alt="" coords="324,645,527,686"/>
+<area shape="rect" id="node6" href="$structlug_1_1Window_1_1MouseEvent.html" title="Represents a mouse event. " alt="" coords="327,195,524,221"/>
+<area shape="rect" id="node18" href="$structlug_1_1Window_1_1KeyEvent.html" title="Represents a keyboard event. " alt="" coords="335,532,515,559"/>
+<area shape="rect" id="node15" href="$structlug_1_1Window_1_1GamePadEvent.html" title="lug::Window::GamePadEvent" alt="" coords="316,711,535,737"/>
+<area shape="rect" id="node13" href="$structlug_1_1Window_1_1CharEvent.html" title="Represents a char event. " alt="" coords="332,761,519,788"/>
 </map>

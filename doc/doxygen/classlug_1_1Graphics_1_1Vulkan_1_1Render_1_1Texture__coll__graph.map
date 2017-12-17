@@ -1,0 +1,13 @@
+<map id="lug::Graphics::Vulkan::Render::Texture" name="lug::Graphics::Vulkan::Render::Texture">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Texture.html" title="lug::Graphics::Render\l::Texture" alt="" coords="2277,945,2448,986"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="1933,975,2119,1001"/>
+<area shape="rect" id="node4" href="$structlug_1_1Graphics_1_1Resource_1_1Handle.html" title="Handle of the resource. It contains informations such as the type and the index in the ResourceManage..." alt="" coords="1575,942,1760,983"/>
+<area shape="rect" id="node33" href="$structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image_1_1Extent.html" title="lug::Graphics::Vulkan\l::API::Image::Extent" alt="" coords="1583,801,1752,842"/>
+<area shape="rect" id="node11" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Sampler.html" title="lug::Graphics::Vulkan\l::API::Sampler" alt="" coords="1583,238,1752,279"/>
+<area shape="rect" id="node13" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1247,322,1416,363"/>
+<area shape="rect" id="node28" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1ImageView.html" title="lug::Graphics::Vulkan\l::API::ImageView" alt="" coords="2278,527,2447,569"/>
+<area shape="rect" id="node30" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html" title="lug::Graphics::Vulkan\l::API::Image" alt="" coords="1941,527,2111,569"/>
+<area shape="rect" id="node38" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html" title="lug::Graphics::Vulkan\l::API::DeviceMemory" alt="" coords="1583,418,1752,459"/>
+<area shape="rect" id="node14" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="862,257,1031,298"/>
+<area shape="rect" id="node15" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="438,41,607,97"/>
+</map>

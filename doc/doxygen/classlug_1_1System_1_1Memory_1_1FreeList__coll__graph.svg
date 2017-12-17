@@ -18,8 +18,11 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<polygon fill="none" stroke="#bfbfbf" points="2,-84 2,-103 48,-103 48,-84 2,-84"/>
+<g id="a_node2"><a xlink:href="classsize__t.html" target="_top" xlink:title="size_t">
+<polygon fill="none" stroke="#000000" points="2,-84 2,-103 48,-103 48,-84 2,-84"/>
 <text text-anchor="middle" x="25" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">size_t</text>
+</a>
+</g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">

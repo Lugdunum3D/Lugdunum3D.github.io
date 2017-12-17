@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['handle',['Handle',['../namespacelug_1_1System_1_1Library.html#afa16b137eeeb7c759cbf5d2537901b5f',1,'lug::System::Library']]]
+  ['flaghandlerpointer',['FlagHandlerPointer',['../namespacelug_1_1System_1_1Logger.html#a0c34b1712e159a7cf5dc7a8ee5d19272',1,'lug::System::Logger']]]
 ];

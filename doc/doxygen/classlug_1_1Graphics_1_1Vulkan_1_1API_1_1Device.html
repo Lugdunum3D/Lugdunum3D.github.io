@@ -65,7 +65,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">lug::Graphics::Vulkan::API::Device Class Reference</div>  </div>
@@ -82,8 +84,8 @@ Collaboration diagram for lug::Graphics::Vulkan::API::Device:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a51aece71a42ea60655ec95415815bff8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a51aece71a42ea60655ec95415815bff8">Device</a> (VkDevice device=VK_NULL_HANDLE, <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html">PhysicalDeviceInfo</a> *physicalDeviceInfo={})</td></tr>
-<tr class="separator:a51aece71a42ea60655ec95415815bff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac50215acbcf334d148e7098f9ec43129"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#ac50215acbcf334d148e7098f9ec43129">Device</a> ()=default</td></tr>
+<tr class="separator:ac50215acbcf334d148e7098f9ec43129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7f65e42adc51fcab5ece685d24b9b4d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#ae7f65e42adc51fcab5ece685d24b9b4d">Device</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> &amp;)=delete</td></tr>
 <tr class="separator:ae7f65e42adc51fcab5ece685d24b9b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13c160806b63fecd7694937c5a054172"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a13c160806b63fecd7694937c5a054172">Device</a> (<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> &amp;&amp;device)</td></tr>
@@ -99,27 +101,51 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5086d8c59c522a4a99f7f372f0a0c06d"><td class="memTemplParams" colspan="2">template&lt;typename Function &gt; </td></tr>
 <tr class="memitem:a5086d8c59c522a4a99f7f372f0a0c06d"><td class="memTemplItemLeft" align="right" valign="top">Function&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a5086d8c59c522a4a99f7f372f0a0c06d">getProcAddr</a> (const char *name) const</td></tr>
 <tr class="separator:a5086d8c59c522a4a99f7f372f0a0c06d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a745dc7dd35881e5969bd2a6b6636c061"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html">PhysicalDeviceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a745dc7dd35881e5969bd2a6b6636c061">getPhysicalDeviceInfo</a> () const</td></tr>
+<tr class="separator:a745dc7dd35881e5969bd2a6b6636c061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0761b66d230a77eead49e33d483d31ad"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1QueueFamily.html">QueueFamily</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a0761b66d230a77eead49e33d483d31ad">getQueueFamilies</a> () const</td></tr>
+<tr class="separator:a0761b66d230a77eead49e33d483d31ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a478ad959caa6c2a5395e561e20b796b0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1QueueFamily.html">QueueFamily</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a478ad959caa6c2a5395e561e20b796b0">getQueueFamilies</a> ()</td></tr>
+<tr class="separator:a478ad959caa6c2a5395e561e20b796b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf469aec26ef572468058a7252c3285a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1QueueFamily.html">API::QueueFamily</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#acf469aec26ef572468058a7252c3285a">getQueueFamily</a> (VkQueueFlags flags, bool supportPresentation=false) const</td></tr>
+<tr class="separator:acf469aec26ef572468058a7252c3285a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6082cbf69bd63afed79de50791240b52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1QueueFamily.html">API::QueueFamily</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a6082cbf69bd63afed79de50791240b52">getQueueFamily</a> (VkQueueFlags flags, bool supportPresentation=false)</td></tr>
+<tr class="separator:a6082cbf69bd63afed79de50791240b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1b0ddca76f6cff07cea268da681c974"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">API::Queue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#ae1b0ddca76f6cff07cea268da681c974">getQueue</a> (const std::string &amp;queueName) const</td></tr>
+<tr class="separator:ae1b0ddca76f6cff07cea268da681c974"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a555cde3e2452779906756a3d8fef6781"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a555cde3e2452779906756a3d8fef6781">waitIdle</a> () const</td></tr>
+<tr class="separator:a555cde3e2452779906756a3d8fef6781"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5e68322691c23780ecc295b65f5dff7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#af5e68322691c23780ecc295b65f5dff7">destroy</a> ()</td></tr>
 <tr class="separator:af5e68322691c23780ecc295b65f5dff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38f82078bc07224154ea08e4784df937"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html">PhysicalDeviceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a38f82078bc07224154ea08e4784df937">getPhysicalDeviceInfo</a> () const</td></tr>
-<tr class="separator:a38f82078bc07224154ea08e4784df937"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5086d8c59c522a4a99f7f372f0a0c06d"><td class="memTemplParams" colspan="2">template&lt;typename Function &gt; </td></tr>
 <tr class="memitem:a5086d8c59c522a4a99f7f372f0a0c06d"><td class="memTemplItemLeft" align="right" valign="top">Function&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a5086d8c59c522a4a99f7f372f0a0c06d">getProcAddr</a> (const char *name) const</td></tr>
 <tr class="separator:a5086d8c59c522a4a99f7f372f0a0c06d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a3df0d0461fb35171cc97c6ede500a88e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a3df0d0461fb35171cc97c6ede500a88e">Device</a> (VkDevice device, const <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html">PhysicalDeviceInfo</a> *physicalDeviceInfo)</td></tr>
+<tr class="separator:a3df0d0461fb35171cc97c6ede500a88e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a55bd77d15cedb794b7973c6437d7a7b1"><td class="memItemLeft" align="right" valign="top">VkDevice&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a55bd77d15cedb794b7973c6437d7a7b1">_device</a> {VK_NULL_HANDLE}</td></tr>
 <tr class="separator:a55bd77d15cedb794b7973c6437d7a7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88f003b17669c184ba038b016c4af2f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html">PhysicalDeviceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a88f003b17669c184ba038b016c4af2f5">_physicalDeviceInfo</a> {nullptr}</td></tr>
-<tr class="separator:a88f003b17669c184ba038b016c4af2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af521756f533fce70bca5ed0fbab97351"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html">PhysicalDeviceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#af521756f533fce70bca5ed0fbab97351">_physicalDeviceInfo</a> {nullptr}</td></tr>
+<tr class="separator:af521756f533fce70bca5ed0fbab97351"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b4cc4e2eb1d8637b89e0b0ae74d03b7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1QueueFamily.html">QueueFamily</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a5b4cc4e2eb1d8637b89e0b0ae74d03b7">_queueFamilies</a></td></tr>
+<tr class="separator:a5b4cc4e2eb1d8637b89e0b0ae74d03b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a6ed712074166f9014ac153cd0b7aa19f"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html#a6ed712074166f9014ac153cd0b7aa19f">Builder::Device</a></td></tr>
+<tr class="separator:a6ed712074166f9014ac153cd0b7aa19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="Device_8hpp_source.html#l00011">11</a> of file <a class="el" href="Device_8hpp_source.html">Device.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Device_8hpp_source.html#l00016">16</a> of file <a class="el" href="Device_8hpp_source.html">Device.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a51aece71a42ea60655ec95415815bff8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51aece71a42ea60655ec95415815bff8">&#9670;&nbsp;</a></span>Device() <span class="overload">[1/3]</span></h2>
+<a id="ac50215acbcf334d148e7098f9ec43129"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac50215acbcf334d148e7098f9ec43129">&#9670;&nbsp;</a></span>Device() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130,34 +156,21 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">lug::Graphics::Vulkan::API::Device::Device </td>
           <td>(</td>
-          <td class="paramtype">VkDevice&#160;</td>
-          <td class="paramname"><em>device</em> = <code>VK_NULL_HANDLE</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html">PhysicalDeviceInfo</a> *&#160;</td>
-          <td class="paramname"><em>physicalDeviceInfo</em> = <code>{}</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00009">9</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
-
 </div>
 </div>
 <a id="ae7f65e42adc51fcab5ece685d24b9b4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7f65e42adc51fcab5ece685d24b9b4d">&#9670;&nbsp;</a></span>Device() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7f65e42adc51fcab5ece685d24b9b4d">&#9670;&nbsp;</a></span>Device() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -183,7 +196,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a13c160806b63fecd7694937c5a054172"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13c160806b63fecd7694937c5a054172">&#9670;&nbsp;</a></span>Device() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a13c160806b63fecd7694937c5a054172">&#9670;&nbsp;</a></span>Device() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -198,7 +211,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00011">11</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00012">12</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
 
 </div>
 </div>
@@ -217,7 +230,45 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00029">29</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00030">30</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a3df0d0461fb35171cc97c6ede500a88e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df0d0461fb35171cc97c6ede500a88e">&#9670;&nbsp;</a></span>Device() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">lug::Graphics::Vulkan::API::Device::Device </td>
+          <td>(</td>
+          <td class="paramtype">VkDevice&#160;</td>
+          <td class="paramname"><em>device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html">PhysicalDeviceInfo</a> *&#160;</td>
+          <td class="paramname"><em>physicalDeviceInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00010">10</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
 
 </div>
 </div>
@@ -264,7 +315,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00018">18</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00019">19</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
 
 </div>
 </div>
@@ -291,7 +342,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Device_8hpp_source.html#l00023">23</a> of file <a class="el" href="Device_8hpp_source.html">Device.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Device_8hpp_source.html#l00030">30</a> of file <a class="el" href="Device_8hpp_source.html">Device.hpp</a>.</p>
 
 </div>
 </div>
@@ -315,6 +366,186 @@ template&lt;typename Function &gt; </div>
 
 </div>
 </div>
+<a id="a745dc7dd35881e5969bd2a6b6636c061"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a745dc7dd35881e5969bd2a6b6636c061">&#9670;&nbsp;</a></span>getPhysicalDeviceInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html">PhysicalDeviceInfo</a> * Device::getPhysicalDeviceInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Device_8inl_source.html#l00006">6</a> of file <a class="el" href="Device_8inl_source.html">Device.inl</a>.</p>
+
+</div>
+</div>
+<a id="a0761b66d230a77eead49e33d483d31ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0761b66d230a77eead49e33d483d31ad">&#9670;&nbsp;</a></span>getQueueFamilies() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1QueueFamily.html">QueueFamily</a> &gt; &amp; Device::getQueueFamilies </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Device_8inl_source.html#l00010">10</a> of file <a class="el" href="Device_8inl_source.html">Device.inl</a>.</p>
+
+</div>
+</div>
+<a id="a478ad959caa6c2a5395e561e20b796b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a478ad959caa6c2a5395e561e20b796b0">&#9670;&nbsp;</a></span>getQueueFamilies() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1QueueFamily.html">QueueFamily</a> &gt; &amp; Device::getQueueFamilies </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Device_8inl_source.html#l00014">14</a> of file <a class="el" href="Device_8inl_source.html">Device.inl</a>.</p>
+
+</div>
+</div>
+<a id="acf469aec26ef572468058a7252c3285a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf469aec26ef572468058a7252c3285a">&#9670;&nbsp;</a></span>getQueueFamily() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1QueueFamily.html">API::QueueFamily</a> * lug::Graphics::Vulkan::API::Device::getQueueFamily </td>
+          <td>(</td>
+          <td class="paramtype">VkQueueFlags&#160;</td>
+          <td class="paramname"><em>flags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>supportPresentation</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00034">34</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a6082cbf69bd63afed79de50791240b52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6082cbf69bd63afed79de50791240b52">&#9670;&nbsp;</a></span>getQueueFamily() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1QueueFamily.html">API::QueueFamily</a> * lug::Graphics::Vulkan::API::Device::getQueueFamily </td>
+          <td>(</td>
+          <td class="paramtype">VkQueueFlags&#160;</td>
+          <td class="paramname"><em>flags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>supportPresentation</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00052">52</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ae1b0ddca76f6cff07cea268da681c974"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1b0ddca76f6cff07cea268da681c974">&#9670;&nbsp;</a></span>getQueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">API::Queue</a> * lug::Graphics::Vulkan::API::Device::getQueue </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>queueName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00070">70</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a555cde3e2452779906756a3d8fef6781"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a555cde3e2452779906756a3d8fef6781">&#9670;&nbsp;</a></span>waitIdle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool lug::Graphics::Vulkan::API::Device::waitIdle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00082">82</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
+
+</div>
+</div>
 <a id="af5e68322691c23780ecc295b65f5dff7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af5e68322691c23780ecc295b65f5dff7">&#9670;&nbsp;</a></span>destroy()</h2>
 
@@ -330,26 +561,7 @@ template&lt;typename Function &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00033">33</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a38f82078bc07224154ea08e4784df937"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38f82078bc07224154ea08e4784df937">&#9670;&nbsp;</a></span>getPhysicalDeviceInfo()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html">PhysicalDeviceInfo</a> * lug::Graphics::Vulkan::API::Device::getPhysicalDeviceInfo </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00041">41</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Device_8cpp_source.html#l00093">93</a> of file <a class="el" href="Device_8cpp_source.html">Device.cpp</a>.</p>
 
 </div>
 </div>
@@ -383,6 +595,31 @@ template&lt;typename Function &gt; </div>
 
 </div>
 </div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a6ed712074166f9014ac153cd0b7aa19f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ed712074166f9014ac153cd0b7aa19f">&#9670;&nbsp;</a></span>Builder::Device</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Builder_1_1Device.html">Builder::Device</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Device_8hpp_source.html#l00017">17</a> of file <a class="el" href="Device_8hpp_source.html">Device.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a55bd77d15cedb794b7973c6437d7a7b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a55bd77d15cedb794b7973c6437d7a7b1">&#9670;&nbsp;</a></span>_device</h2>
@@ -404,12 +641,12 @@ template&lt;typename Function &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Device_8hpp_source.html#l00035">35</a> of file <a class="el" href="Device_8hpp_source.html">Device.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Device_8hpp_source.html#l00055">55</a> of file <a class="el" href="Device_8hpp_source.html">Device.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a88f003b17669c184ba038b016c4af2f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88f003b17669c184ba038b016c4af2f5">&#9670;&nbsp;</a></span>_physicalDeviceInfo</h2>
+<a id="af521756f533fce70bca5ed0fbab97351"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af521756f533fce70bca5ed0fbab97351">&#9670;&nbsp;</a></span>_physicalDeviceInfo</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -418,7 +655,7 @@ template&lt;typename Function &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html">PhysicalDeviceInfo</a>* lug::Graphics::Vulkan::API::Device::_physicalDeviceInfo {nullptr}</td>
+          <td class="memname">const <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html">PhysicalDeviceInfo</a>* lug::Graphics::Vulkan::API::Device::_physicalDeviceInfo {nullptr}</td>
         </tr>
       </table>
   </td>
@@ -428,7 +665,31 @@ template&lt;typename Function &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Device_8hpp_source.html#l00036">36</a> of file <a class="el" href="Device_8hpp_source.html">Device.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Device_8hpp_source.html#l00057">57</a> of file <a class="el" href="Device_8hpp_source.html">Device.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a5b4cc4e2eb1d8637b89e0b0ae74d03b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b4cc4e2eb1d8637b89e0b0ae74d03b7">&#9670;&nbsp;</a></span>_queueFamilies</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1QueueFamily.html">QueueFamily</a>&gt; lug::Graphics::Vulkan::API::Device::_queueFamilies</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Device_8hpp_source.html#l00058">58</a> of file <a class="el" href="Device_8hpp_source.html">Device.hpp</a>.</p>
 
 </div>
 </div>

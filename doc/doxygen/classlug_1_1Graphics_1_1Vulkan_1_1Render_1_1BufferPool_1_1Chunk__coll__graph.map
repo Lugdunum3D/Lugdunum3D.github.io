@@ -1,0 +1,7 @@
+<map id="lug::Graphics::Vulkan::Render::BufferPool::Chunk&lt; subBufferPerChunk, subBufferSize &gt;" name="lug::Graphics::Vulkan::Render::BufferPool::Chunk&lt; subBufferPerChunk, subBufferSize &gt;">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html" title="lug::Graphics::Vulkan\l::API::Buffer" alt="" coords="1961,394,2130,435"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1247,322,1416,363"/>
+<area shape="rect" id="node20" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html" title="lug::Graphics::Vulkan\l::API::DeviceMemory" alt="" coords="1583,481,1752,522"/>
+<area shape="rect" id="node5" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="862,257,1031,298"/>
+<area shape="rect" id="node6" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="438,41,607,97"/>
+</map>

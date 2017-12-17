@@ -1,10 +1,10 @@
 <map id="include/lug/System/Memory/Allocator/Pool.hpp" name="include/lug/System/Memory/Allocator/Pool.hpp">
-<area shape="rect" id="node2" href="$Chunk_8hpp.html" title="lug/System/Memory/Allocator\l/Chunk.hpp" alt="" coords="288,95,511,136"/>
+<area shape="rect" id="node2" href="$System_2Memory_2Allocator_2Chunk_8hpp.html" title="lug/System/Memory/Allocator\l/Chunk.hpp" alt="" coords="288,95,511,136"/>
 <area shape="rect" id="node5" href="$Debug_8hpp.html" title="lug/System/Debug.hpp" alt="" coords="187,191,361,218"/>
 <area shape="rect" id="node9" href="$System_2Export_8hpp.html" title="lug/System/Export.hpp" alt="" coords="466,273,642,300"/>
 <area shape="rect" id="node10" href="$IArea_8hpp.html" title="lug/System/Memory/Area\l/IArea.hpp" alt="" coords="437,184,631,225"/>
 <area shape="rect" id="node11" href="$FreeList_8hpp.html" title="lug/System/Memory/FreeList.hpp" alt="" coords="655,191,901,218"/>
-<area shape="rect" id="node13" href="$Chunk_8inl.html" title="lug/System/Memory/Allocator\l/Chunk.inl" alt="" coords="925,184,1148,225"/>
+<area shape="rect" id="node13" href="$System_2Memory_2Allocator_2Chunk_8inl.html" title="lug/System/Memory/Allocator\l/Chunk.inl" alt="" coords="925,184,1148,225"/>
 <area shape="rect" id="node6" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="285,348,404,375"/>
 <area shape="rect" id="node7" href="$Utils_8hpp.html" title="lug/System/Utils.hpp" alt="" coords="173,273,335,300"/>
 </map>

@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1DescriptorSetPool.html" title="lug::Graphics::Vulkan\l::Render::DescriptorSetPool\l::DescriptorSetPool\&lt; 10 \&gt;" alt="" coords="5,205,217,261"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1Camera.html" title="lug::Graphics::Vulkan\l::Render::DescriptorSetPool\l::Camera" alt="" coords="265,5,477,61"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1GuiTexture.html" title="lug::Graphics::Vulkan\l::Render::DescriptorSetPool\l::GuiTexture" alt="" coords="265,85,477,141"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1Light.html" title="lug::Graphics::Vulkan\l::Render::DescriptorSetPool\l::Light" alt="" coords="265,165,477,221"/>
+<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1Material.html" title="lug::Graphics::Vulkan\l::Render::DescriptorSetPool\l::Material" alt="" coords="265,245,477,301"/>
+<area shape="rect" id="node6" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1MaterialTextures.html" title="lug::Graphics::Vulkan\l::Render::DescriptorSetPool\l::MaterialTextures" alt="" coords="265,325,477,381"/>
+<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1SkyBox.html" title="lug::Graphics::Vulkan\l::Render::DescriptorSetPool\l::SkyBox" alt="" coords="265,405,477,461"/>
+</map>

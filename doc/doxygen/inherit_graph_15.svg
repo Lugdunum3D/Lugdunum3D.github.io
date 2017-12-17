@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="classlug_1_1Graphics_1_1Render_1_1Queue.html" target="_top" xlink:title="lug::Graphics::Render\l::Queue">
+<g id="a_node1"><a xlink:href="classlug_1_1Graphics_1_1Builder_1_1Camera.html" target="_top" xlink:title="lug::Graphics::Builder\l::Camera">
 <polygon fill="none" stroke="#000000" points="0,-.5 0,-30.5 128,-30.5 128,-.5 0,-.5"/>
-<text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">lug::Graphics::Render</text>
-<text text-anchor="middle" x="64" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::Queue</text>
+<text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">lug::Graphics::Builder</text>
+<text text-anchor="middle" x="64" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::Camera</text>
 </a>
 </g>
 </g>

@@ -1,0 +1,12 @@
+<map id="include/lug/Graphics/Vulkan/Render/BufferPool/BufferPool.inl" name="include/lug/Graphics/Vulkan/Render/BufferPool/BufferPool.inl">
+<area shape="rect" id="node2" href="$BufferPool_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/BufferPool\l/BufferPool.hpp" alt="" coords="357,109,558,165"/>
+<area shape="rect" id="node3" href="$Vulkan_2Render_2BufferPool_2Camera_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/BufferPool\l/Camera.hpp" alt="" coords="582,213,783,269"/>
+<area shape="rect" id="node8" href="$Vulkan_2Render_2BufferPool_2Light_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/BufferPool\l/Light.hpp" alt="" coords="131,213,333,269"/>
+<area shape="rect" id="node10" href="$Vulkan_2Render_2BufferPool_2Material_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/BufferPool\l/Material.hpp" alt="" coords="357,213,558,269"/>
+<area shape="rect" id="node4" href="$Forward_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/Technique\l/Forward.hpp" alt="" coords="246,317,445,373"/>
+<area shape="rect" id="node7" href="$Vulkan_2Render_2BufferPool_2Camera_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/BufferPool/Camera.cpp" alt="" coords="731,325,967,366"/>
+<area shape="rect" id="node5" href="$Forward_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Technique/Forward.cpp" alt="" coords="111,421,347,463"/>
+<area shape="rect" id="node6" href="$Vulkan_2Render_2View_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/View.cpp" alt="" coords="371,421,554,463"/>
+<area shape="rect" id="node9" href="$Vulkan_2Render_2BufferPool_2Light_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/BufferPool/Light.cpp" alt="" coords="5,325,221,366"/>
+<area shape="rect" id="node11" href="$Vulkan_2Render_2BufferPool_2Material_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/BufferPool/Material.cpp" alt="" coords="469,325,707,366"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="lug::Graphics::Vulkan::Render::BufferPool::Material" name="lug::Graphics::Vulkan::Render::BufferPool::Material">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1BufferPool.html" title="lug::Graphics::Vulkan\l::Render::BufferPool\l::BufferPool\&lt; 20, sizeof\l(::lug::Graphics::Render\l::Material::Constants) *2 \&gt;" alt="" coords="479,7,687,92"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1BufferPool.html" title="lug::Graphics::Vulkan\l::Render::BufferPool\l::BufferPool\&lt; subBufferPerChunk,\l subBufferSize \&gt;" alt="" coords="5,14,256,85"/>
+</map>

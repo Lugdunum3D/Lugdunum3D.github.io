@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classlug_1_1Graphics_1_1Render_1_1Target.html" title="lug::Graphics::Render\l::Target" alt="" coords="5,5,176,47"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Window.html" title="lug::Graphics::Render\l::Window" alt="" coords="224,35,395,76"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Window.html" title="lug::Graphics::Vulkan\l::Render::Window" alt="" coords="443,35,612,76"/>
+<area shape="rect" id="node4" href="$classlug_1_1Window_1_1Window.html" title="Class for window. " alt="" coords="5,71,176,98"/>
+</map>

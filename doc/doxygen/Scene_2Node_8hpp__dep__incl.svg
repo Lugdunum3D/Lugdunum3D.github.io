@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 698;
+var viewWidth = 1430;
 var viewHeight = 296;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,191 +54,344 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>include/lug/Graphics/Scene/Node.hpp</title>
-<!-- Node32 -->
+<!-- Node48 -->
 <g id="node1" class="node">
-<title>Node32</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="294.5,-257.5 294.5,-287.5 413.5,-287.5 413.5,-257.5 294.5,-257.5"/>
-<text text-anchor="start" x="302.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">include/lug/Graphics</text>
-<text text-anchor="middle" x="354" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Scene/Node.hpp</text>
+<title>Node48</title>
+<polygon fill="#bfbfbf" stroke="#000000" points="712.5,-257.5 712.5,-287.5 831.5,-287.5 831.5,-257.5 712.5,-257.5"/>
+<text text-anchor="start" x="720.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">include/lug/Graphics</text>
+<text text-anchor="middle" x="772" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Scene/Node.hpp</text>
 </g>
-<!-- Node33 -->
+<!-- Node49 -->
 <g id="node2" class="node">
-<title>Node33</title>
-<g id="a_node2"><a xlink:href="Scene_8hpp.html" target="_top" xlink:title="include/lug/Graphics\l/Scene/Scene.hpp">
-<polygon fill="none" stroke="#000000" points="222.5,-190.5 222.5,-220.5 341.5,-220.5 341.5,-190.5 222.5,-190.5"/>
-<text text-anchor="start" x="230.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">include/lug/Graphics</text>
-<text text-anchor="middle" x="282" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Scene/Scene.hpp</text>
+<title>Node49</title>
+<g id="a_node2"><a xlink:href="FreeMovement_8hpp.html" target="_top" xlink:title="include/lug/Core/FreeMovement.hpp">
+<polygon fill="none" stroke="#000000" points="10.5,-196 10.5,-215 209.5,-215 209.5,-196 10.5,-196"/>
+<text text-anchor="middle" x="110" y="-203" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">include/lug/Core/FreeMovement.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node32&#45;&gt;Node33 -->
+<!-- Node48&#45;&gt;Node49 -->
 <g id="edge1" class="edge">
-<title>Node32&#45;&gt;Node33</title>
-<path fill="none" stroke="#191970" d="M330.048,-250.2113C319.6129,-240.5009 307.6512,-229.3698 298.2733,-220.6432"/>
-<polygon fill="#191970" stroke="#191970" points="327.9571,-253.0466 337.6621,-257.2967 332.7257,-247.9221 327.9571,-253.0466"/>
+<title>Node48&#45;&gt;Node49</title>
+<path fill="none" stroke="#191970" d="M702.2429,-266.2813C600.3771,-257.0817 404.9782,-238.9877 239,-221 222.0687,-219.1651 203.9039,-217.0643 186.7059,-215.0141"/>
+<polygon fill="#191970" stroke="#191970" points="702.1283,-269.785 712.4022,-267.1972 702.7569,-262.8133 702.1283,-269.785"/>
 </g>
-<!-- Node39 -->
-<g id="node8" class="node">
-<title>Node39</title>
-<g id="a_node8"><a xlink:href="Scene_2Node_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Scene\l/Node.cpp">
-<polygon fill="none" stroke="#000000" points="70,-123.5 70,-153.5 204,-153.5 204,-123.5 70,-123.5"/>
-<text text-anchor="start" x="78" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Scene</text>
-<text text-anchor="middle" x="137" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Node.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node32&#45;&gt;Node39 -->
-<g id="edge11" class="edge">
-<title>Node32&#45;&gt;Node39</title>
-<path fill="none" stroke="#191970" d="M284.944,-254.2292C261.2998,-246.168 235.427,-235.2283 214,-221 186.0904,-202.467 161.1103,-171.8829 147.5988,-153.6163"/>
-<polygon fill="#191970" stroke="#191970" points="283.9795,-257.5964 294.5725,-257.3983 286.168,-250.9473 283.9795,-257.5964"/>
-</g>
-<!-- Node42 -->
-<g id="node11" class="node">
-<title>Node42</title>
-<g id="a_node11"><a xlink:href="MovableCamera_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Scene\l/MovableCamera.cpp">
-<polygon fill="none" stroke="#000000" points="360,-190.5 360,-220.5 494,-220.5 494,-190.5 360,-190.5"/>
-<text text-anchor="start" x="368" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Scene</text>
-<text text-anchor="middle" x="427" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/MovableCamera.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node32&#45;&gt;Node42 -->
-<g id="edge10" class="edge">
-<title>Node32&#45;&gt;Node42</title>
-<path fill="none" stroke="#191970" d="M377.974,-250.4965C388.6267,-240.7193 400.8993,-229.4554 410.5007,-220.6432"/>
-<polygon fill="#191970" stroke="#191970" points="375.5656,-247.9562 370.5648,-257.2967 380.2989,-253.1134 375.5656,-247.9562"/>
-</g>
-<!-- Node43 -->
-<g id="node12" class="node">
-<title>Node43</title>
-<g id="a_node12"><a xlink:href="Forward_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Vulkan\l/Render/Technique/Forward.cpp">
-<polygon fill="none" stroke="#000000" points="512.5,-190.5 512.5,-220.5 689.5,-220.5 689.5,-190.5 512.5,-190.5"/>
-<text text-anchor="start" x="520.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Vulkan</text>
-<text text-anchor="middle" x="601" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Render/Technique/Forward.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node32&#45;&gt;Node43 -->
-<g id="edge12" class="edge">
-<title>Node32&#45;&gt;Node43</title>
-<path fill="none" stroke="#191970" d="M419.1794,-254.8198C458.4389,-244.1704 507.9048,-230.7525 545.3266,-220.6017"/>
-<polygon fill="#191970" stroke="#191970" points="418.1666,-251.4679 409.4316,-257.4639 419.9992,-258.2238 418.1666,-251.4679"/>
-</g>
-<!-- Node34 -->
-<g id="node3" class="node">
-<title>Node34</title>
-<g id="a_node3"><a xlink:href="Graphics_8hpp.html" target="_top" xlink:title="include/lug/Graphics\l/Graphics.hpp">
-<polygon fill="none" stroke="#000000" points="222.5,-123.5 222.5,-153.5 341.5,-153.5 341.5,-123.5 222.5,-123.5"/>
-<text text-anchor="start" x="230.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">include/lug/Graphics</text>
-<text text-anchor="middle" x="282" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Graphics.hpp</text>
-</a>
-</g>
-</g>
-<!-- Node33&#45;&gt;Node34 -->
-<g id="edge2" class="edge">
-<title>Node33&#45;&gt;Node34</title>
-<path fill="none" stroke="#191970" d="M282,-180.0249C282,-171.128 282,-161.4287 282,-153.6432"/>
-<polygon fill="#191970" stroke="#191970" points="278.5001,-180.2966 282,-190.2967 285.5001,-180.2967 278.5001,-180.2966"/>
-</g>
-<!-- Node33&#45;&gt;Node39 -->
-<g id="edge7" class="edge">
-<title>Node33&#45;&gt;Node39</title>
-<path fill="none" stroke="#191970" d="M240.1764,-186.1746C217.7549,-175.8143 190.534,-163.2364 169.6828,-153.6017"/>
-<polygon fill="#191970" stroke="#191970" points="238.9133,-189.4465 249.4592,-190.4639 241.8495,-183.0921 238.9133,-189.4465"/>
-</g>
-<!-- Node40 -->
-<g id="node9" class="node">
-<title>Node40</title>
-<g id="a_node9"><a xlink:href="Scene_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Scene\l/Scene.cpp">
-<polygon fill="none" stroke="#000000" points="360,-123.5 360,-153.5 494,-153.5 494,-123.5 360,-123.5"/>
-<text text-anchor="start" x="368" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Scene</text>
-<text text-anchor="middle" x="427" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Scene.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node33&#45;&gt;Node40 -->
-<g id="edge8" class="edge">
-<title>Node33&#45;&gt;Node40</title>
-<path fill="none" stroke="#191970" d="M323.8236,-186.1746C346.2451,-175.8143 373.466,-163.2364 394.3172,-153.6017"/>
-<polygon fill="#191970" stroke="#191970" points="322.1505,-183.0921 314.5408,-190.4639 325.0867,-189.4465 322.1505,-183.0921"/>
-</g>
-<!-- Node41 -->
-<g id="node10" class="node">
-<title>Node41</title>
-<g id="a_node10"><a xlink:href="Vulkan_2Render_2Camera_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Vulkan\l/Render/Camera.cpp">
-<polygon fill="none" stroke="#000000" points="512.5,-123.5 512.5,-153.5 649.5,-153.5 649.5,-123.5 512.5,-123.5"/>
-<text text-anchor="start" x="520.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Vulkan</text>
-<text text-anchor="middle" x="581" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Render/Camera.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node33&#45;&gt;Node41 -->
-<g id="edge9" class="edge">
-<title>Node33&#45;&gt;Node41</title>
-<path fill="none" stroke="#191970" d="M351.9403,-189.7899C412.3101,-176.2522 470.3699,-163.2534 513.8188,-153.5299"/>
-<polygon fill="#191970" stroke="#191970" points="350.8303,-186.4518 341.8386,-192.0554 352.3621,-193.2821 350.8303,-186.4518"/>
-</g>
-<!-- Node35 -->
+<!-- Node51 -->
 <g id="node4" class="node">
-<title>Node35</title>
-<g id="a_node4"><a xlink:href="Application_8hpp.html" target="_top" xlink:title="include/lug/Core/Application.hpp">
-<polygon fill="none" stroke="#000000" points="0,-62 0,-81 180,-81 180,-62 0,-62"/>
-<text text-anchor="middle" x="90" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">include/lug/Core/Application.hpp</text>
+<title>Node51</title>
+<g id="a_node4"><a xlink:href="GltfLoader_8hpp.html" target="_top" xlink:title="include/lug/Graphics\l/GltfLoader.hpp">
+<polygon fill="none" stroke="#000000" points="248.5,-190.5 248.5,-220.5 367.5,-220.5 367.5,-190.5 248.5,-190.5"/>
+<text text-anchor="start" x="256.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">include/lug/Graphics</text>
+<text text-anchor="middle" x="308" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/GltfLoader.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node35 -->
+<!-- Node48&#45;&gt;Node51 -->
 <g id="edge3" class="edge">
-<title>Node34&#45;&gt;Node35</title>
-<path fill="none" stroke="#191970" d="M229.4501,-120.1623C193.1434,-107.4928 146.3285,-91.1563 117.239,-81.0053"/>
-<polygon fill="#191970" stroke="#191970" points="228.3166,-123.4737 238.9115,-123.4639 230.623,-116.8645 228.3166,-123.4737"/>
+<title>Node48&#45;&gt;Node51</title>
+<path fill="none" stroke="#191970" d="M702.3496,-262.4427C611.393,-249.3089 453.6817,-226.5359 367.8478,-214.1418"/>
+<polygon fill="#191970" stroke="#191970" points="701.8924,-265.9129 712.29,-263.8781 702.8929,-258.9848 701.8924,-265.9129"/>
 </g>
-<!-- Node37 -->
-<g id="node6" class="node">
-<title>Node37</title>
-<g id="a_node6"><a xlink:href="Graphics_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Graphics.cpp">
-<polygon fill="none" stroke="#000000" points="198,-62 198,-81 366,-81 366,-62 198,-62"/>
-<text text-anchor="middle" x="282" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Graphics.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node34&#45;&gt;Node37 -->
-<g id="edge5" class="edge">
-<title>Node34&#45;&gt;Node37</title>
-<path fill="none" stroke="#191970" d="M282,-113.1199C282,-101.9072 282,-89.4031 282,-81.055"/>
-<polygon fill="#191970" stroke="#191970" points="278.5001,-113.2966 282,-123.2967 285.5001,-113.2967 278.5001,-113.2966"/>
-</g>
-<!-- Node38 -->
+<!-- Node54 -->
 <g id="node7" class="node">
-<title>Node38</title>
-<g id="a_node7"><a xlink:href="Vulkan_2Renderer_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Vulkan\l/Renderer.cpp">
-<polygon fill="none" stroke="#000000" points="384.5,-56.5 384.5,-86.5 521.5,-86.5 521.5,-56.5 384.5,-56.5"/>
-<text text-anchor="start" x="392.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Vulkan</text>
-<text text-anchor="middle" x="453" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Renderer.cpp</text>
+<title>Node54</title>
+<g id="a_node7"><a xlink:href="Scene_2Scene_8hpp.html" target="_top" xlink:title="include/lug/Graphics\l/Scene/Scene.hpp">
+<polygon fill="none" stroke="#000000" points="575.5,-190.5 575.5,-220.5 694.5,-220.5 694.5,-190.5 575.5,-190.5"/>
+<text text-anchor="start" x="583.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">include/lug/Graphics</text>
+<text text-anchor="middle" x="635" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Scene/Scene.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node38 -->
+<!-- Node48&#45;&gt;Node54 -->
 <g id="edge6" class="edge">
-<title>Node34&#45;&gt;Node38</title>
-<path fill="none" stroke="#191970" d="M329.912,-119.7275C356.616,-109.2645 389.4277,-96.4084 414.4569,-86.6017"/>
-<polygon fill="#191970" stroke="#191970" points="328.4097,-116.5569 320.3757,-123.4639 330.9634,-123.0745 328.4097,-116.5569"/>
+<title>Node48&#45;&gt;Node54</title>
+<path fill="none" stroke="#191970" d="M732.2328,-253.0518C711.1816,-242.7567 685.7086,-230.2991 666.1169,-220.7177"/>
+<polygon fill="#191970" stroke="#191970" points="730.7336,-256.2147 741.2545,-257.4639 733.8089,-249.9264 730.7336,-256.2147"/>
 </g>
-<!-- Node36 -->
-<g id="node5" class="node">
-<title>Node36</title>
-<g id="a_node5"><a xlink:href="Application_8cpp.html" target="_top" xlink:title="src/lug/Core/Application.cpp">
-<polygon fill="none" stroke="#000000" points="10.5,-.5 10.5,-19.5 169.5,-19.5 169.5,-.5 10.5,-.5"/>
-<text text-anchor="middle" x="90" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Core/Application.cpp</text>
+<!-- Node63 -->
+<g id="node16" class="node">
+<title>Node63</title>
+<g id="a_node16"><a xlink:href="Scene_2Node_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Scene\l/Node.cpp">
+<polygon fill="none" stroke="#000000" points="1022,-123.5 1022,-153.5 1156,-153.5 1156,-123.5 1022,-123.5"/>
+<text text-anchor="start" x="1030" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Scene</text>
+<text text-anchor="middle" x="1089" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Node.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node35&#45;&gt;Node36 -->
+<!-- Node48&#45;&gt;Node63 -->
+<g id="edge20" class="edge">
+<title>Node48&#45;&gt;Node63</title>
+<path fill="none" stroke="#191970" d="M752.0471,-249.1994C739.1732,-231.2492 727.3292,-206.7486 742,-190 782.0294,-144.3014 953.0902,-164.0761 1013,-154 1015.9215,-153.5086 1018.9021,-152.9873 1021.9102,-152.4447"/>
+<polygon fill="#191970" stroke="#191970" points="749.4821,-251.6068 758.3381,-257.4224 755.0417,-247.3534 749.4821,-251.6068"/>
+</g>
+<!-- Node65 -->
+<g id="node18" class="node">
+<title>Node65</title>
+<g id="a_node18"><a xlink:href="Render_2Light_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Render\l/Light.cpp">
+<polygon fill="none" stroke="#000000" points="751.5,-190.5 751.5,-220.5 890.5,-220.5 890.5,-190.5 751.5,-190.5"/>
+<text text-anchor="start" x="759.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Render</text>
+<text text-anchor="middle" x="821" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Light.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node48&#45;&gt;Node65 -->
+<g id="edge19" class="edge">
+<title>Node48&#45;&gt;Node65</title>
+<path fill="none" stroke="#191970" d="M789.1408,-249.0626C796.0381,-239.6315 803.7932,-229.0276 809.9251,-220.6432"/>
+<polygon fill="#191970" stroke="#191970" points="786.197,-247.1588 783.1189,-257.2967 791.8472,-251.2911 786.197,-247.1588"/>
+</g>
+<!-- Node66 -->
+<g id="node19" class="node">
+<title>Node66</title>
+<g id="a_node19"><a xlink:href="Vulkan_2Render_2BufferPool_2Light_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Vulkan\l/Render/BufferPool/Light.cpp">
+<polygon fill="none" stroke="#000000" points="909,-190.5 909,-220.5 1071,-220.5 1071,-190.5 909,-190.5"/>
+<text text-anchor="start" x="917" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Vulkan</text>
+<text text-anchor="middle" x="990" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Render/BufferPool/Light.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node48&#45;&gt;Node66 -->
+<g id="edge21" class="edge">
+<title>Node48&#45;&gt;Node66</title>
+<path fill="none" stroke="#191970" d="M830.8525,-254.4123C865.2851,-243.8298 908.2549,-230.6235 940.8632,-220.6017"/>
+<polygon fill="#191970" stroke="#191970" points="829.454,-251.1805 820.9235,-257.4639 831.5104,-257.8716 829.454,-251.1805"/>
+</g>
+<!-- Node67 -->
+<g id="node20" class="node">
+<title>Node67</title>
+<g id="a_node20"><a xlink:href="Vulkan_2Render_2Queue_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Vulkan\l/Render/Queue.cpp">
+<polygon fill="none" stroke="#000000" points="1089.5,-190.5 1089.5,-220.5 1226.5,-220.5 1226.5,-190.5 1089.5,-190.5"/>
+<text text-anchor="start" x="1097.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Vulkan</text>
+<text text-anchor="middle" x="1158" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Render/Queue.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node48&#45;&gt;Node67 -->
+<g id="edge22" class="edge">
+<title>Node48&#45;&gt;Node67</title>
+<path fill="none" stroke="#191970" d="M841.8512,-261.443C904.3469,-251.4022 998.4144,-235.9236 1080,-221 1082.9878,-220.4535 1086.0382,-219.8864 1089.1183,-219.3064"/>
+<polygon fill="#191970" stroke="#191970" points="841.0346,-258.0292 831.7149,-263.0684 842.1429,-264.9409 841.0346,-258.0292"/>
+</g>
+<!-- Node68 -->
+<g id="node21" class="node">
+<title>Node68</title>
+<g id="a_node21"><a xlink:href="Forward_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Vulkan\l/Render/Technique/Forward.cpp">
+<polygon fill="none" stroke="#000000" points="1244.5,-190.5 1244.5,-220.5 1421.5,-220.5 1421.5,-190.5 1244.5,-190.5"/>
+<text text-anchor="start" x="1252.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Vulkan</text>
+<text text-anchor="middle" x="1333" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Render/Technique/Forward.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node48&#45;&gt;Node68 -->
+<g id="edge23" class="edge">
+<title>Node48&#45;&gt;Node68</title>
+<path fill="none" stroke="#191970" d="M841.9939,-265.7861C932.9418,-256.8205 1096.5988,-239.8629 1236,-221 1238.7885,-220.6227 1241.6205,-220.2296 1244.4788,-219.8244"/>
+<polygon fill="#191970" stroke="#191970" points="841.418,-262.3257 831.8081,-266.7867 842.1024,-269.2922 841.418,-262.3257"/>
+</g>
+<!-- Node50 -->
+<g id="node3" class="node">
+<title>Node50</title>
+<g id="a_node3"><a xlink:href="FreeMovement_8cpp.html" target="_top" xlink:title="src/lug/Core/FreeMovement.cpp">
+<polygon fill="none" stroke="#000000" points="0,-129 0,-148 178,-148 178,-129 0,-129"/>
+<text text-anchor="middle" x="89" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Core/FreeMovement.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node49&#45;&gt;Node50 -->
+<g id="edge2" class="edge">
+<title>Node49&#45;&gt;Node50</title>
+<path fill="none" stroke="#191970" d="M103.8838,-185.9863C99.9791,-173.5286 95.0887,-157.9258 92.0032,-148.0817"/>
+<polygon fill="#191970" stroke="#191970" points="100.6605,-187.4051 106.9912,-195.9005 107.3401,-185.3114 100.6605,-187.4051"/>
+</g>
+<!-- Node52 -->
+<g id="node5" class="node">
+<title>Node52</title>
+<g id="a_node5"><a xlink:href="GltfLoader_8cpp.html" target="_top" xlink:title="src/lug/Graphics/GltfLoader.cpp">
+<polygon fill="none" stroke="#000000" points="193,-62 193,-81 369,-81 369,-62 193,-62"/>
+<text text-anchor="middle" x="281" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/GltfLoader.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node51&#45;&gt;Node52 -->
 <g id="edge4" class="edge">
-<title>Node35&#45;&gt;Node36</title>
-<path fill="none" stroke="#191970" d="M90,-51.7462C90,-41.0519 90,-28.314 90,-19.7449"/>
-<polygon fill="#191970" stroke="#191970" points="86.5001,-51.8906 90,-61.8906 93.5001,-51.8907 86.5001,-51.8906"/>
+<title>Node51&#45;&gt;Node52</title>
+<path fill="none" stroke="#191970" d="M257.0587,-185.4025C243.961,-177.6425 231.4688,-167.3399 224,-154 217.2692,-141.9782 218.4068,-135.5914 224,-123 232.1753,-104.5956 250.5375,-89.985 264.2249,-81.0958"/>
+<polygon fill="#191970" stroke="#191970" points="255.7142,-188.656 266.1687,-190.3747 259.0678,-182.5116 255.7142,-188.656"/>
+</g>
+<!-- Node53 -->
+<g id="node6" class="node">
+<title>Node53</title>
+<g id="a_node6"><a xlink:href="ResourceManager_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Resource\lManager.cpp">
+<polygon fill="none" stroke="#000000" points="233.5,-123.5 233.5,-153.5 382.5,-153.5 382.5,-123.5 233.5,-123.5"/>
+<text text-anchor="start" x="241.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Resource</text>
+<text text-anchor="middle" x="308" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Manager.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node51&#45;&gt;Node53 -->
+<g id="edge5" class="edge">
+<title>Node51&#45;&gt;Node53</title>
+<path fill="none" stroke="#191970" d="M308,-180.0249C308,-171.128 308,-161.4287 308,-153.6432"/>
+<polygon fill="#191970" stroke="#191970" points="304.5001,-180.2966 308,-190.2967 311.5001,-180.2967 304.5001,-180.2966"/>
+</g>
+<!-- Node54&#45;&gt;Node52 -->
+<g id="edge15" class="edge">
+<title>Node54&#45;&gt;Node52</title>
+<path fill="none" stroke="#191970" d="M565.3575,-195.9248C524.1327,-188.3793 471.7766,-175.4412 429,-154 409.5148,-144.2333 409.4542,-134.5977 391,-123 363.3269,-105.6086 328.8391,-90.3976 305.9334,-81.1022"/>
+<polygon fill="#191970" stroke="#191970" points="564.8599,-199.391 575.3161,-197.6831 566.077,-192.4976 564.8599,-199.391"/>
+</g>
+<!-- Node55 -->
+<g id="node8" class="node">
+<title>Node55</title>
+<g id="a_node8"><a xlink:href="Builder_2Scene_8hpp.html" target="_top" xlink:title="include/lug/Graphics\l/Builder/Scene.hpp">
+<polygon fill="none" stroke="#000000" points="438.5,-123.5 438.5,-153.5 557.5,-153.5 557.5,-123.5 438.5,-123.5"/>
+<text text-anchor="start" x="446.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">include/lug/Graphics</text>
+<text text-anchor="middle" x="498" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Builder/Scene.hpp</text>
+</a>
+</g>
+</g>
+<!-- Node54&#45;&gt;Node55 -->
+<g id="edge7" class="edge">
+<title>Node54&#45;&gt;Node55</title>
+<path fill="none" stroke="#191970" d="M595.2328,-186.0518C574.1816,-175.7567 548.7086,-163.2991 529.1169,-153.7177"/>
+<polygon fill="#191970" stroke="#191970" points="593.7336,-189.2147 604.2545,-190.4639 596.8089,-182.9264 593.7336,-189.2147"/>
+</g>
+<!-- Node57 -->
+<g id="node10" class="node">
+<title>Node57</title>
+<g id="a_node10"><a xlink:href="Graphics_8hpp.html" target="_top" xlink:title="include/lug/Graphics\l/Graphics.hpp">
+<polygon fill="none" stroke="#000000" points="575.5,-123.5 575.5,-153.5 694.5,-153.5 694.5,-123.5 575.5,-123.5"/>
+<text text-anchor="start" x="583.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">include/lug/Graphics</text>
+<text text-anchor="middle" x="635" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Graphics.hpp</text>
+</a>
+</g>
+</g>
+<!-- Node54&#45;&gt;Node57 -->
+<g id="edge10" class="edge">
+<title>Node54&#45;&gt;Node57</title>
+<path fill="none" stroke="#191970" d="M635,-180.0249C635,-171.128 635,-161.4287 635,-153.6432"/>
+<polygon fill="#191970" stroke="#191970" points="631.5001,-180.2966 635,-190.2967 638.5001,-180.2967 631.5001,-180.2966"/>
+</g>
+<!-- Node62 -->
+<g id="node15" class="node">
+<title>Node62</title>
+<g id="a_node15"><a xlink:href="Render_2Camera_2Camera_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Render\l/Camera/Camera.cpp">
+<polygon fill="none" stroke="#000000" points="712.5,-123.5 712.5,-153.5 851.5,-153.5 851.5,-123.5 712.5,-123.5"/>
+<text text-anchor="start" x="720.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Render</text>
+<text text-anchor="middle" x="782" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Camera/Camera.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node54&#45;&gt;Node62 -->
+<g id="edge16" class="edge">
+<title>Node54&#45;&gt;Node62</title>
+<path fill="none" stroke="#191970" d="M677.0964,-186.3132C699.8847,-175.9267 727.6333,-163.2794 748.8664,-153.6017"/>
+<polygon fill="#191970" stroke="#191970" points="675.6375,-183.1317 667.9897,-190.4639 678.5407,-189.5013 675.6375,-183.1317"/>
+</g>
+<!-- Node54&#45;&gt;Node63 -->
+<g id="edge17" class="edge">
+<title>Node54&#45;&gt;Node63</title>
+<path fill="none" stroke="#191970" d="M704.5877,-190.741C706.0706,-190.4858 707.5427,-190.2384 709,-190 843.27,-168.0321 878.6724,-175.613 1013,-154 1015.9249,-153.5294 1018.9084,-153.0252 1021.9188,-152.4967"/>
+<polygon fill="#191970" stroke="#191970" points="703.9106,-187.3065 694.6894,-192.5238 705.1515,-194.1957 703.9106,-187.3065"/>
+</g>
+<!-- Node64 -->
+<g id="node17" class="node">
+<title>Node64</title>
+<g id="a_node17"><a xlink:href="Scene_2Scene_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Scene\l/Scene.cpp">
+<polygon fill="none" stroke="#000000" points="870,-123.5 870,-153.5 1004,-153.5 1004,-123.5 870,-123.5"/>
+<text text-anchor="start" x="878" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Scene</text>
+<text text-anchor="middle" x="937" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Scene.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node54&#45;&gt;Node64 -->
+<g id="edge18" class="edge">
+<title>Node54&#45;&gt;Node64</title>
+<path fill="none" stroke="#191970" d="M704.6813,-190.0409C754.348,-179.0221 820.7419,-164.2924 869.8314,-153.4016"/>
+<polygon fill="#191970" stroke="#191970" points="703.67,-186.6801 694.6655,-192.263 705.1862,-193.5139 703.67,-186.6801"/>
+</g>
+<!-- Node55&#45;&gt;Node52 -->
+<g id="edge9" class="edge">
+<title>Node55&#45;&gt;Node52</title>
+<path fill="none" stroke="#191970" d="M439.6527,-120.4849C398.4756,-107.7713 344.9427,-91.2427 311.7858,-81.0053"/>
+<polygon fill="#191970" stroke="#191970" points="438.7135,-123.8579 449.301,-123.4639 440.7786,-117.1695 438.7135,-123.8579"/>
+</g>
+<!-- Node56 -->
+<g id="node9" class="node">
+<title>Node56</title>
+<g id="a_node9"><a xlink:href="Builder_2Scene_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Builder\l/Scene.cpp">
+<polygon fill="none" stroke="#000000" points="387.5,-56.5 387.5,-86.5 526.5,-86.5 526.5,-56.5 387.5,-56.5"/>
+<text text-anchor="start" x="395.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Builder</text>
+<text text-anchor="middle" x="457" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Scene.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node55&#45;&gt;Node56 -->
+<g id="edge8" class="edge">
+<title>Node55&#45;&gt;Node56</title>
+<path fill="none" stroke="#191970" d="M483.3035,-114.4837C477.6222,-105.1996 471.2928,-94.8565 466.2667,-86.6432"/>
+<polygon fill="#191970" stroke="#191970" points="480.4914,-116.5939 488.6965,-123.2967 486.4622,-112.9401 480.4914,-116.5939"/>
+</g>
+<!-- Node58 -->
+<g id="node11" class="node">
+<title>Node58</title>
+<g id="a_node11"><a xlink:href="Application_8hpp.html" target="_top" xlink:title="include/lug/Core/Application.hpp">
+<polygon fill="none" stroke="#000000" points="545,-62 545,-81 725,-81 725,-62 545,-62"/>
+<text text-anchor="middle" x="635" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">include/lug/Core/Application.hpp</text>
+</a>
+</g>
+</g>
+<!-- Node57&#45;&gt;Node58 -->
+<g id="edge11" class="edge">
+<title>Node57&#45;&gt;Node58</title>
+<path fill="none" stroke="#191970" d="M635,-113.1199C635,-101.9072 635,-89.4031 635,-81.055"/>
+<polygon fill="#191970" stroke="#191970" points="631.5001,-113.2966 635,-123.2967 638.5001,-113.2967 631.5001,-113.2966"/>
+</g>
+<!-- Node60 -->
+<g id="node13" class="node">
+<title>Node60</title>
+<g id="a_node13"><a xlink:href="Graphics_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Graphics.cpp">
+<polygon fill="none" stroke="#000000" points="743,-62 743,-81 911,-81 911,-62 743,-62"/>
+<text text-anchor="middle" x="827" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Graphics.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node57&#45;&gt;Node60 -->
+<g id="edge13" class="edge">
+<title>Node57&#45;&gt;Node60</title>
+<path fill="none" stroke="#191970" d="M687.5499,-120.1623C723.8566,-107.4928 770.6715,-91.1563 799.761,-81.0053"/>
+<polygon fill="#191970" stroke="#191970" points="686.377,-116.8645 678.0885,-123.4639 688.6834,-123.4737 686.377,-116.8645"/>
+</g>
+<!-- Node61 -->
+<g id="node14" class="node">
+<title>Node61</title>
+<g id="a_node14"><a xlink:href="Vulkan_2Renderer_8cpp.html" target="_top" xlink:title="src/lug/Graphics/Vulkan\l/Renderer.cpp">
+<polygon fill="none" stroke="#000000" points="929.5,-56.5 929.5,-86.5 1066.5,-86.5 1066.5,-56.5 929.5,-56.5"/>
+<text text-anchor="start" x="937.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Graphics/Vulkan</text>
+<text text-anchor="middle" x="998" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/Renderer.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node57&#45;&gt;Node61 -->
+<g id="edge14" class="edge">
+<title>Node57&#45;&gt;Node61</title>
+<path fill="none" stroke="#191970" d="M704.499,-122.7651C800.6026,-104.1354 826.9213,-103.9646 920,-87 922.9882,-86.4554 926.0388,-85.8899 929.1191,-85.3111"/>
+<polygon fill="#191970" stroke="#191970" points="703.8036,-119.3347 694.6612,-124.6889 705.147,-126.2046 703.8036,-119.3347"/>
+</g>
+<!-- Node59 -->
+<g id="node12" class="node">
+<title>Node59</title>
+<g id="a_node12"><a xlink:href="Application_8cpp.html" target="_top" xlink:title="src/lug/Core/Application.cpp">
+<polygon fill="none" stroke="#000000" points="555.5,-.5 555.5,-19.5 714.5,-19.5 714.5,-.5 555.5,-.5"/>
+<text text-anchor="middle" x="635" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Core/Application.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node58&#45;&gt;Node59 -->
+<g id="edge12" class="edge">
+<title>Node58&#45;&gt;Node59</title>
+<path fill="none" stroke="#191970" d="M635,-51.7462C635,-41.0519 635,-28.314 635,-19.7449"/>
+<polygon fill="#191970" stroke="#191970" points="631.5001,-51.8906 635,-61.8906 638.5001,-51.8907 631.5001,-51.8906"/>
 </g>
 </g>
 </svg>

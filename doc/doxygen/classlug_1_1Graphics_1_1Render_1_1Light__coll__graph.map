@@ -1,0 +1,5 @@
+<map id="lug::Graphics::Render::Light" name="lug::Graphics::Render::Light">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="655,131,840,158"/>
+<area shape="rect" id="node3" href="$structlug_1_1Graphics_1_1Resource_1_1Handle.html" title="Handle of the resource. It contains informations such as the type and the index in the ResourceManage..." alt="" coords="251,124,436,165"/>
+<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Render_1_1DirtyObject.html" title="lug::Graphics::Render\l::DirtyObject" alt="" coords="460,9,631,50"/>
+</map>

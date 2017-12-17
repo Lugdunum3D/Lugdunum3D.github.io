@@ -62,11 +62,17 @@ $(function() {
 &#160;
 
 <h3><a id="index_s"></a>- s -</h3><ul>
+<li>scale
+: <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Gui_1_1PushConstBlock.html#a17a0881bd7056a8b0f57fcef7b45291f">lug::Graphics::Vulkan::Gui::PushConstBlock</a>
+</li>
 <li>scissor
 : <a class="el" href="structlug_1_1Graphics_1_1Render_1_1View_1_1InitInfo.html#a0cc326f808d6d5f8f8f085a8ec5c35e6">lug::Graphics::Render::View::InitInfo</a>
 </li>
 <li>scrollOffset
-: <a class="el" href="structlug_1_1Window_1_1MouseEvent.html#a542ac5b822ec220ed1c5a3d9f271f4d5">lug::Window::MouseEvent</a>
+: <a class="el" href="structlug_1_1Window_1_1MouseEvent.html#aa1ee0c9b15b6a37f51ddefd166d0894f">lug::Window::MouseEvent</a>
+</li>
+<li>semaphore
+: <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Gui_1_1FrameData.html#a61b57501d02fed15f81a088f15486676">lug::Graphics::Vulkan::Gui::FrameData</a>
 </li>
 <li>shadersRoot
 : <a class="el" href="structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html#a12c3fbe5faa25f9c6fe0c3ff83d44196">lug::Graphics::Renderer::InitInfo</a>
@@ -76,8 +82,9 @@ $(function() {
 , <a class="el" href="structlug_1_1Window_1_1MouseEvent.html#a39c612994677eb05d9bfdcdfab783f62">lug::Window::MouseEvent</a>
 </li>
 <li>size
-: <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1Chunk.html#a3d0f0750d90988b0b3c0d77d0b52a85e">lug::Graphics::Vulkan::Render::BufferPool::Chunk</a>
-, <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1SubBuffer.html#a1e5a7c11a60e1d5a53285443b06320a2">lug::Graphics::Vulkan::Render::BufferPool::SubBuffer</a>
+: <a class="el" href="structCmdPipelineBarrier_1_1BufferMemoryBarrier.html#a8bc2fa0bd6896c095f33769780fbb650">CmdPipelineBarrier::BufferMemoryBarrier</a>
+, <a class="el" href="structCmdPushConstants.html#a0363a2122d87c3ee1457c1a92b6c8291">CmdPushConstants</a>
+, <a class="el" href="structlug_1_1Graphics_1_1Render_1_1Mesh_1_1PrimitiveSet_1_1Attribute_1_1Buffer.html#a90642dd809e055c197f2cbfb78a9d92b">lug::Graphics::Render::Mesh::PrimitiveSet::Attribute::Buffer</a>
 </li>
 <li>SizeBack
 : <a class="el" href="classlug_1_1System_1_1Memory_1_1Policies_1_1NoBoundsChecking.html#ac797af5bf2ef26646c07849a52feafe4">lug::System::Memory::Policies::NoBoundsChecking</a>
@@ -87,26 +94,49 @@ $(function() {
 : <a class="el" href="classlug_1_1System_1_1Memory_1_1Policies_1_1NoBoundsChecking.html#a31930403ee030e89a110ff54654fe54d">lug::System::Memory::Policies::NoBoundsChecking</a>
 , <a class="el" href="classlug_1_1System_1_1Memory_1_1Policies_1_1SimpleBoundsChecking.html#a07afaf6047720f55b590253d3e1448b0">lug::System::Memory::Policies::SimpleBoundsChecking</a>
 </li>
-<li>specular
-: <a class="el" href="structlug_1_1Graphics_1_1Light_1_1Directional_1_1LightData.html#a921b0553028ca1bf02c128b942c9b88d">lug::Graphics::Light::Directional::LightData</a>
-, <a class="el" href="structlug_1_1Graphics_1_1Light_1_1Point_1_1LightData.html#ac5e63a86dfdcbb1f554a40aa984659d9">lug::Graphics::Light::Point::LightData</a>
-, <a class="el" href="structlug_1_1Graphics_1_1Light_1_1Spot_1_1LightData.html#a0fa387ec8788d50fe007cd7371f48378">lug::Graphics::Light::Spot::LightData</a>
-, <a class="el" href="structlug_1_1Graphics_1_1Render_1_1Mesh_1_1Material.html#a03f0e9f9305e5118446476cb35211413">lug::Graphics::Render::Mesh::Material</a>
+<li>skyBoxDescriptorSet
+: <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward_1_1FrameData.html#a3e7af1f724cbc08ace94cc221bf1009b">lug::Graphics::Vulkan::Render::Technique::Forward::FrameData</a>
+</li>
+<li>srcAccessMask
+: <a class="el" href="structCmdPipelineBarrier_1_1BufferMemoryBarrier.html#ad4353834efe26c481313f98fe6b9d44d">CmdPipelineBarrier::BufferMemoryBarrier</a>
+, <a class="el" href="structCmdPipelineBarrier_1_1ImageMemoryBarrier.html#a8baaa9252c10687bba3c125a47f9ed47">CmdPipelineBarrier::ImageMemoryBarrier</a>
+, <a class="el" href="structCmdPipelineBarrier_1_1MemoryBarrier.html#add3869688427103542a40a16d8dd2216">CmdPipelineBarrier::MemoryBarrier</a>
+, <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Builder_1_1RenderPass_1_1SubpassDependency.html#a34e80e4c502eb77ae7f32d9e33117683">lug::Graphics::Vulkan::API::Builder::RenderPass::SubpassDependency</a>
+</li>
+<li>srcImage
+: <a class="el" href="structCmdCopyImage.html#af87e6f16f08052d55b58b109210e4266">CmdCopyImage</a>
+</li>
+<li>srcImageLayout
+: <a class="el" href="structCmdCopyImage.html#a99ab075668457ed87babbfb0f9cd113b">CmdCopyImage</a>
+</li>
+<li>srcQueueFamilyIndex
+: <a class="el" href="structCmdPipelineBarrier_1_1BufferMemoryBarrier.html#abcc134a42d19a1d578b1608930b8418b">CmdPipelineBarrier::BufferMemoryBarrier</a>
+, <a class="el" href="structCmdPipelineBarrier_1_1ImageMemoryBarrier.html#a41dd116cbe3070435b72c3551637dad8">CmdPipelineBarrier::ImageMemoryBarrier</a>
+</li>
+<li>srcStageMask
+: <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Builder_1_1RenderPass_1_1SubpassDependency.html#a2a7c276f8ebb147abed62b7962f4b05a">lug::Graphics::Vulkan::API::Builder::RenderPass::SubpassDependency</a>
+</li>
+<li>srcSubpass
+: <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Builder_1_1RenderPass_1_1SubpassDependency.html#aee29b4d1aba7e1046b4629338e4d3fb7">lug::Graphics::Vulkan::API::Builder::RenderPass::SubpassDependency</a>
+</li>
+<li>stageFlags
+: <a class="el" href="structCmdPushConstants.html#a8908783a0d5e5a2d1692e86d47cb5026">CmdPushConstants</a>
 </li>
 <li>start
 : <a class="el" href="structlug_1_1System_1_1Memory_1_1Area_1_1Page.html#a8c46ea9c753ee8c922c8f65f9fb8d31f">lug::System::Memory::Area::Page</a>
 </li>
 <li>state
 : <a class="el" href="structlug_1_1Window_1_1priv_1_1WMHints.html#a71f91a4b9320881fe4d02ca47cd7e23f">lug::Window::priv::WMHints</a>
+, <a class="el" href="structlug_1_1Window_1_1TouchScreenEvent.html#a3080e277e7b4d0d557e92d8f6cd5d326">lug::Window::TouchScreenEvent</a>
+</li>
+<li>strideShader
+: <a class="el" href="classlug_1_1Graphics_1_1Render_1_1Light.html#a02c5be160eda2350c7d0189f424a70bb">lug::Graphics::Render::Light</a>
 </li>
 <li>style
 : <a class="el" href="structlug_1_1Window_1_1Window_1_1InitInfo.html#aa37a18df7b444a375d698520a4fd277d">lug::Window::Window::InitInfo</a>
 </li>
-<li>subBuffers
-: <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1Chunk.html#a490543802a18e7103ac437397855c5e4">lug::Graphics::Vulkan::Render::BufferPool::Chunk</a>
-</li>
-<li>subBuffersFree
-: <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1Chunk.html#aa19d331cf2ca5cba9c573f2c6ff1c02d">lug::Graphics::Vulkan::Render::BufferPool::Chunk</a>
+<li>subresourceRange
+: <a class="el" href="structCmdPipelineBarrier_1_1ImageMemoryBarrier.html#a41d28168e69783493f25a0649349b5d3">CmdPipelineBarrier::ImageMemoryBarrier</a>
 </li>
 <li>swapchain
 : <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html#a6056166333420600983493dcc7475845">lug::Graphics::Vulkan::PhysicalDeviceInfo</a>

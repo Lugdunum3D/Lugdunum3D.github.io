@@ -1,4 +1,5 @@
 <map id="lug::Graphics::Graphics" name="lug::Graphics::Graphics">
-<area shape="rect" id="node2" href="$structlug_1_1Graphics_1_1Graphics_1_1InitInfo.html" title="Utility structure used to initialize the Graphics component. " alt="" coords="575,65,757,106"/>
-<area shape="rect" id="node3" href="$structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html" title="lug::Graphics::Renderer\l::InitInfo" alt="" coords="201,57,387,98"/>
+<area shape="rect" id="node2" href="$structlug_1_1Core_1_1Version.html" title="Stores the version of the Application. " alt="" coords="669,36,815,63"/>
+<area shape="rect" id="node4" href="$structlug_1_1Graphics_1_1Graphics_1_1InitInfo.html" title="Utility structure used to initialize the Graphics component. " alt="" coords="651,249,833,290"/>
+<area shape="rect" id="node5" href="$structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html" title="lug::Graphics::Renderer\l::InitInfo" alt="" coords="277,170,463,211"/>
 </map>

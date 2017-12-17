@@ -65,8 +65,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">lug::Graphics::Vulkan::API::Buffer Class Reference</div>  </div>
@@ -83,8 +84,8 @@ Collaboration diagram for lug::Graphics::Vulkan::API::Buffer:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a28521328c75482e3a1374a2f6ac9d8f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a28521328c75482e3a1374a2f6ac9d8f2">Buffer</a> (VkBuffer <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html">Buffer</a>=VK_NULL_HANDLE, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *device=nullptr, <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> *deviceMemory=nullptr)</td></tr>
-<tr class="separator:a28521328c75482e3a1374a2f6ac9d8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a878e964b7f051efc02d4cc3e431e20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a5a878e964b7f051efc02d4cc3e431e20">Buffer</a> ()=default</td></tr>
+<tr class="separator:a5a878e964b7f051efc02d4cc3e431e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d311894001b596d20784f9580e6e1d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a2d311894001b596d20784f9580e6e1d7">Buffer</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html">Buffer</a> &amp;)=delete</td></tr>
 <tr class="separator:a2d311894001b596d20784f9580e6e1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26b08cadb9b510759d2ac1942b400f66"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a26b08cadb9b510759d2ac1942b400f66">Buffer</a> (<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html">Buffer</a> &amp;&amp;buffer)</td></tr>
@@ -99,25 +100,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3af2092b3edcd5aa824f5e424b8f8b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f69c7f4b104b22a1ffb9639f6fd6d33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a6f69c7f4b104b22a1ffb9639f6fd6d33">destroy</a> ()</td></tr>
 <tr class="separator:a6f69c7f4b104b22a1ffb9639f6fd6d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad0df4c05fe4f7553c46855b0303f210"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#aad0df4c05fe4f7553c46855b0303f210">bindMemory</a> (<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> *deviceMemory, VkDeviceSize memoryOffset=0)</td></tr>
-<tr class="separator:aad0df4c05fe4f7553c46855b0303f210"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad909112be2e1a3dae197f45805328f4b"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#ad909112be2e1a3dae197f45805328f4b">mapMemory</a> (VkDeviceSize size, VkDeviceSize offset=0)</td></tr>
-<tr class="separator:ad909112be2e1a3dae197f45805328f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afda3d19ba28028282901dba9121fdd1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#afda3d19ba28028282901dba9121fdd1d">unmapMemory</a> ()</td></tr>
-<tr class="separator:afda3d19ba28028282901dba9121fdd1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add08b776dfda6da46082c905e4dc1035"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#add08b776dfda6da46082c905e4dc1035">updateData</a> (void *data, uint32_t size, uint32_t memoryOffset=0)</td></tr>
-<tr class="separator:add08b776dfda6da46082c905e4dc1035"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac16ed798bfe3842133e73eb3ae3202cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#ac16ed798bfe3842133e73eb3ae3202cb">updateDataTransfer</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandBuffer.html">CommandBuffer</a> *commandBuffer, void *data, uint32_t size, uint32_t offset=0)</td></tr>
-<tr class="separator:ac16ed798bfe3842133e73eb3ae3202cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a979ae381b0ceb0599ae68ddfb97f064b"><td class="memItemLeft" align="right" valign="top">const VkMemoryRequirements &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a979ae381b0ceb0599ae68ddfb97f064b">getRequirements</a> () const</td></tr>
-<tr class="separator:a979ae381b0ceb0599ae68ddfb97f064b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95bca32e5340b72957e2700a430f50d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a95bca32e5340b72957e2700a430f50d8">bindMemory</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> &amp;deviceMemory, VkDeviceSize memoryOffset=0)</td></tr>
+<tr class="separator:a95bca32e5340b72957e2700a430f50d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f3a90e519d1636f8de9722605d172a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a6f3a90e519d1636f8de9722605d172a5">updateData</a> (const void *data, VkDeviceSize size, VkDeviceSize offset=0) const</td></tr>
+<tr class="separator:a6f3a90e519d1636f8de9722605d172a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a80b3f60b9e7b9b5b0c7191b6ba2265"><td class="memItemLeft" align="right" valign="top">const VkMemoryRequirements &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a4a80b3f60b9e7b9b5b0c7191b6ba2265">getRequirements</a> () const</td></tr>
+<tr class="separator:a4a80b3f60b9e7b9b5b0c7191b6ba2265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae76236f368104c6a364c9805b05a7f6a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#ae76236f368104c6a364c9805b05a7f6a">getDeviceMemory</a> () const</td></tr>
+<tr class="separator:ae76236f368104c6a364c9805b05a7f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab49b692e9482d71282b90c59add14228"><td class="memItemLeft" align="right" valign="top">VkDeviceSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#ab49b692e9482d71282b90c59add14228">getDeviceMemoryOffset</a> () const</td></tr>
+<tr class="separator:ab49b692e9482d71282b90c59add14228"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ae5fed269229ca6c2d83298c69bee1eb8"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#ae5fed269229ca6c2d83298c69bee1eb8">getSizeAligned</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *device, uint32_t size)</td></tr>
-<tr class="separator:ae5fed269229ca6c2d83298c69bee1eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1a8f8889f1d8ffc474ed144972a119c"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html">Buffer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#af1a8f8889f1d8ffc474ed144972a119c">create</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *device, uint32_t queueFamilyIndexCount, const uint32_t *pQueueFamilyIndices, VkDeviceSize size, VkBufferUsageFlags usage, VkBufferCreateFlags createFlags=0, VkSharingMode sharingMode=VK_SHARING_MODE_EXCLUSIVE)</td></tr>
-<tr class="separator:af1a8f8889f1d8ffc474ed144972a119c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a62dba4157a6aa9d96761914c22382c85"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a62dba4157a6aa9d96761914c22382c85">Buffer</a> (VkBuffer <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html">Buffer</a>, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *device)</td></tr>
+<tr class="separator:a62dba4157a6aa9d96761914c22382c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -125,17 +122,24 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a4c8deb742fdef761df9700db82261c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a179b61f9b736af56553ac75d81bd99e7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a179b61f9b736af56553ac75d81bd99e7">_device</a> {nullptr}</td></tr>
 <tr class="separator:a179b61f9b736af56553ac75d81bd99e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18da2bb8ffae0905e4f70e5339dd3c4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a18da2bb8ffae0905e4f70e5339dd3c4f">_deviceMemory</a> {nullptr}</td></tr>
-<tr class="separator:a18da2bb8ffae0905e4f70e5339dd3c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1deb2c093530eb49e50f8dc046d9045d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a1deb2c093530eb49e50f8dc046d9045d">_deviceMemory</a> {nullptr}</td></tr>
+<tr class="separator:a1deb2c093530eb49e50f8dc046d9045d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a2a49976f71d86de9def0ed7002eae9"><td class="memItemLeft" align="right" valign="top">VkDeviceSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a8a2a49976f71d86de9def0ed7002eae9">_deviceMemoryOffset</a> {0}</td></tr>
+<tr class="separator:a8a2a49976f71d86de9def0ed7002eae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc9cffbb9865ebd26ff21d04a6b53904"><td class="memItemLeft" align="right" valign="top">VkMemoryRequirements&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#adc9cffbb9865ebd26ff21d04a6b53904">_requirements</a> {}</td></tr>
 <tr class="separator:adc9cffbb9865ebd26ff21d04a6b53904"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a757d266e9b2172e5de55d4117d567cc2"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html#a757d266e9b2172e5de55d4117d567cc2">Builder::Buffer</a></td></tr>
+<tr class="separator:a757d266e9b2172e5de55d4117d567cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="Buffer_8hpp_source.html#l00016">16</a> of file <a class="el" href="Buffer_8hpp_source.html">Buffer.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8hpp_source.html#l00021">21</a> of file <a class="el" href="Buffer_8hpp_source.html">Buffer.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a28521328c75482e3a1374a2f6ac9d8f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28521328c75482e3a1374a2f6ac9d8f2">&#9670;&nbsp;</a></span>Buffer() <span class="overload">[1/3]</span></h2>
+<a id="a5a878e964b7f051efc02d4cc3e431e20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a878e964b7f051efc02d4cc3e431e20">&#9670;&nbsp;</a></span>Buffer() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -146,40 +150,21 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">lug::Graphics::Vulkan::API::Buffer::Buffer </td>
           <td>(</td>
-          <td class="paramtype">VkBuffer&#160;</td>
-          <td class="paramname"><em>Buffer</em> = <code>VK_NULL_HANDLE</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td>
-          <td class="paramname"><em>device</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> *&#160;</td>
-          <td class="paramname"><em>deviceMemory</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00012">12</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a2d311894001b596d20784f9580e6e1d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d311894001b596d20784f9580e6e1d7">&#9670;&nbsp;</a></span>Buffer() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d311894001b596d20784f9580e6e1d7">&#9670;&nbsp;</a></span>Buffer() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,7 +190,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a26b08cadb9b510759d2ac1942b400f66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26b08cadb9b510759d2ac1942b400f66">&#9670;&nbsp;</a></span>Buffer() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a26b08cadb9b510759d2ac1942b400f66">&#9670;&nbsp;</a></span>Buffer() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,7 +224,45 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00045">45</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00049">49</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a62dba4157a6aa9d96761914c22382c85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62dba4157a6aa9d96761914c22382c85">&#9670;&nbsp;</a></span>Buffer() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">lug::Graphics::Vulkan::API::Buffer::Buffer </td>
+          <td>(</td>
+          <td class="paramtype">VkBuffer&#160;</td>
+          <td class="paramname"><em>Buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td>
+          <td class="paramname"><em>device</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00013">13</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
@@ -286,7 +309,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00030">30</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00032">32</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
@@ -313,7 +336,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8hpp_source.html#l00028">28</a> of file <a class="el" href="Buffer_8hpp_source.html">Buffer.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8hpp_source.html#l00035">35</a> of file <a class="el" href="Buffer_8hpp_source.html">Buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -332,12 +355,12 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00049">49</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00053">53</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
-<a id="aad0df4c05fe4f7553c46855b0303f210"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad0df4c05fe4f7553c46855b0303f210">&#9670;&nbsp;</a></span>bindMemory()</h2>
+<a id="a95bca32e5340b72957e2700a430f50d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95bca32e5340b72957e2700a430f50d8">&#9670;&nbsp;</a></span>bindMemory()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -345,7 +368,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void lug::Graphics::Vulkan::API::Buffer::bindMemory </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> &amp;&#160;</td>
           <td class="paramname"><em>deviceMemory</em>, </td>
         </tr>
         <tr>
@@ -362,19 +385,25 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00056">56</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00060">60</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ad909112be2e1a3dae197f45805328f4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad909112be2e1a3dae197f45805328f4b">&#9670;&nbsp;</a></span>mapMemory()</h2>
+<a id="a6f3a90e519d1636f8de9722605d172a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f3a90e519d1636f8de9722605d172a5">&#9670;&nbsp;</a></span>updateData()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void * lug::Graphics::Vulkan::API::Buffer::mapMemory </td>
+          <td class="memname">bool lug::Graphics::Vulkan::API::Buffer::updateData </td>
           <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">VkDeviceSize&#160;</td>
           <td class="paramname"><em>size</em>, </td>
         </tr>
@@ -387,114 +416,17 @@ Private Attributes</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00061">61</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00067">67</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
-<a id="afda3d19ba28028282901dba9121fdd1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afda3d19ba28028282901dba9121fdd1d">&#9670;&nbsp;</a></span>unmapMemory()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void lug::Graphics::Vulkan::API::Buffer::unmapMemory </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00069">69</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
-
-</div>
-</div>
-<a id="add08b776dfda6da46082c905e4dc1035"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add08b776dfda6da46082c905e4dc1035">&#9670;&nbsp;</a></span>updateData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void lug::Graphics::Vulkan::API::Buffer::updateData </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>memoryOffset</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00073">73</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ac16ed798bfe3842133e73eb3ae3202cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac16ed798bfe3842133e73eb3ae3202cb">&#9670;&nbsp;</a></span>updateDataTransfer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void lug::Graphics::Vulkan::API::Buffer::updateDataTransfer </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandBuffer.html">CommandBuffer</a> *&#160;</td>
-          <td class="paramname"><em>commandBuffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>offset</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00080">80</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ae5fed269229ca6c2d83298c69bee1eb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5fed269229ca6c2d83298c69bee1eb8">&#9670;&nbsp;</a></span>getSizeAligned()</h2>
+<a id="a4a80b3f60b9e7b9b5b0c7191b6ba2265"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a80b3f60b9e7b9b5b0c7191b6ba2265">&#9670;&nbsp;</a></span>getRequirements()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -503,55 +435,25 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t lug::Graphics::Vulkan::API::Buffer::getSizeAligned </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td>
-          <td class="paramname"><em>device</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00119">119</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a979ae381b0ceb0599ae68ddfb97f064b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a979ae381b0ceb0599ae68ddfb97f064b">&#9670;&nbsp;</a></span>getRequirements()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const VkMemoryRequirements &amp; lug::Graphics::Vulkan::API::Buffer::getRequirements </td>
+          <td class="memname">const VkMemoryRequirements &amp; Buffer::getRequirements </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00084">84</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8inl_source.html#l00001">1</a> of file <a class="el" href="Buffer_8inl_source.html">Buffer.inl</a>.</p>
 
 </div>
 </div>
-<a id="af1a8f8889f1d8ffc474ed144972a119c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1a8f8889f1d8ffc474ed144972a119c">&#9670;&nbsp;</a></span>create()</h2>
+<a id="ae76236f368104c6a364c9805b05a7f6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae76236f368104c6a364c9805b05a7f6a">&#9670;&nbsp;</a></span>getDeviceMemory()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -560,61 +462,72 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html">Buffer</a> &gt; lug::Graphics::Vulkan::API::Buffer::create </td>
+          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a> * Buffer::getDeviceMemory </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td>
-          <td class="paramname"><em>device</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>queueFamilyIndexCount</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint32_t *&#160;</td>
-          <td class="paramname"><em>pQueueFamilyIndices</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkDeviceSize&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkBufferUsageFlags&#160;</td>
-          <td class="paramname"><em>usage</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkBufferCreateFlags&#160;</td>
-          <td class="paramname"><em>createFlags</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VkSharingMode&#160;</td>
-          <td class="paramname"><em>sharingMode</em> = <code>VK_SHARING_MODE_EXCLUSIVE</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8cpp_source.html#l00088">88</a> of file <a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8inl_source.html#l00005">5</a> of file <a class="el" href="Buffer_8inl_source.html">Buffer.inl</a>.</p>
+
+</div>
+</div>
+<a id="ab49b692e9482d71282b90c59add14228"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab49b692e9482d71282b90c59add14228">&#9670;&nbsp;</a></span>getDeviceMemoryOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkDeviceSize Buffer::getDeviceMemoryOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Buffer_8inl_source.html#l00009">9</a> of file <a class="el" href="Buffer_8inl_source.html">Buffer.inl</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a757d266e9b2172e5de55d4117d567cc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a757d266e9b2172e5de55d4117d567cc2">&#9670;&nbsp;</a></span>Builder::Buffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Builder_1_1Buffer.html">Builder::Buffer</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Buffer_8hpp_source.html#l00022">22</a> of file <a class="el" href="Buffer_8hpp_source.html">Buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -639,7 +552,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8hpp_source.html#l00055">55</a> of file <a class="el" href="Buffer_8hpp_source.html">Buffer.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8hpp_source.html#l00053">53</a> of file <a class="el" href="Buffer_8hpp_source.html">Buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -663,12 +576,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Buffer_8hpp_source.html#l00056">56</a> of file <a class="el" href="Buffer_8hpp_source.html">Buffer.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Buffer_8hpp_source.html#l00054">54</a> of file <a class="el" href="Buffer_8hpp_source.html">Buffer.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a18da2bb8ffae0905e4f70e5339dd3c4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18da2bb8ffae0905e4f70e5339dd3c4f">&#9670;&nbsp;</a></span>_deviceMemory</h2>
+<a id="a1deb2c093530eb49e50f8dc046d9045d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1deb2c093530eb49e50f8dc046d9045d">&#9670;&nbsp;</a></span>_deviceMemory</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -677,7 +590,31 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a>* lug::Graphics::Vulkan::API::Buffer::_deviceMemory {nullptr}</td>
+          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">DeviceMemory</a>* lug::Graphics::Vulkan::API::Buffer::_deviceMemory {nullptr}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Buffer_8hpp_source.html#l00056">56</a> of file <a class="el" href="Buffer_8hpp_source.html">Buffer.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8a2a49976f71d86de9def0ed7002eae9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a2a49976f71d86de9def0ed7002eae9">&#9670;&nbsp;</a></span>_deviceMemoryOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkDeviceSize lug::Graphics::Vulkan::API::Buffer::_deviceMemoryOffset {0}</td>
         </tr>
       </table>
   </td>
@@ -717,6 +654,7 @@ Private Attributes</h2></td></tr>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>include/lug/Graphics/Vulkan/API/<a class="el" href="Buffer_8hpp_source.html">Buffer.hpp</a></li>
+<li>include/lug/Graphics/Vulkan/API/<a class="el" href="Buffer_8inl_source.html">Buffer.inl</a></li>
 <li>src/lug/Graphics/Vulkan/API/<a class="el" href="Buffer_8cpp_source.html">Buffer.cpp</a></li>
 </ul>
 </div><!-- contents -->

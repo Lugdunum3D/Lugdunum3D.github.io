@@ -8,16 +8,16 @@
  viewBox="0.00 0.00 131.00 106.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 102)">
 <title>src/lug/Window/Unix/WindowImplX11.hpp</title>
-<!-- Node30 -->
+<!-- Node31 -->
 <g id="node1" class="node">
-<title>Node30</title>
+<title>Node31</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-67.5 0,-97.5 123,-97.5 123,-67.5 0,-67.5"/>
 <text text-anchor="start" x="8" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Window/Unix</text>
 <text text-anchor="middle" x="61.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/WindowImplX11.hpp</text>
 </g>
-<!-- Node31 -->
+<!-- Node32 -->
 <g id="node2" class="node">
-<title>Node31</title>
+<title>Node32</title>
 <g id="a_node2"><a xlink:href="WindowImplX11_8cpp.html" target="_top" xlink:title="src/lug/Window/Unix\l/WindowImplX11.cpp">
 <polygon fill="none" stroke="#000000" points=".5,-.5 .5,-30.5 122.5,-30.5 122.5,-.5 .5,-.5"/>
 <text text-anchor="start" x="8.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/lug/Window/Unix</text>
@@ -25,9 +25,9 @@
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node31 -->
+<!-- Node31&#45;&gt;Node32 -->
 <g id="edge1" class="edge">
-<title>Node30&#45;&gt;Node31</title>
+<title>Node31&#45;&gt;Node32</title>
 <path fill="none" stroke="#191970" d="M61.5,-57.0249C61.5,-48.128 61.5,-38.4287 61.5,-30.6432"/>
 <polygon fill="#191970" stroke="#191970" points="58.0001,-57.2966 61.5,-67.2967 65.0001,-57.2967 58.0001,-57.2966"/>
 </g>

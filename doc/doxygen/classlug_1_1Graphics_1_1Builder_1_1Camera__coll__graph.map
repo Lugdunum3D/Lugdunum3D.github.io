@@ -1,0 +1,7 @@
+<map id="lug::Graphics::Builder::Camera" name="lug::Graphics::Builder::Camera">
+<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Renderer.html" title="lug::Graphics::Renderer" alt="" coords="1353,296,1539,323"/>
+<area shape="rect" id="node7" href="$structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html" title="lug::Graphics::Renderer\l::InitInfo" alt="" coords="277,457,463,498"/>
+<area shape="rect" id="node11" href="$structlug_1_1Graphics_1_1Graphics_1_1InitInfo.html" title="Utility structure used to initialize the Graphics component. " alt="" coords="651,342,833,383"/>
+<area shape="rect" id="node8" href="$classlug_1_1Graphics_1_1Graphics.html" title="Class for graphics. " alt="" coords="985,315,1168,341"/>
+<area shape="rect" id="node9" href="$structlug_1_1Core_1_1Version.html" title="Stores the version of the Application. " alt="" coords="669,225,815,252"/>
+</map>

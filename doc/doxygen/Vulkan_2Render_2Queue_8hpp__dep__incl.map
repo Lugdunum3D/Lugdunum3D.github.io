@@ -1,0 +1,10 @@
+<map id="include/lug/Graphics/Vulkan/Render/Queue.hpp" name="include/lug/Graphics/Vulkan/Render/Queue.hpp">
+<area shape="rect" id="node2" href="$Technique_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/Technique\l/Technique.hpp" alt="" coords="276,95,474,151"/>
+<area shape="rect" id="node4" href="$Forward_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Technique/Forward.cpp" alt="" coords="9,303,245,344"/>
+<area shape="rect" id="node6" href="$Vulkan_2Render_2View_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/View.hpp" alt="" coords="524,206,717,247"/>
+<area shape="rect" id="node9" href="$Vulkan_2Render_2Queue_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Queue.cpp" alt="" coords="549,102,732,143"/>
+<area shape="rect" id="node3" href="$Forward_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/Technique\l/Forward.hpp" alt="" coords="28,199,226,255"/>
+<area shape="rect" id="node8" href="$Technique_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Technique/Technique.cpp" alt="" coords="250,206,500,247"/>
+<area shape="rect" id="node5" href="$Vulkan_2Render_2View_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/View.cpp" alt="" coords="296,303,478,344"/>
+<area shape="rect" id="node7" href="$Graphics_2Vulkan_2Render_2Window_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Window.cpp" alt="" coords="529,303,712,344"/>
+</map>

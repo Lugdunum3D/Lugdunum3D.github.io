@@ -1,8 +1,13 @@
 <map id="src/lug/Graphics/Vulkan/Render" name="src/lug/Graphics/Vulkan/Render">
-<area shape="rect" id="node3" href="dir_d44c64559bbebec7f509842c48db8b23.html" title="include" alt="" coords="99,159,171,207"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000030_000000.html" title="39" alt="" coords="156,139,173,154"/>
-<area shape="rect" id="node2" href="dir_8156b41d1b4045fab7b5490ea2e82b0f.html" title="Technique" alt="" coords="38,63,127,111"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000033_000000.html" title="19" alt="" coords="112,131,129,145"/>
-<area shape="rect" id="clust2" href="dir_60448228cedc3adcc274036c08681e8e.html" alt="" coords="27,52,235,121"/>
-<area shape="rect" id="clust1" href="dir_24b854cab9028903726c9b726a7698c6.html" title="Vulkan" alt="" coords="16,16,245,132"/>
+<area shape="rect" id="node2" href="dir_09c9b1ece153e3bd6a88c45e9320307a.html" title="BufferPool" alt="" coords="416,63,507,111"/>
+<area shape="rect" id="node6" href="dir_d44c64559bbebec7f509842c48db8b23.html" title="include" alt="" coords="219,159,291,207"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000038_000000.html" title="10" alt="" coords="302,170,319,185"/>
+<area shape="rect" id="node3" href="dir_2bbb8e86b93c69330b03b4b514ebf251.html" title="DescriptorSetPool" alt="" coords="251,63,392,111"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000039_000000.html" title="20" alt="" coords="280,141,298,155"/>
+<area shape="rect" id="node4" href="dir_db8a787d0d44c73a07038f0936852a64.html" title="Pipeline" alt="" coords="152,63,227,111"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000046_000000.html" title="2" alt="" coords="230,131,239,146"/>
+<area shape="rect" id="node5" href="dir_8156b41d1b4045fab7b5490ea2e82b0f.html" title="Technique" alt="" coords="38,63,127,111"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000047_000000.html" title="27" alt="" coords="196,147,213,162"/>
+<area shape="rect" id="clust2" href="dir_60448228cedc3adcc274036c08681e8e.html" alt="" coords="27,52,613,121"/>
+<area shape="rect" id="clust1" href="dir_24b854cab9028903726c9b726a7698c6.html" title="Vulkan" alt="" coords="16,16,624,132"/>
 </map>

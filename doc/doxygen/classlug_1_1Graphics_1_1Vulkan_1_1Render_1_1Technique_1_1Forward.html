@@ -67,6 +67,7 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">lug::Graphics::Vulkan::Render::Technique::Forward Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
@@ -96,8 +97,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abe8ce55d869eea5cd2462beafa77ba1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#abe8ce55d869eea5cd2462beafa77ba1f">Forward</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Renderer.html">Renderer</a> &amp;renderer, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1View.html">View</a> *renderView, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">API::Device</a> *device, <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">API::Queue</a> *presentQueue)</td></tr>
-<tr class="separator:abe8ce55d869eea5cd2462beafa77ba1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d976d6297914ef1f338b21c00c1d611"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a6d976d6297914ef1f338b21c00c1d611">Forward</a> (<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Renderer.html">Renderer</a> &amp;renderer, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1View.html">View</a> &amp;renderView)</td></tr>
+<tr class="separator:a6d976d6297914ef1f338b21c00c1d611"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e869093f171fb8eca03857e5e44d9c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a1e869093f171fb8eca03857e5e44d9c9">Forward</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html">Forward</a> &amp;)=delete</td></tr>
 <tr class="separator:a1e869093f171fb8eca03857e5e44d9c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58def3df75b778828787d83cc30afe50"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a58def3df75b778828787d83cc30afe50">Forward</a> (<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html">Forward</a> &amp;&amp;)=delete</td></tr>
@@ -106,21 +107,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a24e3dd5031fe70f280e58ca1a15ba5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28fb5ef208a41ea39c447ec6ddf7a209"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html">Forward</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a28fb5ef208a41ea39c447ec6ddf7a209">operator=</a> (<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html">Forward</a> &amp;&amp;)=delete</td></tr>
 <tr class="separator:a28fb5ef208a41ea39c447ec6ddf7a209"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e0755e5985b73157ecc79ec10040573"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a7e0755e5985b73157ecc79ec10040573">~Forward</a> ()=default</td></tr>
-<tr class="separator:a7e0755e5985b73157ecc79ec10040573"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3603949620b83382075e7a2e39da1c6b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a3603949620b83382075e7a2e39da1c6b">render</a> (const ::<a class="el" href="classlug_1_1Graphics_1_1Render_1_1Queue.html">lug::Graphics::Render::Queue</a> &amp;renderQueue, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Semaphore.html">API::Semaphore</a> &amp;imageReadySemaphore, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Semaphore.html">API::Semaphore</a> &amp;drawCompleteSemaphore, uint32_t currentImageIndex) override final</td></tr>
-<tr class="separator:a3603949620b83382075e7a2e39da1c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8915254ecd3f945aacd5175c1f8aca3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a8915254ecd3f945aacd5175c1f8aca3e">init</a> (<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DescriptorPool.html">API::DescriptorPool</a> *descriptorPool, const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1ImageView.html">API::ImageView</a> &gt;&gt; &amp;imageViews) override final</td></tr>
-<tr class="separator:a8915254ecd3f945aacd5175c1f8aca3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfed1229971a59420f9f60aeaed20721"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#acfed1229971a59420f9f60aeaed20721">~Forward</a> ()</td></tr>
+<tr class="separator:acfed1229971a59420f9f60aeaed20721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3adabdc07adcea141f8ed528eb6244e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a3adabdc07adcea141f8ed528eb6244e5">render</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Queue.html">Render::Queue</a> &amp;renderQueue, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Semaphore.html">API::Semaphore</a> &amp;imageReadySemaphore, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Semaphore.html">API::Semaphore</a> &amp;drawCompleteSemaphore, uint32_t currentImageIndex) override final</td></tr>
+<tr class="separator:a3adabdc07adcea141f8ed528eb6244e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeae80d788d249f2552a624f9bb50488"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#aaeae80d788d249f2552a624f9bb50488">init</a> (const std::vector&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1ImageView.html">API::ImageView</a> &gt; &amp;imageViews) override final</td></tr>
+<tr class="separator:aaeae80d788d249f2552a624f9bb50488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb8fc07b0f6d0a0965063e24d9433b9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#afb8fc07b0f6d0a0965063e24d9433b9a">destroy</a> () override final</td></tr>
 <tr class="separator:afb8fc07b0f6d0a0965063e24d9433b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5ff06d2d97883fbfaab487a610948fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#af5ff06d2d97883fbfaab487a610948fb">initDepthBuffers</a> (const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1ImageView.html">API::ImageView</a> &gt;&gt; &amp;imageViews) override final</td></tr>
-<tr class="separator:af5ff06d2d97883fbfaab487a610948fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6babfd4aa1ed774d72ccf81fd0e8db3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a6babfd4aa1ed774d72ccf81fd0e8db3f">initFramebuffers</a> (const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1ImageView.html">API::ImageView</a> &gt;&gt; &amp;imageViews) override final</td></tr>
-<tr class="separator:a6babfd4aa1ed774d72ccf81fd0e8db3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f292c908c2f58022369955df680203c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a7f292c908c2f58022369955df680203c">initDepthBuffers</a> (const std::vector&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1ImageView.html">API::ImageView</a> &gt; &amp;imageViews) override final</td></tr>
+<tr class="separator:a7f292c908c2f58022369955df680203c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefbfd16bb0e0a323e7eb43cae25cd095"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#aefbfd16bb0e0a323e7eb43cae25cd095">initFramebuffers</a> (const std::vector&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1ImageView.html">API::ImageView</a> &gt; &amp;imageViews) override final</td></tr>
+<tr class="separator:aefbfd16bb0e0a323e7eb43cae25cd095"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html">lug::Graphics::Vulkan::Render::Technique::Technique</a></td></tr>
-<tr class="memitem:a20f8d235b6b94eb328d9807b37a9c4ad inherit pub_methods_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#a20f8d235b6b94eb328d9807b37a9c4ad">Technique</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Renderer.html">Renderer</a> &amp;renderer, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1View.html">View</a> *renderView, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">API::Device</a> *device, <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">API::Queue</a> *presentQueue)</td></tr>
-<tr class="separator:a20f8d235b6b94eb328d9807b37a9c4ad inherit pub_methods_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a165fea45be69040bca8a1bd1fef858dc inherit pub_methods_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#a165fea45be69040bca8a1bd1fef858dc">Technique</a> (<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Renderer.html">Renderer</a> &amp;renderer, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1View.html">View</a> &amp;renderView)</td></tr>
+<tr class="separator:a165fea45be69040bca8a1bd1fef858dc inherit pub_methods_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae24ea0a7b1f7bf7730fd099fd807d708 inherit pub_methods_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#ae24ea0a7b1f7bf7730fd099fd807d708">Technique</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html">Technique</a> &amp;)=delete</td></tr>
 <tr class="separator:ae24ea0a7b1f7bf7730fd099fd807d708 inherit pub_methods_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a097bf2a04682da0ad2b90492f937f0e3 inherit pub_methods_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#a097bf2a04682da0ad2b90492f937f0e3">Technique</a> (<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html">Technique</a> &amp;&amp;)=delete</td></tr>
@@ -134,37 +135,54 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aba414cfc69bbbc2687122bd27061d92a"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool.html">BufferPool</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#aba414cfc69bbbc2687122bd27061d92a">_cameraPool</a></td></tr>
-<tr class="separator:aba414cfc69bbbc2687122bd27061d92a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf0d5d76fa762ccfe8a7b4b5de9fc6e3"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool.html">BufferPool</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#aaf0d5d76fa762ccfe8a7b4b5de9fc6e3">_lightsPool</a></td></tr>
-<tr class="separator:aaf0d5d76fa762ccfe8a7b4b5de9fc6e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b022886380b3e077615ec0463dd2b94"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">API::DeviceMemory</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a1b022886380b3e077615ec0463dd2b94">_depthBufferMemory</a> {nullptr}</td></tr>
-<tr class="separator:a1b022886380b3e077615ec0463dd2b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a496f0dfa0ab32d63f194b958ffa608f7"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="classlug_1_1Graphics_1_1Light_1_1Light.html#a2e3d7b1634618ca5468832fbbd0aa887">Light::Light::Type</a>, std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Pipeline.html">API::Pipeline</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a496f0dfa0ab32d63f194b958ffa608f7">_pipelines</a></td></tr>
-<tr class="separator:a496f0dfa0ab32d63f194b958ffa608f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcc8b2bcfeda59eb178c31befc324f5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">API::DeviceMemory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#afcc8b2bcfeda59eb178c31befc324f5c">_depthBufferMemory</a></td></tr>
+<tr class="separator:afcc8b2bcfeda59eb178c31befc324f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04a54976f2d527f2ff3b9b9ea9346eaf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward_1_1FrameData.html">FrameData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a04a54976f2d527f2ff3b9b9ea9346eaf">_framesData</a></td></tr>
 <tr class="separator:a04a54976f2d527f2ff3b9b9ea9346eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5e5309cd880892f48f0567b3d843b10"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1SubBuffer.html">BufferPool::SubBuffer</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#aa5e5309cd880892f48f0567b3d843b10">_subBuffers</a></td></tr>
-<tr class="separator:aa5e5309cd880892f48f0567b3d843b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8512062f291f852470bfbd27d18c98c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">API::Queue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#af8512062f291f852470bfbd27d18c98c">_graphicsQueue</a> {nullptr}</td></tr>
+<tr class="separator:af8512062f291f852470bfbd27d18c98c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fc02a1e7040bc629aaf79448413c0eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html">API::CommandPool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a3fc02a1e7040bc629aaf79448413c0eb">_graphicsCommandPool</a></td></tr>
+<tr class="separator:a3fc02a1e7040bc629aaf79448413c0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e28973c94bb5bb4b06195dcf4024275"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">API::Queue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a3e28973c94bb5bb4b06195dcf4024275">_transferQueue</a> {nullptr}</td></tr>
+<tr class="separator:a3e28973c94bb5bb4b06195dcf4024275"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48c68ab044fc78434c8538fa3bd92dad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html">API::CommandPool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a48c68ab044fc78434c8538fa3bd92dad">_transferCommandPool</a></td></tr>
+<tr class="separator:a48c68ab044fc78434c8538fa3bd92dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a0ca4be0e5f9ed8e51882454eb3826c40"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1Camera.html">BufferPool::Camera</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a0ca4be0e5f9ed8e51882454eb3826c40">_cameraBufferPool</a> = nullptr</td></tr>
+<tr class="separator:a0ca4be0e5f9ed8e51882454eb3826c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8edff359f1274249400911242464ba1f"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1Light.html">BufferPool::Light</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a8edff359f1274249400911242464ba1f">_lightBufferPool</a> = nullptr</td></tr>
+<tr class="separator:a8edff359f1274249400911242464ba1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bc0e439610c1825e5faf0b1d109967c"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1Material.html">BufferPool::Material</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a8bc0e439610c1825e5faf0b1d109967c">_materialBufferPool</a> = nullptr</td></tr>
+<tr class="separator:a8bc0e439610c1825e5faf0b1d109967c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2fc991185c06749a6cab5077e6f0b3c"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1Camera.html">DescriptorSetPool::Camera</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#ad2fc991185c06749a6cab5077e6f0b3c">_cameraDescriptorSetPool</a> = nullptr</td></tr>
+<tr class="separator:ad2fc991185c06749a6cab5077e6f0b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40722a2ca801611d138a7a7e3ce95e45"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1Light.html">DescriptorSetPool::Light</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a40722a2ca801611d138a7a7e3ce95e45">_lightDescriptorSetPool</a> = nullptr</td></tr>
+<tr class="separator:a40722a2ca801611d138a7a7e3ce95e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac055555112b6799a4dbff36e40a0fd1c"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1Material.html">DescriptorSetPool::Material</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#ac055555112b6799a4dbff36e40a0fd1c">_materialDescriptorSetPool</a> = nullptr</td></tr>
+<tr class="separator:ac055555112b6799a4dbff36e40a0fd1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6758430eb9d66217900ac9caaeba640"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1MaterialTextures.html">DescriptorSetPool::MaterialTextures</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#ab6758430eb9d66217900ac9caaeba640">_materialTexturesDescriptorSetPool</a> = nullptr</td></tr>
+<tr class="separator:ab6758430eb9d66217900ac9caaeba640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18d6aaf2a00217db60e27d9f95927a0c"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1SkyBox.html">DescriptorSetPool::SkyBox</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a18d6aaf2a00217db60e27d9f95927a0c">_skyBoxDescriptorSetPool</a> = nullptr</td></tr>
+<tr class="separator:a18d6aaf2a00217db60e27d9f95927a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a048114c1ad58ba45eb0dcf03eac5d8ea"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Forward.html#a048114c1ad58ba45eb0dcf03eac5d8ea">_forwardCount</a> = 0</td></tr>
+<tr class="separator:a048114c1ad58ba45eb0dcf03eac5d8ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html">lug::Graphics::Vulkan::Render::Technique::Technique</a></td></tr>
-<tr class="memitem:a1904831c2878e3499080163b366d2b3b inherit pro_attribs_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Renderer.html">Renderer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#a1904831c2878e3499080163b366d2b3b">_renderer</a></td></tr>
-<tr class="separator:a1904831c2878e3499080163b366d2b3b inherit pro_attribs_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70923867a54124c67a22a801f5447c35 inherit pro_attribs_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1View.html">View</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#a70923867a54124c67a22a801f5447c35">_renderView</a></td></tr>
-<tr class="separator:a70923867a54124c67a22a801f5447c35 inherit pro_attribs_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a9123e82ff18aaaab926e964cdf3313 inherit pro_attribs_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">API::Device</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#a0a9123e82ff18aaaab926e964cdf3313">_device</a> {nullptr}</td></tr>
-<tr class="separator:a0a9123e82ff18aaaab926e964cdf3313 inherit pro_attribs_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0373ddae0f7af2b008bb4b970d4bb8e inherit pro_attribs_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">API::Queue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#ac0373ddae0f7af2b008bb4b970d4bb8e">_presentQueue</a> {nullptr}</td></tr>
-<tr class="separator:ac0373ddae0f7af2b008bb4b970d4bb8e inherit pro_attribs_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd9f5c52dc7a6cab7bc5010381f361d1 inherit pro_attribs_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Renderer.html">Renderer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#acd9f5c52dc7a6cab7bc5010381f361d1">_renderer</a></td></tr>
+<tr class="separator:acd9f5c52dc7a6cab7bc5010381f361d1 inherit pro_attribs_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9b588b342989f84b2b9a328ff0b50b9 inherit pro_attribs_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1View.html">View</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#ad9b588b342989f84b2b9a328ff0b50b9">_renderView</a></td></tr>
+<tr class="separator:ad9b588b342989f84b2b9a328ff0b50b9 inherit pro_attribs_classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00022">22</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00033">33</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="abe8ce55d869eea5cd2462beafa77ba1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe8ce55d869eea5cd2462beafa77ba1f">&#9670;&nbsp;</a></span>Forward() <span class="overload">[1/3]</span></h2>
+<a id="a6d976d6297914ef1f338b21c00c1d611"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d976d6297914ef1f338b21c00c1d611">&#9670;&nbsp;</a></span>Forward() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -172,26 +190,14 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">lug::Graphics::Vulkan::Render::Technique::Forward::Forward </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Renderer.html">Renderer</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Renderer.html">Renderer</a> &amp;&#160;</td>
           <td class="paramname"><em>renderer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1View.html">View</a> *&#160;</td>
-          <td class="paramname"><em>renderView</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">API::Device</a> *&#160;</td>
-          <td class="paramname"><em>device</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">API::Queue</a> *&#160;</td>
-          <td class="paramname"><em>presentQueue</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1View.html">View</a> &amp;&#160;</td>
+          <td class="paramname"><em>renderView</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -201,7 +207,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Forward_8cpp_source.html#l00030">30</a> of file <a class="el" href="Forward_8cpp_source.html">Forward.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Forward_8cpp_source.html#l00049">49</a> of file <a class="el" href="Forward_8cpp_source.html">Forward.cpp</a>.</p>
 
 </div>
 </div>
@@ -257,14 +263,11 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a7e0755e5985b73157ecc79ec10040573"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e0755e5985b73157ecc79ec10040573">&#9670;&nbsp;</a></span>~Forward()</h2>
+<a id="acfed1229971a59420f9f60aeaed20721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfed1229971a59420f9f60aeaed20721">&#9670;&nbsp;</a></span>~Forward()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">lug::Graphics::Vulkan::Render::Technique::Forward::~Forward </td>
@@ -273,12 +276,9 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Forward_8cpp_source.html#l00053">53</a> of file <a class="el" href="Forward_8cpp_source.html">Forward.cpp</a>.</p>
 
 </div>
 </div>
@@ -335,8 +335,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a3603949620b83382075e7a2e39da1c6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3603949620b83382075e7a2e39da1c6b">&#9670;&nbsp;</a></span>render()</h2>
+<a id="a3adabdc07adcea141f8ed528eb6244e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3adabdc07adcea141f8ed528eb6244e5">&#9670;&nbsp;</a></span>render()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -347,7 +347,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">bool lug::Graphics::Vulkan::Render::Technique::Forward::render </td>
           <td>(</td>
-          <td class="paramtype">const ::<a class="el" href="classlug_1_1Graphics_1_1Render_1_1Queue.html">lug::Graphics::Render::Queue</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Queue.html">Render::Queue</a> &amp;&#160;</td>
           <td class="paramname"><em>renderQueue</em>, </td>
         </tr>
         <tr>
@@ -381,14 +381,14 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#aeee648fbbd817788919dd685325f9fa8">lug::Graphics::Vulkan::Render::Technique::Technique</a>.</p>
+<p>Implements <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#ab24465e3d9b202df235eed7d453d4643">lug::Graphics::Vulkan::Render::Technique::Technique</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="Forward_8cpp_source.html#l00033">33</a> of file <a class="el" href="Forward_8cpp_source.html">Forward.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Forward_8cpp_source.html#l00057">57</a> of file <a class="el" href="Forward_8cpp_source.html">Forward.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a8915254ecd3f945aacd5175c1f8aca3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8915254ecd3f945aacd5175c1f8aca3e">&#9670;&nbsp;</a></span>init()</h2>
+<a id="aaeae80d788d249f2552a624f9bb50488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeae80d788d249f2552a624f9bb50488">&#9670;&nbsp;</a></span>init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -399,19 +399,9 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">bool lug::Graphics::Vulkan::Render::Technique::Forward::init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DescriptorPool.html">API::DescriptorPool</a> *&#160;</td>
-          <td class="paramname"><em>descriptorPool</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1ImageView.html">API::ImageView</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>imageViews</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1ImageView.html">API::ImageView</a> &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>imageViews</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -421,9 +411,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#abcb7e3dfa6a0152da3ba230216e3b196">lug::Graphics::Vulkan::Render::Technique::Technique</a>.</p>
+<p>Implements <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#aa598d3124119e50e1a05328a674392f5">lug::Graphics::Vulkan::Render::Technique::Technique</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="Forward_8cpp_source.html#l00232">232</a> of file <a class="el" href="Forward_8cpp_source.html">Forward.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Forward_8cpp_source.html#l00508">508</a> of file <a class="el" href="Forward_8cpp_source.html">Forward.cpp</a>.</p>
 
 </div>
 </div>
@@ -452,12 +442,12 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#a6b96fd3e6c98f7820307fa99064d2ec1">lug::Graphics::Vulkan::Render::Technique::Technique</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="Forward_8cpp_source.html#l00315">315</a> of file <a class="el" href="Forward_8cpp_source.html">Forward.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Forward_8cpp_source.html#l00634">634</a> of file <a class="el" href="Forward_8cpp_source.html">Forward.cpp</a>.</p>
 
 </div>
 </div>
-<a id="af5ff06d2d97883fbfaab487a610948fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5ff06d2d97883fbfaab487a610948fb">&#9670;&nbsp;</a></span>initDepthBuffers()</h2>
+<a id="a7f292c908c2f58022369955df680203c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f292c908c2f58022369955df680203c">&#9670;&nbsp;</a></span>initDepthBuffers()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -468,7 +458,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">bool lug::Graphics::Vulkan::Render::Technique::Forward::initDepthBuffers </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1ImageView.html">API::ImageView</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1ImageView.html">API::ImageView</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>imageViews</em></td><td>)</td>
           <td></td>
         </tr>
@@ -480,14 +470,14 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#a39a22e6299b1248e548a43431f984c61">lug::Graphics::Vulkan::Render::Technique::Technique</a>.</p>
+<p>Implements <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#a812fe6f335ee6ee48fbaf25a281bb361">lug::Graphics::Vulkan::Render::Technique::Technique</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="Forward_8cpp_source.html#l00330">330</a> of file <a class="el" href="Forward_8cpp_source.html">Forward.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Forward_8cpp_source.html#l00688">688</a> of file <a class="el" href="Forward_8cpp_source.html">Forward.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a6babfd4aa1ed774d72ccf81fd0e8db3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6babfd4aa1ed774d72ccf81fd0e8db3f">&#9670;&nbsp;</a></span>initFramebuffers()</h2>
+<a id="aefbfd16bb0e0a323e7eb43cae25cd095"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefbfd16bb0e0a323e7eb43cae25cd095">&#9670;&nbsp;</a></span>initFramebuffers()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -498,7 +488,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">bool lug::Graphics::Vulkan::Render::Technique::Forward::initFramebuffers </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1ImageView.html">API::ImageView</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1ImageView.html">API::ImageView</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>imageViews</em></td><td>)</td>
           <td></td>
         </tr>
@@ -510,15 +500,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#ab993562f06c02417f565dc9fc8b7f801">lug::Graphics::Vulkan::Render::Technique::Technique</a>.</p>
+<p>Implements <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique_1_1Technique.html#a0345dbeaf9c329cb174346baa2b7a80e">lug::Graphics::Vulkan::Render::Technique::Technique</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="Forward_8cpp_source.html#l00407">407</a> of file <a class="el" href="Forward_8cpp_source.html">Forward.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Forward_8cpp_source.html#l00753">753</a> of file <a class="el" href="Forward_8cpp_source.html">Forward.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aba414cfc69bbbc2687122bd27061d92a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba414cfc69bbbc2687122bd27061d92a">&#9670;&nbsp;</a></span>_cameraPool</h2>
+<a id="afcc8b2bcfeda59eb178c31befc324f5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcc8b2bcfeda59eb178c31befc324f5c">&#9670;&nbsp;</a></span>_depthBufferMemory</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -527,7 +517,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool.html">BufferPool</a>&gt; lug::Graphics::Vulkan::Render::Technique::Forward::_cameraPool</td>
+          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">API::DeviceMemory</a> lug::Graphics::Vulkan::Render::Technique::Forward::_depthBufferMemory</td>
         </tr>
       </table>
   </td>
@@ -537,79 +527,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00059">59</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
-
-</div>
-</div>
-<a id="aaf0d5d76fa762ccfe8a7b4b5de9fc6e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf0d5d76fa762ccfe8a7b4b5de9fc6e3">&#9670;&nbsp;</a></span>_lightsPool</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool.html">BufferPool</a>&gt; lug::Graphics::Vulkan::Render::Technique::Forward::_lightsPool</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00060">60</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a1b022886380b3e077615ec0463dd2b94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b022886380b3e077615ec0463dd2b94">&#9670;&nbsp;</a></span>_depthBufferMemory</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html">API::DeviceMemory</a>&gt; lug::Graphics::Vulkan::Render::Technique::Forward::_depthBufferMemory {nullptr}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00062">62</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a496f0dfa0ab32d63f194b958ffa608f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a496f0dfa0ab32d63f194b958ffa608f7">&#9670;&nbsp;</a></span>_pipelines</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="classlug_1_1Graphics_1_1Light_1_1Light.html#a2e3d7b1634618ca5468832fbbd0aa887">Light::Light::Type</a>, std::unique_ptr&lt;<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Pipeline.html">API::Pipeline</a>&gt; &gt; lug::Graphics::Vulkan::Render::Technique::Forward::_pipelines</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00064">64</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00087">87</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
 
 </div>
 </div>
@@ -633,12 +551,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00066">66</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00089">89</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aa5e5309cd880892f48f0567b3d843b10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5e5309cd880892f48f0567b3d843b10">&#9670;&nbsp;</a></span>_subBuffers</h2>
+<a id="af8512062f291f852470bfbd27d18c98c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8512062f291f852470bfbd27d18c98c">&#9670;&nbsp;</a></span>_graphicsQueue</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -647,7 +565,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;std::string, <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1SubBuffer.html">BufferPool::SubBuffer</a>*&gt; lug::Graphics::Vulkan::Render::Technique::Forward::_subBuffers</td>
+          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">API::Queue</a>* lug::Graphics::Vulkan::Render::Technique::Forward::_graphicsQueue {nullptr}</td>
         </tr>
       </table>
   </td>
@@ -657,7 +575,295 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00068">68</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00091">91</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a3fc02a1e7040bc629aaf79448413c0eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fc02a1e7040bc629aaf79448413c0eb">&#9670;&nbsp;</a></span>_graphicsCommandPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html">API::CommandPool</a> lug::Graphics::Vulkan::Render::Technique::Forward::_graphicsCommandPool</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00092">92</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a3e28973c94bb5bb4b06195dcf4024275"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e28973c94bb5bb4b06195dcf4024275">&#9670;&nbsp;</a></span>_transferQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">API::Queue</a>* lug::Graphics::Vulkan::Render::Technique::Forward::_transferQueue {nullptr}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00094">94</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a48c68ab044fc78434c8538fa3bd92dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48c68ab044fc78434c8538fa3bd92dad">&#9670;&nbsp;</a></span>_transferCommandPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html">API::CommandPool</a> lug::Graphics::Vulkan::Render::Technique::Forward::_transferCommandPool</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00095">95</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0ca4be0e5f9ed8e51882454eb3826c40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ca4be0e5f9ed8e51882454eb3826c40">&#9670;&nbsp;</a></span>_cameraBufferPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1Camera.html">BufferPool::Camera</a> &gt; lug::Graphics::Vulkan::Render::Technique::Forward::_cameraBufferPool = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00099">99</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8edff359f1274249400911242464ba1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8edff359f1274249400911242464ba1f">&#9670;&nbsp;</a></span>_lightBufferPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1Light.html">BufferPool::Light</a> &gt; lug::Graphics::Vulkan::Render::Technique::Forward::_lightBufferPool = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00100">100</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8bc0e439610c1825e5faf0b1d109967c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bc0e439610c1825e5faf0b1d109967c">&#9670;&nbsp;</a></span>_materialBufferPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1Material.html">BufferPool::Material</a> &gt; lug::Graphics::Vulkan::Render::Technique::Forward::_materialBufferPool = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00101">101</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad2fc991185c06749a6cab5077e6f0b3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2fc991185c06749a6cab5077e6f0b3c">&#9670;&nbsp;</a></span>_cameraDescriptorSetPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1Camera.html">DescriptorSetPool::Camera</a> &gt; lug::Graphics::Vulkan::Render::Technique::Forward::_cameraDescriptorSetPool = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00103">103</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a40722a2ca801611d138a7a7e3ce95e45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40722a2ca801611d138a7a7e3ce95e45">&#9670;&nbsp;</a></span>_lightDescriptorSetPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1Light.html">DescriptorSetPool::Light</a> &gt; lug::Graphics::Vulkan::Render::Technique::Forward::_lightDescriptorSetPool = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00104">104</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac055555112b6799a4dbff36e40a0fd1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac055555112b6799a4dbff36e40a0fd1c">&#9670;&nbsp;</a></span>_materialDescriptorSetPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1Material.html">DescriptorSetPool::Material</a> &gt; lug::Graphics::Vulkan::Render::Technique::Forward::_materialDescriptorSetPool = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00105">105</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ab6758430eb9d66217900ac9caaeba640"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6758430eb9d66217900ac9caaeba640">&#9670;&nbsp;</a></span>_materialTexturesDescriptorSetPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1MaterialTextures.html">DescriptorSetPool::MaterialTextures</a> &gt; lug::Graphics::Vulkan::Render::Technique::Forward::_materialTexturesDescriptorSetPool = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00106">106</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a18d6aaf2a00217db60e27d9f95927a0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18d6aaf2a00217db60e27d9f95927a0c">&#9670;&nbsp;</a></span>_skyBoxDescriptorSetPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1DescriptorSetPool_1_1SkyBox.html">DescriptorSetPool::SkyBox</a> &gt; lug::Graphics::Vulkan::Render::Technique::Forward::_skyBoxDescriptorSetPool = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00107">107</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a048114c1ad58ba45eb0dcf03eac5d8ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a048114c1ad58ba45eb0dcf03eac5d8ea">&#9670;&nbsp;</a></span>_forwardCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t lug::Graphics::Vulkan::Render::Technique::Forward::_forwardCount = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Forward_8hpp_source.html#l00109">109</a> of file <a class="el" href="Forward_8hpp_source.html">Forward.hpp</a>.</p>
 
 </div>
 </div>

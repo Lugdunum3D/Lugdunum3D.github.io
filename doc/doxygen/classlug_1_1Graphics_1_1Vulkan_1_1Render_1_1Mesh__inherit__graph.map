@@ -1,3 +1,4 @@
 <map id="lug::Graphics::Vulkan::Render::Mesh" name="lug::Graphics::Vulkan::Render::Mesh">
-<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Mesh.html" title="lug::Graphics::Render\l::Mesh" alt="" coords="5,5,176,47"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Mesh.html" title="A Mesh, which itsef is a Resource. A mesh is composed of a vector of PrimitiveSet. " alt="" coords="13,80,183,121"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="5,5,191,32"/>
 </map>

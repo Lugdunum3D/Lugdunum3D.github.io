@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['meshinstance',['MeshInstance',['../namespacelug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique.html#a427c5c73c985e5191bd69ff29735e677',1,'lug::Graphics::Vulkan::Render::Technique']]]
+  ['gesture_5fstate',['GESTURE_STATE',['../namespacendk__helper.html#a68691408cdfa30e5add04c9a6f7e3207',1,'ndk_helper']]]
 ];

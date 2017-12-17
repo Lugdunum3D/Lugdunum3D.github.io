@@ -1,0 +1,15 @@
+<map id="lug::Graphics::Vulkan::Gui::FrameData" name="lug::Graphics::Vulkan::Gui::FrameData">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html" title="lug::Graphics::Vulkan\l::API::Buffer" alt="" coords="2026,126,2195,167"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1312,250,1481,291"/>
+<area shape="rect" id="node20" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html" title="lug::Graphics::Vulkan\l::API::DeviceMemory" alt="" coords="1648,54,1817,95"/>
+<area shape="rect" id="node24" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Framebuffer.html" title="lug::Graphics::Vulkan\l::API::Framebuffer" alt="" coords="1648,418,1817,459"/>
+<area shape="rect" id="node29" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html" title="lug::Graphics::Vulkan\l::API::CommandPool" alt="" coords="1648,565,1817,606"/>
+<area shape="rect" id="node40" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Semaphore.html" title="lug::Graphics::Vulkan\l::API::Semaphore" alt="" coords="1648,285,1817,326"/>
+<area shape="rect" id="node42" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Fence.html" title="lug::Graphics::Vulkan\l::API::Fence" alt="" coords="1648,350,1817,391"/>
+<area shape="rect" id="node5" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="862,309,1031,350"/>
+<area shape="rect" id="node6" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="438,119,607,175"/>
+<area shape="rect" id="node25" href="$structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Framebuffer_1_1Extent.html" title="lug::Graphics::Vulkan\l::API::Framebuffer::Extent" alt="" coords="1084,521,1288,562"/>
+<area shape="rect" id="node32" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1QueueFamily.html" title="lug::Graphics::Vulkan\l::API::QueueFamily" alt="" coords="862,639,1031,681"/>
+<area shape="rect" id="node28" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandBuffer.html" title="lug::Graphics::Vulkan\l::API::CommandBuffer" alt="" coords="2023,481,2199,522"/>
+<area shape="rect" id="node30" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html" title="lug::Graphics::Vulkan\l::API::Queue" alt="" coords="1312,590,1481,631"/>
+</map>

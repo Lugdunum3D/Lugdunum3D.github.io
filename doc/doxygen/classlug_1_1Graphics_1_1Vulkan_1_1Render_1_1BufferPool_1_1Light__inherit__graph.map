@@ -1,0 +1,4 @@
+<map id="lug::Graphics::Vulkan::Render::BufferPool::Light" name="lug::Graphics::Vulkan::Render::BufferPool::Light">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1BufferPool.html" title="lug::Graphics::Vulkan\l::Render::BufferPool\l::BufferPool\&lt; 10, ::lug\l::Graphics::Render::Light\l::strideShader *50+sizeof\l(uint32_t)\&gt;" alt="" coords="505,5,704,105"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1BufferPool.html" title="lug::Graphics::Vulkan\l::Render::BufferPool\l::BufferPool\&lt; subBufferPerChunk,\l subBufferSize \&gt;" alt="" coords="5,20,256,91"/>
+</map>

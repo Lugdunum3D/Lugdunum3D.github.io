@@ -1,6 +1,13 @@
 <map id="lug::Graphics::Render::Window" name="lug::Graphics::Render::Window">
-<area shape="rect" id="node2" href="$classlug_1_1Window_1_1Window.html" title="Class for window. " alt="" coords="565,251,735,277"/>
-<area shape="rect" id="node5" href="$classlug_1_1Window_1_1priv_1_1WindowImpl.html" title="lug::Window::priv::\lWindowImpl" alt="" coords="923,595,1079,637"/>
-<area shape="rect" id="node22" href="$structlug_1_1Window_1_1VideoMode.html" title="The video mode we set for the window we wish to create. " alt="" coords="216,85,407,112"/>
-<area shape="rect" id="node24" href="$classlug_1_1Graphics_1_1Render_1_1Target.html" title="lug::Graphics::Render\l::Target" alt="" coords="565,66,735,107"/>
+<area shape="rect" id="node2" href="$classlug_1_1Window_1_1Window.html" title="Class for window. " alt="" coords="1000,405,1171,432"/>
+<area shape="rect" id="node8" href="$classlug_1_1Window_1_1priv_1_1WindowImpl.html" title="lug::Window::priv::\lWindowImpl" alt="" coords="1398,789,1554,830"/>
+<area shape="rect" id="node3" href="$structlug_1_1Window_1_1TouchScreenEvent.html" title="lug::Window::TouchScreen\lEvent" alt="" coords="580,510,783,551"/>
+<area shape="rect" id="node35" href="$structlug_1_1Window_1_1GamePadEvent.html" title="lug::Window::GamePadEvent" alt="" coords="572,627,791,653"/>
+<area shape="rect" id="node14" href="$classndk__helper_1_1DoubletapDetector.html" title="ndk_helper::DoubletapDetector" alt="" coords="969,1264,1201,1291"/>
+<area shape="rect" id="node15" href="$classndk__helper_1_1GestureDetector.html" title="ndk_helper::GestureDetector" alt="" coords="183,1149,400,1176"/>
+<area shape="rect" id="node18" href="$classndk__helper_1_1TapDetector.html" title="ndk_helper::TapDetector" alt="" coords="587,1216,776,1243"/>
+<area shape="rect" id="node28" href="$classndk__helper_1_1DragDetector.html" title="ndk_helper::DragDetector" alt="" coords="583,1069,780,1096"/>
+<area shape="rect" id="node33" href="$classndk__helper_1_1PinchDetector.html" title="ndk_helper::PinchDetector" alt="" coords="581,948,781,975"/>
+<area shape="rect" id="node37" href="$structlug_1_1Window_1_1VideoMode.html" title="The video mode we set for the window we wish to create. " alt="" coords="586,328,777,355"/>
+<area shape="rect" id="node40" href="$classlug_1_1Graphics_1_1Render_1_1Target.html" title="lug::Graphics::Render\l::Target" alt="" coords="1000,21,1171,62"/>
 </map>

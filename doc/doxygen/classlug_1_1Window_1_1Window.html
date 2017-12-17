@@ -67,6 +67,7 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classlug_1_1Window_1_1Window-members.html">List of all members</a>  </div>
@@ -112,9 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad032bf79e7674718dac16a4e1f437d26"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#ad032bf79e7674718dac16a4e1f437d26">isOpen</a> () const</td></tr>
 <tr class="memdesc:ad032bf79e7674718dac16a4e1f437d26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the window is open.  <a href="#ad032bf79e7674718dac16a4e1f437d26">More...</a><br /></td></tr>
 <tr class="separator:ad032bf79e7674718dac16a4e1f437d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d039bdaaf8e477ca686b2e9cb421b26"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#a8d039bdaaf8e477ca686b2e9cb421b26">pollEvent</a> (<a class="el" href="structlug_1_1Window_1_1Event.html">lug::Window::Event</a> &amp;)</td></tr>
-<tr class="memdesc:a8d039bdaaf8e477ca686b2e9cb421b26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if an event is available from the window implementation, and fill it in the <code>event</code> parameter.  <a href="#a8d039bdaaf8e477ca686b2e9cb421b26">More...</a><br /></td></tr>
-<tr class="separator:a8d039bdaaf8e477ca686b2e9cb421b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a182fe898e50d43c587ed268922e1efd7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#a182fe898e50d43c587ed268922e1efd7">pollEvent</a> (<a class="el" href="structlug_1_1Window_1_1Event.html">lug::Window::Event</a> &amp;event)</td></tr>
+<tr class="memdesc:a182fe898e50d43c587ed268922e1efd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if an event is available from the window implementation, and fill it in the <code>event</code> parameter.  <a href="#a182fe898e50d43c587ed268922e1efd7">More...</a><br /></td></tr>
+<tr class="separator:a182fe898e50d43c587ed268922e1efd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9d88c4a6f1a7b44ed16689f0587649f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#ac9d88c4a6f1a7b44ed16689f0587649f">close</a> ()</td></tr>
 <tr class="memdesc:ac9d88c4a6f1a7b44ed16689f0587649f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the window gracefully.  <a href="#ac9d88c4a6f1a7b44ed16689f0587649f">More...</a><br /></td></tr>
 <tr class="separator:ac9d88c4a6f1a7b44ed16689f0587649f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,15 +128,31 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afa1b5dce96c8d30b09845b3aaa5acd1e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#afa1b5dce96c8d30b09845b3aaa5acd1e">isMousePressed</a> (<a class="el" href="namespacelug_1_1Window_1_1Mouse.html#ae44471299c58bbea1233c7004cbe61b0">Mouse::Button</a> button) const</td></tr>
 <tr class="memdesc:afa1b5dce96c8d30b09845b3aaa5acd1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if a mouse button pressed.  <a href="#afa1b5dce96c8d30b09845b3aaa5acd1e">More...</a><br /></td></tr>
 <tr class="separator:afa1b5dce96c8d30b09845b3aaa5acd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc1b81de8f3bc5cdb11922ab64c3b752"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#acc1b81de8f3bc5cdb11922ab64c3b752">getMousePos</a> (uint32_t &amp;<a class="el" href="classlug_1_1Window_1_1Window.html#afe2908df22cba688c7cbe080f1b962bc">x</a>, uint32_t &amp;<a class="el" href="classlug_1_1Window_1_1Window.html#a758225bba5eb851682a5817a89b72045">y</a>) const</td></tr>
-<tr class="memdesc:acc1b81de8f3bc5cdb11922ab64c3b752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to retrieve the mouses position.  <a href="#acc1b81de8f3bc5cdb11922ab64c3b752">More...</a><br /></td></tr>
-<tr class="separator:acc1b81de8f3bc5cdb11922ab64c3b752"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43944c2bc6ef2dd33d550b0745631981"><td class="memItemLeft" align="right" valign="top">const Math::Vec2i &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#a43944c2bc6ef2dd33d550b0745631981">getMousePos</a> () const</td></tr>
+<tr class="memdesc:a43944c2bc6ef2dd33d550b0745631981"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the mouses position.  <a href="#a43944c2bc6ef2dd33d550b0745631981">More...</a><br /></td></tr>
+<tr class="separator:a43944c2bc6ef2dd33d550b0745631981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a354b99ff666d953937610abe7f8c34a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#a354b99ff666d953937610abe7f8c34a3">setMousePos</a> (const Math::Vec2i &amp;mousePosition)</td></tr>
+<tr class="memdesc:a354b99ff666d953937610abe7f8c34a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the mouse position.  <a href="#a354b99ff666d953937610abe7f8c34a3">More...</a><br /></td></tr>
+<tr class="separator:a354b99ff666d953937610abe7f8c34a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89c6f1506caaf1066f5834620d48e6e9"><td class="memItemLeft" align="right" valign="top">Math::Vec2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#a89c6f1506caaf1066f5834620d48e6e9">getWindowSize</a> () const</td></tr>
+<tr class="memdesc:a89c6f1506caaf1066f5834620d48e6e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the window size.  <a href="#a89c6f1506caaf1066f5834620d48e6e9">More...</a><br /></td></tr>
+<tr class="separator:a89c6f1506caaf1066f5834620d48e6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54278e5196901a3e7020bef8794783a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#a54278e5196901a3e7020bef8794783a4">setMouseCursorVisible</a> (bool visible)</td></tr>
+<tr class="memdesc:a54278e5196901a3e7020bef8794783a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the visibility of the mouse cursor (hide/show)  <a href="#a54278e5196901a3e7020bef8794783a4">More...</a><br /></td></tr>
+<tr class="separator:a54278e5196901a3e7020bef8794783a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae957476d0f122ead1f0c4b906cbe301a"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classlug_1_1Window_1_1Window.html">Window</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#ae957476d0f122ead1f0c4b906cbe301a">create</a> (const <a class="el" href="structlug_1_1Window_1_1Window_1_1InitInfo.html">InitInfo</a> &amp;initInfo)</td></tr>
 <tr class="memdesc:ae957476d0f122ead1f0c4b906cbe301a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility to create a window.  <a href="#ae957476d0f122ead1f0c4b906cbe301a">More...</a><br /></td></tr>
 <tr class="separator:ae957476d0f122ead1f0c4b906cbe301a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a22790c6c196e842bf6fa05977cfe9a72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlug_1_1Window_1_1GamePadEvent.html">GamePadEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#a22790c6c196e842bf6fa05977cfe9a72">_gamePadState</a> {{0.0f, 0.0f}, {0.0f, 0.0f}}</td></tr>
+<tr class="separator:a22790c6c196e842bf6fa05977cfe9a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e233a4740588f9af54b964a07174dbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlug_1_1Window_1_1TouchScreenEvent.html">TouchScreenEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#a3e233a4740588f9af54b964a07174dbe">_touchScreenState</a> {{{0, 0}, {0, 0}}, <a class="el" href="structlug_1_1Window_1_1TouchScreenEvent.html#af1d2625e2d2d0c29b85420075b687957a6adf97f83acf6453d4a6a4b1070f3754">lug::Window::TouchScreenEvent::GestureState::None</a>, false, false, false}</td></tr>
+<tr class="separator:a3e233a4740588f9af54b964a07174dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -160,18 +177,13 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a8238789650956d06e9a0b2c699c8de17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75337891d8a07f61708830e09d8474ac"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="namespacelug_1_1Window_1_1Mouse.html#ae44471299c58bbea1233c7004cbe61b0">Mouse::Button</a>, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#a75337891d8a07f61708830e09d8474ac">_mouseState</a></td></tr>
 <tr class="separator:a75337891d8a07f61708830e09d8474ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a178d43bfa0213ef87676b28c0f104da1"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:af0df90f53d3b43ecdea30b8a542efe23"><td class="memItemLeft" >&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<a class="el" href="classlug_1_1Window_1_1Window.html#afe2908df22cba688c7cbe080f1b962bc">x</a></td></tr>
-<tr class="separator:af0df90f53d3b43ecdea30b8a542efe23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7f123e0e978563271fe1c023ad2e858"><td class="memItemLeft" >&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<a class="el" href="classlug_1_1Window_1_1Window.html#a758225bba5eb851682a5817a89b72045">y</a></td></tr>
-<tr class="separator:ae7f123e0e978563271fe1c023ad2e858"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a178d43bfa0213ef87676b28c0f104da1"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#a178d43bfa0213ef87676b28c0f104da1">_mouseCoord</a></td></tr>
-<tr class="separator:a178d43bfa0213ef87676b28c0f104da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4738713878a99b4c3b02f07de78e6f5"><td class="memItemLeft" align="right" valign="top">Math::Vec2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Window_1_1Window.html#ab4738713878a99b4c3b02f07de78e6f5">_mousePosition</a> {0, 0}</td></tr>
+<tr class="separator:ab4738713878a99b4c3b02f07de78e6f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for window. </p>
 
-<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00058">58</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00059">59</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa2374751635862238818ad90b990e280"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa2374751635862238818ad90b990e280">&#9670;&nbsp;</a></span>Window() <span class="overload">[1/3]</span></h2>
@@ -393,8 +405,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8d039bdaaf8e477ca686b2e9cb421b26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d039bdaaf8e477ca686b2e9cb421b26">&#9670;&nbsp;</a></span>pollEvent()</h2>
+<a id="a182fe898e50d43c587ed268922e1efd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a182fe898e50d43c587ed268922e1efd7">&#9670;&nbsp;</a></span>pollEvent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,7 +432,7 @@ Protected Attributes</h2></td></tr>
 <p>Checks if an event is available from the window implementation, and fill it in the <code>event</code> parameter. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">event</td><td><a class="el" href="structlug_1_1Window_1_1Event.html" title="Represents an event. ">Event</a> input, to be filled by <a class="el" href="classlug_1_1Window_1_1Window.html#a8d039bdaaf8e477ca686b2e9cb421b26" title="Checks if an event is available from the window implementation, and fill it in the event parameter...">pollEvent</a>.</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">event</td><td><a class="el" href="structlug_1_1Window_1_1Event.html" title="Represents an event. ">Event</a> input, to be filled by <a class="el" href="classlug_1_1Window_1_1Window.html#a182fe898e50d43c587ed268922e1efd7" title="Checks if an event is available from the window implementation, and fill it in the event parameter...">pollEvent</a>.</td></tr>
   </table>
   </dd>
 </dl>
@@ -449,7 +461,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Close the window gracefully. </p>
 
-<p class="definition">Definition at line <a class="el" href="Window_2Window_8cpp_source.html#l00235">235</a> of file <a class="el" href="Window_2Window_8cpp_source.html">Window.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8cpp_source.html#l00255">255</a> of file <a class="el" href="Window_2Window_8cpp_source.html">Window.cpp</a>.</p>
 
 </div>
 </div>
@@ -470,7 +482,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Enables or disables key repeat. </p>
-<p>The key repeat is set to false by default (i.e. the default, untouched, behaviour)</p>
+<p>The key repeat is set to false by default (i.e. the default, unpressed, behavior)</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>Desired state </td></tr>
@@ -478,7 +490,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Window_2Window_8cpp_source.html#l00229">229</a> of file <a class="el" href="Window_2Window_8cpp_source.html">Window.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8cpp_source.html#l00243">243</a> of file <a class="el" href="Window_2Window_8cpp_source.html">Window.cpp</a>.</p>
 
 </div>
 </div>
@@ -507,7 +519,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the key is pressed, False otherwise. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Window_2Window_8cpp_source.html#l00243">243</a> of file <a class="el" href="Window_2Window_8cpp_source.html">Window.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8cpp_source.html#l00263">263</a> of file <a class="el" href="Window_2Window_8cpp_source.html">Window.cpp</a>.</p>
 
 </div>
 </div>
@@ -536,46 +548,107 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the button is pressed, False otherwise. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Window_2Window_8cpp_source.html#l00247">247</a> of file <a class="el" href="Window_2Window_8cpp_source.html">Window.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8cpp_source.html#l00267">267</a> of file <a class="el" href="Window_2Window_8cpp_source.html">Window.cpp</a>.</p>
 
 </div>
 </div>
-<a id="acc1b81de8f3bc5cdb11922ab64c3b752"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc1b81de8f3bc5cdb11922ab64c3b752">&#9670;&nbsp;</a></span>getMousePos()</h2>
+<a id="a43944c2bc6ef2dd33d550b0745631981"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43944c2bc6ef2dd33d550b0745631981">&#9670;&nbsp;</a></span>getMousePos()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void lug::Window::Window::getMousePos </td>
+          <td class="memname">const Math::Vec2i &amp; lug::Window::Window::getMousePos </td>
           <td>(</td>
-          <td class="paramtype">uint32_t &amp;&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t &amp;&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Used to retrieve the mouses position. </p>
+<p>Retrieves the mouses position. </p>
+<dl class="section return"><dt>Returns</dt><dd>Position of the cursor (relative to the window). </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8cpp_source.html#l00271">271</a> of file <a class="el" href="Window_2Window_8cpp_source.html">Window.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a354b99ff666d953937610abe7f8c34a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a354b99ff666d953937610abe7f8c34a3">&#9670;&nbsp;</a></span>setMousePos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lug::Window::Window::setMousePos </td>
+          <td>(</td>
+          <td class="paramtype">const Math::Vec2i &amp;&#160;</td>
+          <td class="paramname"><em>mousePosition</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the mouse position. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The parameter that will be set to the mouse's position on the x axis. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The parameter that will be set to the mouse's position on the x axis. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mousePosition</td><td>The position of the cursor (relative to the window) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Window_2Window_8cpp_source.html#l00251">251</a> of file <a class="el" href="Window_2Window_8cpp_source.html">Window.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8cpp_source.html#l00275">275</a> of file <a class="el" href="Window_2Window_8cpp_source.html">Window.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a89c6f1506caaf1066f5834620d48e6e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89c6f1506caaf1066f5834620d48e6e9">&#9670;&nbsp;</a></span>getWindowSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Math::Vec2i lug::Window::Window::getWindowSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the window size. </p>
+<dl class="section return"><dt>Returns</dt><dd>The window size. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8cpp_source.html#l00282">282</a> of file <a class="el" href="Window_2Window_8cpp_source.html">Window.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a54278e5196901a3e7020bef8794783a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54278e5196901a3e7020bef8794783a4">&#9670;&nbsp;</a></span>setMouseCursorVisible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lug::Window::Window::setMouseCursorVisible </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>visible</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the visibility of the mouse cursor (hide/show) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">visible</td><td>The state </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8cpp_source.html#l00249">249</a> of file <a class="el" href="Window_2Window_8cpp_source.html">Window.cpp</a>.</p>
 
 </div>
 </div>
@@ -666,6 +739,38 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a22790c6c196e842bf6fa05977cfe9a72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22790c6c196e842bf6fa05977cfe9a72">&#9670;&nbsp;</a></span>_gamePadState</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structlug_1_1Window_1_1GamePadEvent.html">GamePadEvent</a> lug::Window::Window::_gamePadState {{0.0f, 0.0f}, {0.0f, 0.0f}}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00161">161</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a3e233a4740588f9af54b964a07174dbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e233a4740588f9af54b964a07174dbe">&#9670;&nbsp;</a></span>_touchScreenState</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structlug_1_1Window_1_1TouchScreenEvent.html">TouchScreenEvent</a> lug::Window::Window::_touchScreenState {{{0, 0}, {0, 0}}, <a class="el" href="structlug_1_1Window_1_1TouchScreenEvent.html#af1d2625e2d2d0c29b85420075b687957a6adf97f83acf6453d4a6a4b1070f3754">lug::Window::TouchScreenEvent::GestureState::None</a>, false, false, false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00162">162</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a5e812c7de2d37a5d99f36e910321b98f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5e812c7de2d37a5d99f36e910321b98f">&#9670;&nbsp;</a></span>_impl</h2>
 
@@ -687,7 +792,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Internal representation of the platform specific implementation. </p>
 
-<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00158">158</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00180">180</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
 
 </div>
 </div>
@@ -710,9 +815,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Default videomode. </p>
+<p>Default video mode. </p>
 
-<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00163">163</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00185">185</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
 
 </div>
 </div>
@@ -737,7 +842,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Map to store the current state of the keys, used by <a class="el" href="classlug_1_1Window_1_1Window.html#adee2f17d1a9b34b915d59c09ee94102e" title="Determines if a key pressed. ">isKeyPressed</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00168">168</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00190">190</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
 
 </div>
 </div>
@@ -762,54 +867,32 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Map to store the current state of the mouse buttons, used by <a class="el" href="classlug_1_1Window_1_1Window.html#afa1b5dce96c8d30b09845b3aaa5acd1e" title="Determines if a mouse button pressed. ">isMousePressed</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00173">173</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00195">195</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
 
 </div>
 </div>
-<a id="afe2908df22cba688c7cbe080f1b962bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe2908df22cba688c7cbe080f1b962bc">&#9670;&nbsp;</a></span>x</h2>
+<a id="ab4738713878a99b4c3b02f07de78e6f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4738713878a99b4c3b02f07de78e6f5">&#9670;&nbsp;</a></span>_mousePosition</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t lug::Window::Window::x</td>
+          <td class="memname">Math::Vec2i lug::Window::Window::_mousePosition {0, 0}</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+<p>Used to store the mouse's position, used by <a class="el" href="classlug_1_1Window_1_1Window.html#a43944c2bc6ef2dd33d550b0745631981" title="Retrieves the mouses position. ">getMousePos</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00179">179</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a758225bba5eb851682a5817a89b72045"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a758225bba5eb851682a5817a89b72045">&#9670;&nbsp;</a></span>y</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t lug::Window::Window::y</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00180">180</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a178d43bfa0213ef87676b28c0f104da1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a178d43bfa0213ef87676b28c0f104da1">&#9670;&nbsp;</a></span>_mouseCoord</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct { ... }   lug::Window::Window::_mouseCoord</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Used to store the mouse's position, used by <a class="el" href="classlug_1_1Window_1_1Window.html#acc1b81de8f3bc5cdb11922ab64c3b752" title="Used to retrieve the mouses position. ">getMousePos</a>. </p>
+<p class="definition">Definition at line <a class="el" href="Window_2Window_8hpp_source.html#l00200">200</a> of file <a class="el" href="Window_2Window_8hpp_source.html">Window.hpp</a>.</p>
 
 </div>
 </div>

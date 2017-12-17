@@ -65,7 +65,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">lug::Graphics::Vulkan::API::CommandPool Class Reference</div>  </div>
@@ -82,8 +84,8 @@ Collaboration diagram for lug::Graphics::Vulkan::API::CommandPool:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae696178b13a25fe6d9c43d5477cf6091"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#ae696178b13a25fe6d9c43d5477cf6091">CommandPool</a> (VkCommandPool commandPool=VK_NULL_HANDLE, <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *device=nullptr, <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">Queue</a> *queue=nullptr)</td></tr>
-<tr class="separator:ae696178b13a25fe6d9c43d5477cf6091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8783d565bd28421d8714972222e0fef4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#a8783d565bd28421d8714972222e0fef4">CommandPool</a> ()=default</td></tr>
+<tr class="separator:a8783d565bd28421d8714972222e0fef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a2ab34f835df055b520e8c8b98282fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#a0a2ab34f835df055b520e8c8b98282fe">CommandPool</a> (const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html">CommandPool</a> &amp;)=delete</td></tr>
 <tr class="separator:a0a2ab34f835df055b520e8c8b98282fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7beb50499174f1b0ce54c6b186f69f4d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#a7beb50499174f1b0ce54c6b186f69f4d">CommandPool</a> (<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html">CommandPool</a> &amp;&amp;<a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html">CommandPool</a>)</td></tr>
@@ -96,32 +98,40 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abd0fe78893df2d78cb080882554eaac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64ba0d2c290772c0d0bf008ca4fbe0bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#a64ba0d2c290772c0d0bf008ca4fbe0bb">operator VkCommandPool</a> () const</td></tr>
 <tr class="separator:a64ba0d2c290772c0d0bf008ca4fbe0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a679afe8cec5df6327eeda57294019e8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#a679afe8cec5df6327eeda57294019e8d">getDevice</a> () const</td></tr>
-<tr class="separator:a679afe8cec5df6327eeda57294019e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77a32383dcf7057f98e35f322e2e73e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">Queue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#a77a32383dcf7057f98e35f322e2e73e4">getQueue</a> () const</td></tr>
-<tr class="separator:a77a32383dcf7057f98e35f322e2e73e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5183f586a4e3098445d4ed987fef1a31"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandBuffer.html">CommandBuffer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#a5183f586a4e3098445d4ed987fef1a31">createCommandBuffers</a> (VkCommandBufferLevel level=VK_COMMAND_BUFFER_LEVEL_PRIMARY, uint32_t count=1)</td></tr>
-<tr class="separator:a5183f586a4e3098445d4ed987fef1a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6e9b042989f27156be1af0e3f7316f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#aa6e9b042989f27156be1af0e3f7316f7">reset</a> (bool releaseRessources=false)</td></tr>
-<tr class="separator:aa6e9b042989f27156be1af0e3f7316f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a056708881204d9387476d2db133b6c48"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#a056708881204d9387476d2db133b6c48">getDevice</a> () const</td></tr>
+<tr class="separator:a056708881204d9387476d2db133b6c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ce9c12ba7a7e8327d0e9f12670975e3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">Queue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#a2ce9c12ba7a7e8327d0e9f12670975e3">getQueue</a> () const</td></tr>
+<tr class="separator:a2ce9c12ba7a7e8327d0e9f12670975e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b67949bc50477f8a93d38d6df8cf951"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#a8b67949bc50477f8a93d38d6df8cf951">reset</a> (bool releaseRessources=false) const</td></tr>
+<tr class="separator:a8b67949bc50477f8a93d38d6df8cf951"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad69bb53c338eccc042d91b5a4f2410a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#ad69bb53c338eccc042d91b5a4f2410a5">destroy</a> ()</td></tr>
 <tr class="separator:ad69bb53c338eccc042d91b5a4f2410a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a12fcb2cc13111892a8333ca5f92bbbb9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#a12fcb2cc13111892a8333ca5f92bbbb9">CommandPool</a> (VkCommandPool commandPool, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *device, const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">Queue</a> *queue)</td></tr>
+<tr class="separator:a12fcb2cc13111892a8333ca5f92bbbb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a8319b9d15e11183f9d5c3d2ce6b18668"><td class="memItemLeft" align="right" valign="top">VkCommandPool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#a8319b9d15e11183f9d5c3d2ce6b18668">_commandPool</a> {VK_NULL_HANDLE}</td></tr>
 <tr class="separator:a8319b9d15e11183f9d5c3d2ce6b18668"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1dad8bab9b4f70d78b4109ece004704"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#ab1dad8bab9b4f70d78b4109ece004704">_device</a> {nullptr}</td></tr>
-<tr class="separator:ab1dad8bab9b4f70d78b4109ece004704"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabe98b38b714cce09de50db5bee4e6b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">Queue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#aabe98b38b714cce09de50db5bee4e6b2">_queue</a> {nullptr}</td></tr>
-<tr class="separator:aabe98b38b714cce09de50db5bee4e6b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64f0ccb5910dd40b3331f447146e7ec5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#a64f0ccb5910dd40b3331f447146e7ec5">_device</a> {nullptr}</td></tr>
+<tr class="separator:a64f0ccb5910dd40b3331f447146e7ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4716a9b590f734fc8d7169cfde6cdea"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">Queue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#af4716a9b590f734fc8d7169cfde6cdea">_queue</a> {nullptr}</td></tr>
+<tr class="separator:af4716a9b590f734fc8d7169cfde6cdea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:aee7e40b4e97e26f7352be662143c0777"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html#aee7e40b4e97e26f7352be662143c0777">Builder::CommandPool</a></td></tr>
+<tr class="separator:aee7e40b4e97e26f7352be662143c0777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="CommandPool_8hpp_source.html#l00016">16</a> of file <a class="el" href="CommandPool_8hpp_source.html">CommandPool.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CommandPool_8hpp_source.html#l00018">18</a> of file <a class="el" href="CommandPool_8hpp_source.html">CommandPool.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae696178b13a25fe6d9c43d5477cf6091"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae696178b13a25fe6d9c43d5477cf6091">&#9670;&nbsp;</a></span>CommandPool() <span class="overload">[1/3]</span></h2>
+<a id="a8783d565bd28421d8714972222e0fef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8783d565bd28421d8714972222e0fef4">&#9670;&nbsp;</a></span>CommandPool() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132,40 +142,21 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">lug::Graphics::Vulkan::API::CommandPool::CommandPool </td>
           <td>(</td>
-          <td class="paramtype">VkCommandPool&#160;</td>
-          <td class="paramname"><em>commandPool</em> = <code>VK_NULL_HANDLE</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td>
-          <td class="paramname"><em>device</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">Queue</a> *&#160;</td>
-          <td class="paramname"><em>queue</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CommandPool_8cpp_source.html#l00011">11</a> of file <a class="el" href="CommandPool_8cpp_source.html">CommandPool.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a0a2ab34f835df055b520e8c8b98282fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a2ab34f835df055b520e8c8b98282fe">&#9670;&nbsp;</a></span>CommandPool() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a2ab34f835df055b520e8c8b98282fe">&#9670;&nbsp;</a></span>CommandPool() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -191,7 +182,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a7beb50499174f1b0ce54c6b186f69f4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7beb50499174f1b0ce54c6b186f69f4d">&#9670;&nbsp;</a></span>CommandPool() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7beb50499174f1b0ce54c6b186f69f4d">&#9670;&nbsp;</a></span>CommandPool() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,6 +217,50 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="CommandPool_8cpp_source.html#l00037">37</a> of file <a class="el" href="CommandPool_8cpp_source.html">CommandPool.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a12fcb2cc13111892a8333ca5f92bbbb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12fcb2cc13111892a8333ca5f92bbbb9">&#9670;&nbsp;</a></span>CommandPool() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">lug::Graphics::Vulkan::API::CommandPool::CommandPool </td>
+          <td>(</td>
+          <td class="paramtype">VkCommandPool&#160;</td>
+          <td class="paramname"><em>commandPool</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> *&#160;</td>
+          <td class="paramname"><em>device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">Queue</a> *&#160;</td>
+          <td class="paramname"><em>queue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CommandPool_8cpp_source.html#l00011">11</a> of file <a class="el" href="CommandPool_8cpp_source.html">CommandPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -299,12 +334,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CommandPool_8hpp_source.html#l00030">30</a> of file <a class="el" href="CommandPool_8hpp_source.html">CommandPool.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CommandPool_8hpp_source.html#l00034">34</a> of file <a class="el" href="CommandPool_8hpp_source.html">CommandPool.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a679afe8cec5df6327eeda57294019e8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a679afe8cec5df6327eeda57294019e8d">&#9670;&nbsp;</a></span>getDevice()</h2>
+<a id="a056708881204d9387476d2db133b6c48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a056708881204d9387476d2db133b6c48">&#9670;&nbsp;</a></span>getDevice()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,7 +348,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> * CommandPool::getDevice </td>
+          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a> * CommandPool::getDevice </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -330,8 +365,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a77a32383dcf7057f98e35f322e2e73e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77a32383dcf7057f98e35f322e2e73e4">&#9670;&nbsp;</a></span>getQueue()</h2>
+<a id="a2ce9c12ba7a7e8327d0e9f12670975e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ce9c12ba7a7e8327d0e9f12670975e3">&#9670;&nbsp;</a></span>getQueue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,7 +375,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">Queue</a> * CommandPool::getQueue </td>
+          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">Queue</a> * CommandPool::getQueue </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -357,38 +392,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5183f586a4e3098445d4ed987fef1a31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5183f586a4e3098445d4ed987fef1a31">&#9670;&nbsp;</a></span>createCommandBuffers()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandBuffer.html">CommandBuffer</a> &gt; lug::Graphics::Vulkan::API::CommandPool::createCommandBuffers </td>
-          <td>(</td>
-          <td class="paramtype">VkCommandBufferLevel&#160;</td>
-          <td class="paramname"><em>level</em> = <code>VK_COMMAND_BUFFER_LEVEL_PRIMARY</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>count</em> = <code>1</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="CommandPool_8cpp_source.html#l00041">41</a> of file <a class="el" href="CommandPool_8cpp_source.html">CommandPool.cpp</a>.</p>
-
-</div>
-</div>
-<a id="aa6e9b042989f27156be1af0e3f7316f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6e9b042989f27156be1af0e3f7316f7">&#9670;&nbsp;</a></span>reset()</h2>
+<a id="a8b67949bc50477f8a93d38d6df8cf951"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b67949bc50477f8a93d38d6df8cf951">&#9670;&nbsp;</a></span>reset()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -398,12 +403,12 @@ Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>releaseRessources</em> = <code>false</code></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CommandPool_8cpp_source.html#l00067">67</a> of file <a class="el" href="CommandPool_8cpp_source.html">CommandPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CommandPool_8cpp_source.html#l00041">41</a> of file <a class="el" href="CommandPool_8cpp_source.html">CommandPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -422,7 +427,32 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CommandPool_8cpp_source.html#l00078">78</a> of file <a class="el" href="CommandPool_8cpp_source.html">CommandPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CommandPool_8cpp_source.html#l00052">52</a> of file <a class="el" href="CommandPool_8cpp_source.html">CommandPool.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="aee7e40b4e97e26f7352be662143c0777"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee7e40b4e97e26f7352be662143c0777">&#9670;&nbsp;</a></span>Builder::CommandPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Builder_1_1CommandPool.html">Builder::CommandPool</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="CommandPool_8hpp_source.html#l00019">19</a> of file <a class="el" href="CommandPool_8hpp_source.html">CommandPool.hpp</a>.</p>
 
 </div>
 </div>
@@ -447,12 +477,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CommandPool_8hpp_source.html#l00046">46</a> of file <a class="el" href="CommandPool_8hpp_source.html">CommandPool.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CommandPool_8hpp_source.html#l00050">50</a> of file <a class="el" href="CommandPool_8hpp_source.html">CommandPool.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ab1dad8bab9b4f70d78b4109ece004704"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1dad8bab9b4f70d78b4109ece004704">&#9670;&nbsp;</a></span>_device</h2>
+<a id="a64f0ccb5910dd40b3331f447146e7ec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64f0ccb5910dd40b3331f447146e7ec5">&#9670;&nbsp;</a></span>_device</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -461,7 +491,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a>* lug::Graphics::Vulkan::API::CommandPool::_device {nullptr}</td>
+          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html">Device</a>* lug::Graphics::Vulkan::API::CommandPool::_device {nullptr}</td>
         </tr>
       </table>
   </td>
@@ -471,12 +501,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CommandPool_8hpp_source.html#l00047">47</a> of file <a class="el" href="CommandPool_8hpp_source.html">CommandPool.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CommandPool_8hpp_source.html#l00051">51</a> of file <a class="el" href="CommandPool_8hpp_source.html">CommandPool.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aabe98b38b714cce09de50db5bee4e6b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabe98b38b714cce09de50db5bee4e6b2">&#9670;&nbsp;</a></span>_queue</h2>
+<a id="af4716a9b590f734fc8d7169cfde6cdea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4716a9b590f734fc8d7169cfde6cdea">&#9670;&nbsp;</a></span>_queue</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -485,7 +515,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">Queue</a>* lug::Graphics::Vulkan::API::CommandPool::_queue {nullptr}</td>
+          <td class="memname">const <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html">Queue</a>* lug::Graphics::Vulkan::API::CommandPool::_queue {nullptr}</td>
         </tr>
       </table>
   </td>
@@ -495,7 +525,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CommandPool_8hpp_source.html#l00048">48</a> of file <a class="el" href="CommandPool_8hpp_source.html">CommandPool.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CommandPool_8hpp_source.html#l00053">53</a> of file <a class="el" href="CommandPool_8hpp_source.html">CommandPool.hpp</a>.</p>
 
 </div>
 </div>

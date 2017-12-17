@@ -1,0 +1,22 @@
+<map id="include/lug/Graphics/Builder/Light.hpp" name="include/lug/Graphics/Builder/Light.hpp">
+<area shape="rect" id="node5" href="$Render_2Light_8hpp.html" title="lug/Graphics/Render\l/Light.hpp" alt="" coords="608,95,767,136"/>
+<area shape="rect" id="node11" href="$Resource_8hpp.html" title="lug/Graphics/Resource.hpp" alt="" coords="330,191,533,218"/>
+<area shape="rect" id="node14" href="$Constant_8hpp.html" title="lug/Math/Constant.hpp" alt="" coords="1214,191,1387,218"/>
+<area shape="rect" id="node17" href="$Vector_8hpp.html" title="lug/Math/Vector.hpp" alt="" coords="973,191,1132,218"/>
+<area shape="rect" id="node33" href="$Builder_2Light_8inl.html" title="lug/Graphics/Builder\l/Light.inl" alt="" coords="981,95,1140,136"/>
+<area shape="rect" id="node6" href="$Graphics_2Export_8hpp.html" title="lug/Graphics/Export.hpp" alt="" coords="478,281,662,307"/>
+<area shape="rect" id="node8" href="$DirtyObject_8hpp.html" title="lug/Graphics/Render\l/DirtyObject.hpp" alt="" coords="608,184,767,225"/>
+<area shape="rect" id="node32" href="$Render_2Light_8inl.html" title="lug/Graphics/Render\l/Light.inl" alt="" coords="791,184,949,225"/>
+<area shape="rect" id="node7" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="713,437,832,464"/>
+<area shape="rect" id="node10" href="$DirtyObject_8inl.html" title="lug/Graphics/Render\l/DirtyObject.inl" alt="" coords="737,273,896,315"/>
+<area shape="rect" id="node13" href="$Resource_8inl.html" title="lug/Graphics/Resource.inl" alt="" coords="209,281,403,307"/>
+<area shape="rect" id="node16" href="$Constant_8inl.html" title="lug/Math/Constant.inl" alt="" coords="1411,281,1577,307"/>
+<area shape="rect" id="node18" href="$Matrix_8hpp.html" title="lug/Math/Matrix.hpp" alt="" coords="971,281,1129,307"/>
+<area shape="rect" id="node31" href="$Vector_8inl.html" title="lug/Math/Vector.inl" alt="" coords="1153,281,1304,307"/>
+<area shape="rect" id="node20" href="$Math_2Export_8hpp.html" title="lug/Math/Export.hpp" alt="" coords="743,363,901,389"/>
+<area shape="rect" id="node21" href="$ValArray_8hpp.html" title="lug/Math/ValArray.hpp" alt="" coords="1227,363,1401,389"/>
+<area shape="rect" id="node27" href="$Debug_8hpp.html" title="lug/System/Debug.hpp" alt="" coords="925,363,1100,389"/>
+<area shape="rect" id="node30" href="$Matrix_8inl.html" title="lug/Math/Matrix.inl" alt="" coords="1425,363,1574,389"/>
+<area shape="rect" id="node26" href="$ValArray_8inl.html" title="lug/Math/ValArray.inl" alt="" coords="1425,437,1590,464"/>
+<area shape="rect" id="node28" href="$Utils_8hpp.html" title="lug/System/Utils.hpp" alt="" coords="857,437,1019,464"/>
+</map>

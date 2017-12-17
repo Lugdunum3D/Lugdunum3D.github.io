@@ -1,0 +1,16 @@
+<map id="lug::Graphics::Vulkan::Render::SkyBox" name="lug::Graphics::Vulkan::Render::SkyBox">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1SkyBox.html" title="lug::Graphics::Render\l::SkyBox" alt="" coords="2111,258,2281,299"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="859,235,1045,261"/>
+<area shape="rect" id="node9" href="$classlug_1_1Graphics_1_1Render_1_1Texture.html" title="lug::Graphics::Render\l::Texture" alt="" coords="1280,333,1451,374"/>
+<area shape="rect" id="node16" href="$classlug_1_1Graphics_1_1Render_1_1Mesh.html" title="A Mesh, which itsef is a Resource. A mesh is composed of a vector of PrimitiveSet. " alt="" coords="1280,111,1451,153"/>
+<area shape="rect" id="node4" href="$structlug_1_1Graphics_1_1Resource_1_1Handle.html" title="Handle of the resource. It contains informations such as the type and the index in the ResourceManage..." alt="" coords="430,125,615,166"/>
+<area shape="rect" id="node8" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Texture \&gt;" alt="" coords="1692,308,1899,364"/>
+<area shape="rect" id="node13" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="Dummy class for a shared pointer. " alt="" coords="1273,177,1458,218"/>
+<area shape="rect" id="node15" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Mesh \&gt;" alt="" coords="1692,129,1899,185"/>
+<area shape="rect" id="node18" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1GraphicsPipeline.html" title="lug::Graphics::Vulkan\l::API::GraphicsPipeline" alt="" coords="2107,493,2285,534"/>
+<area shape="rect" id="node19" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html" title="lug::Graphics::Vulkan\l::API::RenderPass" alt="" coords="1711,563,1880,605"/>
+<area shape="rect" id="node21" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1281,589,1450,630"/>
+<area shape="rect" id="node37" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1PipelineLayout.html" title="lug::Graphics::Vulkan\l::API::PipelineLayout" alt="" coords="1711,493,1880,534"/>
+<area shape="rect" id="node22" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="867,677,1037,718"/>
+<area shape="rect" id="node23" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="438,487,607,543"/>
+</map>

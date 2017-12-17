@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['unique_5fptr',['unique_ptr',['../namespacelug_1_1System_1_1Memory.html#a91b32c6e9d347a3136f7c248fb4f4bf5',1,'lug::System::Memory']]]
+  ['quatd',['Quatd',['../namespacelug_1_1Math.html#ad7312976972b16fc39136639fbc24dcf',1,'lug::Math']]],
+  ['quatf',['Quatf',['../namespacelug_1_1Math.html#a036700bfc3ed518c1ce1770bd35d2e57',1,'lug::Math']]]
 ];

@@ -1,5 +1,5 @@
 <map id="include/lug/System/Memory/Area/IArea.hpp" name="include/lug/System/Memory/Area/IArea.hpp">
-<area shape="rect" id="node2" href="$Chunk_8hpp.html" title="include/lug/System\l/Memory/Allocator/Chunk.hpp" alt="" coords="5,95,228,136"/>
+<area shape="rect" id="node2" href="$System_2Memory_2Allocator_2Chunk_8hpp.html" title="include/lug/System\l/Memory/Allocator/Chunk.hpp" alt="" coords="5,95,228,136"/>
 <area shape="rect" id="node4" href="$Linear_8hpp.html" title="include/lug/System\l/Memory/Allocator/Linear.hpp" alt="" coords="252,95,475,136"/>
 <area shape="rect" id="node6" href="$Allocator_2Stack_8hpp.html" title="include/lug/System\l/Memory/Allocator/Stack.hpp" alt="" coords="499,95,718,136"/>
 <area shape="rect" id="node8" href="$GrowingHeap_8hpp.html" title="include/lug/System\l/Memory/Area/GrowingHeap.hpp" alt="" coords="742,95,985,136"/>

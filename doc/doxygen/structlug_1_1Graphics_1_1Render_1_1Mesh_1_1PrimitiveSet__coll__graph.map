@@ -1,0 +1,16 @@
+<map id="lug::Graphics::Render::Mesh::PrimitiveSet" name="lug::Graphics::Render::Mesh::PrimitiveSet">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Material \&gt;" alt="" coords="2871,425,3078,481"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Render_1_1Material.html" title="Class for Material. Is a Resource. " alt="" coords="2573,234,2744,275"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="655,60,840,87"/>
+<area shape="rect" id="node15" href="$classlug_1_1Graphics_1_1Render_1_1SkyBox.html" title="lug::Graphics::Render\l::SkyBox" alt="" coords="1815,82,1986,123"/>
+<area shape="rect" id="node17" href="$classlug_1_1Graphics_1_1Render_1_1Texture.html" title="lug::Graphics::Render\l::Texture" alt="" coords="990,122,1161,163"/>
+<area shape="rect" id="node5" href="$structlug_1_1Graphics_1_1Resource_1_1Handle.html" title="Handle of the resource. It contains informations such as the type and the index in the ResourceManage..." alt="" coords="251,57,436,98"/>
+<area shape="rect" id="node9" href="$classlug_1_1Graphics_1_1Render_1_1DirtyObject.html" title="lug::Graphics::Render\l::DirtyObject" alt="" coords="460,478,631,519"/>
+<area shape="rect" id="node23" href="$structlug_1_1Graphics_1_1Render_1_1Material_1_1TextureInfo.html" title="lug::Graphics::Render\l::Material::TextureInfo" alt="" coords="1812,207,1989,249"/>
+<area shape="rect" id="node27" href="$structlug_1_1Graphics_1_1Render_1_1Mesh_1_1PrimitiveSet_1_1Attribute_1_1Buffer.html" title="Access to the data of the attribute. " alt="" coords="2573,552,2744,608"/>
+<area shape="rect" id="node10" href="$structlug_1_1Graphics_1_1Render_1_1Material_1_1Constants.html" title="lug::Graphics::Render\l::Material::Constants" alt="" coords="2226,282,2397,323"/>
+<area shape="rect" id="node14" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::SkyBox \&gt;" alt="" coords="2208,75,2415,131"/>
+<area shape="rect" id="node16" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Texture \&gt;" alt="" coords="1387,112,1593,168"/>
+<area shape="rect" id="node21" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="Dummy class for a shared pointer. " alt="" coords="983,265,1168,306"/>
+<area shape="rect" id="node25" href="$structlug_1_1Graphics_1_1Render_1_1Mesh_1_1PrimitiveSet_1_1Attribute.html" title="lug::Graphics::Render\l::Mesh::PrimitiveSet\l::Attribute" alt="" coords="2889,556,3060,612"/>
+</map>

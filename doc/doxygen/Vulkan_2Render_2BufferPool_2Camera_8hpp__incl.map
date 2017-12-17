@@ -1,0 +1,36 @@
+<map id="include/lug/Graphics/Vulkan/Render/BufferPool/Camera.hpp" name="include/lug/Graphics/Vulkan/Render/BufferPool/Camera.hpp">
+<area shape="rect" id="node2" href="$BufferPool_8hpp.html" title="lug/Graphics/Vulkan\l/Render/BufferPool/BufferPool.hpp" alt="" coords="1863,109,2118,151"/>
+<area shape="rect" id="node39" href="$Matrix_8hpp.html" title="lug/Math/Matrix.hpp" alt="" coords="2817,563,2975,590"/>
+<area shape="rect" id="node6" href="$Graphics_2Vulkan_2Render_2BufferPool_2Chunk_8hpp.html" title="lug/Graphics/Vulkan\l/Render/BufferPool/Chunk.hpp" alt="" coords="1616,199,1843,240"/>
+<area shape="rect" id="node21" href="$SubBuffer_8hpp.html" title="lug/Graphics/Vulkan\l/Render/BufferPool/SubBuffer.hpp" alt="" coords="2313,288,2564,329"/>
+<area shape="rect" id="node38" href="$BufferPool_8inl.html" title="lug/Graphics/Vulkan\l/Render/BufferPool/BufferPool.inl" alt="" coords="1867,199,2114,240"/>
+<area shape="rect" id="node7" href="$Graphics_2Export_8hpp.html" title="lug/Graphics/Export.hpp" alt="" coords="584,645,768,672"/>
+<area shape="rect" id="node9" href="$Builder_2Buffer_8hpp.html" title="lug/Graphics/Vulkan\l/API/Builder/Buffer.hpp" alt="" coords="1715,377,1893,419"/>
+<area shape="rect" id="node17" href="$Builder_2DeviceMemory_8hpp.html" title="lug/Graphics/Vulkan\l/API/Builder/DeviceMemory.hpp" alt="" coords="1917,377,2155,419"/>
+<area shape="rect" id="node25" href="$Vulkan_2Renderer_8hpp.html" title="lug/Graphics/Vulkan\l/Renderer.hpp" alt="" coords="968,288,1125,329"/>
+<area shape="rect" id="node37" href="$Graphics_2Vulkan_2Render_2BufferPool_2Chunk_8inl.html" title="lug/Graphics/Vulkan\l/Render/BufferPool/Chunk.inl" alt="" coords="1548,288,1767,329"/>
+<area shape="rect" id="node8" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="2495,720,2614,747"/>
+<area shape="rect" id="node11" href="$Buffer_8hpp.html" title="lug/Graphics/Vulkan\l/API/Buffer.hpp" alt="" coords="1437,467,1595,508"/>
+<area shape="rect" id="node16" href="$Builder_2Buffer_8inl.html" title="lug/Graphics/Vulkan\l/API/Builder/Buffer.inl" alt="" coords="1821,467,1992,508"/>
+<area shape="rect" id="node12" href="$Vulkan_8hpp.html" title="lug/Graphics/Vulkan\l/Vulkan.hpp" alt="" coords="764,556,921,597"/>
+<area shape="rect" id="node15" href="$Buffer_8inl.html" title="lug/Graphics/Vulkan\l/API/Buffer.inl" alt="" coords="1449,556,1607,597"/>
+<area shape="rect" id="node18" href="$DeviceMemory_8hpp.html" title="lug/Graphics/Vulkan\l/API/DeviceMemory.hpp" alt="" coords="1128,467,1312,508"/>
+<area shape="rect" id="node20" href="$Builder_2DeviceMemory_8inl.html" title="lug/Graphics/Vulkan\l/API/Builder/DeviceMemory.inl" alt="" coords="2117,467,2347,508"/>
+<area shape="rect" id="node19" href="$DeviceMemory_8inl.html" title="lug/Graphics/Vulkan\l/API/DeviceMemory.inl" alt="" coords="1148,556,1324,597"/>
+<area shape="rect" id="node24" href="$SubBuffer_8inl.html" title="lug/Graphics/Vulkan\l/Render/BufferPool/SubBuffer.inl" alt="" coords="2775,377,3017,419"/>
+<area shape="rect" id="node27" href="$Renderer_8hpp.html" title="lug/Graphics/Renderer.hpp" alt="" coords="2207,563,2409,590"/>
+<area shape="rect" id="node30" href="$Device_8hpp.html" title="lug/Graphics/Vulkan\l/API/Device.hpp" alt="" coords="93,467,251,508"/>
+<area shape="rect" id="node31" href="$Instance_8hpp.html" title="lug/Graphics/Vulkan\l/API/Instance.hpp" alt="" coords="275,467,432,508"/>
+<area shape="rect" id="node32" href="$Vulkan_2API_2Loader_8hpp.html" title="lug/Graphics/Vulkan\l/API/Loader.hpp" alt="" coords="456,467,613,508"/>
+<area shape="rect" id="node33" href="$Vulkan_2Render_2Mesh_8hpp.html" title="lug/Graphics/Vulkan\l/Render/Mesh.hpp" alt="" coords="1309,377,1467,419"/>
+<area shape="rect" id="node34" href="$Pipeline_8hpp.html" title="lug/Graphics/Vulkan\l/Render/Pipeline.hpp" alt="" coords="2371,467,2533,508"/>
+<area shape="rect" id="node35" href="$Graphics_2Vulkan_2Render_2Window_8hpp.html" title="lug/Graphics/Vulkan\l/Render/Window.hpp" alt="" coords="739,467,901,508"/>
+<area shape="rect" id="node36" href="$Vulkan_2Renderer_8inl.html" title="lug/Graphics/Vulkan\l/Renderer.inl" alt="" coords="1027,377,1184,419"/>
+<area shape="rect" id="node29" href="$Version_8hpp.html" title="lug/Core/Version.hpp" alt="" coords="2195,645,2359,672"/>
+<area shape="rect" id="node41" href="$Math_2Export_8hpp.html" title="lug/Math/Export.hpp" alt="" coords="2475,645,2634,672"/>
+<area shape="rect" id="node42" href="$ValArray_8hpp.html" title="lug/Math/ValArray.hpp" alt="" coords="3221,645,3395,672"/>
+<area shape="rect" id="node47" href="$Debug_8hpp.html" title="lug/System/Debug.hpp" alt="" coords="2658,645,2833,672"/>
+<area shape="rect" id="node50" href="$Matrix_8inl.html" title="lug/Math/Matrix.inl" alt="" coords="2960,645,3109,672"/>
+<area shape="rect" id="node46" href="$ValArray_8inl.html" title="lug/Math/ValArray.inl" alt="" coords="3481,720,3647,747"/>
+<area shape="rect" id="node48" href="$Utils_8hpp.html" title="lug/System/Utils.hpp" alt="" coords="2652,720,2815,747"/>
+</map>

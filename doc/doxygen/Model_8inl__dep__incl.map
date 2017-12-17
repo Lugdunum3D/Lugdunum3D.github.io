@@ -1,6 +1,0 @@
-<map id="include/lug/Graphics/Vulkan/Render/Model.inl" name="include/lug/Graphics/Vulkan/Render/Model.inl">
-<area shape="rect" id="node2" href="$Vulkan_2Render_2Model_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/Model.hpp" alt="" coords="245,95,445,136"/>
-<area shape="rect" id="node3" href="$Graphics_8cpp.html" title="src/lug/Graphics/Graphics.cpp" alt="" coords="5,191,229,218"/>
-<area shape="rect" id="node4" href="$Vulkan_2Render_2Model_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Model.cpp" alt="" coords="254,184,437,225"/>
-<area shape="rect" id="node5" href="$Forward_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Technique/Forward.cpp" alt="" coords="461,184,697,225"/>
-</map>

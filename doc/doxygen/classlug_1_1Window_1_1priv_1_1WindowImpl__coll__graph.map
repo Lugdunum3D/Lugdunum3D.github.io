@@ -1,4 +1,11 @@
 <map id="lug::Window::priv::WindowImpl" name="lug::Window::priv::WindowImpl">
-<area shape="rect" id="node9" href="$classlug_1_1Window_1_1Window.html" title="Class for window. " alt="" coords="713,181,884,207"/>
-<area shape="rect" id="node14" href="$structlug_1_1Window_1_1VideoMode.html" title="The video mode we set for the window we wish to create. " alt="" coords="369,239,560,266"/>
+<area shape="rect" id="node16" href="$classlug_1_1Window_1_1Window.html" title="Class for window. " alt="" coords="1744,529,1915,556"/>
+<area shape="rect" id="node7" href="$classndk__helper_1_1DoubletapDetector.html" title="ndk_helper::DoubletapDetector" alt="" coords="925,1311,1157,1337"/>
+<area shape="rect" id="node8" href="$classndk__helper_1_1GestureDetector.html" title="ndk_helper::GestureDetector" alt="" coords="183,1155,400,1181"/>
+<area shape="rect" id="node11" href="$classndk__helper_1_1TapDetector.html" title="ndk_helper::TapDetector" alt="" coords="577,1280,767,1307"/>
+<area shape="rect" id="node32" href="$classndk__helper_1_1DragDetector.html" title="ndk_helper::DragDetector" alt="" coords="573,469,771,496"/>
+<area shape="rect" id="node37" href="$classndk__helper_1_1PinchDetector.html" title="ndk_helper::PinchDetector" alt="" coords="572,541,772,568"/>
+<area shape="rect" id="node17" href="$structlug_1_1Window_1_1TouchScreenEvent.html" title="lug::Window::TouchScreen\lEvent" alt="" coords="1355,130,1557,171"/>
+<area shape="rect" id="node22" href="$structlug_1_1Window_1_1GamePadEvent.html" title="lug::Window::GamePadEvent" alt="" coords="1347,25,1565,52"/>
+<area shape="rect" id="node24" href="$structlug_1_1Window_1_1VideoMode.html" title="The video mode we set for the window we wish to create. " alt="" coords="1361,421,1551,448"/>
 </map>

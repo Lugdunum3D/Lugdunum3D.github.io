@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 641;
+var viewWidth = 647;
 var viewHeight = 161;
 var sectionId = 'dynsection-0';
 </script>
@@ -57,107 +57,107 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="173,-.5 173,-19.5 321,-19.5 321,-.5 173,-.5"/>
-<text text-anchor="middle" x="247" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">lug::Window::MouseEvent</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="249,-.5 249,-19.5 397,-19.5 397,-.5 249,-.5"/>
+<text text-anchor="middle" x="323" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">lug::Window::MouseEvent</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<polygon fill="none" stroke="#bfbfbf" points="0,-133.5 0,-152.5 50,-152.5 50,-133.5 0,-133.5"/>
-<text text-anchor="middle" x="25" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">double</text>
+<polygon fill="none" stroke="#bfbfbf" points="0,-133.5 0,-152.5 100,-152.5 100,-133.5 0,-133.5"/>
+<text text-anchor="middle" x="50" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">anonymous:@26</text>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M25.6662,-123.2849C27.6125,-99.2555 34.7275,-59.2365 60,-38 76.9642,-23.7449 128.0396,-16.7379 172.5319,-13.2988"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="22.1668,-123.1736 25.0788,-133.3603 29.155,-123.581 22.1668,-123.1736"/>
-<text text-anchor="middle" x="80" y="-79.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> xOffset</text>
-<text text-anchor="middle" x="80" y="-68.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">yOffset</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M56.9656,-123.9062C66.9176,-99.5819 87.6596,-58.2726 120,-38 141.1384,-24.7494 200.0441,-17.6135 248.9908,-13.8696"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="53.6107,-122.877 53.2537,-133.4658 60.1361,-125.4108 53.6107,-122.877"/>
+<text text-anchor="middle" x="133" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> @26</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<polygon fill="none" stroke="#bfbfbf" points="68.5,-133.5 68.5,-152.5 119.5,-152.5 119.5,-133.5 68.5,-133.5"/>
-<text text-anchor="middle" x="94" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">int32_t</text>
+<polygon fill="none" stroke="#bfbfbf" points="118,-133.5 118,-152.5 168,-152.5 168,-133.5 118,-133.5"/>
+<text text-anchor="middle" x="143" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">double</text>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M100.0561,-123.6436C108.4297,-100.0163 125.7892,-60.4442 154,-38 164.5561,-29.6017 177.5967,-23.7179 190.5381,-19.5973"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="96.6929,-122.6648 96.8344,-133.2586 103.3302,-124.8888 96.6929,-122.6648"/>
-<text text-anchor="middle" x="159" y="-79.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> x</text>
-<text text-anchor="middle" x="159" y="-68.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">y</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M146.6413,-123.3784C152.1472,-99.445 164.9632,-59.5246 192,-38 201.7343,-30.2504 226.2167,-24.0874 251.4182,-19.5386"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="143.1646,-122.9058 144.5479,-133.41 150.017,-124.3358 143.1646,-122.9058"/>
+<text text-anchor="middle" x="212" y="-79.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> xOffset</text>
+<text text-anchor="middle" x="212" y="-68.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">yOffset</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<polygon fill="none" stroke="#bfbfbf" points="138,-133.5 138,-152.5 176,-152.5 176,-133.5 138,-133.5"/>
-<text text-anchor="middle" x="157" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">bool</text>
+<polygon fill="none" stroke="#bfbfbf" points="186.5,-133.5 186.5,-152.5 237.5,-152.5 237.5,-133.5 186.5,-133.5"/>
+<text text-anchor="middle" x="212" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">int32_t</text>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M163.3621,-123.7657C171.4282,-101.4161 186.9843,-64.2549 209,-38 215.0026,-30.8416 223.1946,-24.5062 230.4358,-19.6803"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="159.9787,-122.8401 160.0086,-133.4349 166.5922,-125.1339 159.9787,-122.8401"/>
-<text text-anchor="middle" x="226" y="-107" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> right</text>
-<text text-anchor="middle" x="226" y="-96" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">middle</text>
-<text text-anchor="middle" x="226" y="-85" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">left</text>
-<text text-anchor="middle" x="226" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">shift</text>
-<text text-anchor="middle" x="226" y="-63" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ctrl</text>
-<text text-anchor="middle" x="226" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">x1</text>
-<text text-anchor="middle" x="226" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">x2</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M226.5413,-125.5767C250.1596,-97.2772 296.0969,-42.2352 314.79,-19.8372"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="223.7033,-123.5148 219.9828,-133.435 229.0775,-128.0001 223.7033,-123.5148"/>
+<text text-anchor="middle" x="304" y="-79.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> x</text>
+<text text-anchor="middle" x="304" y="-68.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">y</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<polygon fill="none" stroke="#bfbfbf" points="194,-133.5 194,-152.5 300,-152.5 300,-133.5 194,-133.5"/>
-<text text-anchor="middle" x="247" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">anonymous:coord</text>
+<polygon fill="none" stroke="#bfbfbf" points="255.5,-133.5 255.5,-152.5 390.5,-152.5 390.5,-133.5 255.5,-133.5"/>
+<text text-anchor="middle" x="323" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">anonymous:scrollOffset</text>
 </g>
 <!-- Node5&#45;&gt;Node1 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M247,-123.3284C247,-94.4521 247,-41.6559 247,-19.8372"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="243.5001,-123.4349 247,-133.435 250.5001,-123.435 243.5001,-123.4349"/>
-<text text-anchor="middle" x="263" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> coord</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M323,-123.3284C323,-94.4521 323,-41.6559 323,-19.8372"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="319.5001,-123.4349 323,-133.435 326.5001,-123.435 319.5001,-123.4349"/>
+<text text-anchor="middle" x="353.5" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> scrollOffset</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<polygon fill="none" stroke="#bfbfbf" points="318,-133.5 318,-152.5 412,-152.5 412,-133.5 318,-133.5"/>
-<text text-anchor="middle" x="365" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">anonymous:@5</text>
+<polygon fill="none" stroke="#bfbfbf" points="409,-133.5 409,-152.5 447,-152.5 447,-133.5 409,-133.5"/>
+<text text-anchor="middle" x="428" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">bool</text>
 </g>
 <!-- Node6&#45;&gt;Node1 -->
 <g id="edge5" class="edge">
 <title>Node6&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M353.0431,-125.0568C338.0579,-103.2383 310.9332,-65.8781 283,-38 276.2748,-31.2881 267.9443,-24.7163 260.9912,-19.628"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="350.1799,-127.0707 358.6891,-133.383 355.9735,-123.1421 350.1799,-127.0707"/>
-<text text-anchor="middle" x="354" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> @5</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M425.2054,-123.2317C420.9697,-100.0732 410.8475,-61.8462 388,-38 380.0944,-29.7489 369.3545,-23.7975 358.8829,-19.5638"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="421.7771,-123.955 426.8419,-133.2608 428.6857,-122.8277 421.7771,-123.955"/>
+<text text-anchor="middle" x="440" y="-107" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> right</text>
+<text text-anchor="middle" x="440" y="-96" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">middle</text>
+<text text-anchor="middle" x="440" y="-85" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">left</text>
+<text text-anchor="middle" x="440" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">shift</text>
+<text text-anchor="middle" x="440" y="-63" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ctrl</text>
+<text text-anchor="middle" x="440" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">x1</text>
+<text text-anchor="middle" x="440" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">x2</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<polygon fill="none" stroke="#bfbfbf" points="430.5,-133.5 430.5,-152.5 565.5,-152.5 565.5,-133.5 430.5,-133.5"/>
-<text text-anchor="middle" x="498" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">anonymous:scrollOffset</text>
+<polygon fill="none" stroke="#bfbfbf" points="465,-133.5 465,-152.5 571,-152.5 571,-133.5 465,-133.5"/>
+<text text-anchor="middle" x="518" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">anonymous:coord</text>
 </g>
 <!-- Node7&#45;&gt;Node1 -->
 <g id="edge6" class="edge">
 <title>Node7&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M482.0823,-126.0016C459.1447,-102.5531 414.4262,-60.6219 368,-38 350.8457,-29.6413 331.0912,-23.7156 312.5844,-19.5396"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="479.8011,-128.6789 489.2544,-133.4629 484.8477,-123.8279 479.8011,-128.6789"/>
-<text text-anchor="middle" x="498.5" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> scrollOffset</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M512.9538,-123.5949C505.6593,-99.5869 489.7785,-59.2848 461,-38 450.3373,-30.1137 423.9239,-23.8827 397.0263,-19.3204"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="509.6245,-124.684 515.7166,-133.3521 516.3597,-122.7768 509.6245,-124.684"/>
+<text text-anchor="middle" x="525" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> coord</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<polygon fill="none" stroke="#bfbfbf" points="583.5,-133.5 583.5,-152.5 632.5,-152.5 632.5,-133.5 583.5,-133.5"/>
-<text text-anchor="middle" x="608" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Button</text>
+<polygon fill="none" stroke="#bfbfbf" points="589.5,-133.5 589.5,-152.5 638.5,-152.5 638.5,-133.5 589.5,-133.5"/>
+<text text-anchor="middle" x="614" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Button</text>
 </g>
 <!-- Node8&#45;&gt;Node1 -->
 <g id="edge7" class="edge">
 <title>Node8&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M600.4201,-124.0084C589.5264,-99.4808 566.9418,-57.6176 533,-38 515.0473,-27.6238 399.7948,-18.9158 321.1896,-14.0854"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="597.2504,-125.4992 604.3721,-133.3435 603.6966,-122.7702 597.2504,-125.4992"/>
-<text text-anchor="middle" x="609" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> code</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M607.2474,-123.8545C597.561,-99.474 577.2491,-58.1037 545,-38 520.8936,-22.9723 451.8762,-15.9765 397.1298,-12.7402"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="604.056,-125.3115 610.8538,-133.438 610.6074,-122.846 604.056,-125.3115"/>
+<text text-anchor="middle" x="617" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> code</text>
 </g>
 </g>
 </svg>

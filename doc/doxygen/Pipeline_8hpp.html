@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Lugdunum: include/lug/Graphics/Vulkan/API/Pipeline.hpp File Reference</title>
+<title>Lugdunum: include/lug/Graphics/Vulkan/Render/Pipeline.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -59,7 +59,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_97ca62288c38873332c455638a8da9db.html">lug</a></li><li class="navelem"><a class="el" href="dir_8febab45017bc485d0434a8948e4f10f.html">Graphics</a></li><li class="navelem"><a class="el" href="dir_68f5b811b7b502beb8a363541603ba46.html">Vulkan</a></li><li class="navelem"><a class="el" href="dir_0074de55169a32d51621afef63e52605.html">API</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_97ca62288c38873332c455638a8da9db.html">lug</a></li><li class="navelem"><a class="el" href="dir_8febab45017bc485d0434a8948e4f10f.html">Graphics</a></li><li class="navelem"><a class="el" href="dir_68f5b811b7b502beb8a363541603ba46.html">Vulkan</a></li><li class="navelem"><a class="el" href="dir_04d0c208589a8c9fd2d0e9ff4453ced6.html">Render</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -70,11 +70,16 @@ $(function() {
 <div class="title">Pipeline.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;memory&gt;</code><br />
+<div class="textblock"><code>#include &lt;cstdint&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;<a class="el" href="Graphics_2Export_8hpp_source.html">lug/Graphics/Export.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="PipelineLayout_8hpp_source.html">lug/Graphics/Vulkan/API/PipelineLayout.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="RenderPass_8hpp_source.html">lug/Graphics/Vulkan/API/RenderPass.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="Vulkan_8hpp_source.html">lug/Graphics/Vulkan/Vulkan.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Renderer_8hpp_source.html">lug/Graphics/Renderer.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Type_8hpp_source.html">lug/Graphics/Render/Technique/Type.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Resource_8hpp_source.html">lug/Graphics/Resource.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="GraphicsPipeline_8hpp_source.html">lug/Graphics/Vulkan/API/GraphicsPipeline.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Render_2Pipeline_8inl_source.html">lug/Graphics/Vulkan/Render/Pipeline.inl</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Pipeline.hpp:</div>
 <div class="dyncontent">
@@ -84,7 +89,7 @@ Include dependency graph for Pipeline.hpp:</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Pipeline_8hpp__dep__incl.svg" width="100%" height="562"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Pipeline_8hpp__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div>
@@ -92,7 +97,23 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Pipeline.html">lug::Graphics::Vulkan::API::Pipeline</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline.html">lug::Graphics::Vulkan::Render::Pipeline</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for the <a class="el" href="namespacelug_1_1Graphics_1_1Vulkan.html">Vulkan</a> pipeline, <a class="el" href="namespacelug_1_1Graphics_1_1Vulkan_1_1Render.html">Render</a> side.  <a href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1Id.html">lug::Graphics::Vulkan::Render::Pipeline::Id</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1Id.html" title="Id of the Pipeline. It&#39;s a concatenation of three parts: PrimitivePart, MaterialPart and PipelinePart...">Id</a> of the <a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline.html" title="Class for the Vulkan pipeline, Render side. ">Pipeline</a>. It's a concatenation of three parts: <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1Id_1_1PrimitivePart.html" title="Describes the primitive. ">PrimitivePart</a>, <a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1Id_1_1MaterialPart.html" title="Describes the material. How is the material composed, with textures, no textures, etc...">MaterialPart</a> and PipelinePart It allows to uniquely identify a pipeline using these characteristics.  <a href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1Id.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1Id_1_1PrimitivePart.html">lug::Graphics::Vulkan::Render::Pipeline::Id::PrimitivePart</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes the primitive.  <a href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1Id_1_1PrimitivePart.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1Id_1_1MaterialPart.html">lug::Graphics::Vulkan::Render::Pipeline::Id::MaterialPart</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes the material. How is the material composed, with textures, no textures, etc, to be used to construct unique pipelines.  <a href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1Id_1_1MaterialPart.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1Id_1_1ExtraPart.html">lug::Graphics::Vulkan::Render::Pipeline::Id::ExtraPart</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1ShaderBuilder.html">lug::Graphics::Vulkan::Render::Pipeline::ShaderBuilder</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstd_1_1hash_3_01lug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline_1_1Id_01_4.html">std::hash&lt; lug::Graphics::Vulkan::Render::Pipeline::Id &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -103,7 +124,9 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacelug_1_1Graphics_1_1Vulkan"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelug_1_1Graphics_1_1Vulkan.html">lug::Graphics::Vulkan</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacelug_1_1Graphics_1_1Vulkan_1_1API"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelug_1_1Graphics_1_1Vulkan_1_1API.html">lug::Graphics::Vulkan::API</a></td></tr>
+<tr class="memitem:namespacelug_1_1Graphics_1_1Vulkan_1_1Render"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelug_1_1Graphics_1_1Vulkan_1_1Render.html">lug::Graphics::Vulkan::Render</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacestd"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacestd.html">std</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

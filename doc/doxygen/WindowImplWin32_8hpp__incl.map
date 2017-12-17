@@ -1,19 +1,19 @@
 <map id="src/lug/Window/Win32/WindowImplWin32.hpp" name="src/lug/Window/Win32/WindowImplWin32.hpp">
-<area shape="rect" id="node3" href="$Window_2Window_8hpp.html" title="lug/Window/Window.hpp" alt="" coords="748,95,935,121"/>
-<area shape="rect" id="node8" href="$Event_8hpp.html" title="lug/Window/Event.hpp" alt="" coords="755,169,927,196"/>
-<area shape="rect" id="node10" href="$Window_2Export_8hpp.html" title="lug/Window/Export.hpp" alt="" coords="876,319,1055,345"/>
-<area shape="rect" id="node12" href="$Keyboard_8hpp.html" title="lug/Window/Keyboard.hpp" alt="" coords="866,244,1065,271"/>
-<area shape="rect" id="node29" href="$WindowHandle_8hpp.html" title="lug/Window/WindowHandle.hpp" alt="" coords="1142,244,1375,271"/>
-<area shape="rect" id="node30" href="$Style_8inl.html" title="lug/Window/Style.inl" alt="" coords="1190,169,1351,196"/>
-<area shape="rect" id="node13" href="$Mouse_8hpp.html" title="lug/Window/Mouse.hpp" alt="" coords="665,244,842,271"/>
-<area shape="rect" id="node14" href="$Vector_8hpp.html" title="lug/Math/Vector.hpp" alt="" coords="429,244,587,271"/>
-<area shape="rect" id="node11" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="1090,468,1209,495"/>
-<area shape="rect" id="node15" href="$Matrix_8hpp.html" title="lug/Math/Matrix.hpp" alt="" coords="544,319,701,345"/>
-<area shape="rect" id="node28" href="$Vector_8inl.html" title="lug/Math/Vector.inl" alt="" coords="318,319,469,345"/>
-<area shape="rect" id="node17" href="$Math_2Export_8hpp.html" title="lug/Math/Export.hpp" alt="" coords="1011,393,1170,420"/>
-<area shape="rect" id="node18" href="$ValArray_8hpp.html" title="lug/Math/ValArray.hpp" alt="" coords="337,393,511,420"/>
-<area shape="rect" id="node24" href="$Debug_8hpp.html" title="lug/System/Debug.hpp" alt="" coords="535,393,710,420"/>
-<area shape="rect" id="node27" href="$Matrix_8inl.html" title="lug/Math/Matrix.inl" alt="" coords="735,393,884,420"/>
-<area shape="rect" id="node23" href="$ValArray_8inl.html" title="lug/Math/ValArray.inl" alt="" coords="197,468,363,495"/>
-<area shape="rect" id="node25" href="$Utils_8hpp.html" title="lug/System/Utils.hpp" alt="" coords="688,468,851,495"/>
+<area shape="rect" id="node3" href="$Vector_8hpp.html" title="lug/Math/Vector.hpp" alt="" coords="215,244,373,271"/>
+<area shape="rect" id="node20" href="$Window_2Window_8hpp.html" title="lug/Window/Window.hpp" alt="" coords="606,95,793,121"/>
+<area shape="rect" id="node5" href="$Matrix_8hpp.html" title="lug/Math/Matrix.hpp" alt="" coords="182,319,339,345"/>
+<area shape="rect" id="node19" href="$Vector_8inl.html" title="lug/Math/Vector.inl" alt="" coords="364,319,515,345"/>
+<area shape="rect" id="node7" href="$Math_2Export_8hpp.html" title="lug/Math/Export.hpp" alt="" coords="639,393,797,420"/>
+<area shape="rect" id="node9" href="$ValArray_8hpp.html" title="lug/Math/ValArray.hpp" alt="" coords="242,393,415,420"/>
+<area shape="rect" id="node15" href="$Debug_8hpp.html" title="lug/System/Debug.hpp" alt="" coords="440,393,615,420"/>
+<area shape="rect" id="node18" href="$Matrix_8inl.html" title="lug/Math/Matrix.inl" alt="" coords="822,393,971,420"/>
+<area shape="rect" id="node8" href="$Config_8hpp.html" title="lug/Config.hpp" alt="" coords="912,468,1031,495"/>
+<area shape="rect" id="node14" href="$ValArray_8inl.html" title="lug/Math/ValArray.inl" alt="" coords="391,468,557,495"/>
+<area shape="rect" id="node16" href="$Utils_8hpp.html" title="lug/System/Utils.hpp" alt="" coords="581,468,743,495"/>
+<area shape="rect" id="node25" href="$Event_8hpp.html" title="lug/Window/Event.hpp" alt="" coords="787,169,959,196"/>
+<area shape="rect" id="node27" href="$Window_2Export_8hpp.html" title="lug/Window/Export.hpp" alt="" coords="897,319,1075,345"/>
+<area shape="rect" id="node28" href="$Keyboard_8hpp.html" title="lug/Window/Keyboard.hpp" alt="" coords="931,244,1129,271"/>
+<area shape="rect" id="node30" href="$WindowHandle_8hpp.html" title="lug/Window/WindowHandle.hpp" alt="" coords="1100,319,1333,345"/>
+<area shape="rect" id="node31" href="$Style_8inl.html" title="lug/Window/Style.inl" alt="" coords="1255,169,1416,196"/>
+<area shape="rect" id="node29" href="$Mouse_8hpp.html" title="lug/Window/Mouse.hpp" alt="" coords="729,244,907,271"/>
 </map>

@@ -1,4 +1,24 @@
 <map id="lug::Graphics::Scene::Node" name="lug::Graphics::Scene::Node">
-<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Node.html" title="lug::Graphics::Node" alt="" coords="405,191,564,217"/>
-<area shape="rect" id="node10" href="$classlug_1_1Graphics_1_1Scene_1_1Scene.html" title="lug::Graphics::Scene\l::Scene" alt="" coords="403,362,567,403"/>
+<area shape="rect" id="node27" href="$classlug_1_1Graphics_1_1Render_1_1Camera_1_1Camera.html" title="Class for camera. " alt="" coords="2504,293,2675,334"/>
+<area shape="rect" id="node36" href="$classlug_1_1Graphics_1_1Scene_1_1Scene.html" title="lug::Graphics::Scene\l::Scene" alt="" coords="2507,683,2671,725"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Node.html" title="lug::Graphics::Node" alt="" coords="1767,468,1925,495"/>
+<area shape="rect" id="node13" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="551,932,737,959"/>
+<area shape="rect" id="node12" href="$classlug_1_1Graphics_1_1Render_1_1Light.html" title="Class for Light. " alt="" coords="1335,635,1506,677"/>
+<area shape="rect" id="node28" href="$classlug_1_1Graphics_1_1Render_1_1View.html" title="lug::Graphics::Render\l::View" alt="" coords="3485,673,3656,714"/>
+<area shape="rect" id="node9" href="$classlug_1_1Graphics_1_1Render_1_1DirtyObject.html" title="lug::Graphics::Render\l::DirtyObject" alt="" coords="921,254,1091,295"/>
+<area shape="rect" id="node14" href="$structlug_1_1Graphics_1_1Resource_1_1Handle.html" title="Handle of the resource. It contains informations such as the type and the index in the ResourceManage..." alt="" coords="220,925,405,966"/>
+<area shape="rect" id="node40" href="$classlug_1_1Graphics_1_1Render_1_1Texture.html" title="lug::Graphics::Render\l::Texture" alt="" coords="921,1245,1091,1286"/>
+<area shape="rect" id="node11" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Light \&gt;" alt="" coords="1743,627,1949,683"/>
+<area shape="rect" id="node23" href="$classlug_1_1Graphics_1_1Render_1_1Mesh.html" title="A Mesh, which itsef is a Resource. A mesh is composed of a vector of PrimitiveSet. " alt="" coords="921,925,1091,966"/>
+<area shape="rect" id="node38" href="$classlug_1_1Graphics_1_1Render_1_1SkyBox.html" title="lug::Graphics::Render\l::SkyBox" alt="" coords="1761,1141,1931,1182"/>
+<area shape="rect" id="node29" href="$structlug_1_1Graphics_1_1Render_1_1View_1_1Scissor.html" title="lug::Graphics::Render\l::View::Scissor" alt="" coords="2822,826,2993,867"/>
+<area shape="rect" id="node33" href="$classlug_1_1Graphics_1_1Render_1_1View_1_1Viewport.html" title="lug::Graphics::Render\l::View::Viewport" alt="" coords="2822,742,2993,783"/>
+<area shape="rect" id="node19" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="Dummy class for a shared pointer. " alt="" coords="913,1149,1099,1190"/>
+<area shape="rect" id="node22" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Mesh \&gt;" alt="" coords="1317,976,1524,1032"/>
+<area shape="rect" id="node26" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Camera::Camera \&gt;" alt="" coords="2795,587,3020,643"/>
+<area shape="rect" id="node37" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::SkyBox \&gt;" alt="" coords="2168,1133,2375,1189"/>
+<area shape="rect" id="node39" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Texture \&gt;" alt="" coords="1317,1208,1524,1264"/>
+<area shape="rect" id="node21" href="$structlug_1_1Graphics_1_1Scene_1_1Node_1_1MeshInstance.html" title="lug::Graphics::Scene\l::Node::MeshInstance" alt="" coords="1761,707,1931,749"/>
+<area shape="rect" id="node32" href="$structlug_1_1Graphics_1_1Render_1_1View_1_1InitInfo.html" title="lug::Graphics::Render\l::View::InitInfo" alt="" coords="3165,742,3336,783"/>
+<area shape="rect" id="node34" href="$classlug_1_1Graphics_1_1Render_1_1Target.html" title="lug::Graphics::Render\l::Target" alt="" coords="3165,898,3336,939"/>
 </map>

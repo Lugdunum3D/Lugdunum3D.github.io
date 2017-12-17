@@ -75,7 +75,7 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespacelug_1_1Graphics_1_1Light"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelug_1_1Graphics_1_1Light.html">Light</a></td></tr>
+<tr class="memitem:namespacelug_1_1Graphics_1_1Builder"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelug_1_1Graphics_1_1Builder.html">Builder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacelug_1_1Graphics_1_1Render"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelug_1_1Graphics_1_1Render.html">Render</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -86,14 +86,26 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1GltfLoader.html">GltfLoader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for loading glTF files.  <a href="classlug_1_1Graphics_1_1GltfLoader.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Graphics.html">Graphics</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for graphics.  <a href="classlug_1_1Graphics_1_1Graphics.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Loader.html">Loader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for loading a type of file.  <a href="classlug_1_1Graphics_1_1Loader.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlug_1_1Graphics_1_1Module.html">Module</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Node.html">Node</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Renderer.html">Renderer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1Resource.html">Resource</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for resource.  <a href="classlug_1_1Graphics_1_1Resource.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlug_1_1Graphics_1_1ResourceManager.html">ResourceManager</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for resource manager. The <a class="el" href="classlug_1_1Graphics_1_1ResourceManager.html" title="Class for resource manager. The ResourceManager allows the user to load resources and store them...">ResourceManager</a> allows the user to load resources and store them. There should be at most one resource manager at any time, it is usually created by the <a class="el" href="classlug_1_1Graphics_1_1Graphics.html" title="Class for graphics. ">Graphics</a> instance, and retrievable by #Graphics::getResourceManager()  <a href="classlug_1_1Graphics_1_1ResourceManager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -102,6 +114,12 @@ Functions</h2></td></tr>
 <tr class="separator:a1c1fef407f00812ed00cfa223e374848"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95764718491de6dac7c6416f8b420360"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelug_1_1Graphics.html#a95764718491de6dac7c6416f8b420360">operator&lt;&lt;</a> (std::ostream &amp;ss, const <a class="el" href="structlug_1_1Graphics_1_1Module.html#a7c7173558e508fbd64063220ca75227e">Module::Type</a> &amp;type)</td></tr>
 <tr class="separator:a95764718491de6dac7c6416f8b420360"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa53c12b7a3236034edeeb8701f26c53"><td class="memItemLeft" align="right" valign="top">static void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelug_1_1Graphics.html#afa53c12b7a3236034edeeb8701f26c53">getBufferViewData</a> (const gltf2::Asset &amp;asset, const gltf2::Accessor &amp;accessor)</td></tr>
+<tr class="separator:afa53c12b7a3236034edeeb8701f26c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac426929908e22fb7f7a4a57f53f9f80d"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelug_1_1Graphics.html#ac426929908e22fb7f7a4a57f53f9f80d">getAttributeSize</a> (const gltf2::Accessor &amp;accessor)</td></tr>
+<tr class="separator:ac426929908e22fb7f7a4a57f53f9f80d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a0b5f864458f88a5c9ef786aba1f633"><td class="memItemLeft" align="right" valign="top">static void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelug_1_1Graphics.html#a6a0b5f864458f88a5c9ef786aba1f633">generateNormals</a> (float *positions, uint32_t accessorCount)</td></tr>
+<tr class="separator:a6a0b5f864458f88a5c9ef786aba1f633"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -162,6 +180,110 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa53c12b7a3236034edeeb8701f26c53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa53c12b7a3236034edeeb8701f26c53">&#9670;&nbsp;</a></span>getBufferViewData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void* lug::Graphics::getBufferViewData </td>
+          <td>(</td>
+          <td class="paramtype">const gltf2::Asset &amp;&#160;</td>
+          <td class="paramname"><em>asset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gltf2::Accessor &amp;&#160;</td>
+          <td class="paramname"><em>accessor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="GltfLoader_8cpp_source.html#l00024">24</a> of file <a class="el" href="GltfLoader_8cpp_source.html">GltfLoader.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ac426929908e22fb7f7a4a57f53f9f80d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac426929908e22fb7f7a4a57f53f9f80d">&#9670;&nbsp;</a></span>getAttributeSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint32_t lug::Graphics::getAttributeSize </td>
+          <td>(</td>
+          <td class="paramtype">const gltf2::Accessor &amp;&#160;</td>
+          <td class="paramname"><em>accessor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="GltfLoader_8cpp_source.html#l00037">37</a> of file <a class="el" href="GltfLoader_8cpp_source.html">GltfLoader.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a6a0b5f864458f88a5c9ef786aba1f633"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a0b5f864458f88a5c9ef786aba1f633">&#9670;&nbsp;</a></span>generateNormals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void* lug::Graphics::generateNormals </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>positions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>accessorCount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="GltfLoader_8cpp_source.html#l00264">264</a> of file <a class="el" href="GltfLoader_8cpp_source.html">GltfLoader.cpp</a>.</p>
 
 </div>
 </div>

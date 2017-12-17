@@ -1,9 +1,8 @@
 <map id="lug::Graphics::Vulkan::Render::BufferPool::SubBuffer" name="lug::Graphics::Vulkan::Render::BufferPool::SubBuffer">
-<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html" title="lug::Graphics::Vulkan\l::API::Buffer" alt="" coords="1916,290,2085,331"/>
-<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1189,290,1359,331"/>
-<area shape="rect" id="node18" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html" title="lug::Graphics::Vulkan\l::API::DeviceMemory" alt="" coords="1553,230,1722,271"/>
-<area shape="rect" id="node21" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DescriptorSet.html" title="lug::Graphics::Vulkan\l::API::DescriptorSet" alt="" coords="1553,753,1722,794"/>
-<area shape="rect" id="node5" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="833,257,1003,298"/>
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Buffer.html" title="lug::Graphics::Vulkan\l::API::Buffer" alt="" coords="1919,249,2088,290"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1247,322,1416,363"/>
+<area shape="rect" id="node20" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html" title="lug::Graphics::Vulkan\l::API::DeviceMemory" alt="" coords="1583,249,1752,290"/>
+<area shape="rect" id="node5" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="862,257,1031,298"/>
 <area shape="rect" id="node6" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="438,41,607,97"/>
-<area shape="rect" id="node24" href="$structlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1Chunk.html" title="lug::Graphics::Vulkan\l::Render::BufferPool\l::Chunk" alt="" coords="1916,567,2085,623"/>
+<area shape="rect" id="node23" href="$classsize__t.html" title="size_t" alt="" coords="1973,315,2034,341"/>
 </map>

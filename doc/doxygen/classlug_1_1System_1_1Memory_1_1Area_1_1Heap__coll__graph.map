@@ -1,4 +1,5 @@
 <map id="lug::System::Memory::Area::Heap&lt; PageSize, PageCount &gt;" name="lug::System::Memory::Area::Heap&lt; PageSize, PageCount &gt;">
 <area shape="rect" id="node2" href="$classlug_1_1System_1_1Memory_1_1Area_1_1IArea.html" title="lug::System::Memory\l::Area::IArea" alt="" coords="5,109,176,151"/>
 <area shape="rect" id="node3" href="$structlug_1_1System_1_1Memory_1_1Area_1_1Page.html" title="lug::System::Memory\l::Area::Page" alt="" coords="291,109,461,151"/>
+<area shape="rect" id="node5" href="$classsize__t.html" title="size_t" alt="" coords="545,117,607,143"/>
 </map>

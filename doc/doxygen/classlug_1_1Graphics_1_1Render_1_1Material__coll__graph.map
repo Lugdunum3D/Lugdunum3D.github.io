@@ -1,0 +1,12 @@
+<map id="lug::Graphics::Render::Material" name="lug::Graphics::Render::Material">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="655,430,840,457"/>
+<area shape="rect" id="node13" href="$classlug_1_1Graphics_1_1Render_1_1SkyBox.html" title="lug::Graphics::Render\l::SkyBox" alt="" coords="1815,380,1986,421"/>
+<area shape="rect" id="node15" href="$classlug_1_1Graphics_1_1Render_1_1Texture.html" title="lug::Graphics::Render\l::Texture" alt="" coords="990,343,1161,384"/>
+<area shape="rect" id="node3" href="$structlug_1_1Graphics_1_1Resource_1_1Handle.html" title="Handle of the resource. It contains informations such as the type and the index in the ResourceManage..." alt="" coords="251,423,436,464"/>
+<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Render_1_1DirtyObject.html" title="lug::Graphics::Render\l::DirtyObject" alt="" coords="460,5,631,47"/>
+<area shape="rect" id="node21" href="$structlug_1_1Graphics_1_1Render_1_1Material_1_1TextureInfo.html" title="lug::Graphics::Render\l::Material::TextureInfo" alt="" coords="1812,83,1989,124"/>
+<area shape="rect" id="node8" href="$structlug_1_1Graphics_1_1Render_1_1Material_1_1Constants.html" title="lug::Graphics::Render\l::Material::Constants" alt="" coords="2225,187,2395,228"/>
+<area shape="rect" id="node12" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::SkyBox \&gt;" alt="" coords="2207,313,2413,369"/>
+<area shape="rect" id="node14" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Texture \&gt;" alt="" coords="1387,342,1593,398"/>
+<area shape="rect" id="node19" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="Dummy class for a shared pointer. " alt="" coords="983,275,1168,316"/>
+</map>

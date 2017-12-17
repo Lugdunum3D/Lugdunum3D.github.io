@@ -1,0 +1,20 @@
+<map id="lug::Core::FreeMovement" name="lug::Core::FreeMovement">
+<area shape="rect" id="node15" href="$classndk__helper_1_1DoubletapDetector.html" title="ndk_helper::DoubletapDetector" alt="" coords="605,947,837,973"/>
+<area shape="rect" id="node44" href="$classlug_1_1Graphics_1_1Render_1_1Light.html" title="Class for Light. " alt="" coords="636,2162,807,2203"/>
+<area shape="rect" id="node3" href="$classlug_1_1Window_1_1Window.html" title="Class for window. " alt="" coords="1508,1095,1679,1121"/>
+<area shape="rect" id="node9" href="$classlug_1_1Window_1_1priv_1_1WindowImpl.html" title="lug::Window::priv::\lWindowImpl" alt="" coords="1142,630,1298,671"/>
+<area shape="rect" id="node4" href="$structlug_1_1Window_1_1TouchScreenEvent.html" title="lug::Window::TouchScreen\lEvent" alt="" coords="1119,1299,1321,1341"/>
+<area shape="rect" id="node35" href="$classlug_1_1Graphics_1_1Node.html" title="lug::Graphics::Node" alt="" coords="1141,1689,1299,1716"/>
+<area shape="rect" id="node29" href="$structlug_1_1Window_1_1GamePadEvent.html" title="lug::Window::GamePadEvent" alt="" coords="1111,1225,1329,1252"/>
+<area shape="rect" id="node31" href="$structlug_1_1Window_1_1VideoMode.html" title="The video mode we set for the window we wish to create. " alt="" coords="1125,1036,1315,1063"/>
+<area shape="rect" id="node24" href="$classndk__helper_1_1DragDetector.html" title="ndk_helper::DragDetector" alt="" coords="623,581,820,608"/>
+<area shape="rect" id="node27" href="$classndk__helper_1_1PinchDetector.html" title="ndk_helper::PinchDetector" alt="" coords="621,733,821,760"/>
+<area shape="rect" id="node34" href="$classlug_1_1Graphics_1_1Scene_1_1Node.html" title="lug::Graphics::Scene\l::Node" alt="" coords="1511,1987,1675,2029"/>
+<area shape="rect" id="node50" href="$classlug_1_1Graphics_1_1Scene_1_1Scene.html" title="lug::Graphics::Scene\l::Scene" alt="" coords="1839,1987,2003,2029"/>
+<area shape="rect" id="node41" href="$classlug_1_1Graphics_1_1Render_1_1DirtyObject.html" title="lug::Graphics::Render\l::DirtyObject" alt="" coords="209,2143,379,2185"/>
+<area shape="rect" id="node43" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Light \&gt;" alt="" coords="1117,2085,1323,2141"/>
+<area shape="rect" id="node45" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="Dummy class for a shared pointer. " alt="" coords="201,2026,387,2067"/>
+<area shape="rect" id="node47" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Mesh \&gt;" alt="" coords="618,1857,825,1913"/>
+<area shape="rect" id="node49" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Camera::Camera \&gt;" alt="" coords="861,2013,1087,2069"/>
+<area shape="rect" id="node46" href="$structlug_1_1Graphics_1_1Scene_1_1Node_1_1MeshInstance.html" title="lug::Graphics::Scene\l::Node::MeshInstance" alt="" coords="1135,1953,1305,1994"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="lug::Graphics::Vulkan::Render::BufferPool::Camera" name="lug::Graphics::Vulkan::Render::BufferPool::Camera">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1BufferPool.html" title="lug::Graphics::Vulkan\l::Render::BufferPool\l::BufferPool\&lt; 10, sizeof\l(Math::Mat4x4f) *2 \&gt;" alt="" coords="441,5,625,76"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1BufferPool_1_1BufferPool.html" title="lug::Graphics::Vulkan\l::Render::BufferPool\l::BufferPool\&lt; subBufferPerChunk,\l subBufferSize \&gt;" alt="" coords="5,5,256,76"/>
+</map>

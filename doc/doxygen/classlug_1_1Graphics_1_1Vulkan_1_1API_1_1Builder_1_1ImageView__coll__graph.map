@@ -1,0 +1,8 @@
+<map id="lug::Graphics::Vulkan::API::Builder::ImageView" name="lug::Graphics::Vulkan::API::Builder::ImageView">
+<area shape="rect" id="node21" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image.html" title="lug::Graphics::Vulkan\l::API::Image" alt="" coords="1933,301,2103,342"/>
+<area shape="rect" id="node23" href="$structlug_1_1Graphics_1_1Vulkan_1_1API_1_1Image_1_1Extent.html" title="lug::Graphics::Vulkan\l::API::Image::Extent" alt="" coords="1583,237,1752,278"/>
+<area shape="rect" id="node6" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1247,527,1416,569"/>
+<area shape="rect" id="node27" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1DeviceMemory.html" title="lug::Graphics::Vulkan\l::API::DeviceMemory" alt="" coords="1583,417,1752,458"/>
+<area shape="rect" id="node7" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="862,462,1031,503"/>
+<area shape="rect" id="node8" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="438,247,607,303"/>
+</map>

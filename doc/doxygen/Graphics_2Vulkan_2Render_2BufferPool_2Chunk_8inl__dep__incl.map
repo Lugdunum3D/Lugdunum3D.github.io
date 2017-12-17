@@ -1,0 +1,13 @@
+<map id="include/lug/Graphics/Vulkan/Render/BufferPool/Chunk.inl" name="include/lug/Graphics/Vulkan/Render/BufferPool/Chunk.inl">
+<area shape="rect" id="node2" href="$Graphics_2Vulkan_2Render_2BufferPool_2Chunk_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/BufferPool\l/Chunk.hpp" alt="" coords="357,109,558,165"/>
+<area shape="rect" id="node3" href="$BufferPool_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/BufferPool\l/BufferPool.hpp" alt="" coords="357,213,558,269"/>
+<area shape="rect" id="node4" href="$Vulkan_2Render_2BufferPool_2Camera_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/BufferPool\l/Camera.hpp" alt="" coords="582,317,783,373"/>
+<area shape="rect" id="node9" href="$Vulkan_2Render_2BufferPool_2Light_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/BufferPool\l/Light.hpp" alt="" coords="131,317,333,373"/>
+<area shape="rect" id="node11" href="$Vulkan_2Render_2BufferPool_2Material_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/BufferPool\l/Material.hpp" alt="" coords="357,317,558,373"/>
+<area shape="rect" id="node5" href="$Forward_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/Technique\l/Forward.hpp" alt="" coords="246,421,445,477"/>
+<area shape="rect" id="node8" href="$Vulkan_2Render_2BufferPool_2Camera_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/BufferPool/Camera.cpp" alt="" coords="731,429,967,470"/>
+<area shape="rect" id="node6" href="$Forward_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Technique/Forward.cpp" alt="" coords="111,525,347,567"/>
+<area shape="rect" id="node7" href="$Vulkan_2Render_2View_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/View.cpp" alt="" coords="371,525,554,567"/>
+<area shape="rect" id="node10" href="$Vulkan_2Render_2BufferPool_2Light_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/BufferPool/Light.cpp" alt="" coords="5,429,221,470"/>
+<area shape="rect" id="node12" href="$Vulkan_2Render_2BufferPool_2Material_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/BufferPool/Material.cpp" alt="" coords="469,429,707,470"/>
+</map>

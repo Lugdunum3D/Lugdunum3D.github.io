@@ -1,0 +1,16 @@
+<map id="lug::Graphics::Resource" name="lug::Graphics::Resource">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Render_1_1Camera_1_1Camera.html" title="Class for camera. " alt="" coords="239,37,409,79"/>
+<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Render_1_1Light.html" title="Class for Light. " alt="" coords="239,103,409,144"/>
+<area shape="rect" id="node6" href="$classlug_1_1Graphics_1_1Render_1_1Material.html" title="Class for Material. Is a Resource. " alt="" coords="239,168,409,209"/>
+<area shape="rect" id="node8" href="$classlug_1_1Graphics_1_1Render_1_1Mesh.html" title="A Mesh, which itsef is a Resource. A mesh is composed of a vector of PrimitiveSet. " alt="" coords="239,233,409,275"/>
+<area shape="rect" id="node10" href="$classlug_1_1Graphics_1_1Render_1_1SkyBox.html" title="lug::Graphics::Render\l::SkyBox" alt="" coords="239,299,409,340"/>
+<area shape="rect" id="node12" href="$classlug_1_1Graphics_1_1Render_1_1Texture.html" title="lug::Graphics::Render\l::Texture" alt="" coords="239,364,409,405"/>
+<area shape="rect" id="node14" href="$classlug_1_1Graphics_1_1Scene_1_1Scene.html" title="lug::Graphics::Scene\l::Scene" alt="" coords="242,429,406,471"/>
+<area shape="rect" id="node15" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Pipeline.html" title="Class for the Vulkan pipeline, Render side. " alt="" coords="239,495,409,536"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Render_1_1Camera_1_1Orthographic.html" title="lug::Graphics::Render\l::Camera::Orthographic" alt="" coords="457,5,641,47"/>
+<area shape="rect" id="node4" href="$classlug_1_1Graphics_1_1Render_1_1Camera_1_1Perspective.html" title="lug::Graphics::Render\l::Camera::Perspective" alt="" coords="462,71,637,112"/>
+<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Material.html" title="Class for Material. " alt="" coords="465,168,634,209"/>
+<area shape="rect" id="node9" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Mesh.html" title="lug::Graphics::Vulkan\l::Render::Mesh" alt="" coords="465,233,634,275"/>
+<area shape="rect" id="node11" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1SkyBox.html" title="Class for SkyBox. " alt="" coords="465,299,634,340"/>
+<area shape="rect" id="node13" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Texture.html" title="lug::Graphics::Vulkan\l::Render::Texture" alt="" coords="465,364,634,405"/>
+</map>

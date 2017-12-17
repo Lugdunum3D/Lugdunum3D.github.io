@@ -1,0 +1,14 @@
+<map id="lug::Graphics::Builder::Material" name="lug::Graphics::Builder::Material">
+<area shape="rect" id="node2" href="$structlug_1_1Graphics_1_1Render_1_1Material_1_1Constants.html" title="lug::Graphics::Render\l::Material::Constants" alt="" coords="1814,94,1985,135"/>
+<area shape="rect" id="node10" href="$classlug_1_1Graphics_1_1Resource.html" title="Class for resource. " alt="" coords="600,512,785,539"/>
+<area shape="rect" id="node21" href="$structlug_1_1Graphics_1_1Renderer_1_1InitInfo.html" title="lug::Graphics::Renderer\l::InitInfo" alt="" coords="600,735,785,777"/>
+<area shape="rect" id="node23" href="$classlug_1_1Graphics_1_1Graphics.html" title="Class for graphics. " alt="" coords="1395,828,1577,855"/>
+<area shape="rect" id="node7" href="$structlug_1_1Graphics_1_1Render_1_1Material_1_1TextureInfo.html" title="lug::Graphics::Render\l::Material::TextureInfo" alt="" coords="1811,273,1988,314"/>
+<area shape="rect" id="node8" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Texture \&gt;" alt="" coords="1383,265,1589,321"/>
+<area shape="rect" id="node9" href="$classlug_1_1Graphics_1_1Render_1_1Texture.html" title="lug::Graphics::Render\l::Texture" alt="" coords="979,381,1150,422"/>
+<area shape="rect" id="node11" href="$structlug_1_1Graphics_1_1Resource_1_1Handle.html" title="Handle of the resource. It contains informations such as the type and the index in the ResourceManage..." alt="" coords="220,467,405,509"/>
+<area shape="rect" id="node24" href="$structlug_1_1Core_1_1Version.html" title="Stores the version of the Application. " alt="" coords="429,1035,576,1061"/>
+<area shape="rect" id="node17" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="Dummy class for a shared pointer. " alt="" coords="972,259,1157,301"/>
+<area shape="rect" id="node19" href="$classlug_1_1Graphics_1_1Renderer.html" title="lug::Graphics::Renderer" alt="" coords="1807,744,1992,771"/>
+<area shape="rect" id="node25" href="$structlug_1_1Graphics_1_1Graphics_1_1InitInfo.html" title="Utility structure used to initialize the Graphics component. " alt="" coords="973,778,1156,819"/>
+</map>

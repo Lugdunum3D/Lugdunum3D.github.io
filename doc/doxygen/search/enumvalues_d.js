@@ -1,7 +1,9 @@
 var searchData=
 [
   ['n',['N',['../namespacelug_1_1Window_1_1Keyboard.html#a93cfcb74ed54ec879a0d7ed77eca9894a8d9c307cb7f3c4a32822a51922d1ceaa',1,'lug::Window::Keyboard']]],
-  ['none',['None',['../namespacelug_1_1Window.html#a1ec5421012d4f1ea846b994b47d57714a6adf97f83acf6453d4a6a4b1070f3754',1,'lug::Window']]],
+  ['nearest',['Nearest',['../classlug_1_1Graphics_1_1Render_1_1Texture.html#a40044a44eeb89290268c617cf24d453aa60494f02d440f316319dd0fad40ad007',1,'lug::Graphics::Render::Texture']]],
+  ['none',['None',['../structlug_1_1Window_1_1TouchScreenEvent.html#af1d2625e2d2d0c29b85420075b687957a6adf97f83acf6453d4a6a4b1070f3754',1,'lug::Window::TouchScreenEvent::None()'],['../namespacelug_1_1Window.html#a1ec5421012d4f1ea846b994b47d57714a6adf97f83acf6453d4a6a4b1070f3754',1,'lug::Window::None()']]],
+  ['normal',['Normal',['../structlug_1_1Graphics_1_1Render_1_1Mesh_1_1PrimitiveSet_1_1Attribute.html#acea3b734bdfa9aa505912567d5587d19a960b44c579bc2f6818d2daaf9e4c16f0',1,'lug::Graphics::Render::Mesh::PrimitiveSet::Attribute::Normal()'],['../classlug_1_1Graphics_1_1Renderer.html#a65e2aa79c7132ae0228334b09fa07c13a960b44c579bc2f6818d2daaf9e4c16f0',1,'lug::Graphics::Renderer::Normal()']]],
   ['num0',['Num0',['../namespacelug_1_1Window_1_1Keyboard.html#a93cfcb74ed54ec879a0d7ed77eca9894a845787798a45b48e825e9b99a338537a',1,'lug::Window::Keyboard']]],
   ['num1',['Num1',['../namespacelug_1_1Window_1_1Keyboard.html#a93cfcb74ed54ec879a0d7ed77eca9894abacb69a042a9fdc268a672919052d1f2',1,'lug::Window::Keyboard']]],
   ['num2',['Num2',['../namespacelug_1_1Window_1_1Keyboard.html#a93cfcb74ed54ec879a0d7ed77eca9894a72bd76d6e2b68a539c8d1a77b564ed72',1,'lug::Window::Keyboard']]],

@@ -1,0 +1,25 @@
+<map id="lug::Graphics::Vulkan::Gui" name="lug::Graphics::Vulkan::Gui">
+<area shape="rect" id="node2" href="$classlug_1_1Graphics_1_1Vulkan_1_1Render_1_1Window.html" title="lug::Graphics::Vulkan\l::Render::Window" alt="" coords="2493,873,2663,914"/>
+<area shape="rect" id="node3" href="$classlug_1_1Graphics_1_1Render_1_1Window.html" title="lug::Graphics::Render\l::Window" alt="" coords="2116,835,2287,877"/>
+<area shape="rect" id="node4" href="$classlug_1_1Window_1_1Window.html" title="Class for window. " alt="" coords="1646,784,1817,811"/>
+<area shape="rect" id="node5" href="$classlug_1_1Graphics_1_1Render_1_1Target.html" title="lug::Graphics::Render\l::Target" alt="" coords="1646,835,1817,877"/>
+<area shape="rect" id="node7" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::API::Swapchain" alt="" coords="1205,1578,1375,1619"/>
+<area shape="rect" id="node20" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1QueueFamily.html" title="lug::Graphics::Vulkan\l::API::QueueFamily" alt="" coords="738,502,907,543"/>
+<area shape="rect" id="node11" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="738,242,907,283"/>
+<area shape="rect" id="node17" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1CommandPool.html" title="lug::Graphics::Vulkan\l::API::CommandPool" alt="" coords="1647,143,1816,185"/>
+<area shape="rect" id="node28" href="$classlug_1_1Graphics_1_1Vulkan_1_1Renderer.html" title="lug::Graphics::Vulkan\l::Renderer" alt="" coords="1205,867,1375,909"/>
+<area shape="rect" id="node44" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1GraphicsPipeline.html" title="lug::Graphics::Vulkan\l::API::GraphicsPipeline" alt="" coords="1642,361,1821,402"/>
+<area shape="rect" id="node45" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1RenderPass.html" title="lug::Graphics::Vulkan\l::API::RenderPass" alt="" coords="1205,295,1375,337"/>
+<area shape="rect" id="node47" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1PipelineLayout.html" title="lug::Graphics::Vulkan\l::API::PipelineLayout" alt="" coords="1205,226,1375,267"/>
+<area shape="rect" id="node12" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="309,438,479,479"/>
+<area shape="rect" id="node37" href="$structlug_1_1Graphics_1_1Vulkan_1_1Renderer_1_1Preferences.html" title="lug::Graphics::Vulkan\l::Renderer::Preferences" alt="" coords="729,809,916,850"/>
+<area shape="rect" id="node18" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Queue.html" title="lug::Graphics::Vulkan\l::API::Queue" alt="" coords="1205,43,1375,85"/>
+<area shape="rect" id="node41" href="$classlug_1_1Graphics_1_1Render_1_1Texture.html" title="lug::Graphics::Render\l::Texture" alt="" coords="737,373,908,414"/>
+<area shape="rect" id="node25" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Surface.html" title="lug::Graphics::Vulkan\l::API::Surface" alt="" coords="1417,1270,1587,1311"/>
+<area shape="rect" id="node26" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Instance.html" title="lug::Graphics::Vulkan\l::API::Instance" alt="" coords="738,1370,907,1411"/>
+<area shape="rect" id="node29" href="$classlug_1_1Graphics_1_1Renderer.html" title="lug::Graphics::Renderer" alt="" coords="730,925,915,952"/>
+<area shape="rect" id="node31" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Loader.html" title="lug::Graphics::Vulkan\l::API::Loader" alt="" coords="738,1042,907,1083"/>
+<area shape="rect" id="node35" href="$structlug_1_1Graphics_1_1Vulkan_1_1InstanceInfo.html" title="lug::Graphics::Vulkan\l::InstanceInfo" alt="" coords="738,1305,907,1346"/>
+<area shape="rect" id="node40" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="lug::Graphics::Resource\l::SharedPtr\&lt; lug::Graphics\l::Render::Texture \&gt;" alt="" coords="1187,480,1393,536"/>
+<area shape="rect" id="node42" href="$classlug_1_1Graphics_1_1Resource_1_1SharedPtr.html" title="Dummy class for a shared pointer. " alt="" coords="730,307,915,349"/>
+</map>

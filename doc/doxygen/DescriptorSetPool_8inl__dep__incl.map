@@ -1,0 +1,20 @@
+<map id="include/lug/Graphics/Vulkan/Render/DescriptorSetPool/DescriptorSetPool.inl" name="include/lug/Graphics/Vulkan/Render/DescriptorSetPool/DescriptorSetPool.inl">
+<area shape="rect" id="node2" href="$DescriptorSetPool_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/DescriptorSet\lPool/DescriptorSetPool.hpp" alt="" coords="857,109,1079,165"/>
+<area shape="rect" id="node3" href="$Vulkan_2Render_2DescriptorSetPool_2Camera_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/DescriptorSet\lPool/Camera.hpp" alt="" coords="1103,213,1326,269"/>
+<area shape="rect" id="node8" href="$GuiTexture_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/DescriptorSet\lPool/GuiTexture.hpp" alt="" coords="1350,213,1573,269"/>
+<area shape="rect" id="node11" href="$Vulkan_2Render_2DescriptorSetPool_2Light_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/DescriptorSet\lPool/Light.hpp" alt="" coords="117,213,339,269"/>
+<area shape="rect" id="node13" href="$Vulkan_2Render_2DescriptorSetPool_2Material_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/DescriptorSet\lPool/Material.hpp" alt="" coords="363,213,586,269"/>
+<area shape="rect" id="node15" href="$MaterialTextures_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/DescriptorSet\lPool/MaterialTextures.hpp" alt="" coords="610,213,833,269"/>
+<area shape="rect" id="node17" href="$Vulkan_2Render_2DescriptorSetPool_2SkyBox_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/DescriptorSet\lPool/SkyBox.hpp" alt="" coords="857,213,1079,269"/>
+<area shape="rect" id="node19" href="$DescriptorSetPool_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/DescriptorSetPool\l/DescriptorSetPool.cpp" alt="" coords="1596,213,1796,269"/>
+<area shape="rect" id="node4" href="$Forward_8hpp.html" title="include/lug/Graphics\l/Vulkan/Render/Technique\l/Forward.hpp" alt="" coords="453,317,651,373"/>
+<area shape="rect" id="node7" href="$Vulkan_2Render_2DescriptorSetPool_2Camera_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/DescriptorSetPool\l/Camera.cpp" alt="" coords="1123,317,1323,373"/>
+<area shape="rect" id="node5" href="$Forward_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/Technique/Forward.cpp" alt="" coords="317,421,553,463"/>
+<area shape="rect" id="node6" href="$Vulkan_2Render_2View_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/View.cpp" alt="" coords="577,421,759,463"/>
+<area shape="rect" id="node9" href="$Gui_8cpp.html" title="src/lug/Graphics/Vulkan\l/Gui.cpp" alt="" coords="1362,325,1545,366"/>
+<area shape="rect" id="node10" href="$GuiTexture_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/DescriptorSetPool\l/GuiTexture.cpp" alt="" coords="1569,317,1769,373"/>
+<area shape="rect" id="node12" href="$Vulkan_2Render_2DescriptorSetPool_2Light_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/DescriptorSetPool\l/Light.cpp" alt="" coords="5,317,205,373"/>
+<area shape="rect" id="node14" href="$Vulkan_2Render_2DescriptorSetPool_2Material_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/DescriptorSetPool\l/Material.cpp" alt="" coords="229,317,429,373"/>
+<area shape="rect" id="node16" href="$MaterialTextures_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/DescriptorSetPool\l/MaterialTextures.cpp" alt="" coords="675,317,875,373"/>
+<area shape="rect" id="node18" href="$Vulkan_2Render_2DescriptorSetPool_2SkyBox_8cpp.html" title="src/lug/Graphics/Vulkan\l/Render/DescriptorSetPool\l/SkyBox.cpp" alt="" coords="899,317,1099,373"/>
+</map>

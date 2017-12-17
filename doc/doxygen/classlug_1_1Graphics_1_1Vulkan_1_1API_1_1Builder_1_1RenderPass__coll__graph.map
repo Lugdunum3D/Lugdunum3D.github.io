@@ -1,0 +1,5 @@
+<map id="lug::Graphics::Vulkan::API::Builder::RenderPass" name="lug::Graphics::Vulkan::API::Builder::RenderPass">
+<area shape="rect" id="node6" href="$classlug_1_1Graphics_1_1Vulkan_1_1API_1_1Device.html" title="lug::Graphics::Vulkan\l::API::Device" alt="" coords="1293,322,1463,363"/>
+<area shape="rect" id="node7" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo" alt="" coords="862,257,1031,298"/>
+<area shape="rect" id="node8" href="$structlug_1_1Graphics_1_1Vulkan_1_1PhysicalDeviceInfo_1_1Swapchain.html" title="lug::Graphics::Vulkan\l::PhysicalDeviceInfo\l::Swapchain" alt="" coords="438,41,607,97"/>
+</map>

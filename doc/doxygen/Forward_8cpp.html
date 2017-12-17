@@ -64,31 +64,37 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">Forward.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;chrono&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="Forward_8hpp_source.html">lug/Graphics/Vulkan/Render/Technique/Forward.hpp</a>&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;<a class="el" href="Config_8hpp_source.html">lug/Config.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="Directional_8hpp_source.html">lug/Graphics/Light/Directional.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="Point_8hpp_source.html">lug/Graphics/Light/Point.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="Spot_8hpp_source.html">lug/Graphics/Light/Spot.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="Render_2Queue_8hpp_source.html">lug/Graphics/Render/Queue.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="MeshInstance_8hpp_source.html">lug/Graphics/Scene/MeshInstance.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="ModelInstance_8hpp_source.html">lug/Graphics/Scene/ModelInstance.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Render_2Light_8hpp_source.html">lug/Graphics/Render/Light.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="Scene_2Node_8hpp_source.html">lug/Graphics/Scene/Node.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="Vulkan_2Render_2Camera_8hpp_source.html">lug/Graphics/Vulkan/Render/Camera.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="Forward_8hpp_source.html">lug/Graphics/Vulkan/Render/Technique/Forward.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Builder_2CommandBuffer_8hpp_source.html">lug/Graphics/Vulkan/API/Builder/CommandBuffer.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Builder_2CommandPool_8hpp_source.html">lug/Graphics/Vulkan/API/Builder/CommandPool.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Builder_2DescriptorSetLayout_8hpp_source.html">lug/Graphics/Vulkan/API/Builder/DescriptorSetLayout.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Builder_2DeviceMemory_8hpp_source.html">lug/Graphics/Vulkan/API/Builder/DeviceMemory.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Builder_2Fence_8hpp_source.html">lug/Graphics/Vulkan/API/Builder/Fence.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Builder_2Framebuffer_8hpp_source.html">lug/Graphics/Vulkan/API/Builder/Framebuffer.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Builder_2GraphicsPipeline_8hpp_source.html">lug/Graphics/Vulkan/API/Builder/GraphicsPipeline.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Builder_2Image_8hpp_source.html">lug/Graphics/Vulkan/API/Builder/Image.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Builder_2ImageView_8hpp_source.html">lug/Graphics/Vulkan/API/Builder/ImageView.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Builder_2PipelineLayout_8hpp_source.html">lug/Graphics/Vulkan/API/Builder/PipelineLayout.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Builder_2RenderPass_8hpp_source.html">lug/Graphics/Vulkan/API/Builder/RenderPass.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Builder_2Semaphore_8hpp_source.html">lug/Graphics/Vulkan/API/Builder/Semaphore.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Vulkan_2Render_2Material_8hpp_source.html">lug/Graphics/Vulkan/Render/Material.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="Vulkan_2Render_2Mesh_8hpp_source.html">lug/Graphics/Vulkan/Render/Mesh.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="Vulkan_2Render_2Model_8hpp_source.html">lug/Graphics/Vulkan/Render/Model.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Vulkan_2Render_2Queue_8hpp_source.html">lug/Graphics/Vulkan/Render/Queue.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Vulkan_2Render_2SkyBox_8hpp_source.html">lug/Graphics/Vulkan/Render/SkyBox.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="Vulkan_2Render_2View_8hpp_source.html">lug/Graphics/Vulkan/Render/View.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="Vulkan_2Renderer_8hpp_source.html">lug/Graphics/Vulkan/Renderer.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Transform_8hpp_source.html">lug/Math/Geometry/Transform.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="Matrix_8hpp_source.html">lug/Math/Matrix.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="Vector_8hpp_source.html">lug/Math/Vector.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="Transform_8hpp_source.html">lug/Math/Geometry/Transform.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="Logger_8hpp_source.html">lug/System/Logger/Logger.hpp</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Forward.cpp:</div>
@@ -111,11 +117,6 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacelug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique.html">lug::Graphics::Vulkan::Render::Technique</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a427c5c73c985e5191bd69ff29735e677"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelug_1_1Graphics_1_1Vulkan_1_1Render_1_1Technique.html#a427c5c73c985e5191bd69ff29735e677">lug::Graphics::Vulkan::Render::Technique::MeshInstance</a> = ::<a class="el" href="classlug_1_1Graphics_1_1Scene_1_1MeshInstance.html">lug::Graphics::Scene::MeshInstance</a></td></tr>
-<tr class="separator:a427c5c73c985e5191bd69ff29735e677"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

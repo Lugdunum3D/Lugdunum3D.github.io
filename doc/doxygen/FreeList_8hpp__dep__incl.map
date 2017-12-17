@@ -1,5 +1,5 @@
 <map id="include/lug/System/Memory/FreeList.hpp" name="include/lug/System/Memory/FreeList.hpp">
-<area shape="rect" id="node2" href="$Chunk_8hpp.html" title="include/lug/System\l/Memory/Allocator/Chunk.hpp" alt="" coords="5,95,228,136"/>
+<area shape="rect" id="node2" href="$System_2Memory_2Allocator_2Chunk_8hpp.html" title="include/lug/System\l/Memory/Allocator/Chunk.hpp" alt="" coords="5,95,228,136"/>
 <area shape="rect" id="node4" href="$FreeList_8cpp.html" title="src/lug/System/Memory\l/FreeList.cpp" alt="" coords="253,95,437,136"/>
 <area shape="rect" id="node3" href="$Pool_8hpp.html" title="include/lug/System\l/Memory/Allocator/Pool.hpp" alt="" coords="11,184,222,225"/>
 </map>
